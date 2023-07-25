@@ -13,5 +13,5 @@ body{
   sup{font-size:10px;font-style:normal;font-weight:normal;} a{cursor:pointer;text-decoration:underline;} a:hover{color:#07039D;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
-  .container {margin:10px; margin-top:0; margin-bottom:15px; padding:10px; width:full; display:block;}
-  .fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:0; margin-bottom:15px;}
+  .container {margin:10px; margin-top:0; margin-bottom:15px; padding:10px; width:full; display:block; max-width:1900px; text-align:center;}
+  .fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:0; margin-bottom:15px; text-align:center;}
