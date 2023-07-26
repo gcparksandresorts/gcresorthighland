@@ -9,13 +9,27 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Welcome to the Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		#myVideo {
+		  position: fixed;
+		  right: 0;
+		  bottom: 0;
+		  min-width: 100%;
+		  min-height: 100%;
+		}
+	</style>
 
 </head>
 
 	<script></script>
 
 <body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+
+	<!-- The video -->
+	<video autoplay muted loop id="myVideo">
+	  <source src="rain.mp4" type="video/mp4">
+	</video>
+	
 	<div class='fullContainer' style='background:lightblue;text-align:center;'>
 		<h1>Welcome to the Globe-City Resort Highland!</h1>
 		<p>There's lot's to explore when Adventure takes the stage!</p>
