@@ -1,0 +1,42 @@
+<style>
+		#headerBar {
+        	position:fixed;
+            top:0;right:0;left:0;
+        	width:100vw;
+            height:60px;
+            background:#073763;
+        }
+        #headerBarLogo{
+        	width:auto;
+            height:40px;
+            margin-left:15px;
+            margin-top:10px;
+        }
+        .headerBarButton{
+        	width:auto;
+            height:60px;
+            margin:0;
+            float:right;
+            text-align:center;
+            padding:19px 10px;
+            font-size:16px;
+            transition:0.25s;
+            color:white;
+            cursor:pointer;
+        }
+        #headerBarTP{
+        	float:right;
+            margin:10px;
+            margin-top:10px;
+            width:auto;
+            height:40px;
+            background:white;
+            color:#073763; border:none;
+            font-size:16px; transition:0.25s;
+            border-radius:10px; cursor:pointer;
+        }
+        
+        
+        .headerBarButton:hover{background:white;color:black;}
+        #headerBarTP:hover{background:#efefef;scale:1.05;color:black;}
+	</style>
