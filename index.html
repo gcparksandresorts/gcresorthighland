@@ -17,7 +17,14 @@
 		#videoBannerTextBox{position:absolute;top:0;left:0;right:0;bottom:0;margin:0; padding:30px; text-align:center; text-shadow: 2px 1px 8px black;}
         	#videoBannerTextBox div{position:absolute;top:30%;right:0;left:0;max-width:900px;margin:auto;  font-size:18px; color:white; padding:20px;}
 
-		#quickLinkBar{position:absolute;right:0;left:0;bottom:0;  height:76px; background:#073763;}
+		#quickLinkBar{position:absolute;right:0;left:0;bottom:0;  min-height:86px; background:#073763; text-align:center;}
+		#quickLinkBar a{font-size:25px;text-decoration:none;font-style:normal;display:block;}
+		#quickLinkBar button{color:white; border:2px solid white; width:110px; height:70px; padding:0px; margin-top:8px; margin-left:10px; margin-right:10px;}
+		#quickLinkBar button:hover{color:#073763;}
+
+		@media screen and (max-width:700px){
+			#videoBannerTextBox div{top:70px;}
+		}
 	</style>
 
 </head>
@@ -26,7 +33,7 @@
 
 <body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
 
-	<!------------------------------------------------------------------------------------------------------------------------ VIDEO ----->
+	<!------------------------------------------------------------------------------------------------------------------ VIDEO BANNER ----->
 	<div id='videoContainer'>
     		<video autoplay muted loop id="videoBanner">
 	  	<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4">
@@ -41,6 +48,14 @@
 		<br><a href='#ttdSection' style='color:white;'>Learn More</a>
         </div>
         </div>
+
+	<div id='quickLinkBar'>
+		<button onclick='window.open("gcparksandresorts.github.io/gcresorthighland/","_self");'><a>&#127915;</a>Park Tickets</button>
+		<button onclick='window.open("gcparksandresorts.github.io/gcresorthighland/","_self");'><a>&#127905;</a>Annual Passes</button>
+		<button onclick='window.open("gcparksandresorts.github.io/gcresorthighland/","_self");'><a>&#11088;</a>GC VIP</button>
+		<button onclick='window.open("gcparksandresorts.github.io/gcresorthighland/","_self");'><a>&#127976;</a>Places to Stay</button>
+		<button onclick='window.open("gcparksandresorts.github.io/gcresorthighland/","_self");'><a>&#127925;</a>City-Shop</button>
+	</div>
 	
     	<div id='videoBannerSpacer'></div>
 
