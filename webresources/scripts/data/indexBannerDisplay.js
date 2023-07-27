@@ -30,7 +30,8 @@ const videoBanner = document.getElementById("videoContainer");
 
 
 // ---------------------------------------------------------------------------------------------------------------------------------- JAVASCRIPT
-const todayMonth = Date.getMonth();
+const d = new Date();
+const todayMonth = d.getMonth();
 
 function setBannerDisplays(){
   switch(todayMonth){
