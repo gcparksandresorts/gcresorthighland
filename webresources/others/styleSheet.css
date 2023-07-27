@@ -1,17 +1,28 @@
 * {  box-sizing: border-box; } html { scroll-behavior: smooth; }
 
 body{ 
-  font-size:15px; 
-  font-family:verdana;
-  margin:0;
+    font-size:15px; line-height:1.6;
+    font-family:verdana; 
+    margin:0;
     } /* --End of Body -- */
 
 /*-- HEADINGS ----------------------------------------------------------------------------------------------------------------------------------------------- */
   h1{font-size:28px;color:#073763;font-weight:normal;} h2{font-size:23px;color:#073763;font-weight:bold;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
 
 /*-- SUBTEXT  ----------------------------------------------------------------------------------------------------------------------------------------------- */
-  sup{font-size:10px;font-style:normal;font-weight:normal;} a{cursor:pointer;text-decoration:underline;} a:hover{color:#07039D;}
+  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;} a:hover{color:#07039D;}
+  disclaimer{font-size:10px;color:dimgray;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
   .container {margin:auto; margin-top:0; margin-bottom:20px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
   .fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:0; margin-bottom:15px; text-align:center;}
+
+/*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
+  .spotlightContainer{}
+
+/*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
+  button{border:2px solid #073763; border-radius:6px; color:#073763; padding:10px; margin:10px; background:none; transition:0.4s;}
+  button:hover{background:#efefef;}
+
+  .btnFull{color:white; background:#073763; transition:0.4s;}
+  .btnFull:hover{background:dimgray;}
