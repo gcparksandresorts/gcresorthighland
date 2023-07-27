@@ -26,3 +26,5 @@ body{
 
   .btnFull{color:white; background:#073763; transition:0.4s;}
   .btnFull:hover{background:dimgray;}
+
+  .spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:dimgray;}
