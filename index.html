@@ -10,12 +10,9 @@
   	<title>Welcome to the Globe-City Resort Highland</title>
   
   	<style>
-		#myVideo {
-		  object-fit: cover;
-		  top:0;
-		  width: 100%;
-		  height: 100%;
-		}
+		#videoContainer{position:absolute;top:0;left:0;right:0;bottom:0;margin:0;padding:0;}
+		#videoBanner{width:100%;height:100%;object-fit:cover;overflow:none;}
+		#videoBannerSpacer{width:full;height:100vh;background:#efefef;}
 	</style>
 
 </head>
@@ -24,19 +21,42 @@
 
 <body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
 
-	<!-- The video -->
-	<video autoplay muted loop id="myVideo">
-	  <source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4">
+	<!------------------------------------------------------------------------------------------------------------------------ VIDEO ----->
+	<div id='videoContainer'>
+    		<video autoplay muted loop id="videoBanner">
+	  	<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4">
 		Your browser does not support HTML5 video.
-	</video>
+		</video>
+    	</div>
+    	<div id='videoBannerSpacer'></div>
+
+
 	
-	<div class='fullContainer' style='background:lightblue;text-align:center;'>
-		<h1>Welcome to the Globe-City Resort Highland!</h1>
-		<p>There's lot's to explore when Adventure takes the stage!</p>
+	<!---------------------------------------------------------------------------------------------------------------------- WELCOME ---->
+	<div class='fullContainer' style='background:#efefef;text-align:center;'>
+		<h1>Adventure Lives Here<sup>TM</sup></h1>
+		<p>At the Globe-City Resort Highland, Adventure is always in season, with dozens of innovative attractions, dazzling shows and performances, and more.<br><br>Whether your looking for maximum thrills or immersive new experiences, Adventure Park has plenty to do for the whole family. Expand your adventure with a stay in one of our deluxe resort hotels, or take a trip to City-Shop for a unique modern shopping and dining experience surrounded by dazzling LED lights and upbeat music.</p>
+		<br>
 	</div>
-	<div class='container' style='text-align:center'>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	
+
+	<!-------------------------------------------------------------------------------------------------------------------- SPOTLIGHT ---->
+	<div class='container'>
+		<h1>Resort Spotlight</h1>
+		<br><br>
+		<button>View News and Updates</button>
 	</div>
+
+	
+
+	<!----------------------------------------------------------------------------------------------------------------- THINGS TO DO ---->
+	<div class='container'>
+		<h2>Things to Do</h2>
+		<p style='margin-top:0px;'>Experience Oras Nou's most popular resort destination featuring an immersive theme-park, two resort hotels, and Highland's hottest metropolitan shopping center</p><br>
+	</div>
+
+	
 </body>
 
 </html>
