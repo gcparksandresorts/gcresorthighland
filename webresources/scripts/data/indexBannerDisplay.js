@@ -8,17 +8,17 @@
 const bannerTxtDisp = [];
 
   //General Use
-  bannerTxtDisp[0] = "<h2>It's time to embark on a new Adventure!</h2>Travel new roads and explore mystical worlds here at the Globe-City Resort Highland!<a href='#ttdSection'>Learn More</a>";
+  bannerTxtDisp[0] = "<h2>It's time to embark on a new Adventure!</h2>Travel new roads and explore mystical worlds here at the Globe-City Resort Highland!<br><a href='#ttdSection'>Learn More</a>";
 
   // SummerFest
   bannerTxtDisp[1] = "<h2>Globe-City's Summer Fest<sup>TM</sup> is Here!</h2>Gather your family and friends and set forth on an adventure of a lifetime! \
                       Visit the Globe-City Resort Highland and let your spirits soar as you create memories to cherish forever!<br><a href='#ttdSection' >Learn More</a>";
   
   // Season of Light
-  bannerTxtDisp[2] = "<h2>The Holidays Are Here!</h2>Season of Light has returned for a holiday full of sparkles, magic, and joy<a href='#ttdSection' >Learn More</a>";
+  bannerTxtDisp[2] = "<h2>The Holidays Are Here!</h2>Season of Light has returned for a holiday full of sparkles, magic, and joy<br><a href='#ttdSection' >Learn More</a>";
 
   // Spooky Season
-  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights!<a href='#ttdSection' >Learn More</a>";
+  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights!<br><a href='#ttdSection' >Learn More</a>";
 
 
 // ----------------------------------------------------------------------------------------------------------------------------- BANNER DISPLAYS
