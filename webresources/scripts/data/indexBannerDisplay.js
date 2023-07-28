@@ -18,7 +18,7 @@ const bannerTxtDisp = [];
   bannerTxtDisp[2] = "<h2>The Holidays Are Here!</h2>Season of Light has returned for a holiday full of sparkles, magic, and joy<br><a href='#ttdSection' >View Special Event</a>";
 
   // Spooky Season
-  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights!<br><a href='#ttdSection' >View Special Event</a>";
+  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights with the return of Sally's Halloween After-Party<sup>TM</sup>!<br><a href='#ttdSection' >View Special Event</a>";
 
 
 // ----------------------------------------------------------------------------------------------------------------------------- BANNER DISPLAYS
