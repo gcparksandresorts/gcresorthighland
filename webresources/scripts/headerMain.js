@@ -15,13 +15,20 @@
 
 	function initializeHeader(){
 		
-
 		const headBar = document.getElementById("headerBar");
-		headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
-		headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>  \
-													<button class='headerBarButton'>Special Events</button> \
-													<button class='headerBarButton'>Hotels and Resorts</button>  \
-													<button class='headerBarButton'>Things to Do &#9661;</button>";
+		
+		if(window.innerWidth >= 900){
+			
+			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
+			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>  \
+														<button class='headerBarButton'>Special Events</button> \
+														<button class='headerBarButton'>Hotels and Resorts</button>  \
+														<button class='headerBarButton'>Things to Do &#9661;</button>";
+		}//end of if statemement
+		else{
+			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
+			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;'>&#8801;</button>"
+		}
 	}
 
 //---------------------------------------------------------------------------------------------------------------------------------- FOOTER SETUP
