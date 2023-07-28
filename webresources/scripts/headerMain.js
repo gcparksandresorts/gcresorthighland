@@ -15,6 +15,7 @@
 	function initializeHeader(){
 		console.log('resizing header'); 
 		const headBar = document.getElementById("headerBar");
+		headBar.innerHTML = "";
 		
 		if(window.innerWidth >= 900){
 			// Desktop Version
@@ -35,6 +36,7 @@
 		let curDate = new Date();
 		if(curDate.getMonth() == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
+			console.log('HAPPY PRIDE!!'); 
 		}
 	}
 
