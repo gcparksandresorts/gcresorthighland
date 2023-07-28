@@ -1,9 +1,12 @@
+#header{width:full;}
+
 #headerBar {
     position:fixed;
     top:0;right:0;left:0;
     width:100vw;
     height:60px;
     background:#073763;
+	z-index:999;
 }
 #headerBarLogo{
     width:auto;
