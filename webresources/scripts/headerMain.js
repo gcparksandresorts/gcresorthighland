@@ -27,8 +27,9 @@
 		else{
 			// Mobile Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
-			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;margin-right:30px;'>&#8801;</button>"
-		}
+			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;margin-right:30px;'>&#8801;</button>";
+			
+		}//end of else statemement
 
 		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
 		let curDate = new Date();
