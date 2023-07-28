@@ -28,10 +28,12 @@ function createSpotlight(){
   // Create the Spotlight
   switch(tdate.getMonth()){
     case 0:
-      mainBody.innerHTML = "";
+      mainBody.innerHTML = "error";
       break;
     case 1;
       break;
+    default:
+      mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.";
   }// end of switch
 
   
