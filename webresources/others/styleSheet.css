@@ -19,9 +19,9 @@ body{
 
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
   .spotlightContainer{display:flex; justify-content:center; max-width:1200px; width:full; flex-wrap:wrap; flex-direction:row;}
-	.spotlightContainer div{min-width:300px; border-radius:10px; border:1px solid black;}
+  .spotlightContainer div{min-width:300px; border-radius:10px; border:1px solid black;}
   .spotlightContainer div:hover{background:#efefef; cursor:pointer;}
-	@media(max-width:900px){.spotlightContainer{flex-direction:column;}}
+  @media(max-width:900px){.spotlightContainer{flex-direction:column;}}
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
   button{border:2px solid #073763; border-radius:6px; color:#073763; padding:10px; margin:10px; background:none; transition:0.4s; cursor:pointer; font-size:15px;}
