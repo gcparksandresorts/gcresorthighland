@@ -19,7 +19,7 @@ body{
 
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
   .spotlightContainer{display:flex; justify-content:center; max-width:1200px; width:full; flex-wrap:wrap; flex-direction:row; margin:auto;}
-  .spotlightContainer div{min-width:300px; border-radius:10px; border:1px solid black;}
+  .spotlightContainer div{min-width:300px; max-width:500px; border-radius:10px; border:1px solid black; margin:10px; text-align:center;}
   .spotlightContainer div:hover{background:#efefef; cursor:pointer;}
   @media(max-width:900px){.spotlightContainer{flex-direction:column;}}
 
