@@ -39,9 +39,9 @@ function createSpotlight(){
   // Create the Spotlight
   switch(tdate.getMonth()){
     case 6:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + january[2] + '","_self");' + "'><img src='"+january[0]+"'>"+january[1]+"</div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[5] + '","_self");' + "'><img src='"+january[3]+"'>"+january[4]+"</div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[8] + '","_self");' + "'><img src='"+january[6]+"'>"+january[7]+"</div>";
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + january[2] + '","_self");' + "'><img src='"+january[0]+"'>"+january[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[5] + '","_self");' + "'><img src='"+january[3]+"'>"+january[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[8] + '","_self");' + "'><img src='"+january[6]+"'>"+january[7]+"<br></div>";
       break;
     case 1:
       break;
