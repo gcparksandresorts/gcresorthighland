@@ -13,7 +13,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------- HEADER SETUP
 	
 	function initializeHeader(){
-		
+		console.log('resizing header'); 
 		const headBar = document.getElementById("headerBar");
 		
 		if(window.innerWidth >= 900){
@@ -27,7 +27,7 @@
 		else{
 			// Mobile Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
-			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;'>&#8801;</button>"
+			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;margin-right:30px;'>&#8801;</button>"
 		}
 
 		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
