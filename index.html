@@ -86,7 +86,13 @@
 	<!-------------------------------------------------------------------------------------------------------------------- SPOTLIGHT ---->
 	<div class='container'>
 		<h1>Resort Spotlight</h1>
-		<br><br>
+		<p style='margin-top:0;' id='resortSpotlightDate'></p>
+
+		<div id='resortSpotlightContainer' class='spotlightContainer'>
+			Error Loading. Please Try Again Later.
+		</div>
+		
+		<br>
 		<button>View News and Updates</button>
 	</div>
 
@@ -106,8 +112,13 @@
 	
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 	
+	<!-- CREATE THE VIDEO BANNER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/data/indexBannerDisplay.js'></script>	
 	<script>setBannerDisplays();</script>
+
+	<!-- CREATE THE RESORT SPOTLIGHT -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/data/resortSpotlight.js'></script>	
+	<script>createSpotlight();</script>
 
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
