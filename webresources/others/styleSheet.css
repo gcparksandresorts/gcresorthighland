@@ -14,11 +14,11 @@ body{
   .disclaimer{font-size:10px;color:dimgray;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
-  .container {margin:auto; margin-top:0; margin-bottom:20px; padding:10px; width:full; display:block; max-width:1200px; text-align:center; margin:auto;}
+  .container {margin:auto; margin-top:0; margin-bottom:20px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
   .fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:0; margin-bottom:15px; text-align:center;}
 
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
-  .spotlightContainer{display:flex; justify-content:center; max-width:1200px; width:full; flex-wrap:wrap; flex-direction:row;}
+  .spotlightContainer{display:flex; justify-content:center; max-width:1200px; width:full; flex-wrap:wrap; flex-direction:row; margin:auto;}
   .spotlightContainer div{min-width:300px; border-radius:10px; border:1px solid black;}
   .spotlightContainer div:hover{background:#efefef; cursor:pointer;}
   @media(max-width:900px){.spotlightContainer{flex-direction:column;}}
