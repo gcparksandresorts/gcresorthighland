@@ -40,7 +40,7 @@
 		}
 	}
 
-	window.onresize = initializeHeader();
+	window.onresize = function(){initializeHeader();};
 
 //---------------------------------------------------------------------------------------------------------------------------------- FOOTER SETUP
 	function createFooter(){
