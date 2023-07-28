@@ -30,7 +30,7 @@
 
 		footBar.innerHTML += "<div class='spacer'></div> \
 				     <div class='container' style='text-align:center;line-height:2;'> \
-				     <b>Get in Touch</b> <br> (312) 988 1000 <br> <a>guestservices.gcrh@gcpr.net</a> </div>";
+				     <b>Get in Touch</b> <br> (312) 988 1000 <br> <a href='mailto: globecityparksandresorts@gmail.com'>guestservices.gcrh@gcpr.net</a> </div>";
 		
 		footBar.innerHTML += "<div class='spacer'></div> \
 			              <div style='text-align:center'> <br> \
