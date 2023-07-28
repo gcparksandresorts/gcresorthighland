@@ -11,14 +11,13 @@
 	
 
 //---------------------------------------------------------------------------------------------------------------------------------- HEADER SETUP
-	window.onresize = initializeHeader();
-
+	
 	function initializeHeader(){
 		
 		const headBar = document.getElementById("headerBar");
 		
 		if(window.innerWidth >= 900){
-			
+			// Desktop Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>  \
 														<button class='headerBarButton'>Special Events</button> \
@@ -26,10 +25,19 @@
 														<button class='headerBarButton'>Things to Do &#9661;</button>";
 		}//end of if statemement
 		else{
+			// Mobile Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button class='headerBarButton' style='font-size:25px;'>&#8801;</button>"
 		}
+
+		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
+		let curDate = new Date();
+		if(curDate.getMonth() == 5){
+			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
+		}
 	}
+
+	window.onresize = initializeHeader();
 
 //---------------------------------------------------------------------------------------------------------------------------------- FOOTER SETUP
 	function createFooter(){
