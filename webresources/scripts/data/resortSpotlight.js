@@ -30,11 +30,11 @@ function createSpotlight(){
     case 0:
       mainBody.innerHTML = "error";
       break;
-    case 1;
+    case 1:
       break;
     default:
       mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.";
   }// end of switch
 
   
-}
+}//end of function
