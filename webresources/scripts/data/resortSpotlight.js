@@ -9,6 +9,17 @@
 
 // ------------------------------------------------------------------------------------------------------------------------------- SPOTLIGHT CONTENT
 const january = [];
+      january[0] = "https://dummyimage.com/640x360/fff/aaa";
+      january[1] = "<h3>Season of Light Continues</h3><p>Globe-City's Season of Light<sup>TM</sup> celebration isn't over yet, Visit before time runs out!";
+      january[2] = "https://www.youtube.com/watch?v=ja1sXvNCyO0&ab_channel=FunnyCatsLife";
+
+      january[0] = "https://dummyimage.com/640x360/fff/aaa";
+      january[1] = "<h3>Season of Light Continues</h3><p>Globe-City's Season of Light<sup>TM</sup> celebration isn't over yet, Visit before time runs out!";
+      january[2] = "https://www.youtube.com/watch?v=ja1sXvNCyO0&ab_channel=FunnyCatsLife";
+
+      january[0] = "https://dummyimage.com/640x360/fff/aaa";
+      january[1] = "<h3>Season of Light Continues</h3><p>Globe-City's Season of Light<sup>TM</sup> celebration isn't over yet, Visit before time runs out!";
+      january[2] = "https://www.youtube.com/watch?v=ja1sXvNCyO0&ab_channel=FunnyCatsLife";
 
 // ------------------------------------------------------------------------------------------------------------------------------- MONTHS
 const monthsNamed = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -27,8 +38,10 @@ function createSpotlight(){
 
   // Create the Spotlight
   switch(tdate.getMonth()){
-    case 0:
-      mainBody.innerHTML = "error";
+    case 6:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + january[2] + '","_self");' + "'><img src='"+january[0]+"'>"+january[1]+"</div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[5] + '","_self");' + "'><img src='"+january[3]+"'>"+january[4]+"</div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[8] + '","_self");' + "'><img src='"+january[6]+"'>"+january[7]+"</div>";
       break;
     case 1:
       break;
