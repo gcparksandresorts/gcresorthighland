@@ -47,7 +47,57 @@ const march = [];
       march[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
       march[8] = "";
 
+const april = [];
+      april[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      april[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
+      april[2] = "";
 
+      april[3] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
+      april[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
+      april[5] = "";
+
+      april[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
+      april[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      april[8] = "";
+
+const may = [];
+      may[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      may[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
+      may[2] = "";
+
+      may[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
+      may[5] = "";
+
+      may[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
+      may[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      may[8] = "";
+
+const june = [];
+      june[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      june[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
+      june[2] = "";
+
+      june[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      june[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
+      june[5] = "";
+
+      june[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
+      june[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      june[8] = "";
+
+const july = [];
+      july[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      july[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
+      july[2] = "";
+
+      july[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      july[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
+      july[5] = "";
+
+      july[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
+      july[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      july[8] = "";
 
 
 // ------------------------------------------------------------------------------------------------------------------------------- MONTHS
@@ -77,13 +127,59 @@ function createSpotlight(){
       mainBody.innerHTML += "<div onclick='" + 'window.open("' + february[5] + '");' + "'><img src='"+february[3]+"'>"+february[4]+"<br></div>";
       mainBody.innerHTML += "<div onclick='" + 'window.open("' + february[8] + '");' + "'><img src='"+february[6]+"'>"+february[7]+"<br></div>";
       break;
-    case 6:
+    case 2:
       mainBody.innerHTML = "<div onclick='" + 'window.open("' + march[2] + '");' + "'><img src='"+march[0]+"'>"+march[1]+"<br></div>";
       mainBody.innerHTML += "<div onclick='" + 'window.open("' + march[5] + '");' + "'><img src='"+march[3]+"'>"+march[4]+"<br></div>";
       mainBody.innerHTML += "<div onclick='" + 'window.open("' + march[8] + '");' + "'><img src='"+march[6]+"'>"+march[7]+"<br></div>";
       break; 
+   case 3:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + april[2] + '");' + "'><img src='"+april[0]+"'>"+april[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + april[5] + '");' + "'><img src='"+april[3]+"'>"+april[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + april[8] + '");' + "'><img src='"+april[6]+"'>"+april[7]+"<br></div>";
+      break;
+    case 4:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + may[2] + '");' + "'><img src='"+may[0]+"'>"+may[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + may[5] + '");' + "'><img src='"+may[3]+"'>"+may[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + may[8] + '");' + "'><img src='"+may[6]+"'>"+may[7]+"<br></div>";
+      break; 
+    case 5:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + june[2] + '");' + "'><img src='"+june[0]+"'>"+june[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + june[5] + '");' + "'><img src='"+june[3]+"'>"+june[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + june[8] + '");' + "'><img src='"+june[6]+"'>"+june[7]+"<br></div>";
+      break; 
+    case 6:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + july[2] + '");' + "'><img src='"+july[0]+"'>"+july[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + july[5] + '");' + "'><img src='"+july[3]+"'>"+july[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + july[8] + '");' + "'><img src='"+july[6]+"'>"+july[7]+"<br></div>";
+      break; 
+    case 7:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + august[2] + '");' + "'><img src='"+august[0]+"'>"+august[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + august[5] + '");' + "'><img src='"+august[3]+"'>"+august[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + august[8] + '");' + "'><img src='"+august[6]+"'>"+august[7]+"<br></div>";
+      break; 
+    case 8:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + september[2] + '");' + "'><img src='"+september[0]+"'>"+september[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + september[5] + '");' + "'><img src='"+september[3]+"'>"+september[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + september[8] + '");' + "'><img src='"+september[6]+"'>"+september[7]+"<br></div>";
+      break; 
+    case 9:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + october[2] + '");' + "'><img src='"+october[0]+"'>"+october[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + october[5] + '");' + "'><img src='"+october[3]+"'>"+october[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + october[8] + '");' + "'><img src='"+october[6]+"'>"+october[7]+"<br></div>";
+      break; 
+    case 10:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + november[2] + '");' + "'><img src='"+november[0]+"'>"+november[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + november[5] + '");' + "'><img src='"+november[3]+"'>"+november[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + november[8] + '");' + "'><img src='"+november[6]+"'>"+november[7]+"<br></div>";
+      break; 
+    case 11:
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + december[2] + '");' + "'><img src='"+december[0]+"'>"+december[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[5] + '");' + "'><img src='"+december[3]+"'>"+december[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[8] + '");' + "'><img src='"+december[6]+"'>"+december[7]+"<br></div>";
+      break;
+    
     default:
-      mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.";
+      mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.</div>";
   }// end of switch
 
   
