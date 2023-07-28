@@ -14,7 +14,7 @@
 	
 	function initializeHeader(){
 		console.log('resizing header'); 
-		const headBar = document.getElementById("headerBar");
+		let headBar = document.getElementById("headerBar");
 		headBar.innerHTML = "";
 		
 		if(window.innerWidth >= 900){
