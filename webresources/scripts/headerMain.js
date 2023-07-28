@@ -3,7 +3,7 @@
 	const footBar = document.getElementById("footer");
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div>";
+		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
 		createFooter();
 		initializeHeader();
 	}
