@@ -11,7 +11,7 @@ body{
 
 /*-- SUBTEXT  ----------------------------------------------------------------------------------------------------------------------------------------------- */
   sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;} a:hover{color:#07039D;}
-  disclaimer{font-size:10px;color:dimgray;}
+  .disclaimer{font-size:10px;color:dimgray;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
   .container {margin:auto; margin-top:0; margin-bottom:20px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
