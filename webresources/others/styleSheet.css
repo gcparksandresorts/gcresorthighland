@@ -10,7 +10,7 @@ body{
   h1{font-size:28px;color:#073763;font-weight:normal;} h2{font-size:23px;color:#073763;font-weight:bold;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
 
 /*-- SUBTEXT  ----------------------------------------------------------------------------------------------------------------------------------------------- */
-  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;} a:hover{color:#07039D;}
+  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;color:black;} a:hover{color:#07039D;}
   .disclaimer{font-size:10px;color:dimgray;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
