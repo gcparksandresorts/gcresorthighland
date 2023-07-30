@@ -9,7 +9,17 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Resort Hours and Schedules | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+    	.parkHours{width:90%; max-width:200px; min-width:100px; text-align:center; padding:10px; display:inline-block;}
+        
+        .entertainmentContainer{width:100%; max-width:1200px; padding:10px; display:flex; flex-flow:row; align-items:center; justify-content:center; flex-wrap:wrap;}
+        .entertainmentContainer div{width:30%; margin:10px; border:1px solid black; align-self:stretch; min-width:300px; border-radius:5px; cursor:pointer;}
+        .entertainmentContainer div img{float:left; width:30%; height:100%; margin:0; object-fit:cover; border-radius:4px;}
+        .entertainmentContainer div p{width:70%; float:right; text-align:left; margin:0; padding:10px;}
+        .entertainmentContainer div:hover{background:#efefef;} .entertainmentContainer div:hover p b{transition:0.4s; font-size:16px;}
+        @media screen and (max-width:600px){.entertainmentContainer{flex-flow:column;} .entertainmentContainer div{width:90%; margin:auto; margin-bottom:20px;}
+        				    .entertainmentContainer div img{width:100%; height:80px; display:block;} .entertainmentContainer div p{display:block; width:100%;}}
+    </style>
 
 </head>
 
@@ -24,10 +34,82 @@
 	<!-- End of Banner Image and Title Bar Elements -->
 	
 	
-	  Body Contents Go Here
+	<div class='container' style='text-align:center'>
+    	<h3>Today's Operating Hours</h3>
+        <div class='parkHours' id='adventureParkHoursDisplay'>
+        	<b>Adventure Park</b><br>Error in Retrieval
+        </div>
+        <div class='parkHours' id='cityShopDisplay'>
+        	<b>City-Shop</b><br>Error in Retrieval
+        </div>
+        
+        <br><br><a>Look Ahead</a>
+        
+    </div>
+    
+    <div class='spacer'></div>
+    
+    <div class='container' style='text-align:center'>
+    	<h3>Today's Entertainment Schedule</h3>
+        
+        <div class='entertainmentContainer'>
+        
+        	<div><img src='https://www.laughingplace.com/w/wp-content/uploads/2021/03/seaworld-san-diego-brings-back-seaworld-fireworks-show-starting-march-26.png'>
+            <p><b>Summer's to Remember Forever Spectacular</b><br>9:00 PM</div>
+            
+            <div><img src='https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg'>
+            <p><b>Globe-City Marching Band</b><br>11:00AM, 12:00PM, 2:00PM, 3:00PM</div>
+            
+            <div><img src='https://media.licdn.com/dms/image/C4D12AQHJijqntJEtAw/article-cover_image-shrink_600_2000/0/1532180838524?e=2147483647&v=beta&t=M4jGMsFLb3p0y3F5A3ywzIkIzT6JTap4sBB_tzVQC00'>
+            <p><b>Drummers of the Mandari</b><br>1:00PM, 2:00PM, 5:00PM</div>
+            
+        </div>
+        
+    </div>
+    
+    
+    <div class='fullContainer' style='background:#efefef'>
+    	<h2>Live Guest Count</h2>
+        <div class='parkHours' id='apCounts'>
+        	<b>Adventure Park</b><br>Busy
+        </div>
+        <div class='parkHours' id='csCounts'>
+        	<b>City-Shop</b><br>Busy
+        </div>
+        <br>
+        <div class='parkHours' id='prkCounts'>
+        	<b>Resort Parking</b><br>Adventure: Filling Up<br>City-Shop: Full 
+        </div>
+    </div>
 
-
-	
+	<div class='container'>
+    	<h3>Events and Specials</h3>
+        
+        <br><a>View Special Events</a> | <a>View Promotions</a>
+    </div>
+    
+    <div class='spacer'></div>
+    
+    <div class='container' style='text-align:center'>
+    	<h3>Ticketing and Admission Information</h3>
+    </div>
+    
+    <div class='spacer'></div>
+    
+    <div class='container' style='text-align:center'>
+    	<p>For up-to-date information and live attraction wait-times, download the <a>GC RESORT<sup>TM</sup></a> mobile app</p>
+        <p><b>Know Before You Go</b>: Prior to your visit, review our <a>Safety Guidelines</a>
+    </div>
+    
+    <div class='spacer'></div>
+    
+    <div class='container' style='text-align:center'>
+    	<button style='width:90%; max-width:400px;'>View Tickets and Passports</button>
+        <br><br><br>
+        <p class='disclaimer'>Operating schedules, crowd metrics, and closures are determined from a preset calendar. Actual hours, waittimes, and other opertating information may differ from the information displayed. Download the GC RESORT mobile app for the most accurate and up-to-date information.</p>
+    </div>
+    
+    
 <!-- Footer Elements --><div id="footer"></div>
 </body>
 	
