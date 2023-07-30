@@ -25,6 +25,8 @@ body{
 	.titleBar h1,h2,h3 {vertical-align: middle; color:white;}
 	.titleBar img {height:100px; width:auto; margin:10px;}
 
+	.subtitleBar {width:full; margin-top:-20px; padding:15px; background:#efefef; text-align:center;}
+
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
   
   .spotlightContainer{display:flex; justify-content:center; align-items:center; flex-flow:row; flex-wrap:wrap; max-width:1200px; margin:auto; width:100%;}
