@@ -2,6 +2,9 @@
   	const Header = document.getElementById("header");
 	const footBar = document.getElementById("footer");
 
+	const hotelsLink = '"https://gcparksandresorts.github.io/gcresorthighland/hotels"';
+	const eventsLink = '"https://gcparksandresorts.github.io/gcresorthighland/events"';
+
 	function runHeaderSetup(){
 		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
 		createFooter();
@@ -21,8 +24,8 @@
 			// Desktop Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>  \
-														<button class='headerBarButton'>Special Events</button> \
-														<button class='headerBarButton'>Hotels and Resorts</button>  \
+														<button class='headerBarButton' onclick='window.open(" + eventsLink + "'>Special Events</button> \
+														<button class='headerBarButton' onclick='window.open(" + hotelsLink + "'>Hotels and Resorts</button>  \
 														<button class='headerBarButton'>Things to Do &#9661;</button>";
 		}//end of if statemement
 		else{
