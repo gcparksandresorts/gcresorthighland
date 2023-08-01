@@ -250,9 +250,9 @@ function createSpotlight(){
       
   }// end of switch
 
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + temp[2] + '");' + "'><img src='"+temp[0]+"'><p>"+temp[1]+"</p><br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[5] + '");' + "'><img src='"+temp[3]+"'><p>"+temp[4]+"</p><br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[8] + '");' + "'><img src='"+temp[6]+"'><p>"+temp[7]+"</p><br></div>";
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + temp[2] + '");' + "'><img src='"+temp[0]+"'>"+temp[1]+"<br><br><a>Learn More</a><br><br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[5] + '");' + "'><img src='"+temp[3]+"'>"+temp[4]+"<br><br><a>Learn More</a><br><br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[8] + '");' + "'><img src='"+temp[6]+"'>"+temp[7]+"<br><br><a>Learn More</a><br><br></div>";
 
   
 }//end of function
