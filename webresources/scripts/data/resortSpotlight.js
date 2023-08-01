@@ -30,8 +30,8 @@ const february = [];
       february[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
       february[5] = "";
 
-      february[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      february[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      february[6] = "https://sustainival.com/wp-content/uploads/2017/03/bumper-car.jpg";
+      february[7] = "<h3>&#127905; Ride Spotlight: Boardwalk Bumpers</h3>Get behind the wheel of a timeless classic and bump around for some delightful new fun!";
       february[8] = "";
 
 const march = [];
@@ -43,47 +43,47 @@ const march = [];
       march[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
       march[5] = "";
 
-      march[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      march[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      march[6] = "https://www.roadtovr.com/wp-content/uploads/2021/06/arcade-legend.jpg";
+      march[7] = "<h3>&#127918; Attraction Spotlight: The Starfield Arcade</h3>The coolest arcade in the universe! Here at Cosmic Center, test your skills in thrilling futuristic arcade games";
       march[8] = "";
 
 const april = [];
-      april[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      april[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
-      april[2] = "";
-
-      april[3] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
-      april[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
+      april[3] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      april[4] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
       april[5] = "";
 
-      april[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      april[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      april[0] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
+      april[1] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
+      april[2] = "";
+
+      april[6] = "https://www.laughingplace.com/w/wp-content/uploads/2019/04/A-753.jpg";
+      april[7] = "<h3>&#127905; Ride Spotlight: Old Yander's Mine Train</h3>Take a wild ride through the untamed frontier, where the untold treasures of the rustic gold mine await and chaos lurks around every turn.";
       april[8] = "";
 
 const may = [];
       may[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      may[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
-      may[2] = "";
+      may[1] = "<h3>Adventure The Whole Year 'Round</h3>Before SummerFest<sup>TM</sup> officially begins, take your oppurtunity to purchase a resort Annual Passport and visit on over 230 days of the year, or all summer long!";
+      may[2] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/annualpassports";
 
       may[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
       may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
       may[5] = "";
 
-      may[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      may[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      may[6] = "https://mickeyvisit.com/wp-content/uploads/2022/04/mothersdaydisneyland.jpeg";
+      may[7] = "<h3>Celebrating Mothers Everywhere</h3>This mother's day, treat your mom to some delectible treats and thrilling new eats made just for her with a trip to our Mother's day celebration at the resort!";
       may[8] = "";
 
 const june = [];
-      june[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      june[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
+      june[0] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      june[1] = "<h3>Welcome to the SummerFest<sup>TM</sup> Celebration!</h3>Brand new entertainment, food offerings, merchandise and more have filled every corner of Adventure Park for a sunny summer you won't forget!";
       june[2] = "";
 
       june[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
       june[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
       june[5] = "";
 
-      june[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      june[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      june[6] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
+      june[7] = "<h3>&#127905; Ride Spotlight: Touch the Sky</h3>Soar into summer at 60mph aboard this thrilling beach-side rollercoaster full of inversions, twists, turns, and a whole 'lotta fun!";
       june[8] = "";
 
 const july = [];
@@ -91,12 +91,12 @@ const july = [];
       july[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
       july[2] = "";
 
-      july[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
-      july[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
+      july[3] = "https://static.wixstatic.com/media/f7111f_4c766d7c897d4ba3a4a444d7792bc42c~mv2.jpg/v1/fill/w_640,h_360,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/f7111f_4c766d7c897d4ba3a4a444d7792bc42c~mv2.jpg";
+      july[4] = "<h3>Celebrate the 4th In Style</h3>For the whole month of July, Adventure Park will feature special decorations and food offerings. On July 4th, expect a celebratory fireworks spectacular!";
       july[5] = "";
 
-      july[6] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      july[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
+      july[6] = "https://premier-rides.com/wp-content/uploads/2016/06/Revenge_of_the_Mummy_compressed.jpg";
+      july[7] = "<h3>&#127905; Ride Spotlight: Tomb of the Emperor's Curse</h3>Explore an abandonded tomb and find what treasures (and curses) lie within its stone walls";
       july[8] = "";
 
 const august = [];
@@ -109,7 +109,7 @@ const august = [];
       august[5] = "";
 
       august[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      august[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      august[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
       august[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 const september = [];
@@ -122,7 +122,7 @@ const september = [];
       september[5] = "";
 
       september[6] = "https://dapsmagic.com/wp-content/uploads/2023/02/Haunted-Mansion-Featured-Image-1.jpg";
-      september[7] = "<h3>🎡 Ride Spotlight: Sally's Manor 🎡</h3>Get into the spooky season spirit and take a tour of the famed haunted manor of Sally Spookson on this one-of-a-kind bone-chilling attraction";
+      september[7] = "<h3>&#127905; Ride Spotlight: Sally's Manor</h3>Get into the spooky season spirit and take a tour of the famed haunted manor of Sally Spookson on this one-of-a-kind bone-chilling attraction";
       september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/sallys-manor";
 
 const october = [];
@@ -130,12 +130,12 @@ const october = [];
       october[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
       october[2] = "";
 
-      october[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
-      october[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      october[3] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
+      october[4] = "<h3>&#127918; Attraction Spotlight: Boardwalk Midway</h3>Test your skills and compete with family and friends in these classic midway games themed around Adventure Park";
       october[5] = "";
 
       october[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      october[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      october[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
       october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 const november = [];
@@ -148,7 +148,7 @@ const november = [];
       november[5] = "";
 
       november[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      november[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      november[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
       november[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 const december = [];
@@ -161,7 +161,7 @@ const december = [];
       december[5] = "";
 
       december[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      december[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      december[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
       december[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 
