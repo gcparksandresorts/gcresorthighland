@@ -180,67 +180,69 @@ function createSpotlight(){
   let thisMonthNamed = monthsNamed[tdate.getMonth()];
   monthDisplay.innerHTML = thisMonthNamed + " " + tdate.getFullYear();
 
+  let temp = [];
+
   // Create the Spotlight
   switch(tdate.getMonth()){
     case 0:
-      let temp[0] = january[0]; let temp[1] = january[1]; let temp[2] = january[2];
-      let temp[3] = january[3]; let temp[4] = january[4]; let temp[5] = january[5];
-      let temp[6] = january[6]; let temp[7] = january[7]; let temp[8] = january[8];
+      temp[0] = january[0]; temp[1] = january[1]; temp[2] = january[2];
+      temp[3] = january[3]; temp[4] = january[4]; temp[5] = january[5];
+      temp[6] = january[6]; temp[7] = january[7]; temp[8] = january[8];
       break;
     case 1:
-      let temp[0] = february[0]; let temp[1] = february[1]; let temp[2] = february[2];
-      let temp[3] = february[3]; let temp[4] = february[4]; let temp[5] = february[5];
-      let temp[6] = february[6]; let temp[7] = february[7]; let temp[8] = february[8];
+      temp[0] = february[0]; temp[1] = february[1]; temp[2] = february[2];
+      temp[3] = february[3]; temp[4] = february[4]; temp[5] = february[5];
+      temp[6] = february[6]; temp[7] = february[7]; temp[8] = february[8];
       break;
     case 2:
-      let temp[0] = march[0]; let temp[1] = march[1]; let temp[2] = march[2];
-      let temp[3] = march[3]; let temp[4] = march[4]; let temp[5] = march[5];
-      let temp[6] = march[6]; let temp[7] = march[7]; let temp[8] = march[8];
+      temp[0] = march[0]; temp[1] = march[1]; temp[2] = march[2];
+      temp[3] = march[3]; temp[4] = march[4]; temp[5] = march[5];
+      temp[6] = march[6]; temp[7] = march[7]; temp[8] = march[8];
       break; 
    case 3:
-      let temp[0] = april[0]; let temp[1] = april[1]; let temp[2] = april[2];
-      let temp[3] = april[3]; let temp[4] = april[4]; let temp[5] = april[5];
-      let temp[6] = april[6]; let temp[7] = april[7]; let temp[8] = april[8];
+      temp[0] = april[0]; temp[1] = april[1]; temp[2] = april[2];
+      temp[3] = april[3]; temp[4] = april[4]; temp[5] = april[5];
+      temp[6] = april[6]; temp[7] = april[7]; temp[8] = april[8];
       break;
     case 4:
-      let temp[0] = may[0]; let temp[1] = may[1]; let temp[2] = may[2];
-      let temp[3] = may[3]; let temp[4] = may[4]; let temp[5] = may[5];
-      let temp[6] = may[6]; let temp[7] = may[7]; let temp[8] = may[8];
+      temp[0] = may[0]; temp[1] = may[1]; temp[2] = may[2];
+      temp[3] = may[3]; temp[4] = may[4]; temp[5] = may[5];
+      temp[6] = may[6]; temp[7] = may[7]; temp[8] = may[8];
       break; 
     case 5:
-      let temp[0] = june[0]; let temp[1] = june[1]; let temp[2] = june[2];
-      let temp[3] = june[3]; let temp[4] = june[4]; let temp[5] = june[5];
-      let temp[6] = june[6]; let temp[7] = june[7]; let temp[8] = june[8];
+      temp[0] = june[0]; temp[1] = june[1]; temp[2] = june[2];
+      temp[3] = june[3]; temp[4] = june[4]; temp[5] = june[5];
+      temp[6] = june[6]; temp[7] = june[7]; temp[8] = june[8];
       break; 
     case 6:
-      let temp[0] = july[0]; let temp[1] = july[1]; let temp[2] = july[2];
-      let temp[3] = july[3]; let temp[4] = july[4]; let temp[5] = july[5];
-      let temp[6] = july[6]; let temp[7] = july[7]; let temp[8] = july[8];
+      temp[0] = july[0]; temp[1] = july[1]; temp[2] = july[2];
+      temp[3] = july[3]; temp[4] = july[4]; temp[5] = july[5];
+      temp[6] = july[6]; temp[7] = july[7]; temp[8] = july[8];
       break; 
     case 8:
-      let temp[0] = august[0]; let temp[1] = august[1]; let temp[2] = august[2];
-      let temp[3] = august[3]; let temp[4] = august[4]; let temp[5] = august[5];
-      let temp[6] = august[6]; let temp[7] = august[7]; let temp[8] = august[8];
+      temp[0] = august[0]; temp[1] = august[1]; temp[2] = august[2];
+      temp[3] = august[3]; temp[4] = august[4]; temp[5] = august[5];
+      temp[6] = august[6]; temp[7] = august[7]; temp[8] = august[8];
       break; 
     case 7:
-      let temp[0] = september[0]; let temp[1] = september[1]; let temp[2] = september[2];
-      let temp[3] = september[3]; let temp[4] = september[4]; let temp[5] = september[5];
-      let temp[6] = september[6]; let temp[7] = september[7]; let temp[8] = september[8];
+      temp[0] = september[0]; temp[1] = september[1]; temp[2] = september[2];
+      temp[3] = september[3]; temp[4] = september[4]; temp[5] = september[5];
+      temp[6] = september[6]; temp[7] = september[7]; temp[8] = september[8];
       break; 
     case 9:
-      let temp[0] = october[0]; let temp[1] = october[1]; let temp[2] = october[2];
-      let temp[3] = october[3]; let temp[4] = october[4]; let temp[5] = october[5];
-      let temp[6] = october[6]; let temp[7] = october[7]; let temp[8] = october[8];
+      temp[0] = october[0]; temp[1] = october[1]; temp[2] = october[2];
+      temp[3] = october[3]; temp[4] = october[4]; temp[5] = october[5];
+      temp[6] = october[6]; temp[7] = october[7]; temp[8] = october[8];
       break; 
     case 10:
-      let temp[0] = november[0]; let temp[1] = november[1]; let temp[2] = november[2];
-      let temp[3] = november[3]; let temp[4] = november[4]; let temp[5] = november[5];
-      let temp[6] = november[6]; let temp[7] = november[7]; let temp[8] = november[8];
+      temp[0] = november[0]; temp[1] = november[1]; temp[2] = november[2];
+      temp[3] = november[3]; temp[4] = november[4]; temp[5] = november[5];
+      temp[6] = november[6]; temp[7] = november[7]; temp[8] = november[8];
       break; 
     case 11:
-      let temp[0] = december[0]; let temp[1] = december[1]; let temp[2] = december[2];
-      let temp[3] = december[3]; let temp[4] = december[4]; let temp[5] = december[5];
-      let temp[6] = december[6]; let temp[7] = december[7]; let temp[8] = december[8];
+      temp[0] = december[0]; temp[1] = december[1]; temp[2] = december[2];
+      temp[3] = december[3]; temp[4] = december[4]; temp[5] = december[5];
+      temp[6] = december[6]; temp[7] = december[7]; temp[8] = december[8];
       break;
     
     default:
