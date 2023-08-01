@@ -110,7 +110,59 @@ const august = [];
 
       august[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
       august[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      august[8] = "https://gcparksandresorts.github.io/destinations/adventurepark/attractions/journey-to-atlantis";
+      august[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+
+const september = [];
+      september[0] = "https://disneydose.com/wp-content/uploads/halloween-time-scott-brinegardisneyland.jpg";
+      september[1] = "<h3>👻 Halloween Has Entered the Station 👻</h3>As the fog rolls in, we're shaking with excitement and getting our treat bags ready for the Halloween Season!";
+      september[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-afterparty";
+
+      september[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      september[4] = "<h3>New Spooky Treats Coming to Town &#127871</h3>Step into a world of frightful delights as we unleash the magic of Halloween into our menus throughout the resort!";
+      september[5] = "";
+
+      september[6] = "https://dapsmagic.com/wp-content/uploads/2023/02/Haunted-Mansion-Featured-Image-1.jpg";
+      september[7] = "<h3>🎡 Ride Spotlight: Sally's Manor 🎡</h3>Get into the spooky season spirit and take a tour of the famed haunted manor of Sally Spookson on this one-of-a-kind bone-chilling attraction";
+      september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/sallys-manor";
+
+const october = [];
+      october[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
+      october[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      october[2] = "";
+
+      october[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      october[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      october[5] = "";
+
+      october[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
+      october[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+
+const november = [];
+      november[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
+      november[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      november[2] = "";
+
+      november[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      november[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      november[5] = "";
+
+      november[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
+      november[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      november[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+
+const december = [];
+      december[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
+      december[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      december[2] = "";
+
+      december[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      december[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      december[5] = "";
+
+      december[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
+      december[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      december[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 
 // ------------------------------------------------------------------------------------------------------------------------------- MONTHS
@@ -131,73 +183,74 @@ function createSpotlight(){
   // Create the Spotlight
   switch(tdate.getMonth()){
     case 0:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + january[2] + '");' + "'><img src='"+january[0]+"'>"+january[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[5] + '");' + "'><img src='"+january[3]+"'>"+january[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + january[8] + '");' + "'><img src='"+january[6]+"'>"+january[7]+"<br></div>";
+      let temp[0] = january[0]; let temp[1] = january[1]; let temp[2] = january[2];
+      let temp[3] = january[3]; let temp[4] = january[4]; let temp[5] = january[5];
+      let temp[6] = january[6]; let temp[7] = january[7]; let temp[8] = january[8];
       break;
     case 1:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + february[2] + '");' + "'><img src='"+february[0]+"'>"+february[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + february[5] + '");' + "'><img src='"+february[3]+"'>"+february[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + february[8] + '");' + "'><img src='"+february[6]+"'>"+february[7]+"<br></div>";
+      let temp[0] = february[0]; let temp[1] = february[1]; let temp[2] = february[2];
+      let temp[3] = february[3]; let temp[4] = february[4]; let temp[5] = february[5];
+      let temp[6] = february[6]; let temp[7] = february[7]; let temp[8] = february[8];
       break;
     case 2:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + march[2] + '");' + "'><img src='"+march[0]+"'>"+march[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + march[5] + '");' + "'><img src='"+march[3]+"'>"+march[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + march[8] + '");' + "'><img src='"+march[6]+"'>"+march[7]+"<br></div>";
+      let temp[0] = march[0]; let temp[1] = march[1]; let temp[2] = march[2];
+      let temp[3] = march[3]; let temp[4] = march[4]; let temp[5] = march[5];
+      let temp[6] = march[6]; let temp[7] = march[7]; let temp[8] = march[8];
       break; 
    case 3:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + april[2] + '");' + "'><img src='"+april[0]+"'>"+april[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + april[5] + '");' + "'><img src='"+april[3]+"'>"+april[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + april[8] + '");' + "'><img src='"+april[6]+"'>"+april[7]+"<br></div>";
+      let temp[0] = april[0]; let temp[1] = april[1]; let temp[2] = april[2];
+      let temp[3] = april[3]; let temp[4] = april[4]; let temp[5] = april[5];
+      let temp[6] = april[6]; let temp[7] = april[7]; let temp[8] = april[8];
       break;
     case 4:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + may[2] + '");' + "'><img src='"+may[0]+"'>"+may[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + may[5] + '");' + "'><img src='"+may[3]+"'>"+may[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + may[8] + '");' + "'><img src='"+may[6]+"'>"+may[7]+"<br></div>";
+      let temp[0] = may[0]; let temp[1] = may[1]; let temp[2] = may[2];
+      let temp[3] = may[3]; let temp[4] = may[4]; let temp[5] = may[5];
+      let temp[6] = may[6]; let temp[7] = may[7]; let temp[8] = may[8];
       break; 
     case 5:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + june[2] + '");' + "'><img src='"+june[0]+"'>"+june[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + june[5] + '");' + "'><img src='"+june[3]+"'>"+june[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + june[8] + '");' + "'><img src='"+june[6]+"'>"+june[7]+"<br></div>";
+      let temp[0] = june[0]; let temp[1] = june[1]; let temp[2] = june[2];
+      let temp[3] = june[3]; let temp[4] = june[4]; let temp[5] = june[5];
+      let temp[6] = june[6]; let temp[7] = june[7]; let temp[8] = june[8];
       break; 
     case 6:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + july[2] + '");' + "'><img src='"+july[0]+"'>"+july[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + july[5] + '");' + "'><img src='"+july[3]+"'>"+july[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + july[8] + '");' + "'><img src='"+july[6]+"'>"+july[7]+"<br></div>";
-      break; 
-    case 7:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + august[2] + '");' + "'><img src='"+august[0]+"'>"+august[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + august[5] + '");' + "'><img src='"+august[3]+"'>"+august[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + august[8] + '");' + "'><img src='"+august[6]+"'>"+august[7]+"<br></div>";
+      let temp[0] = july[0]; let temp[1] = july[1]; let temp[2] = july[2];
+      let temp[3] = july[3]; let temp[4] = july[4]; let temp[5] = july[5];
+      let temp[6] = july[6]; let temp[7] = july[7]; let temp[8] = july[8];
       break; 
     case 8:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + september[2] + '");' + "'><img src='"+september[0]+"'>"+september[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + september[5] + '");' + "'><img src='"+september[3]+"'>"+september[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + september[8] + '");' + "'><img src='"+september[6]+"'>"+september[7]+"<br></div>";
+      let temp[0] = august[0]; let temp[1] = august[1]; let temp[2] = august[2];
+      let temp[3] = august[3]; let temp[4] = august[4]; let temp[5] = august[5];
+      let temp[6] = august[6]; let temp[7] = august[7]; let temp[8] = august[8];
+      break; 
+    case 7:
+      let temp[0] = september[0]; let temp[1] = september[1]; let temp[2] = september[2];
+      let temp[3] = september[3]; let temp[4] = september[4]; let temp[5] = september[5];
+      let temp[6] = september[6]; let temp[7] = september[7]; let temp[8] = september[8];
       break; 
     case 9:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + october[2] + '");' + "'><img src='"+october[0]+"'>"+october[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + october[5] + '");' + "'><img src='"+october[3]+"'>"+october[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + october[8] + '");' + "'><img src='"+october[6]+"'>"+october[7]+"<br></div>";
+      let temp[0] = october[0]; let temp[1] = october[1]; let temp[2] = october[2];
+      let temp[3] = october[3]; let temp[4] = october[4]; let temp[5] = october[5];
+      let temp[6] = october[6]; let temp[7] = october[7]; let temp[8] = october[8];
       break; 
     case 10:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + november[2] + '");' + "'><img src='"+november[0]+"'>"+november[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + november[5] + '");' + "'><img src='"+november[3]+"'>"+november[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + november[8] + '");' + "'><img src='"+november[6]+"'>"+november[7]+"<br></div>";
+      let temp[0] = november[0]; let temp[1] = november[1]; let temp[2] = november[2];
+      let temp[3] = november[3]; let temp[4] = november[4]; let temp[5] = november[5];
+      let temp[6] = november[6]; let temp[7] = november[7]; let temp[8] = november[8];
       break; 
     case 11:
-      mainBody.innerHTML = "<div onclick='" + 'window.open("' + december[2] + '");' + "'><img src='"+december[0]+"'>"+december[1]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[5] + '");' + "'><img src='"+december[3]+"'>"+december[4]+"<br></div>";
-      mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[8] + '");' + "'><img src='"+december[6]+"'>"+december[7]+"<br></div>";
+      let temp[0] = december[0]; let temp[1] = december[1]; let temp[2] = december[2];
+      let temp[3] = december[3]; let temp[4] = december[4]; let temp[5] = december[5];
+      let temp[6] = december[6]; let temp[7] = december[7]; let temp[8] = december[8];
       break;
     
     default:
       mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.</div>";
+      
   }// end of switch
 
-      //mainBody.innerHTML = "<div onclick='" + 'window.open("' + december[2] + '");' + "'><img src='"+december[0]+"'>"+december[1]+"<br></div>";
-      //mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[5] + '");' + "'><img src='"+december[3]+"'>"+december[4]+"<br></div>";
-      //mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[8] + '");' + "'><img src='"+december[6]+"'>"+december[7]+"<br></div>";
+      mainBody.innerHTML = "<div onclick='" + 'window.open("' + temp[2] + '");' + "'><img src='"+temp[0]+"'>"+temp[1]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[5] + '");' + "'><img src='"+temp[3]+"'>"+temp[4]+"<br></div>";
+      mainBody.innerHTML += "<div onclick='" + 'window.open("' + temp[8] + '");' + "'><img src='"+temp[6]+"'>"+temp[7]+"<br></div>";
 
   
 }//end of function
