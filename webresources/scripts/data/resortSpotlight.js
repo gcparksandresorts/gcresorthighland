@@ -219,12 +219,12 @@ function createSpotlight(){
       temp[3] = july[3]; temp[4] = july[4]; temp[5] = july[5];
       temp[6] = july[6]; temp[7] = july[7]; temp[8] = july[8];
       break; 
-    case 8:
+    case 7:
       temp[0] = august[0]; temp[1] = august[1]; temp[2] = august[2];
       temp[3] = august[3]; temp[4] = august[4]; temp[5] = august[5];
       temp[6] = august[6]; temp[7] = august[7]; temp[8] = august[8];
       break; 
-    case 7:
+    case 8:
       temp[0] = september[0]; temp[1] = september[1]; temp[2] = september[2];
       temp[3] = september[3]; temp[4] = september[4]; temp[5] = september[5];
       temp[6] = september[6]; temp[7] = september[7]; temp[8] = september[8];
