@@ -99,6 +99,19 @@ const july = [];
       july[7] = "<h3>Trying New Things</h3>Have you ever tried your skills at the Boardwalk Midway? How about new flavors at the Magic Bakery Store? This year, we're trying new things, and you should too!";
       july[8] = "";
 
+const august = [];
+      august[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
+      august[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      august[2] = "";
+
+      august[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      august[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      august[5] = "";
+
+      august[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
+      august[7] = "<h3>Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      august[8] = "https://gcparksandresorts.github.io/destinations/adventurepark/attractions/journey-to-atlantis";
+
 
 // ------------------------------------------------------------------------------------------------------------------------------- MONTHS
 const monthsNamed = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -181,6 +194,10 @@ function createSpotlight(){
     default:
       mainBody.innerHTML = "<div>Error Loading.<br><br>Please Try Again Later.</div>";
   }// end of switch
+
+      //mainBody.innerHTML = "<div onclick='" + 'window.open("' + december[2] + '");' + "'><img src='"+december[0]+"'>"+december[1]+"<br></div>";
+      //mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[5] + '");' + "'><img src='"+december[3]+"'>"+december[4]+"<br></div>";
+      //mainBody.innerHTML += "<div onclick='" + 'window.open("' + december[8] + '");' + "'><img src='"+december[6]+"'>"+december[7]+"<br></div>";
 
   
 }//end of function
