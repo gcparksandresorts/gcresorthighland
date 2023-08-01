@@ -21,7 +21,7 @@ body{
 	.container {margin:auto; margin-top:30px; margin-bottom:30px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
 	.fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:30px; margin-bottom:30px; text-align:center;}
 
-	.spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:dimgray;}
+	.spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:#efefef;}
 
 
 /*-- BANNERS AND TITLE BARS --------------------------------------------------------------------------------------------------------------------------------- */
@@ -41,6 +41,7 @@ body{
   	.spotlightContainer{display:flex; justify-content:center; align-items:center; flex-flow:row; flex-wrap:wrap; max-width:1200px; margin:auto; width:100%;}
   	.spotlightContainer div{width:30%; margin:1%; height:auto;  transition:0.4s; border:1px solid black; border-radius:10px; text-align:center; max-width:450px; align-self:stretch;}
   	.spotlightContainer div img{width:100%; height:150px; border-radius:9px; margin:0; object-fit:cover;}
+	.spotlightContainer div p{padding:15px;}
   	.spotlightContainer div:hover{background:#efefef; cursor:pointer;}
   	.spotlightContainer div:hover h3{color:black;}
   	@media screen and (max-width:900px){.spotlightContainer{flex-flow:column;} .spotlightContainer div{width:90%; margin:0; margin-bottom:20px; align-self:center; min-width:250px;}}
