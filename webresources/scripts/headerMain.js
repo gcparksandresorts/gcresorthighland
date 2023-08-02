@@ -23,10 +23,11 @@
 		if(window.innerWidth >= 900){
 			// Desktop Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
-			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>  \
-														<button class='headerBarButton' onclick='window.open(" + eventsLink + "'>Special Events</button> \
-														<button class='headerBarButton' onclick='window.open(" + hotelsLink + "'>Hotels and Resorts</button>  \
-														<button class='headerBarButton'>Things to Do &#9661;</button>";
+			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>";
+			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
+			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + hotelsLink + ")'>Hotels and Resorts</button>";
+			headBar.innerHTML += "<button class='headerBarButton'>Things to Do &#9661;</button>";
+														
 		}//end of if statemement
 		else{
 			// Mobile Version
