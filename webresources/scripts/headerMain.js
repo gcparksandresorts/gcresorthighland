@@ -2,8 +2,8 @@
   	const Header = document.getElementById("header");
 	const footBar = document.getElementById("footer");
 
-	const hotelsLink = '"https://gcparksandresorts.github.io/gcresorthighland/hotels"';
-	const eventsLink = '"https://gcparksandresorts.github.io/gcresorthighland/events"';
+	const hotelsLink = '"https://gcparksandresorts.github.io/gcresorthighland/hotels", "_self"';
+	const eventsLink = '"https://gcparksandresorts.github.io/gcresorthighland/events", "_self"';
 
 	function runHeaderSetup(){
 		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
