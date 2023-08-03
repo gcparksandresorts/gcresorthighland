@@ -89,6 +89,11 @@ body{
             	.selectionContainer div{width:100%; margin-left:0;}
         }
 
+	.otherEvents img{width:20%; align-self:stretch; margin:0; margin-right:15px; object-fit:cover;}
+	.otherEvents div{width:80%; margin:0;} .otherEvents div h3{color:#073763; margin-top:0;}
+	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px;}
+	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
+
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
 
