@@ -111,8 +111,8 @@ body{
   	.btnFull{color:white; background:#073763; transition:0.4s;}
   	.btnFull:hover{background:dimgray;}
 
-	.fadeIn {animation: fadeIn 0.40s;}
-	@keyframes fadeIn {
+	.fadeIn {animation: FadeIn 0.40s;}
+	@keyframes FadeIn {
 	  0% { opacity: 0; }
 	  100% { opacity: 1; }
 	}
