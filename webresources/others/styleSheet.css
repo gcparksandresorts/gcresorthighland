@@ -97,7 +97,7 @@ body{
 
 	.diningBanner {width:full; background:#efefef; height:50vh;}
         .diningBanner img {float:left; width:50%; margin:0; height:50vh; object-fit:cover;}
-        .diningBanner div {float:right; width:45%; margin:0; margin-left:5%; font-size:16px; padding-right:15px; padding-bottom:15px;}
+        .diningBanner div {float:right; width:45%; margin:0; margin-left:15px; font-size:16px; padding-right:15px; padding-bottom:15px;}
         .diningBanner div h1 {margin-bottom:0;}
         
         @media screen and (max-width:900px){.diningBanner{height:auto;} .diningBanner img, .diningBanner div{float:none; width:100%;}}
