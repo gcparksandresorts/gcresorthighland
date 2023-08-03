@@ -120,4 +120,6 @@ body{
 	  100% { opacity: 1; }
 	}
 
+	.menuSelect {animation: FadeIn 0.40s;}
+
   
