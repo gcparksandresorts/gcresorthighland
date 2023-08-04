@@ -18,8 +18,10 @@ body{
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
-	.container {margin:auto; margin-top:40px; margin-bottom:40px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
+	.container, .leftContainer {margin:auto; margin-top:40px; margin-bottom:40px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
 	.fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:40px; margin-bottom:40px; text-align:center;}
+
+	.leftContainer {text-align:left;}
 
 	.spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:#efefef;}
 
@@ -100,7 +102,14 @@ body{
         .diningBanner div {float:right; width:45%; margin:0; margin-left:15px; font-size:16px; padding-right:15px; padding-bottom:15px;}
         .diningBanner div h1 {margin-bottom:0;}
         
-        @media screen and (max-width:900px){.diningBanner{height:auto;} .diningBanner img, .diningBanner div{float:none; width:100%;}}
+        @media screen and (max-width:900px){.diningBanner{height:auto;} .diningBanner img{float:none; width:full;} .diningBanner div{margin-left:0; padding:15px; float:none; width:full;}}
+
+	.menuColumn{display:inline-block; width:49.5%; margin:0; padding:10px; text-align:left;}
+    	@media screen and (max-width:600px){.menuColumn{width:90%;}}
+    
+    	.menuSection h3{font-weight:normal; text-align:left; margin-left:10px; margin-bottom:0;}
+        .menuSection .menSub{margin-left:10px; text-align:left; }
+    	.menuSection .container{max-width:900px;}
 
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
