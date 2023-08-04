@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
+
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>RESTURAUNT NAME | Dining | Globe-City Resort Highland</title>
+  
+  	<style></style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+
+    	<div class='diningBanner'>
+			<img src=''>
+			<div>
+				<h1>RESTURAUNT NAME</h1>
+				Dining located in <em>LAND NAME</em> in Adventure Park
+				<p>
+					Restaurant Description
+				</p>
+			</div>
+		</div>
+  
+	<!-- End of Banner Image and Title Bar Elements -->
+	
+	<!---------------------------------------------------------------------------------------------------------------------------------------------- MENU SELECT -->
+	<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
+	<div class='container'>
+		<label for="menuSelect">Meal Period:</label>
+		<select name="menuSelect" id="menuSelect" onchange="selectMenu();">
+			<option value='breakfastMenu'>Breakfast (opening - 12PM)</option>
+			<option value='lunchMenu'>Lunch and Dinner (12PM)</option>
+		</select>
+	</div>
+
+	<div class='spacer'></div>
+	
+	<!------------------------------------------------------------------------------------------------------------------------------------------------ BREAKFAST -->
+	<section id='breakfastMenu' class='menuSection'>
+		
+		<h1 style='margin:auto; text-align:center;'>Breakfast Menu</h1>
+		<div class='spacer'></div>
+
+		<div class='container'>
+	        
+	        	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	            	</div>
+            
+           	</div> <!-- end of section container -->
+            
+            <div class='spacer'></div>
+            
+            	<div class='container'>
+            
+	            	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	           	</div>
+            
+        	</div> <!-- end of section container -->
+
+		
+	</section> <!-- end of BREAKFAST container -->
+
+	<!---------------------------------------------------------------------------------------------------------------------------------------------------- LUNCH -->
+	<section id='lunchMenu' class='menuSection'>
+		
+		<h1 style='margin:auto; text-align:center;'>Lunch and Dinner Menu</h1>
+		<div class='spacer'></div>
+
+		<div class='container'>
+	        
+	        	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	            	</div>
+            
+           	</div> <!-- end of section container -->
+            
+            <div class='spacer'></div>
+            
+            	<div class='container'>
+            
+	            	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	           	</div>
+            
+        	</div> <!-- end of section container -->
+		
+	</section> <!-- end of LUNCH container -->
+
+
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<!-- SHOW OR HIDE MENUS -->
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectMenu();</script>
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
