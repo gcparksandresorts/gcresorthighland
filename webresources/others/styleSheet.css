@@ -96,6 +96,16 @@ body{
 	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px; margin:auto;}
 	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
 
+
+	.diningBanner{width:full; display:flex; background:#efefef; flex-flow:row; flex-wrap:nowrap;}
+        .diningBanner img{width:50%; max-height:50vh; margin:0; align-self:stretch; object-fit:cover;}
+        .diningBanner div{width:50%; padding:20px; text-align:left; align-self:stretch;} 
+        
+        @media screen and (max-width:900px){.diningBanner{flex-flow:column;} .diningBanner img{width:100%;} .diningBanner div{width:100%;}}
+
+
+	
+
 /*
 	.diningBanner {width:full; background:#efefef; height:50vh;}
         .diningBanner img {float:left; width:50%; margin:0; height:50vh; object-fit:cover;}
