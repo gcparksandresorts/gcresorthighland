@@ -96,7 +96,7 @@ body{
 	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px; margin:auto;}
 	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
 
-
+/*
 	.diningBanner {width:full; background:#efefef; height:50vh;}
         .diningBanner img {float:left; width:50%; margin:0; height:50vh; object-fit:cover;}
         .diningBanner div {float:right; width:45%; margin:0; margin-left:15px; font-size:16px; padding-right:15px; padding-bottom:15px;}
@@ -111,6 +111,7 @@ body{
         .menuSection .menSub{margin-left:10px; text-align:left; }
     	.menuSection .container{max-width:900px;}
 
+*/
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
 
