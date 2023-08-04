@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
+
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>The Boulevard Diner | Dining | Globe-City Resort Highland</title>
+  
+  	<style></style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+
+    	<div class='diningBanner'>
+			<img src='https://www.disneytouristblog.com/wp-content/uploads/2013/02/bacon-melt-carnation-cafe-disneyland.jpg'>
+			<div>
+				<h1>The Boulevard Diner</h1>
+				Dining located in <em>Adventure Boulevard</em> in Adventure Park
+				<p>
+					Relax under a candy-striped umbrella and watch the world pass by—or unwind inside the Classic Era style dining room as waiters in vintage dress bustle past. The Boulevard Diner takes you on a trip to the turn-of-the-century with a nostalgic menu of delicious delights for breakfast, lunch and dinner.
+				</p>
+			</div>
+		</div>
+  
+	<!-- End of Banner Image and Title Bar Elements -->
+	
+	<!---------------------------------------------------------------------------------------------------------------------------------------------- MENU SELECT -->
+	<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
+	<div class='container'>
+		<label for="menuSelect">Meal Period:</label>
+		<select name="menuSelect" id="menuSelect" onchange="selectMenu();">
+			<option value='breakfastMenu'>Breakfast (opening - 12PM)</option>
+			<option value='lunchMenu'>Lunch and Dinner (12PM)</option>
+		</select>
+	</div>
+
+	<div class='spacer'></div>
+	
+	<!------------------------------------------------------------------------------------------------------------------------------------------------ BREAKFAST -->
+	<section id='breakfastMenu' class='menuSection'>
+		
+		<h1 style='margin:auto; text-align:center;'>Breakfast Menu</h1>
+		<div class='spacer'></div>
+
+		<div class='container'>
+	        
+	        	<h3>Breakfast Favorites</h3>
+	            	
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Biscuites and Gravy Combo - $15.99</b><br>Fluffy buttermilk biscuits topped with creamy mushroom gravy served with house potatoes, eggs your way, and choice of bacon or sausage</p>
+		                <p><b>Breakfast Sandwich - $14.00</b><br>3-Cheese Egg, Applewood-smoked Bacon and Cheddar on Brioche, served with Breakfast Potatoes</p>
+		                
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Minecraftian Hash - $13.75</b><br>House potatoes topped with cheese, fried eggs, bell peppers, mushrooms, pico de gilo, and choice of meat</p>
+		                <p><b>The Adventurer's Breakfast - $15.00</b><br>2 large fluffy pancakes topped with granola and maple syrup served with 2 eggs your way and choice of bacon or sausage</p>
+		                
+	            	</div>
+            
+           	</div> <!-- end of section container -->
+            
+            <div class='spacer'></div>
+            
+            	<div class='container'>
+            
+	            	<h3>Pancakes and Waffles</h3>
+	            	<div class='menSub'>Toppings: Banana, Strawberry, Mixed Berry Compote, Granola - $1.25 each</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Buttermilk Pancakes - $9.99</b><br>Two fluffy pancakes topped with whipped buttercream</p>
+		                <p><b>Pancake Sundae - $13.75</b><br>1 large pancake topped with vanilla icecream, granola, and diced strawberry. <em>Substitute pancake for waffle $2.15</em></p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Just a Waffle - $9.99</b><br>Large crispy waffle topped with whipped buttercream</p>
+		                <p><b>Finona's Chicken and Waffles - $15.00</b><br>Large waffle topped with crispy chicken tenders and a drizzle of maple syrup</p>  
+	           	</div>
+            
+        	</div> <!-- end of section container -->
+
+	<div class='spacer'></div>
+            
+            	<div class='container'>
+            
+	            	<h3>Breakfast Basics</h3>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Avocado Toast - $8.00 <em class='vegan'>v</em></b><br>Sourdough toast with thick avocado spread, sliced tomato, feta cheese, pepitas, and drizzled garlic aioli<br><em>Add fried egg - $2</em></p>
+		                <p><b>Cheesy Scrambled Eggs - $6.00</b><br>Fluffy scrambled eggs topped with cheddar cheese and choice of sausage or bacon on the side</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Classic Overnight Oats - $7.00 <em class='vegan'>v</em></b><br>Classic oatmeal topped with brown sugar, diced green apple, and banana</p>
+		                <p><b>Side of Eggs - $4 </b><br>2 eggs done your way</p>
+				<p><b>House Potatoes - $4.00</b></p>
+	           	</div>
+            
+        	</div> <!-- end of section container -->
+
+		
+	</section> <!-- end of BREAKFAST container -->
+
+	<!---------------------------------------------------------------------------------------------------------------------------------------------------- LUNCH -->
+	<section id='lunchMenu' class='menuSection'>
+		
+		<h1 style='margin:auto; text-align:center;'>Lunch and Dinner Menu</h1>
+		<div class='spacer'></div>
+
+		<div class='container'>
+	        
+	        	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	            	</div>
+            
+           	</div> <!-- end of section container -->
+            
+            <div class='spacer'></div>
+            
+            	<div class='container'>
+            
+	            	<h3>Section Name</h3>
+	            	<div class='menSub'>Subtext Goes Here</div>
+	        
+	        	<div class='menuColumn'>
+		            	<p><b>Menu Item 1</b><br>Description of item here</p>
+		                <p><b>Menu Item 2</b><br>Description of item here</p>
+		                <p><b>Menu Item 3</b><br>Description of item here</p>
+	            	</div>
+	            	<div class='menuColumn'>
+		            	<p><b>Menu Item 4</b><br>Description of item here</p>
+		                <p><b>Menu Item 5</b><br>Description of item here</p>
+		                <p><b>Menu Item 6</b><br>Description of item here</p>
+	           	</div>
+            
+        	</div> <!-- end of section container -->
+		
+	</section> <!-- end of LUNCH container -->
+
+	<div class='spacer'></div>
+
+	<div class='container' style='text-align:left; max-width:900px;'>
+		<h2>Allergen Information</h2>
+		<p><em class='vegan'>v</em> - Vegan</p>
+		<p>All food prepared at this restaurant holds the possibility of coming into contact with meat, dairy, and nuts.</p>
+		<p>Please inform your server if you have a severe food allergy.</p>
+		<br>
+		<p><em>All prices are subject to change without notice</em></p>
+	</div>
+
+	<div class='container'>
+		<button onclick='history.back()'>back</button>
+	</div>
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<!-- SHOW OR HIDE MENUS -->
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectMenu();</script>
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
