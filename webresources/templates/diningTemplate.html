@@ -21,10 +21,12 @@
 	<!-- BANNER IMAGE AND TITLE BAR -->
 	<!------------------------------------------------------------------------------------------------------------------------------------------ ABOUT RESTURAUNT -->
     	<div class='diningBanner'>
-			<img src='https://i0.wp.com/seds.org/wp-content/uploads/2020/03/placeholder.png?fit=1200%2C800&ssl=1'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im1' style='display:block;' onclick='showImage("im2", "block", "im1")'>
+            		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im2' onclick='showImage("im3", "block", "im2")'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im3' onclick='showImage("im1", "block", "im3")'>
 			<div>
 				<h1>RESTURAUNT_NAME</h1>
-				Dining located in <em>LAND_NAME</em> in Adventure Park
+				<a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Dining</a> located in <em>LAND_NAME</em> in Adventure Park
 				<p>
 					Restaurant_Description
 				</p>
@@ -54,7 +56,7 @@
 			<h1>Breakfast Menu</h1>
 			
 			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Section One</h3> 
+			<h3>Section_One</h3> 
 			Section One Description Text
 
 				<div class='menuContent'>
@@ -72,7 +74,7 @@
 			
 
 			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Section Two</h3> 
+			<h3>Section_Two</h3> 
 			Section Two Description Text
 
 				<div class='menuContent'>
@@ -88,10 +90,41 @@
 					</div>
 				</div>
 			
+
+			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
+			<h3>Beverages</h3> 
+			<!-- Standard Selection of Beverages -->
+			
+				<div class='menuContent'>
+					<div>
+						<p><b>Hot Coffee - $3.75</b><br>Cafe Cafe Home Brew<sup>TM</sup> | regular or decaf</p>
+						<p><b>Juice Cup - $4.00</b><br>Boxed apple juice or orange juice</p>
+						<p><b>'LAND_NAME' Souvenir Cup - $18.00</b><br>Collectable souvenir cup only available in the park. Includes free-refills on day of purchase only.</p>
+					</div>
+					<div>
+						<p><b>Premium Bottled Water - $5.00</b></p>
+						<p><b>Bottled Milk - $4.25</b></p>
+						<p><b>Fountain Drinks - $4.60</b><br>Provided by <em>Coke Freestyle</em> - choose from 100 different flavors and mixes!</p>
+					</div>
+				</div>
+			
 		</section>
 
 
+		<div class='spacer'></div>
 
+		<div class='container' style='text-align:left; max-width:900px;'>
+			<h2>Allergen Information</h2>
+			<p><span class='vegan'>v</span> - vegan</p>
+			<p>All food prepared at this restaurant holds the possibility of coming into contact with meat, dairy, and nuts.</p>
+			<p>Please inform your server if you have a severe food allergy.  </p>
+			<br>
+			<p><em>All prices are subject to change without notice</em></p>
+		</div>
+
+		<div class='container'>
+			<button onclick='history.back();'> Back to previous </button>
+		</div>
 
 
 
