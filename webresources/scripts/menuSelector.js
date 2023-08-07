@@ -10,3 +10,18 @@ function selectMenu(){
 
   document.getElementById(curSelection).style.display = 'block';
 }
+
+
+function showImage(idText, dType, hideText){
+  let curSelection = document.getElementById(idText);
+  let nonSelection = document.getElementById(hideText);
+  curSelection.style.display = dType;
+  if(hideText != ''){
+    nonSelection.style.display = 'none';
+  }
+}
+
+function hideImage(idText){
+  let curSelection = document.getElementById(idText);
+  curSelection.style.display = 'none';
+}
