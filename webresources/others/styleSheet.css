@@ -42,7 +42,7 @@ body{
   
   	.spotlightContainer{display:flex; justify-content:center; align-items:center; flex-flow:row; flex-wrap:wrap; max-width:1200px; margin:auto; width:100%;}
   	.spotlightTile{position:relative; width:30%; margin:1%; height:auto;  transition:0.4s; border:1px solid black; border-radius:10px; text-align:center; max-width:450px; align-self:stretch;}
-  	.spotlightTile img{width:100%; height:200px; border-radius:9px 0 9px 0; margin:0; object-fit:cover;}
+  	.spotlightTile img{width:100%; height:200px; border-radius:9px 9px 0 0; margin:0; object-fit:cover;}
 	.spotlightText{padding:15px; padding-top:0;}
   	.spotlightTile:hover{background:#efefef; cursor:pointer;}
   	.spotlightTile:hover h3{color:black;}
