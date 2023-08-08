@@ -78,7 +78,7 @@ function setBannerDisplays(){
       break;
     default:
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[0];
-      videoBanner.innerHTML = "<img id='videoBanner' src='https://media0.giphy.com/media/pHoXs2uHHMenUq8AQA/giphy.gif'>";
+      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       
   }//end switch
 
