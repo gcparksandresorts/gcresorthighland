@@ -78,8 +78,8 @@ const june = [];
       june[1] = "<h3>Welcome to the SummerFest<sup>TM</sup> Celebration!</h3>Brand new entertainment, food offerings, merchandise and more have filled every corner of Adventure Park for a sunny summer you won't forget!";
       june[2] = "";
 
-      june[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
-      june[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
+      june[3] = "https://thepointsguy.global.ssl.fastly.net/us/originals/2023/06/20230619_Disney-Pride-Night_KMartinez_50.jpg";
+      june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This month experience pridefull new sweets and treats at participating resturaunts in the resort as well as in-park decorations and new merchandise!";
       june[5] = "";
 
       june[6] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
