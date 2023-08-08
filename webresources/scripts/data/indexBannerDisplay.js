@@ -25,15 +25,15 @@ const bannerTxtDisp = [];
 
 
 // ----------------------------------------------------------------------------------------------------------------------------- DISPLAY OBJECTS
-const vidBannerTxtBox = document.getElementById("videoBannerTextBoxContent");
-const videoBanner = document.getElementById("videoContainer");
+var vidBannerTxtBox = document.getElementById("videoBannerTextBoxContent");
+var videoBanner = document.getElementById("videoContainer");
 
 var debugMonth = -1;
 
 
 // ---------------------------------------------------------------------------------------------------------------------------------- JAVASCRIPT
 const d = new Date();
-const todayMonth = d.getMonth();
+var todayMonth = d.getMonth();
 
 function setBannerDisplays(){
   switch(todayMonth){
