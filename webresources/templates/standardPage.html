@@ -7,9 +7,18 @@
 	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
-  	<title>PAGE TITLE | Globe-City Resort Highland</title>
+  	<title>Attractions and Entertainment | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+
+		.attractionContainer {display:flex; flex-flow:row; flex-wrap:wrap; padding:15px; margin:auto; max-width:1200px; align-content:flex-start;}
+		.attractionContainer .tile {width:29%; min-width:300px; text-align:left; padding:0; margin:2%; align-self:stretch; 
+					    cursor:pointer;  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); border-radius:11px;}
+		.attractionContainer .tile img {width:100%; height:200px; object-fit:cover; border-radius:10px 10px 0 0;}
+		.attractionContainer .tile div {width:100%; position:relative; margin:0; padding:10px; padding-bottom:30px; background:azure;} 
+		.attractionContainer .tile div h3{font-weight:normal; color:#073763; margin-bottom:0;} .attractionContainer .tile div .sponsor{margin-top:0;font-size:12px; font-weight:bold;} .attractionContainer .tile div .warnings{display:block; position:absolute; bottom:10px; font-style:italic;}
+		
+	</style>
 
 </head>
 
@@ -20,14 +29,97 @@
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
 	<div class='banner'><img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'></div>
-  	<div class='titleBar'><h2>Template Page 1</h2></div>
-	<div class='subtitleBar'><p>This is where the page summary goes</p></div>
+  	
+	<div class='subtitleBar'><br><h1>Attractions and Entertainment</h1></div>
 	<!-- End of Banner Image and Title Bar Elements -->
 	
 	
-	  Body Contents Go Here
+	<div class='container'>
+		<label for="sectionSelect">Location</label>
+		<select name="sectionSelect" id="sectionSelect" onchange="selectSection();">
+			<option value='view-all'>View All</option>
+			<option value='apSection'>Adventure Park</option>
+			<option value='csSection'>City-Shop</option>
+			<option value='rhSection'>Resort Hotels</option>
+			
+			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+		</select>
+	</div>
 
+	<div class='spacer'></div>
 
+	<section class='sectionContainer' id='apSection'>
+		<div class='leftContainer'>
+			<h1 style='display:inline-block;'>Adventure Park </h1>
+			<h3 style='font-weight:normal; display:inline-block;'></h3>
+		</div>
+
+		<h2 style='display:inline-block;'>High Thrill Experiences</h2>
+		<h3 style='font-weight:normal; display:inline-block;'> | 6 things to do</h3>
+		
+		<div class='attractionContainer'>
+			
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Name_of_Attraction</h3>
+				<p class='sponsor'>Attraction_Sponsor</p>
+				<p class='warnings'>Minimum Height: 00" / 00cm</p>
+				</div>
+			</div>
+
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Ride the Beat: Waveriders</h3>
+				<p class='sponsor'>Presented by <em>ENERGIZER</em></p>
+				<p class='warnings'>Minimum Height: 48" / 122cm</p>
+				</div>
+			</div>
+
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Mision 12</h3>
+				<p class='sponsor'></p>
+				<p class='warnings'>Minimum Height: 40" / 102cm</p>
+				</div>
+			</div>
+
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Space Jump</h3>
+				<p class='sponsor'></p>
+				<p class='warnings'>Minimum Height: 45" / 115cm</p>
+				</div>
+			</div>
+
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Crusader</h3>
+				<p class='sponsor'>Presented by Outdoor | WEAR</p>
+				<p class='warnings'>Minimum Height: 45" / 115cm</p>
+				</div>
+					
+			</div>
+
+			<div class='tile'>
+				<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+				<div>
+				<h3>Tomb of the Emperor's Curse</h3>
+				<p class='sponsor'></p>
+				<p class='warnings'>Minimum Height: 40" / 115cm</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</section>
+
+	
 	
 <!-- Footer Elements --><div id="footer"></div>
 </body>
@@ -35,6 +127,10 @@
 	
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectSection();</script>
+	
+	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
