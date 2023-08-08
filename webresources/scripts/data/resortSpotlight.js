@@ -173,17 +173,19 @@ const monthsNamed = ["January", "February", "March", "April", "May", "June", "Ju
 const mainBody = document.getElementById('resortSpotlightContainer');
 const monthDisplay = document.getElementById('resortSpotlightDate');
 
+const tdate = new Date();
+vtdate = tdate.getMonth();
+
 function createSpotlight(){
 
   // Display this month and the year
-  let tdate = new Date();
   let thisMonthNamed = monthsNamed[tdate.getMonth()];
   monthDisplay.innerHTML = thisMonthNamed + " " + tdate.getFullYear();
 
   let temp = [];
 
   // Create the Spotlight
-  switch(tdate.getMonth()){
+  switch(vtdate){
     case 0:
       temp[0] = january[0]; temp[1] = january[1]; temp[2] = january[2];
       temp[3] = january[3]; temp[4] = january[4]; temp[5] = january[5];
