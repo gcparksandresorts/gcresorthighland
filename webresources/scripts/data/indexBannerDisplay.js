@@ -52,23 +52,19 @@ function setBannerDisplays(){
       break;
     case 4:                               // May
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'>";
-      videoBanner.innerHTML += '<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4"> </video>';
+      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       break;
     case 5:                               // June
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'>";
-      videoBanner.innerHTML += '<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4"> </video>';
+      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       break;
     case 6:                               // July
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'>";
-      videoBanner.innerHTML += '<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4"> </video>';
+      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       break;
     case 7:                               // August
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[0];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'>";
-      videoBanner.innerHTML += '<source src="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4" type="video/mp4"> </video>';
+      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       break;
     case 8:                               // September
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[3];
