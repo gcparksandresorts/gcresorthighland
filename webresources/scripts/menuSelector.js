@@ -35,5 +35,13 @@ function selectSection() {
           divsToHide[i].style.display = "none"; // depending on what you're doing
       }
 
-    document.getElementById(curSelection).style.display = 'block';
+    if(curSelection == "view-all"){
+      var divsToHide = document.getElementsByClassName("sectionContainer"); //divsToHide is an array
+      for(var i = 0; i < divsToHide.length; i++){
+          divsToHide[i].style.display = "block"; // depending on what you're doing
+      }
+    }
+    else{
+      document.getElementById(curSelection).style.display = 'block';
+    }
 }
