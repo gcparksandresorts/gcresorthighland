@@ -179,7 +179,7 @@ vtdate = tdate.getMonth();
 function createSpotlight(){
 
   // Display this month and the year
-  let thisMonthNamed = monthsNamed[tdate.getMonth()];
+  let thisMonthNamed = monthsNamed[vtdate];
   monthDisplay.innerHTML = thisMonthNamed + " " + tdate.getFullYear();
 
   let temp = [];
