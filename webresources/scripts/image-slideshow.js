@@ -27,22 +27,26 @@ function nextSlide(n){
     case 1:
       im1.style.display = "block";
       im4.style.display = "none";
-      setInterval(nextSlide(2), slideTime);
+      setInterval(waitPeriod(2), slideTime);
       break;
     case 2:
       im1.style.display = "none";
       im2.style.display = "block";
-      setInterval(nextSlide(3), slideTime);
+      setInterval(waitPeriod(3), slideTime);
       break;
     case 3:
       im2.style.display = "none";
       im3.style.display = "block";
-      setInterval(nextSlide(4), slideTime);
+      setInterval(waitPeriod(4), slideTime);
       break;
     case 4:
       im3.style.display = "none";
       im4.style.display = "block";
-      setInterval(nextSlide(1), slideTime);
+      setInterval(waitPeriod(1), slideTime);
       break;
   }
+}
+
+function waitPeriod(n){
+  nextSlide(n);
 }
