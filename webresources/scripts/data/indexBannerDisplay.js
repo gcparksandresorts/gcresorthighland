@@ -25,8 +25,8 @@ const bannerTxtDisp = [];
 
 
 // ----------------------------------------------------------------------------------------------------------------------------- DISPLAY OBJECTS
-var vidBannerTxtBox = document.getElementById("videoBannerTextBoxContent");
-var videoBanner = document.getElementById("videoContainer");
+const vidBannerTxtBox = document.getElementById("videoBannerTextBoxContent");
+const videoBanner = document.getElementById("videoContainer");
 
 var debugMonth = -1;
 
