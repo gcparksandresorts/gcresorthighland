@@ -22,23 +22,23 @@ function runSlideShowFour(s){
   setInterval(secondSlide(), slideTime);
 }
 
-function firstSlide{
+function firstSlide(){
       im1.style.display = "block";
       im4.style.display = "none";
-      setInterval(secondSlide, slideTime);
+      setInterval(secondSlide(), slideTime);
 }
-function secondSlide{
+function secondSlide(){
       im2.style.display = "block";
       im1.style.display = "none";
-      setInterval(thirdSlide, slideTime);
+      setInterval(thirdSlide(), slideTime);
 }
-function thirdSlide{
+function thirdSlide(){
       im3.style.display = "block";
       im2.style.display = "none";
-      setInterval(fourthSlide, slideTime);
+      setInterval(fourthSlide(), slideTime);
 }
-function fourthSlide{
+function fourthSlide(){
       im4.style.display = "block";
       im3.style.display = "none";
-      setInterval(firstSlide, slideTime);
+      setInterval(firstSlide(), slideTime);
 }
