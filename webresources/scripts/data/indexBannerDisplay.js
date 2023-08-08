@@ -79,6 +79,8 @@ function setBannerDisplays(){
       videoBanner.innerHTML = "<img id='videoBanner' src='https://media0.giphy.com/media/pHoXs2uHHMenUq8AQA/giphy.gif'>";
       
   }//end switch
+
+  consol.log("Index Welcome Banner Set for Month" + todayMonth);
 }//end setBannerDisp
 
 function runDebug(){
