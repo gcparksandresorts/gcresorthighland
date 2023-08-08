@@ -12,10 +12,12 @@ const bannerTxtDisp = [];
 
   // SummerFest
   bannerTxtDisp[1] = "<h2>Globe-City's Summer Fest<sup>TM</sup> is Here!</h2>Gather your family and friends and set forth on an adventure of a lifetime! \
-                      Partake in the summer festivities and let your spirits soar as you create memories to cherish forever!<br><a href='https://gcparksandresorts.github.io/gcresorthighland/events' >View Special Event</a>";
+                      Partake in the summer festivities and let your spirits soar as you create memories to cherish forever!  \
+                      <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/summerfest'>View Special Event</a>";
   
   // Season of Light
-  bannerTxtDisp[2] = "<h2>The Holidays Are Here!</h2>Season of Light has returned for a holiday full of sparkles, magic, and joy<br><a href='#ttdSection' >View Special Event</a>";
+  bannerTxtDisp[2] = "<h2>The Holidays Are Here!</h2> Season of Light<sup>TM</sup> has returned! Immerse yourself in the holiday spirit, from enchanting light displays to heartwarming live performances. Bring your loved ones and create cherished memories as you share laughter, joy, and the true essence of the holidays. \
+                      <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light' >View Special Event</a>";
 
   // Spooky Season
   bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights with the return of Sally's Halloween After-Party<sup>TM</sup>!<br><a href='#ttdSection' >View Special Event</a>";
