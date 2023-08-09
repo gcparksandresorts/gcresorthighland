@@ -47,7 +47,7 @@ body{
 	.spotlightText{padding:15px; padding-top:0;}
   	.spotlightTile:hover{background:#efefef; cursor:pointer;}
   	.spotlightTile:hover h3{color:black;}
-	.spotlightTile a{position:absolute; bottom:15px; left:0; right:0;}
+	.spotlightTile .splink{position:absolute; bottom:15px; left:0; right:0;}
   	@media screen and (max-width:900px){.spotlightContainer{flex-flow:column;} .spotlightTile{width:90%; margin:0; margin-bottom:20px; align-self:center; min-width:250px;}}
 
 
