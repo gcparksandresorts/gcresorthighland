@@ -12,7 +12,7 @@
 		if(td.getMonth() == 7 || td.getMonth() == 9 ){
 			let hb = document.getElementById("headerBar");
 
-			hb.style["background"] = "url:('https://media.istockphoto.com/id/1210655852/vector/abstract-gradient-empty-blurred-violet-background-pink-blue-purple-violet-gradient.jpg?s=612x612&w=0&k=20&c=7kGBgGg3QcQyNv0Kpxr5ns_eTFNtSm3remOFmLKHJbo=')";
+			hb.style["background"] = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
 			hb.style["background-size"] = "cover";
 			hb.style["background-repeat"] = "no-repeat";
 			hb.style["background-position"] = "center";
