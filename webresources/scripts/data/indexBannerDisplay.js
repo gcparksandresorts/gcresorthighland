@@ -92,6 +92,7 @@ function runDebug(){
 
   todayMonth = debugMonth;
   vtdate = debugMonth;
+  curDate = debugMonth;
   createSpotlight();
   setBannerDisplays();
 }
