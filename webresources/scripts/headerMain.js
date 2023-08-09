@@ -45,7 +45,7 @@
 			console.log('HAPPY PRIDE!!'); 
 		}
 		// If september or october set headerto halloween color scheme
-		if(curDate.getMonth() == 7 || curDate.getMonth() == 9 ){
+		if(curDate.getMonth() == 8 || curDate.getMonth() == 9 ){
 
 			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
 			headBar.style.backgroundSize = "cover";
