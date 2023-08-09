@@ -45,12 +45,11 @@
 		}
 		// If september or october set headerto halloween color scheme
 		if(curDate.getMonth() == 7 || curDate.getMonth() == 9 ){
-			let hb = document.getElementById("headerBar");
 
-			hb.style.background = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
-			hb.style.backgroundSize = "cover";
-			hb.style.backgroundRepeat = "no-repeat";
-			hb.style.backgroundPosition = "center";
+			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
+			headBar.style.backgroundSize = "cover";
+			headBar.style.backgroundRepeat = "no-repeat";
+			headBar.style.backgroundPosition = "center";
 
 			console.log("Header Set For Halloween");
  		}
