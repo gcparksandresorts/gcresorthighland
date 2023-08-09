@@ -86,7 +86,7 @@ function setBannerDisplays(){
 }//end setBannerDisp
 
 function runDebug(){
-  debugMonth += 1;
+  debugMonth = window.prompt("Enter a Numerical Value for the Month","1") - 1;
   if(debugMonth > 11){debugMonth = 0;}
   alert("Month set to: " + debugMonth);
 
