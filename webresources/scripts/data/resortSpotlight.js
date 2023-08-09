@@ -139,30 +139,30 @@ const october = [];
       october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
 
 const november = [];
-      november[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
-      november[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
-      november[2] = "";
+      november[0] = "https://eikhu9b6e94.exactdn.com/wp-content/uploads/2022/11/Disneyland-holiday-minnie-mickey-goofy-donald-daisy-new-costumes-2022.jpeg?strip=all&lossy=0&quality=80&webp=80&avif=80&ssl=1";
+      november[1] = "<h3>Happy Holidays!</h3>Snow is beggining to fall on the Globe-City Resort Highland as we get into the wonderful holiday spirit!";
+      november[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog";
 
       november[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
-      november[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
-      november[5] = "";
+      november[4] = "<h3>Thanksgiving at the Aztech Resort</h3>Spend your Thanksgiving dining under gorgeous chandeliers with live entertainment at the <a>Very Merry Thanksgiving Feast</a> hosted by the Aztech Resort.";
+      november[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/very-merry-thanksgiving-feast";
 
-      november[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      november[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      november[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+      november[6] = "https://content.api.news/v3/images/bin/e22c63f4a09424eb87386003dd43a90f";
+      november[7] = "<h3>Give the Gift of Adventure</h3>This season, give the gift of an unforgettable Adventure with new affordable vacation packages at the Globe-City Resort!";
+      november[8] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/promotions";
 
 const december = [];
-      december[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
-      december[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      december[0] = "https://www.app.com/gcdn/presto/2022/06/09/PAPP/c1070e25-cd9c-4331-9b97-2c64af04cc8b-game060922c.jpg";
+      december[1] = "<h3>Santa Needs Your Help!</h3>Test your skills at this exclusive Season of Light overlay of the <a>Boardwalk Midway</a>! How many presents can you successfuly deliver to the restless children of SnowVille?";
       december[2] = "";
 
-      december[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
-      december[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
-      december[5] = "";
+      december[3] = "https://i.ytimg.com/vi/6Fhr_dqNEB8/maxresdefault.jpg";
+      december[4] = "<h3>A Holiday Foodie's Favorites</h3>Our Creative Culinary head chef, Ashley Franco, takes us on a tour of the wonderful holiday food and beverage options at Adventure Park";
+      december[5] = "https://gcparksandresorts.github.io/gcresorthighland/blog/december/ashleys-foodie-tour";
 
-      december[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      december[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      december[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+      december[6] = "https://www.themeparkinsider.com/art/flume/8644.jpg";
+      december[7] = "<h3>New Years at Adventure Park</h3>End this year in style at Adventure Park's annual <a>New Years Eve Celebration</a> complete with live entertainment, fireworks, and more!";
+      december[8] = "https://gcparksandresorts.github.io/gcresorthighland/events";
 
 
 // ------------------------------------------------------------------------------------------------------------------------------- MONTHS
