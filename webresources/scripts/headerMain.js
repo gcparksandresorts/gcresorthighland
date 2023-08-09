@@ -7,16 +7,6 @@
 
 	function runHeaderSetup(){
 		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
-
-		let td = new Date();
-		if(td.getMonth() == 7 || td.getMonth() == 9 ){
-			let hb = document.getElementById("headerBar");
-
-			hb.style.background = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
-			hb.style.backgroundSize = "cover";
-			hb.style.backgroundRepeat = "no-repeat";
-			hb.style.backgroundPosition = "center";
- 		}
 		
 		createFooter();
 		initializeHeader();
@@ -53,6 +43,17 @@
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
 			console.log('HAPPY PRIDE!!'); 
 		}
+		// If september or october set headerto halloween color scheme
+		if(curDate.getMonth() == 7 || curDate.getMonth() == 9 ){
+			let hb = document.getElementById("headerBar");
+
+			hb.style.background = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
+			hb.style.backgroundSize = "cover";
+			hb.style.backgroundRepeat = "no-repeat";
+			hb.style.backgroundPosition = "center";
+
+			console.log("Header Set For Halloween");
+ 		}
 	}
 
 	window.onresize = function(){initializeHeader();};
