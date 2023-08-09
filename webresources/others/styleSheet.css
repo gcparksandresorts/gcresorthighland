@@ -36,7 +36,7 @@ body{
 	.titleBar img {height:100px; width:auto; margin:10px;}
 
 	.subtitleBar {width:full; margin-top:-20px; padding:15px; background:#efefef; text-align:center;}
-	.subtitleBar p {max-width:1200px;}
+	.subtitleBar p {max-width:1200px; margin-left:auto; margin-right:auto;}
 
 
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
