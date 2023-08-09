@@ -17,17 +17,18 @@
     cursor:pointer;
 }
 .headerBarButton{
-    width:auto;
-    height:60px;
-    margin:0;
-	float:right;
-    text-align:center;
-    padding:19px 10px;
-    font-size:16px;
-    transition:0.25s;
-    color:white;
-    cursor:pointer;
-    border-radius:0;
+	    width:auto;
+	    height:60px;
+	    margin:0;
+		float:right;
+	    text-align:center;
+	    padding:19px 10px;
+	    font-size:16px;
+	    transition:0.25s;
+	    color:white;
+	    cursor:pointer;
+	    border-radius:0;
+		border:none;
 }
 #headerBarTP{
     float:right;
