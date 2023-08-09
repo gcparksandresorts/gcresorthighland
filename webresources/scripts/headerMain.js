@@ -46,9 +46,19 @@
 			console.log('HAPPY PRIDE!!'); 
 		}
 		// If september or october set headerto halloween color scheme
-		if(curDate == 8 || curDate == 9 ){
+		else if(curDate == 8 || curDate == 9 ){
 
 			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
+			headBar.style.backgroundSize = "cover";
+			headBar.style.backgroundRepeat = "no-repeat";
+			headBar.style.backgroundPosition = "center";
+
+			console.log("Header Set For Halloween");
+ 		}
+		// If november or december set headerto SOL color scheme
+		else if(curDate == 10 || curDate == 11 ){
+
+			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/solbkg01.jpg')";
 			headBar.style.backgroundSize = "cover";
 			headBar.style.backgroundRepeat = "no-repeat";
 			headBar.style.backgroundPosition = "center";
