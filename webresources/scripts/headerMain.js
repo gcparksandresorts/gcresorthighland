@@ -5,6 +5,8 @@
 	const hotelsLink = '"https://gcparksandresorts.github.io/gcresorthighland/hotels", "_self"';
 	const eventsLink = '"https://gcparksandresorts.github.io/gcresorthighland/events", "_self"';
 
+	curDate = new Date();
+
 	function runHeaderSetup(){
 		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
 		
@@ -38,7 +40,6 @@
 		}//end of else statemement
 
 		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
-		let curDate = new Date();
 		if(curDate.getMonth() == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
 			console.log('HAPPY PRIDE!!'); 
