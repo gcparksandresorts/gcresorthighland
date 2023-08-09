@@ -82,7 +82,7 @@ function setBannerDisplays(){
       
   }//end switch
 
-  consol.log("Index Welcome Banner Set for Month" + todayMonth);
+  console.log("Index Welcome Banner Set for Month" + todayMonth);
 }//end setBannerDisp
 
 function runDebug(){
