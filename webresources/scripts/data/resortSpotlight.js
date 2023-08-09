@@ -252,9 +252,9 @@ function createSpotlight(){
       
   }// end of switch
 
-      mainBody.innerHTML = "<div class='spotlightTile' onclick='" + 'window.open("' + temp[2] + '");' + "'><img src='"+temp[0]+"'><div class='spotlightText'>"+temp[1]+"</div><br><br><a>Learn More</a><br></div>";
-      mainBody.innerHTML += "<div class='spotlightTile' onclick='" + 'window.open("' + temp[5] + '");' + "'><img src='"+temp[3]+"'><div class='spotlightText'>"+temp[4]+"</div><br><br><a>Learn More</a><br></div>";
-      mainBody.innerHTML += "<div class='spotlightTile' onclick='" + 'window.open("' + temp[8] + '");' + "'><img src='"+temp[6]+"'><div class='spotlightText'>"+temp[7]+"</div><br><br><a>Learn More</a><br></div>";
+      mainBody.innerHTML = "<div class='spotlightTile' onclick='" + 'window.open("' + temp[2] + '");' + "'><img src='"+temp[0]+"'><div class='spotlightText'>"+temp[1]+"</div><br><br><a class='splink'>Learn More</a><br></div>";
+      mainBody.innerHTML += "<div class='spotlightTile' onclick='" + 'window.open("' + temp[5] + '");' + "'><img src='"+temp[3]+"'><div class='spotlightText'>"+temp[4]+"</div><br><br><a class='splink'>Learn More</a><br></div>";
+      mainBody.innerHTML += "<div class='spotlightTile' onclick='" + 'window.open("' + temp[8] + '");' + "'><img src='"+temp[6]+"'><div class='spotlightText'>"+temp[7]+"</div><br><br><a class='splink'>Learn More</a><br></div>";
 
   
 }//end of function
