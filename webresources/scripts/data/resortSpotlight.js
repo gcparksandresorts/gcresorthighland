@@ -95,48 +95,48 @@ const july = [];
       july[4] = "<h3>Celebrate the 4th In Style</h3>For the whole month of July, Adventure Park will feature special decorations and food offerings. On July 4th, expect a celebratory fireworks spectacular!";
       july[5] = "";
 
-      july[6] = "https://premier-rides.com/wp-content/uploads/2016/06/Revenge_of_the_Mummy_compressed.jpg";
-      july[7] = "<h3>&#127905; Ride Spotlight: Tomb of the Emperor's Curse</h3>Explore an abandonded tomb and find what treasures (and curses) lie within its stone walls";
-      july[8] = "";
+      july[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
+      july[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
+      july[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
 
 const august = [];
       august[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
       august[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
-      august[2] = "";
+      august[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
 
       august[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
       august[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
-      august[5] = "";
+      august[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
-      august[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      august[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      august[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+      august[6] = "https://premier-rides.com/wp-content/uploads/2016/06/Revenge_of_the_Mummy_compressed.jpg";
+      august[7] = "<h3>&#127905; Ride Spotlight: Tomb of the Emperor's Curse</h3>Explore an abandonded tomb and find what treasures (and curses) lie within its stone walls";
+      august[8] = "";
 
 const september = [];
       september[0] = "https://disneydose.com/wp-content/uploads/halloween-time-scott-brinegardisneyland.jpg";
       september[1] = "<h3>👻 Halloween Has Entered the Station 👻</h3>As the fog rolls in, we're shaking with excitement and getting our treat bags ready for the Halloween Season!";
-      september[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-afterparty";
+      september[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
 
-      september[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
+      september[3] = "https://s7d2.scene7.com/is/image/TWCNews/1025_n13_disney_springs_halloween_cookie_waffle_taco";
       september[4] = "<h3>New Spooky Treats Coming to Town &#127871</h3>Step into a world of frightful delights as we unleash the magic of Halloween into our menus throughout the resort!";
-      september[5] = "";
+      september[5] = "https://gcparksandresorts.github.io/gcresorthighland/dining/seasonal/halloween-menu";
 
       september[6] = "https://dapsmagic.com/wp-content/uploads/2023/02/Haunted-Mansion-Featured-Image-1.jpg";
       september[7] = "<h3>&#127905; Ride Spotlight: Sally's Manor</h3>Get into the spooky season spirit and take a tour of the famed haunted manor of Sally Spookson on this one-of-a-kind bone-chilling attraction";
       september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/sallys-manor";
 
 const october = [];
-      october[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
-      october[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
-      october[2] = "";
+      october[0] = "https://www.wdw-magazine.com/wp-content/uploads/2021/10/2021-oogie-boogie-bash_treat-trails_white-1.jpg";
+      october[1] = "<h3>More Tricks Than Treats!</h3>Endulge in a Halloween classic with a twist, all month long! During <a href='https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party'>Sally's Halloween After-Party</a>, trick-or-treat throughout the park equipped with a complimentary themed tote bag";
+      october[2] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/seasonal/halloween/trick-or-treating";
 
-      october[3] = "https://jollyrogerpieroc.com/app/uploads/2019/01/pier-night-43-min-scaled.jpg";
-      october[4] = "<h3>&#127918; Attraction Spotlight: Boardwalk Midway</h3>Test your skills and compete with family and friends in these classic midway games themed around Adventure Park";
+      october[3] = "https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp";
+      october[4] = "<h3>Frightful Fun for the Family!</h3>Gather your friends and family and spend this Halloween screaming with delight at the Globe-City Resort Highland! Try our advanced <a>Itinerary Creator</a> to craft your perfect Spooky Adventure";
       october[5] = "";
 
-      october[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      october[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+      october[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
+      october[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings";
+      october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
 
 const november = [];
       november[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
