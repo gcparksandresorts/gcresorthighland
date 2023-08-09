@@ -12,10 +12,10 @@
 		if(td.getMonth() == 7 || td.getMonth() == 9 ){
 			let hb = document.getElementById("headerBar");
 
-			hb.style["background"] = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
-			hb.style["background-size"] = "cover";
-			hb.style["background-repeat"] = "no-repeat";
-			hb.style["background-position"] = "center";
+			hb.style.backgroundImage = "url:('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
+			hb.style.backgroundSize = "cover";
+			hb.style.backgroundRepeat = "no-repeat";
+			hb.style.backgroundPosition = "center";
  		}
 		
 		createFooter();
