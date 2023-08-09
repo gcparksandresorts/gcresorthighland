@@ -2,12 +2,13 @@
 #headerSpacer{margin:0;width:full;height:60px;}
 
 #headerBar {
-    position:fixed;
-    top:0;right:0;left:0;
-    width:100vw;
-    height:60px;
-    background:#073763;
+    	position:fixed;
+    	top:0;right:0;left:0;
+    	width:100vw;
+    	height:60px;
+    	background:#073763;
 	z-index:999;
+	background-size:cover; background-repeat:no-repeat; background-position:center;
 }
 #headerBarLogo{
     width:auto;
