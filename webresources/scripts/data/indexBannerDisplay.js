@@ -20,7 +20,7 @@ const bannerTxtDisp = [];
                       <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light' >View Special Event</a>";
 
   // Spooky Season
-  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights with the return of Sally's Halloween After-Party<sup>TM</sup>!<br><a href='#ttdSection' >View Special Event</a>";
+  bannerTxtDisp[3] = "<h2>The Spookiest Season of All</h2>This Halloween, experience new frights, sights, and delights with the return of Sally's Halloween After-Party<sup>TM</sup>!<br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party' >View Special Event</a>";
 
 
 // ----------------------------------------------------------------------------------------------------------------------------- BANNER DISPLAYS
