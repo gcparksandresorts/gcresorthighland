@@ -59,7 +59,7 @@
 			<p>Take a ride aboard <a>Mission Overtaken</a>, an event exclusive overlay of Mission 12</p>
 		</div>
 	  	<div>
-			<img src='https://www.disneyfoodblog.com/wp-content/uploads/2021/09/Disneyland-Halloween-Food-Treats-2021-06-700x467.jpg'>
+			<img src='https://ziggyknowsdisney.com/wp-content/uploads/2019/12/disney-villains-after-hours-ursula.jpg'>
 			<h3>Meet Villanous New Characters</h3>
 			<p>All sorts of monsters and villains have come to Adventure Park to partake in the festivities</p>
 		</div>
@@ -69,6 +69,8 @@
 			<p>Create your own keepsakes at various arts & crafts stations throughout the park</p>
 		</div>
    	</div>
+
+	<br>
 
 	<div class='spacer'></div>
 
@@ -125,6 +127,23 @@
 	
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 
+	<script>
+
+		const linkToPurchasing = '"https://gcparksandresorts.github.io/gcresorthighland"';
+		const dateMIN = 6;
+		const dateMAX = 9;
+		
+		function purchaseIndicator(){
+			let isToday = new Date();
+			const buttonSpace = document.getElementById("buttonHolder");
+			if(isToday.getMonth() >= dateMIN && isToday.getMonth() <= dateMAX){
+				buttonSpace.innerHTML = "<button class='btnFull' onclick='window.open(" + linkToPurchasing +  ")'>Go to Ticketing Portal</button>";
+			}
+		}
+		
+	</script>
+	<script>purchaseIndicator();</script>
+	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
