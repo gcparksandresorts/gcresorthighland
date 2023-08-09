@@ -4,8 +4,9 @@
 
 	const hotelsLink = '"https://gcparksandresorts.github.io/gcresorthighland/hotels", "_self"';
 	const eventsLink = '"https://gcparksandresorts.github.io/gcresorthighland/events", "_self"';
-
+	
 	curDate = new Date();
+	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
 		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
@@ -40,12 +41,12 @@
 		}//end of else statemement
 
 		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
-		if(curDate.getMonth() == 5){
+		if(curDate == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
 			console.log('HAPPY PRIDE!!'); 
 		}
 		// If september or october set headerto halloween color scheme
-		if(curDate.getMonth() == 8 || curDate.getMonth() == 9 ){
+		if(curDate == 8 || curDate == 9 ){
 
 			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
 			headBar.style.backgroundSize = "cover";
