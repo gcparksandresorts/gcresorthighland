@@ -44,25 +44,35 @@
 	<div class='subtitleBar'><p>
 	    	 <h2>Adventure to a World of Cheer this Holiday Season</h2>
 	    	 Globe-City's Season of Light brings the magic to the holiday season with dazzling displays, holiday music, and all new in-park merchandise, food, and experiences. 
-  	</p></div>
+  	</p>
+
+		<p>
+			<label for='menuSelect'>Filter By Section</label>
+			<select id='menuSelect' name='menuSelect' onchange='goToSection()'>
+				<option value='view-all'>View All</option>
+				
+			</select>
+		</p>
+		
+	</div>
 	
 	<br><br><div style='text-align:center; margin:auto;'><h2>Fun for the Family at City-Shop</h2>Exclusive events and happenings at Highland's dazzling shopping center</div>
    
    	<div class='tileContainer'>
     		<div>
-			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png'>
+			<img src='https://hips.hearstapps.com/hmg-prod/images/disneyland-hotel-1570200266.png'>
 			<h3>A Very Merry Thanksgiving Feast</h3>
-			<p>Bring your family to a multi-course dinner experience with live entertainment</p>
+			<p>Treat your family to a multi-course dinner experience complete with live entertainment</p>
 		</div>
 	  	<div>
-			<img src='https://www.disneyfoodblog.com/wp-content/uploads/2021/09/Disneyland-Halloween-Food-Treats-2021-06-700x467.jpg'>
+			<img src='https://cdn-static.findly.com/wp-content/uploads/sites/1004/2019/11/HC8310-unistu-cws-citwalk-1900x700.jpg'>
 			<h3>Holy-Nite at Fountain Plaza</h3>
-			<p>Gather around for an exclusive holiday screening at City-Shop's Fountain Plaza</p>
+			<p>Gather around for a free holiday movie screening at City-Shop's Fountain Plaza</p>
 		</div>
-	   	<div>
-			<img src='https://cache.undercovertourist.com/blog/2021/08/0921-best-places-view-disneyland-fireworks-halloween-screams.jpg'>
+	   	<div onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop")'>
+			<img src='https://people.com/thmb/vd4HI518dwIuTdHH2WUeeeeINIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x39:721x41)/starbucks-holiday-103122-1-343d4c4342b54b889f6f3ad9caaf3412.jpg'>
 			<h3>The Spirit of New Sweets</h3>
-			<p>Visit our City-Shop vendors for seasonal sweets and treats</p>
+			<p>Visit our City-Shop vendors for seasonal sweets and treats. Annual Passholders also get extra discounts during the holiday season!</p>
 		</div>
    	</div>
 
@@ -72,70 +82,104 @@
 	
 	<div class='tileContainer'>
     		<div>
-			<img src='https://i.ytimg.com/vi/cM5EvEs4Dc4/maxresdefault.jpg'>
+			<img src='https://insidethemagic.net/wp-content/uploads/2020/12/sdjnlgjk4ngbe-e1669233187880-800x400.jpg'>
 			<h3>Shining Decorations and Lighting</h3>
-			<p>The Season of Light is no less than the most dazzling display of cheer</p>
+			<p>The Season of Light here is no less than the most dazzling display of cheer</p>
 		</div>
 	  	<div>
-			<img src='https://ziggyknowsdisney.com/wp-content/uploads/2019/12/disney-villains-after-hours-ursula.jpg'>
+			<img src='https://pixievacations.com/wp-content/uploads/2018/11/disney-world-foodie-guide-1024x576.jpg'>
 			<h3>All New Sweets and Treats</h3>
-			<p>Explore Adventure Park's new food and drink offerings</p>
+			<p>Explore Adventure Park's new food and drink offerings sure to get your tastebuds in the spirit</p>
 		</div>
 	   	<div>
-			<img src='https://i0.wp.com/accidentaltravelwriter.com/wp-content/uploads/2020/10/HKDL_Halloween_Art-Craft_02.jpg?ssl=1'>
+			<img src='https://www.travelandleisure.com/thmb/n5NKelmLBFrH8Y0ozohewSE9F4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rockin-roller-coaster-hollywood-studios-SCIENCEROCK0420-e5870f80e3f34c0fb6c4892f23d9006f.jpg'>
 			<h3>Unique Holiday Attractions</h3>
-			<p>Experience Ride the Beat: Holiday and save Christmas for Metropolis</p>
+			<p>Experience <a>Ride the Beat: Holiday</a> and brand new midway games at the <a>Boardwalk</a></p>
 		</div>
    	</div>
 
 	<br>
 
-	<div class='spacer'></div>
-
-	<div class='container'>
-		<h2>Purchase Tickets</h2>
-		<div id='buttonHolder'>
-			<p>No tickets available at this time</p>
+	<div class='fullContainer' style='background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("https://i.ytimg.com/vi/Q7dxto04xFk/maxresdefault.jpg"); background-size:cover; background-repeat:no-repeat; background-position:center; position:relative;'>
+		
+		<div class='columnContainer'>
+			<img src='https://live.staticflickr.com/3745/12000287585_b5d37d5e81_b.jpg'>
+			<div>
+				<h2 style=''>A Nighttime Spectacular Like No Other</h2>
+				This season, gaze in awe as the skies and sounds above Adventure Park ignite with magic and emotion during the award-winning <em>Spirit of the Holidays Spectacular</em>!
+				<p>In this awe inspiring performance, the Atlantis Castle and Adventure Bouelevard transform with the use of advanced projection and lighting into magnificent beacons of light and music. The sky then glows with dozens of world-class pyrotechnics while huge fountains of water dance. It's something you won't want to miss!</p>
+				<p><button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/spirit-of-the-holidays")'>Learn More</button></p>
+			</div>
 		</div>
-		<p class='disclaimer'>Powered by <em>Aztech Admit</em></p>
+	</div>
+
+
+	<br><div style='text-align:center; margin:auto;'><h2>More Jaw-Dropping Entertainment</h2>Unforgettable displays of light, music, dance, and more</div>
+	
+	<div class='tileContainer'>
+    		<div>
+			<img src='https://decider.com/wp-content/uploads/2022/12/disney-christmas-day-parade-1.jpg?quality=75&strip=all'>
+			<h3>Season of Snow Cavalcade</h3>
+			<p>Clap along as cheerful characters dance and sing down a snowy Adventure Boulevard</p>
+		</div>
+	  	<div>
+			<img src='https://www.universalbeijingresort.com/sites/default/files/2021-09/Triwizard%20Spirit%20Rally2.jpg'>
+			<h3>Dance of the Winter Fairies</h3>
+			<p>A joyful and eye catching performance of music and dance to celebrate winter</p>
+		</div>
+	   	<div>
+			<img src='https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg'>
+			<h3>Entrance Plaza Tree Lighting</h3>
+			<p>Watch as the enormous Plaza Christmas tree explodes in dozens of dazzling lights synced with the Atlantis Castle nightly</p>
+		</div>
+   	</div>
+
+	<br><div class='spacer'></div>
+					
+
+	<div class='container'>
+		<h2>Season of Light Admission</h2>
+		Access to Globe-City's Season of Light is <b>included with admission</b> to Adventure Park
+		<p><a href='https://gcparksandresorts.github.io/gcresorthighland/tickets'>Click Here to Purchase</a></p>
+		<br><div class='spacer'></div><br>
+		<p style='color:purple;'>Upgrade your visit with <b>GC VIP</b> admission and gain exclusive perks including</p>
+		<p><span style='display:inline-block; margin-left:10px; margin-right:10px;'>&#10024; Priority Queuing</span> <span style='display:inline-block; margin-left:10px; margin-right:10px;'>&#10024; Reserved Show Seating</span> <span style='display:inline-block; margin-left:10px; margin-right:10px;'>&#10024; VIP Lounges</span></p>
+		<button>Learn More</button>
+	</div>
+
+	
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<h1>Highland's Most Magical Celebration</h1>
+
+		<p style='text-align: justify; text-justify: inter-word;'>
+			Globe-City's Season of light Celebration is an annual event that takes over the entire resort. This event is included with general admission and features exclusive attractions including in-park decorations, new shows and entertainment, and exclusive rides and experiences. 
+		</p>
+
+		<p style='text-align: justify; text-justify: inter-word;'>
+			<b>When is Season of Light?</b><br>
+			This event occurs annually from the first Friday of November until the end of the first week of January. Although decorations will begin taking shape November 1st, all entertainment and exclusive event offerings will not be available until the event officially begins.
+		</p>
+
 	</div>
 
 	<div class='spacer'></div>
 
 	<div class='container'>
-		<h1>Highland's Happiest Halloween Celebration</h1>
-
-		<p style='text-align: justify; text-justify: inter-word;'>
-			Sally's Spooktacular Halloween After-Party is an annual nighttime event for the whole family located at Adventure Park. This event runs annually from September to the end of October and will begin at 7PM on select dates. Sally's Halloween After-Party is a separate ticket event meaning Adventure Park will be closed off to day guests during event hours. Expect fewer crowds and shorter attraction wait times! Sally's Halloween Party also features tons of exclusive entertainment and offerings for a night of tricks, treats, and spookctacular fun!
-		</p>
-
-		<h3>Entertainment and Attractions</h3>
-		<p style='text-align: justify; text-justify: inter-word;'>
-			During event hours, various themed entertainment opportunities will be setup throughout Adventure Park including a villainous dance party, a caroling ghost choir and an event specific nighttime fireworks spooktacular. In addition to live entertainment, there's lots more to do including trick-or-treating throughout Adventure Park, a ride aboard <a>Mission: Overtaken</a>, exclusive Halloween character greetings, and family-friendly arts & crafts stations throughout the park.
-		</p>
-
-		<h3>Exclusive Food and Drink Offerings</h3>
-		<p style='text-align: justify; text-justify: inter-word;'>
-			This Halloween, Adventure Park has more treats than tricks! Visit some of your favorite restaurants in Adventure Park for some spooky sweets and savory Halloween offerings or try something new at event exclusive food and drink carts. For the adults, event exclusive alcoholic beverages will be available throughout Adventure Park and for the family, explore our pop-up treat stops for some Halloween fun for your tastebuds!
-		</p>
-
-		<h3>Merchandise and More</h3>
-		<p style='text-align: justify; text-justify: inter-word;'>
-			Before the party begins, get ready to celebrate with some event exclusive accessories including light-up necklaces, head bands, and more! Then, take the party home with Sally's Halloween After-Party exclusive merchandise including frighteningly fashionable apparel, keepsakes, and more! Available during event hours only at any of our in-park gift-shops.
-		</p>
-
-	</div>
-
-	<div class='spacer'></div>
-
-	<div class='container'>
-		<p><b>Limited Availability of Tickets</b> - Tickets for Sally's Halloween After-Party are sold on a first-come first-serve basis and may sell out for certain nights</p>
-		<p>All logos, branding, names, and text on this page © 2024 Globe-City Parks and Resorts LLC.</p>
+		<p><b>Important Guidelines</b> - Always review our <a>Safety Guidelines</a> before visitng the resort</p>
+		<p>Spirit of the Holidays and other outdoor entertainment is subject to cancelation or delay on a nightly basis due to weather or other concerns. <br> Season of Light merchandise and food items are limited in quantity and sold while supplies last.</p>
+		<p>All logos, branding, names, and text on this page are © 2024 Globe-City Parks and Resorts LLC.</p>
 	</div>
 
 	<br>
 
+	<div class='container'>
+		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/events", "_self")'>View More Special Events</button> &emsp; <button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")'>Purchase Tickets</button>
 		
+	</div>
+
+	<br>
 
 	
 	
@@ -145,22 +189,7 @@
 	
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 
-	<script>
-
-		const linkToPurchasing = '"https://gcparksandresorts.github.io/gcresorthighland"';
-		const dateMIN = 6;
-		const dateMAX = 9;
-		
-		function purchaseIndicator(){
-			let isToday = new Date();
-			const buttonSpace = document.getElementById("buttonHolder");
-			if(isToday.getMonth() >= dateMIN && isToday.getMonth() <= dateMAX){
-				buttonSpace.innerHTML = "<button class='btnFull' onclick='window.open(" + linkToPurchasing +  ")'>Go to Ticketing Portal</button>";
-			}
-		}
-		
-	</script>
-	<script>purchaseIndicator();</script>
+	
 	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
