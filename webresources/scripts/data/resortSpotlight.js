@@ -121,9 +121,9 @@ const september = [];
       september[4] = "<h3>New Spooky Treats Coming to Town &#127871</h3>Step into a world of frightful delights as we unleash the magic of Halloween into our menus throughout the resort!";
       september[5] = "https://gcparksandresorts.github.io/gcresorthighland/dining/seasonal/halloween-menu";
 
-      september[6] = "https://dapsmagic.com/wp-content/uploads/2023/02/Haunted-Mansion-Featured-Image-1.jpg";
-      september[7] = "<h3>&#127905; Ride Spotlight: Sally's Manor</h3>Get into the spooky season spirit and take a tour of the famed haunted manor of Sally Spookson on this one-of-a-kind bone-chilling attraction";
-      september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/sallys-manor";
+      september[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
+      september[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings. Now through October";
+      september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
 
 const october = [];
       october[0] = "https://www.wdw-magazine.com/wp-content/uploads/2021/10/2021-oogie-boogie-bash_treat-trails_white-1.jpg";
@@ -135,7 +135,7 @@ const october = [];
       october[5] = "";
 
       october[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
-      october[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings";
+      october[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings. Now through October";
       october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
 
 const november = [];
