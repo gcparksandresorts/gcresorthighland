@@ -9,7 +9,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='headerSpacer'></div>";
+		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();'></div><div id='headerSpacer'></div>";
 		
 		createFooter();
 		initializeHeader();
@@ -114,7 +114,6 @@
 		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + dilnk + ")'>Resturaunts and Dining</button>";
 		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + shlnk + ")'>Shopping</button>";
 		
-		header.innerHTML += "<div id='ttdHide' onclick='hideTTD();'></div>";
 		document.getElementById("ttdHide").style.display='block';
 
 		ttdManu.style.display = 'block';
