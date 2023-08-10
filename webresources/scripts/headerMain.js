@@ -30,7 +30,7 @@
 			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + hotelsLink + ")'>Hotels and Resorts</button>";
-			headBar.innerHTML += "<button class='headerBarButton' onclick='showTTD()'>Things to Do &#9661;</button>";
+			headBar.innerHTML += "<button class='headerBarButton' onclick='showTTD()' id='ttdBtnH'>Things to Do &#9661;</button>";
 														
 		}//end of if statemement
 		else{
@@ -99,6 +99,9 @@
 	function showTTD(){
 		const ttdManu = document.getElementById("ttdMenu");
 
+		document.getElementById("ttdBtnH").style.background = "white";
+		
+
 		const aplnk = '"https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park", "_self"';
 		const cslnk = '"https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop", "_self"';
 		const aelnk = '"https://gcparksandresorts.github.io/gcresorthighland/attractions", "_self"';
@@ -117,5 +120,5 @@
 		
 	}
 
-	function hideTTD(){const ttdManu = document.getElementById("ttdMenu"); ttdManu.style.display = 'none'; }
+	function hideTTD(){const ttdManu = document.getElementById("ttdMenu"); ttdManu.style.display = 'none'; document.getElementById("ttdBtnH").style.background = "#073763";}
 
