@@ -9,7 +9,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();' monmouseover='hideTTD();'></div> <div id='moreHide' onclick='hideMore();' monmouseover='hideMore();'></div> <div id='headerSpacer'></div>";
+		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();' onmouseover='hideTTD();'></div> <div id='moreHide' onclick='hideMore();' onmouseover='hideMore();'></div> <div id='headerSpacer'></div>";
 		
 		createFooter();
 		initializeHeader();
@@ -138,6 +138,10 @@
 		moreManu.innerHTML = "<button class='moreBtn' onclick='window.open(" + inflnk + ")'>Resort Hours and Information</button>";
 		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + vplnk + ")'>GC VIP Admission</button>";
 		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + apslnk + ")'>Annual Passports</button>";
+
+		moreManu.style.display = 'block';
+
+		document.getElementById("moreHide").style.display='block';
 	}
 
 	function hideMore(){document.getElementById("moreMenu").style.display='none'; document.getElementById("moreHide").style.display='none';}
