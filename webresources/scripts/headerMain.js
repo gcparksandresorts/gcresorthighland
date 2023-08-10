@@ -9,7 +9,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();'></div><div id='headerSpacer'></div>";
+		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();' monmouseover='hideTTD();'></div> <div id='moreHide' onclick='hideMore();' monmouseover='hideMore();'></div> <div id='headerSpacer'></div>";
 		
 		createFooter();
 		initializeHeader();
@@ -97,6 +97,9 @@
   	}
 
 	function showTTD(){
+
+		document.getElementById("moreMenu").style.display='none'; document.getElementById("moreHide").style.display='none';
+		
 		const ttdManu = document.getElementById("ttdMenu");
 
 		//document.getElementById("ttdBtnH").style.background = "#efefef";
@@ -121,4 +124,21 @@
 	}
 
 	function hideTTD(){const ttdManu = document.getElementById("ttdMenu"); ttdManu.style.display = 'none'; document.getElementById("ttdHide").style.display='none';}
+
+	function showMore(){
+
+		document.getElementById("ttdMenu").style.display = 'none'; document.getElementById("ttdHide").style.display='none';
+		
+		const moreManu = document.getElementById("moreMenu");
+
+		const inflnk = '"https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule", "_self"';
+		const vplnk = '"https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip", "_self"';
+		const apslnk = '"https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports", "_self"';
+
+		moreManu.innerHTML = "<button class='moreBtn' onclick='window.open(" + inflnk + ")'>Resort Hours and Information</button>";
+		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + vplnk + ")'>GC VIP Admission</button>";
+		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + apslnk + ")'>Annual Passports</button>";
+	}
+
+	function hideMore(){document.getElementById("moreMenu").style.display='none'; document.getElementById("moreHide").style.display='none';}
 
