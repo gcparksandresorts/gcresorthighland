@@ -135,10 +135,14 @@
 		const inflnk = '"https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule", "_self"';
 		const vplnk = '"https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip", "_self"';
 		const apslnk = '"https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports", "_self"';
+		const morelnk2 = '"https://gcparksandresorts.github.io/gcresorthighland/information/about", "_self"';
+		const morelnk3 = '"https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines", "_self"';
 
 		moreManu.innerHTML = "<button class='moreBtn' onclick='window.open(" + inflnk + ")'>Resort Hours and Information</button>";
 		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + vplnk + ")'>GC VIP Admission</button>";
 		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + apslnk + ")'>Annual Passports</button>";
+		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + morelnk2 + ")'>About Us</button>";
+		moreManu.innerHTML += "<button class='moreBtn' onclick='window.open(" + morelnk3 + ")'>Safety Guidelines</button>";
 
 		moreManu.style.display = 'block';
 
