@@ -28,7 +28,7 @@
 		if(window.innerWidth >= 900){
 			// Desktop Version
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
-			headBar.innerHTML += "<button id='headerBarTP' onmouseover='hideTTD();hideMore();' onclick='window.open(" + tpssLink + "'>Tickets and Passes</button>  <button class='headerBarButton' onclick='showMore()' onmouseover='showMore()'>More &#9661;</button>";
+			headBar.innerHTML += "<button id='headerBarTP' onmouseover='hideTTD();hideMore();' onclick='window.open(" + tpssLink + ")'>Tickets and Passes</button>  <button class='headerBarButton' onclick='showMore()' onmouseover='showMore()'>More &#9661;</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onmouseover='hideTTD();hideMore();' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onmouseover='hideTTD();hideMore();' onclick='window.open(" + hotelsLink + ")'>Hotels and Resorts</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='showTTD()' onmouseover='showTTD()' id='ttdBtnH'>Things to Do &#9661;</button>";
