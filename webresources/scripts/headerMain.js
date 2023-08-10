@@ -99,7 +99,7 @@
 	function showTTD(){
 		const ttdManu = document.getElementById("ttdMenu");
 
-		document.getElementById("ttdBtnH").style.background = "white";
+		document.getElementById("ttdBtnH").style.background = "#efefef";
 		
 
 		const aplnk = '"https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park", "_self"';
