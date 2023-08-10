@@ -9,7 +9,20 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>About | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		#apIcon, #csIcon{width:48%; margin:0; display:inline-block; height:100px; min-width:260px; background-size:101%;}
+		#apIcon:hover, #csIcon:hover{scale:1.05; background-size:110%; transition:0.5s;}
+
+		#apIcon{background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg"); 
+			background-size:100%; background-repeat:no-repeat; background-position:center;
+    			font-size:19px; text-shadow: 5px 5px 10px black; font-weight:bold; color:white; margin-right:1%;}
+
+		#csIcon{background:url("https://blog.discoveruniversal.com/wp-content/uploads/2022/04/USH_CityWalkShopping.jpg"); 
+			background-size:100%; background-repeat:no-repeat; background-position:center;
+    			font-size:19px; text-shadow: 5px 5px 10px white; font-weight:bold; color:white; margin-left:1%;}
+                
+                @media screen and (max-width:600px){#apIcon, #csIcon {width:90%; margin:auto; margin-bottom:20px;}}
+	</style>
 
 </head>
 
@@ -19,7 +32,7 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-	<div class='banner'><img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'></div>
+	<div class='banner'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner2.jpg'></div>
   	<div class='titleBar'><h2>Our Mission to Create Adventure</h2></div>
 	  <div class='subtitleBar'><p>Adeventure is a part of everything we do here at the Globe-City Resort Highland. Our commitment is to provide an inclusive environment where everyone, regardless of age, can ignite their sense of wonder and push their boundaries. From the laughter of children to the thrill-seeking young adults, our resort is designed to cater to the shared desire for excitement, magic, and unforgettable memories.</p></div>
 
@@ -35,7 +48,9 @@
 
   <div class='columnContainer'>
     <div><h2>Dazzling Lights and Wonderful Sights</h2>
-    <p>Beyond the bustle of Adventure Park lies 3-blocks of dazzling LED lights and exciting shopping and dining. City-Shop is the perfect getaway with hours of entertaining browzing and fulfiling eateries. </p></div>
+    <p>Beyond the bustle of Adventure Park lies 3-blocks of dazzling LED lights and exciting shopping and dining. City-Shop is the perfect getaway with hours of entertaining browzing and fulfiling eateries. </p>
+    <p><a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop'>Explore City-Shop</a></p>
+    </div>
     <img src='https://img1.10bestmedia.com/Images/Photos/340375/img-resources-digitalassets-Universal-CityWalk-3_55_660x440.jpg'>
   </div>
 
@@ -55,15 +70,21 @@
     <img src='https://mickeyblog.com/wp-content/uploads/2021/06/Disney-security.jpg'>
   </div>
 
+	<br>
+
   <div class='fullContainer' style='color:white; background:url("https://static.vecteezy.com/system/resources/thumbnails/001/886/871/small/dark-blue-modern-blurred-background-vector.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;'>
-    <div class='container'>
-    The Globe-City Resort Highland is more than a themed resort; it's a place where bonds are strengthened, imaginations are ignited, and a spirit of adventure lives on. Join us on this remarkable journey where all ages can rediscover the joy of exploration and embark on shared escapades that will be cherished for a lifetime. Adventure awaits – let's discover it together!
-    </div>
+    <div class='container' style='font-size:18px;'>
+    "The Globe-City Resort Highland is more than a themed resort; it's a place where bonds are strengthened, imaginations are ignited, and a spirit of adventure lives on. Join us on this remarkable journey where all ages can rediscover the joy of exploration and embark on shared escapades that will be cherished for a lifetime. Adventure awaits – let's discover it together!" <p>Reuven Reyman, <em>Founder CEO, Globe-City Parks and Resorts LLC.</em>
+    </div></p>
   </div>
 
+	<br>
+
   <div class='container'>
-    <button>Explore City-Shop</button> <button>Explore Adventure Park</button>
+    <button id='apIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park","_self")'>Explore Adventure Park</button> <button id='csIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop","_self")'>Explore City-Shop</button>
   </div>
+
+	<br>
   
 	
 <!-- Footer Elements --><div id="footer"></div>
