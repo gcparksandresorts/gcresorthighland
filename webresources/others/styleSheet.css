@@ -132,6 +132,7 @@ body{
 
 	.menuSection {animation: FadeIn 0.40s;}
 	.sectionContainer {animation: FadeIn 0.40s;}
+	.mySlides{display:none; animation: FadeIn 0.4s;}
 
 	.vegan {font-style:normal; font-weight:bold; color:green;}
 
