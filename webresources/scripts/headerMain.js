@@ -9,7 +9,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
+		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='headerSpacer'></div>";
 		
 		createFooter();
 		initializeHeader();
@@ -30,7 +30,7 @@
 			headBar.innerHTML += "<button id='headerBarTP'>Tickets and Passes</button>  <button class='headerBarButton'>More &#9661;</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='window.open(" + hotelsLink + ")'>Hotels and Resorts</button>";
-			headBar.innerHTML += "<button class='headerBarButton'>Things to Do &#9661;</button>";
+			headBar.innerHTML += "<button class='headerBarButton' onclick='showTTD()'>Things to Do &#9661;</button>";
 														
 		}//end of if statemement
 		else{
@@ -95,4 +95,27 @@
   	function endLoadingInit(){
   		document.getElementById('loader').style.display = 'none';
   	}
+
+	function showTTD(){
+		const ttdManu = document.getElementById("ttdMenu");
+
+		const aplnk = '"https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park", "_self"';
+		const cslnk = '"https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop", "_self"';
+		const aelnk = '"https://gcparksandresorts.github.io/gcresorthighland/attractions", "_self"';
+		const dilnk = '"https://gcparksandresorts.github.io/gcresorthighland/dining", "_self"';
+		const shlnk = '"https://gcparksandresorts.github.io/gcresorthighland/shopping", "_self"';
+
+		ttdManu.innerHTML = "<button class='ttdParkIcon' id='ttdAP' onclick='window.open(" + aplnk + ")'>Adventure Park</button>";
+		ttdManu.innerHTML += "<button class='ttdParkIcon' id='ttdCS' onclick='window.open(" + cslnk + ")'>City-Shop</button>";
+		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + aelnk + ")'>Attractions and Entertainment</button>";
+		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + dilnk + ")'>Resturaunts and Dining</button>";
+		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + shlnk + ")'>Shopping</button>";
+		
+		ttdManu.innerHTML += "<div id='ttdHide' onclick='hideTTD();'></div>";
+
+		ttdManu.style.display = 'block';
+		
+	}
+
+	function hideTTD(){const ttdManu = document.getElementById("ttdMenu"); ttdManu.style.display = 'none'; }
 
