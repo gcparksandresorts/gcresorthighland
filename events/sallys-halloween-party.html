@@ -13,6 +13,7 @@
       		#headerBar, .titleBar{background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg"); background-size: cover;}
 		body {background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cobweb01.png"); background-repeat:repeat; background-size: 90px 90px;}
 		.spacer{background:#2D0A5F;}
+		.mySlides{display:none;}
     	</style>
 
 </head>
@@ -23,7 +24,12 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-	<div class='banner'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png'></div>
+	<div class='banner'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween03.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween04.png'>
+	</div>
   	<div class='titleBar'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/SHAP2.png'></div>
 	<div class='subtitleBar'><p>
 	    	 Are you ready for a Halloween extravaganza that's perfect for the whole family?
@@ -142,6 +148,9 @@
 		}
 		
 	</script>
+
+	<script type="text/javascript" src="https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/slideshow.js"></script>
+	
 	<script>purchaseIndicator();</script>
 	
 	<!-- CREATE THE HEADER AND FOOTER -->
