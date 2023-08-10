@@ -77,6 +77,8 @@
 #ttdMenu .ttdButton{width:524px;}
 #ttdMenu .ttdButton:hover{scale:1.05; background:#073763; color:white;}
 
+#ttdHide, #moreHide{z-index:997; opacity:0; cursor:wait; position:fixed; top:0; bottom:0; left:0; right:0; display:none;}
+
 
 /* -- MINIMIZED HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
