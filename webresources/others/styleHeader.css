@@ -47,6 +47,36 @@
         .headerBarButton:hover{background:white;color:black;}
         #headerBarTP:hover{background:#efefef;scale:1.05;color:black;}
 
+#ttdMenu{
+	display:none;
+	
+	position:fixed; top:60px; right:68px;
+    	background:#efefef;
+        width:600px; height:auto;
+        padding:20px;
+        z-index:998;
+        
+        text-align:center;
+        
+        animation:FadeIn 0.45s;
+        
+        box-shadow:2px 2px 8px black;
+}
+
+#ttdMenu .ttdParkIcon{width:250px; margin:12px; display:inline-block; height:60px;}
+#ttdMenu .ttdParkIcon:hover{scale:1.05; background-size:110%;}
+#ttdAP {background:url("https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/anaheimca/0910ZR_0029CR_R3_RTD_51578b3c-f4b9-4b12-916b-56591be853d7.jpg"); 
+	background-size:100%; background-repeat:no-repeat; background-position:center;
+    	font-size:18px; text-shadow: 5px 5px 10px white; font-weight:bold;
+    	}
+#ttdCS {background:url("https://blog.discoveruniversal.com/wp-content/uploads/2022/04/USH_CityWalkShopping.jpg"); 
+	background-size:100%; background-repeat:no-repeat; background-position:center;
+    	font-size:18px; text-shadow: 5px 5px 10px white; font-weight:bold; color:white;
+    	}
+
+#ttdMenu .ttdButton{width:524px;}
+#ttdMenu .ttdButton:hover{scale:1.05; background:#073763; color:white;}
+
 
 /* -- MINIMIZED HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
