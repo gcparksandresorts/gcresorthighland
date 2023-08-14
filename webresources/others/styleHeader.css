@@ -89,7 +89,13 @@
 
 }
 
-#openHeaderMenuMinimized{width:60px; height:60px; float:right; font-size:25px;}
+	#openHeaderMenuMinimized{position:fixed; top:0; right:0; width:60px; height:60px; font-size:30px; color:white; margin:0; border-radius:0;}
+        #minimizedHeaderMenu{position:fixed; top:60px; left:0; width:240px; background:gray; bottom:0; overflow-y:auto; text-align:left; overflow-x:hidden; padding:15px; display:none;}
+        #minimizedHeaderMenu #headerBarTP{width:100%; margin:auto; float:none;}
+        #minimizedHeaderMenu a{font-size:18px; text-decoration:none; color:white; display:block; margin-top:10px; transition:0.3s;}
+        #minimizedHeaderMenu .i{display:none; padding-left:20px; animation: FadeIn 0.4s;}
+        #minimizedHeaderMenu a:hover{scale:1.02;}
+        #hideMiniMenuButton {position:static; top:0; bottom:0; left:0; right:0; background:rgba(0, 0, 0, 0.4);}
 
 
 /* -- LOADING STYLES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
