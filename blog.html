@@ -13,7 +13,8 @@
     </script>
 
     <style>
-		#lessRecentNews a{font-size:20px; margin: 15px;}
+		#lessRecentNews a{font-size:20px; margin: 15px; display:block;}
+	    	#searchBtn{display:none;}
 	</style>
 
 </head>
@@ -37,12 +38,36 @@
 
 		<div class='spacer'></div>
 
-		<br>
+		<div class='container'>
+        		<label for='filterInput'>Filter by Category: </label>
+		            <select id='filterInput' name='filterinput' onchange='document.getElementById("searchBtn").style.display = "inline-block";'>
+		            	<option value='default' style='font-style:italic;'>select a category</option>
+		                <option value='c1'>Attractions</option>
+		                <option value='c2'>Entertainment</option>
+		                <option value='c3'>Dining</option>
+		                <option value='c4'>Merchandise</option>
+		                <option value='c5'>Events</option>
+		                <option value='c6'>Operations</option>
+		                <option value='c7'>Admissions</option>
+		                <option value='c8'>Other</option>
+		            </select>
 
-		<div class='leftContainer' id='lessRecentNews' style='max-width:900px;'>
+			<a onclick='' id='searchbtn'>Search</a>
+       		</div>
+        
+        	<div class='spacer'></div>
+        
+	        <div class='leftContainer' style='max-width:900px; margin-bottom:0;'>
+	        	<h2>All Blog Posts and Updates</h2>
+	        </div>
+       
+
+		<div class='leftContainer' id='lessRecentNews' style='max-width:900px; margin-top:0;'>
 			<p style='text-align:center; margin:auto;'>Error Loading Content. Please Try Again Later</p>
-			<a>August 13, 2023 | Website | New Blog Homepage Featuring Recent Blog Posts and Links</a>
-            		<a>Month 00, 2023 | Category | Blog Post Title</a>
+				<!--
+				<a>August 13, 2023 | Website | New Blog Homepage Featuring Recent Blog Posts and Links</a>
+	            		<a>Month 00, 2023 | Category | Blog Post Title</a>
+				-->
 		</div>
         
 	        <div class='container'>
