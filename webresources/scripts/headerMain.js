@@ -151,3 +151,38 @@
 
 	function hideMore(){document.getElementById("moreMenu").style.display='none'; document.getElementById("moreHide").style.display='none';}
 
+	// -- MINI MENU (MINIMIZED MENU -- 
+
+	function openMiniMenu(num){
+        
+        	const tmini = document.getElementById("ttdMiniMenu");
+            const mmini = document.getElementById("mreMiniMenu");
+            
+        	if(num==1){
+            	
+                if(tmini.style.display == 'block'){
+                	tmini.style.display = 'none';
+                }else{
+                	tmini.style.display = 'block';
+                }
+                
+            }else if(num==2){
+            	if(mmini.style.display == 'block'){
+                	mmini.style.display = 'none';
+                }else{
+                	mmini.style.display = 'block';
+                }
+            }
+        }
+        
+        function runMiniMenu(){
+        	const mmm = document.getElementById("minimizedHeaderMenu");
+            
+            if(mmm.style.display = 'block'){
+           		mmm.style.display = 'none';
+            }else{
+            	mmm.style.display = 'block';
+            }
+            
+        }
+
