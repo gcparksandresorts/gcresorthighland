@@ -98,7 +98,7 @@
 
 			console.log('Mini Header 2');
 
-			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='headerSpacer'></div>";
+			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider'></div> <div id='headerSpacer'></div>";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";	
@@ -221,11 +221,14 @@
         
         function runMiniMenu(){
         	const mmm = document.getElementById("minimizedHeaderMenu");
+		let hhh = document.getElementById("miniMenuHider");
             
             if(mmm.style.display == 'block'){
            		mmm.style.display = 'none';
+		    	hhh.style.display = 'none';
             }else{
             	mmm.style.display = 'block';
+		    hhh.style.display = 'block';
             }
             
         }
