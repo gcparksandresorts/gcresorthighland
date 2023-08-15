@@ -10,7 +10,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div> <div id='headerSpacer'></div>";
+		Header.innerHTML = "";
 		
 		createFooter();
 		initializeHeader();
