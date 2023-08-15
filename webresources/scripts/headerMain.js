@@ -222,7 +222,7 @@
         function runMiniMenu(){
         	const mmm = document.getElementById("minimizedHeaderMenu");
             
-            if(mmm.style.display = 'block'){
+            if(mmm.style.display == 'block'){
            		mmm.style.display = 'none';
             }else{
             	mmm.style.display = 'block';
