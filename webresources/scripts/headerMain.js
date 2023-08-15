@@ -40,7 +40,7 @@
 		}//end of if statemement
 		else{
 			
-			
+			console.log('Mini Header 1'); 
 			createMiniHeader();
 			
 			
@@ -94,21 +94,23 @@
 		
 	}
 
-	function createMiniHeader(){
+	function createMiniHeader(){ // Mobile Version
 
-			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer'></div>";
+			console.log('Mini Header 2');
+
+			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='headerSpacer'></div>";
 
 			let headBar = document.getElementById("headerBar");
-			headBar.innerHTML = "";
+			headBar.innerHTML = "";	
 		
-		// Mobile Version
-			
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='openHeaderMenuMinimized' onclick='runMiniMenu()'>&#8801;</button>";
 
-			const MHM = document.getElementById("minimizedHeaderMenu");
-
+			
 			const La = 'window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")';
+
+			const MHM = document.getElementById("minimizedHeaderMenu");
+			MHM.innerHTML = "";
 
 			MHM.innerHTML = "<button id='headerBarTP' onclick='" + La + "'>Tickets and Passes</button>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
@@ -127,6 +129,8 @@
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports'>Annual Passports</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/about'>About Us</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Safety Guidelines</a> </div>";
+
+		console.log('Mini Header 3');
 	}
 
 
