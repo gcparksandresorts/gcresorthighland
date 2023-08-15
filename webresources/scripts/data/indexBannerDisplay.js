@@ -95,4 +95,5 @@ function runDebug(){
   curDate = debugMonth;
   createSpotlight();
   setBannerDisplays();
+  decorateHeaderBar();
 }
