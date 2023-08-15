@@ -114,6 +114,8 @@
 	function decorateHeaderBar(){
 
 		console.log("Checking for Header Decorations -> curDate = " + curDate);
+
+		let headBar = document.getElementById("headerBar");
 		
 		if(curDate == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
