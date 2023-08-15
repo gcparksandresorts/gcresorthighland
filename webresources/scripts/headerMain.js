@@ -10,7 +10,7 @@
 	curDate = curDate.getMonth();
 
 	function runHeaderSetup(){
-		Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();' onmouseover='hideTTD();'></div> <div id='moreHide' onclick='hideMore();' onmouseover='hideMore();'></div> <div id='headerSpacer'></div>";
+		Header.innerHTML = "<div id='headerBar'></div> <div id='headerSpacer'></div>";
 		
 		createFooter();
 		initializeHeader();
@@ -27,6 +27,9 @@
 		
 		if(window.innerWidth >= 900){
 			// Desktop Version
+
+			Header.innerHTML = "<div id='headerBar'></div><div id='ttdMenu'></div><div id='moreMenu'></div><div id='ttdHide' onclick='hideTTD();' onmouseover='hideTTD();'></div> <div id='moreHide' onclick='hideMore();' onmouseover='hideMore();'></div> <div id='headerSpacer'></div>";
+			
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='headerBarTP' onmouseover='hideTTD();hideMore();' onclick='window.open(" + tpssLink + ")'>Tickets and Passes</button>  <button class='headerBarButton' onclick='showMore()' onmouseover='showMore()'>More &#9661;</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onmouseover='hideTTD();hideMore();' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
