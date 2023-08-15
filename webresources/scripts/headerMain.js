@@ -36,6 +36,8 @@
 			headBar.innerHTML += "<button class='headerBarButton' onmouseover='hideTTD();hideMore();' onclick='window.open(" + eventsLink + ")'>Special Events</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onmouseover='hideTTD();hideMore();' onclick='window.open(" + hotelsLink + ")'>Hotels and Resorts</button>";
 			headBar.innerHTML += "<button class='headerBarButton' onclick='showTTD()' onmouseover='showTTD()' id='ttdBtnH'>Things to Do &#9661;</button>";
+
+			decorateHeaderBar();
 														
 		}//end of if statemement
 		else{
@@ -45,32 +47,7 @@
 			
 			
 		}//end of else statemement
-
-		// Check for Pride Month (JUNE) -> if yes, make the header logo rainbow!
-		if(curDate == 5){
-			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
-			console.log('HAPPY PRIDE!!'); 
-		}
-		// If september or october set headerto halloween color scheme
-		else if(curDate == 8 || curDate == 9 ){
-
-			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
-			headBar.style.backgroundSize = "cover";
-			headBar.style.backgroundRepeat = "no-repeat";
-			headBar.style.backgroundPosition = "center";
-
-			console.log("Header Set For Halloween");
- 		}
-		// If november or december set headerto SOL color scheme
-		else if(curDate == 10 || curDate == 11 ){
-
-			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/solbkg01.jpg')";
-			headBar.style.backgroundSize = "cover";
-			headBar.style.backgroundRepeat = "no-repeat";
-			headBar.style.backgroundPosition = "center";
-
-			console.log("Header Set For Halloween");
- 		}
+		
 	}
 
 	window.onresize = function(){initializeHeader();};
@@ -98,7 +75,7 @@
 
 			console.log('Mini Header 2');
 
-			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider'></div> <div id='headerSpacer'></div>";
+			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer'></div>";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";	
@@ -115,11 +92,11 @@
 			MHM.innerHTML = "<button id='headerBarTP' onclick='" + La + "'>Tickets and Passes</button>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park>Adventure Park</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop>City-Shop</a> \
+							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park'>Adventure Park</a> \
+							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop'>City-Shop</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/attractions'>Attractions and Entertainment</a> \
-							<a>Places to Eat</a> \
-							<a>Shopping</a> </div>";
+							<a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Places to Eat</a> \
+							<a href='https://gcparksandresorts.github.io/gcresorthighland/shopping'>Shopping</a> </div>";
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/gcresorthighland/hotels'>Hotels and Resorts</a>";
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/gcresorthighland/events'>Special Events</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>More &#9661;</a>";
@@ -131,6 +108,34 @@
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Safety Guidelines</a> </div>";
 
 		console.log('Mini Header 3');
+		decorateHeaderBar();
+	}
+
+	function decorateHeaderBar(){
+		if(curDate == 5){
+			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
+			console.log('HAPPY PRIDE!!'); 
+		}
+		// If september or october set headerto halloween color scheme
+		else if(curDate == 8 || curDate == 9 ){
+
+			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg')";
+			headBar.style.backgroundSize = "cover";
+			headBar.style.backgroundRepeat = "no-repeat";
+			headBar.style.backgroundPosition = "center";
+
+			console.log("Header Set For Halloween");
+ 		}
+		// If november or december set headerto SOL color scheme
+		else if(curDate == 10 || curDate == 11 ){
+
+			headBar.style.background = "url('https://gcparksandresorts.github.io/gcresorthighland/webresources/images/solbkg01.jpg')";
+			headBar.style.backgroundSize = "cover";
+			headBar.style.backgroundRepeat = "no-repeat";
+			headBar.style.backgroundPosition = "center";
+
+			console.log("Header Set For Halloween");
+ 		}
 	}
 
 
