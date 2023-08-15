@@ -112,6 +112,9 @@
 	}
 
 	function decorateHeaderBar(){
+
+		console.log("Checking for Header Decorations -> curDate = " + curDate);
+		
 		if(curDate == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
 			console.log('HAPPY PRIDE!!'); 
