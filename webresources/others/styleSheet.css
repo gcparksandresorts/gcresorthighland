@@ -35,8 +35,8 @@ body{
 	.titleBar h1,.titleBar h2,.titleBar h3 {vertical-align: middle; color:white;}
 	.titleBar img {height:100px; width:auto; margin:10px;}
 
-	@media screen and (max-width:800px;){
-		.titleBar img{width:80vw; height:auto;}
+	@media screen and (max-width:800px){
+		.titleBar img{width:80vw; height:auto; max-width:600px;}
 	}
 
 	.subtitleBar {width:full; margin-top:-20px; padding:15px; background:#efefef; text-align:center;}
