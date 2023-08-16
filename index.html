@@ -35,8 +35,19 @@
 			#videoBannerTextBox div{top:70px;}
 		}
 
-		.parkTile{width:50%; margin:0; display:inline-block; height:100px; padding:10px;}
-		.parkTile img{height:full; width:auto;}
+		#apIcon, #csIcon{width:48%; margin:0; display:inline-block; height:100px; min-width:260px; background-size:101%;}
+		#apIcon:hover, #csIcon:hover{scale:1.05; background-size:110%; transition:0.5s;}
+
+		#apIcon{background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg"); 
+			background-size:100%; background-repeat:no-repeat; background-position:center;
+    			font-size:19px; text-shadow: 5px 5px 10px black; font-weight:bold; color:white; margin-right:1%;}
+
+		#csIcon{background:url("https://blog.discoveruniversal.com/wp-content/uploads/2022/04/USH_CityWalkShopping.jpg"); 
+			background-size:100%; background-repeat:no-repeat; background-position:center;
+    			font-size:19px; text-shadow: 5px 5px 10px white; font-weight:bold; color:white; margin-left:1%;}
+                
+                @media screen and (max-width:600px){#apIcon, #csIcon {width:90%; margin:auto; margin-bottom:20px;}}
+		
 	</style>
 
 </head>
@@ -107,8 +118,9 @@
 	<!----------------------------------------------------------------------------------------------------------------- THINGS TO DO ---->
 	<section id='ttdSection'>
 
-		<div class='parkTile'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcapLogo.png'></div>
-		<div class='parkTile'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/cityshopLogo.png'></div>
+		<div class='container'>
+   		 <button id='apIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park","_self")'>Explore Adventure Park</button> <button id='csIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop","_self")'>Explore City-Shop</button>
+  		</div>
 
 
 		<div class='spacer'></div><br>
