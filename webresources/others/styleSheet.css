@@ -122,6 +122,7 @@ body{
 	.porthole div img{width:150px; height:150px; object-fit:cover; border-radius:50%; transition:0.4s; margin:0; margin-bottom:5px;}
 	.porthole div h3{font-size:17px;  margin:0; transition:0.4s;}
 	.porthole div:hover h3{color:black;} .porthole div:hover img{scale:1.05; border-radius:40%;}
+	@media screen and (max-width:500px){.porthole div{width:100%; padding:30px;} .porthole div img{width:165px; height:165px;}}
 
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
