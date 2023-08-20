@@ -20,6 +20,11 @@
 			#one, #two, #three{border: 1px solid black; border-radius:10px;}
 			.spotlightTile img{height:200px; object-fit:contain;}
 		}
+
+		.collapsible{cursor:pointer;}
+		.collapsible:hover{color:black;}
+
+		.content {display:none;}
 		
 	</style>
 
@@ -125,7 +130,35 @@
 	</div>
 
 	<div class='container'>
-		
+		<button style='width:90%; max-width:400px;'>Purchase or Renew a Passport</button>
+	</div>			
+
+	<div class='container'>
+		<h2>Frequently Asked Questions</h2>
+	<div class='leftContainer' style='margin-top:10px;'>
+		<h3 class='collapsible'>How are Babies Made?</h3>
+		<div class='content'>
+			Well you see, when a mommy and a daddy love eachother so much the daddy grabs the mommy, splits her legs wide open and fucks her until he cums inside her warm gooey pussy. Then they pay your college tuition.
+		</div>
+		<h3 class='collapsible'>How Can I Check my Blackout Dates?</h3>
+		<div class='content'>
+			Passport Black-Out dates are determiend by each date's <a>Admission Tier</a>
+			There are a few ways to check the Admission Tier for a select date:
+			<ul>
+				<li>Visit the <a href='../information/resort-schedule'>Resort Information</a> page to view the current Admission Tier</li>
+				<li>View the <a>Resort Operating Calendar</a> to view Admission Tiers for the next 5 months</li>
+				<li>Call the Annual Passholder Office at <b>(312) 988 1300</b>to inquire about black-out dates and other passholder matters</li>
+			</ul>
+		</div>
+		<h3 class='collapsible'>Can I still visit the park on a black-out date?</h3>
+		<div class='content'>
+			Yes! Annual Passholders can purchase discounted admission through the <a>Annual Passholder portal for themselves as well as other guests on any date including black-out dates</a>
+		</div>
+		<h3 class='collapsible'>What if I lose my passport card?</h3>
+		<div class='content'>
+			Lost or stolen passport cards can be re-printed at any ticket booth in the Esplenade Plaza or the Will Call booth. <p>Fees for Re-Printing a Passport: $5</p> <p>Once a passport is reprinted, the original passport card will become invalid and unusable</p>
+		</div>
+	</div>
 	</div>
 	
 <!-- Footer Elements --><div id="footer"></div>
@@ -167,6 +200,24 @@
 					break;
 			}
 		}
+	</script>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}	
+
 	</script>
 	
 	<!-- CREATE THE HEADER AND FOOTER -->
