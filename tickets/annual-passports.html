@@ -9,7 +9,19 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Annual Passports | Tickets and Passes | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		.spotlightTile img{height:auto;}
+		.spotlightTile:hover{cursor:default;}
+		#one{border-radius:0; border:none; border-right: 1px solid black;}
+		#two{border-radius:0; border:none;}
+		#three{border-radius:0; border:none; border-left: 1px solid black;}
+
+		@media screen and (max-width:900px){
+			#one, #two, #three{border: 1px solid black; border-radius:10px;}
+			.spotlightTile img{height:200px; object-fit:contain;}
+		}
+		
+	</style>
 
 </head>
 
@@ -19,59 +31,95 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-	<div class='banner'><img src='https://mouseinfo.com/wp-content/uploads/2022/01/Universal-Studios-Hollywood-family-selfie-2022-1280x640.jpg?crop=1'></div>
+	<div class='banner'><img src='https://attractionsmagazine.com/wp-content/uploads/2022/08/UOAP-Appreciation-Days-merch-Image-courtesy-of-Universal-Orlando-Resort.jpg'></div>
   	<!-- <div class='titleBar'><h2>Annual Passports</h2></div> -->
-	<div class='subtitleBar'><h1>Passholder Awesomness Starts Here</h1><p>Visit Adventure Park over and over with access to the park on over 230 days of the year! Also cash in on exclusive passholder benefits and special events throughout the year</p></div>
-	
+	<div class='subtitleBar'><br><h1>Passholder Awesomness Starts Here</h1><p>Visit Adventure Park over and over with access to the park on over 230 days of the year! Passports are offered in 3 Tiers for maximum flexibility and a price to match your budget. Also cash in on exclusive passholder benefits, merchandise, and special events throughout the year</p><br></div>
+
+	<!--
 	<div class='container'>
 		<h2>Passport Tiers</h2>
 		<p>Our passports are offered in three tiers for maximum flexibility and a pass to match your budget and expectations. Each tier contains different <a>blackout dates</a> and benefits</p>
 		<p style='color:blue'><b>Important Passholder Update:</b> Our passport blackout date system now aligns with our Ticketing Tiers. To learn more about ticketing tiers, <a>Click Here</a></p>
 	</div>
+	-->
+
+	<br><br>
 
 	<div class='spotlightContainer'>
-		<div class='spotlightTile'>
+		<div class='spotlightTile' id='one'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/bluePass.png'>
 			<div class='spotlightText'>
 				<h3>Resident Passport<sup>1</sup></h3>
 				<b>$109 for 12 months</b>
 				<div style='text-align:left'>
-				✔ Free theme park admission on all Tier 1, Tier 2, and Tier 3 dates
-				✔ 5% Discount on food and merchandise in-park only
-				✔ 30% Discount on parking in the Adventure Parking lot
+				<p>✔ Free theme park admission on all Tier 1, Tier 2, and Tier 3 dates <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/ticketing-tiers'>?</a></p>
+				<p>✔ 5% Discount on food and merchandise in-park only</p>
+				<p>✔ 30% Discount on parking in the Adventure Parking lot</p>
 				</div>
 			</div>
 		</div>
-		<div class='spotlightTile'>
+		<div class='spotlightTile' id='two'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/greenPass.png'>
 			<div class='spotlightText'>
 				<h3>Adventure Passport</h3>
 				<b>$199 for 12 months</b>
 				<div style='text-align:left'>
-				✔ Free theme park admission on all dates listed as Tier 4 or below
-				✔ 11% discount on food and beverage in-park
-				✔ 13% discount on merchandise in-park
-				✔ Free parking in Adventure Parking lot
+				<p>✔ Free theme park admission on all dates listed as Tier 4 or below <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/ticketing-tiers'>?</a></p>
+				<p>✔ 11% discount on food and beverage in-park</p>
+				<p>✔ 13% discount on merchandise in-park</p>
+				<p>✔ Free parking in Adventure Parking lot<sup>2</sup></p>
 				</div>
 			</div>
 		</div>
-		<div class='spotlightTile'>
+		<div class='spotlightTile' id='three'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/purplePass.png'>
 			<div class='spotlightText'>
 				<h3>Platinum Passport</h3>
-				<b>$650 for 12 months</b>
+				<b>$625 for 12 months</b>
 				<div style='text-align:left'>
-				✔ Unlimited admission to theme park (365 days of the year!)
-				✔ 15% discount on food and beverage in-park
-				✔ 18% discount on merchandise in-park
-				✔ Free parking in Adventure Parking lot
-				<p>VIP Benefits:</p>
-				✔ Access to priority queues for passholder only<sup>2</sup>
-				✔ Access to exclusive VIP Lounges
-				✔ 20% discount on VIP upgrades for other guests in your party
-				✔ Single-use bring-a-friend ticket when renewed after 12 months
+				<p>✔ Unlimited admission to theme park (365 days of the year!)</p>
+				<p>✔ 15% discount on food and beverage in-park</p>
+				<p>✔ 18% discount on merchandise in-park</p>
+				<p>✔ Free parking in Adventure Parking lot<sup>2</sup></p>
+				<p>✔ 30% Discount on Preffered Parking in Adventure Parking lot<sup>3</sup></p>
+				<p><b>VIP Benefits</b></p>
+				<p>✔ Access to priority queues for passholder only<sup>A<sup></p>
+				<p>✔ Access to exclusive VIP Lounges<sup>B</sup></p>
+				<p>✔ 20% discount on VIP upgrades for other guests in your party<sup>C</sup></p>
+				<p>✔ Single-use bring-a-friend ticket when renewed after 12 months<sup>D</sup></p>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<div class='container'>
+		<button style='width:90%; max-width:400px;'>Purchase or Renew a Passport</button>
+	</div>
+
+	<div class='leftContainer disclaimer'>
+		<p>Passports <u>do not</u> include admission to seperate-ticket events including <a href='https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party'>Sally's Halloween After-Party</a>, <a>Nights of Terror</a>, and <a>Adventure Eve</a></p>
+		<p>1 <b>Resident Passport is available to eligible Oras Nou Residents only</b></p>
+		<p>2 Free parking is available in Adventure Parking lot only, free parking will not be granted elsewhere should the Adventure lot become full or closed</p>
+		<p>3 Preffered Parking access is subject to availability and may be unavailable on high-peak days</p>
+		<br>
+		<p>A Grants access to the Priority Queues at applicabe attraction for guest named on passport <u>only</u>. <u>Passholder Priority Queue access begins after 3PM on weekends and after 1PM on weekdays. Passholder priority queue access is restricted by a 15 minute cool-down period between uses</u></p>
+		<p>B Lounge access is granted to passholder and his/her party up to 4 additional guests per pass. Lounges may close to guests for cleaning or if max capacity is reached</p>
+		<p>C 20% Discount applies to <u>VIP Upgrades sold in-park only</u> and cannot be used to purchase VIP admission outside of the park. Discount is limited to 4 upgrades per pass. Upgrades do not include admission to theme park</p>
+		<p>D <b>Bring-A-Friend ticket allows free theme park entry for one guest per pass renewal. Complimentary pass does not include VIP Benefits. Complimentary tickets do not rollover and expire 12 months after pass renewal. Follow instructions during pass renewal to recieve your complimentary ticket</b></p>
+	</div>
+
+	<div class='fullContainer' style='background:#efefef'>
+		<h2>Exclusive Passport Upgrades</h2>
+		<div class='porthole' style=''>
+			<div onclick='dispTxt(1)'> <img src='https://www.portaking.com/wp-content/uploads/2016/03/Parking_Booths-cropped-1.jpg'><h3>12 Months of Free Parking</h3>+ $30 </div>
+			<div onclick='dispTxt(2)'> <img src='https://media.timeout.com/images/105520554/image.jpg'><h3>Sally's Halloween Party Access</h3> + $120</div>
+			<div onclick='dispTxt(3)'> <img src='https://losangeleslifeandstyle.com/wp-content/uploads/2022/11/EVE-2022-at-Universal-Studios-Hollywood-lower-lot-scaled.jpg'><h3>Adventure Eve Access</h3> + $25</div>
+			<div onclick='dispTxt(4)'> <img src='https://ktla.com/wp-content/uploads/sites/4/2023/02/0818ZR_2242MS_R3_RTD.jpg?w=2560&h=1440&crop=1'><h3>Blackout-Night Upgrade</h3> + $75</div>
+		</div>
+		<section id='moreInfo'></section>
+		<div id='txtBoxOne' style='display:none;' class='container'>
+			<div class='spacer' style='background:dimgray'></div>
+			<p id='txtBoxOneContent'></p>
 		</div>
 	</div>
 	
@@ -81,6 +129,36 @@
 	
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 
+	<script>
+		const txtBoxOne = document.getElementById("txtBoxOne");
+		const txtBoxOneContent = document.getElementById("txtBoxOneContent");
+
+		function dispTxt(num){
+			switch(num){
+				case 1:
+					txtBoxOne.style.display = 'block';
+					txtBoxOneContent.innerHTML = "Includes 12 months of free parking in the Adventure Parking lot<sup>1</sup>. Annual Passport used to purchase the upgrade must be present with the passholder named on the passport to recieve free parking.";
+					window.open("#moreInfo","_self");
+					break;
+				case 2:
+					txtBoxOne.style.display = 'block';
+					txtBoxOneContent.innerHTML = "Visit Highland's Hottest Halloween Party again and again! Purchase this one-price upgrade to gain access for passholder and one guest to Sally's Halloween Party on all event nights!<p style='font-size:11px;'>Complimentary event tickets must be activated online prior to arriving at the event. Tickets may be unavailable on some nights depending on event attendance</p>";
+					window.open("#moreInfo","_self");
+					break;
+				case 3:
+					txtBoxOne.style.display = 'block';
+					txtBoxOneContent.innerHTML = "Allows access to the annual Adventure Eve event for passholder and one guest.";
+					window.open("#moreInfo","_self");
+					break;
+				case 4:
+					txtBoxOne.style.display = 'block';
+					txtBoxOneContent.innerHTML = "Allows passholders with Resident Passports or Adventure Passports to access the themepark after 5PM on black-out dates on which passholder would otherwise not be able to enter the park";
+					window.open("#moreInfo","_self");
+					break;
+			}
+		}
+	</script>
+	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
