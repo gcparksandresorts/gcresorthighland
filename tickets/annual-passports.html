@@ -115,12 +115,17 @@
 			<div onclick='dispTxt(2)'> <img src='https://media.timeout.com/images/105520554/image.jpg'><h3>Sally's Halloween Party Access</h3> + $120</div>
 			<div onclick='dispTxt(3)'> <img src='https://losangeleslifeandstyle.com/wp-content/uploads/2022/11/EVE-2022-at-Universal-Studios-Hollywood-lower-lot-scaled.jpg'><h3>Adventure Eve Access</h3> + $25</div>
 			<div onclick='dispTxt(4)'> <img src='https://ktla.com/wp-content/uploads/sites/4/2023/02/0818ZR_2242MS_R3_RTD.jpg?w=2560&h=1440&crop=1'><h3>Blackout-Night Upgrade</h3> + $75</div>
+			<div onclick='dispTxt(5)'> <img src='https://media.wdwnt.com/2022/06/WDW_PrideMonthPhotoPassLenses_1.jpg'><h3>GC PhotoPass<sup>TM</sup> add-on</h3> + $30</div>
 		</div>
 		<section id='moreInfo'></section>
 		<div id='txtBoxOne' style='display:none;' class='container'>
 			<div class='spacer' style='background:dimgray'></div>
 			<p id='txtBoxOneContent'></p>
 		</div>
+	</div>
+
+	<div class='container'>
+		
 	</div>
 	
 <!-- Footer Elements --><div id="footer"></div>
@@ -137,22 +142,27 @@
 			switch(num){
 				case 1:
 					txtBoxOne.style.display = 'block';
-					txtBoxOneContent.innerHTML = "Includes 12 months of free parking in the Adventure Parking lot<sup>1</sup>. Annual Passport used to purchase the upgrade must be present with the passholder named on the passport to recieve free parking.";
+					txtBoxOneContent.innerHTML = "<h3>12-Months of Free Parking</h3>Includes 12 months of free parking in the Adventure Parking lot<sup>1</sup>. Annual Passport used to purchase the upgrade must be present with the passholder named on the passport to recieve free parking.";
 					window.open("#moreInfo","_self");
 					break;
 				case 2:
 					txtBoxOne.style.display = 'block';
-					txtBoxOneContent.innerHTML = "Visit Highland's Hottest Halloween Party again and again! Purchase this one-price upgrade to gain access for passholder and one guest to Sally's Halloween Party on all event nights!<p style='font-size:11px;'>Complimentary event tickets must be activated online prior to arriving at the event. Tickets may be unavailable on some nights depending on event attendance</p>";
+					txtBoxOneContent.innerHTML = "<h3>Sally's Halloween Party Admission</h3>Visit Highland's Hottest Halloween Party again and again! Purchase this one-price upgrade to gain access for passholder and one guest to Sally's Halloween Party on all event nights!<p style='font-size:11px;'>Complimentary event tickets must be activated online prior to arriving at the event. Tickets may be unavailable on some nights depending on event attendance</p>";
 					window.open("#moreInfo","_self");
 					break;
 				case 3:
 					txtBoxOne.style.display = 'block';
-					txtBoxOneContent.innerHTML = "Allows access to the annual Adventure Eve event for passholder and one guest.";
+					txtBoxOneContent.innerHTML = "<h3>Adventure Eve Admission</h3>Allows access to the annual Adventure Eve event for passholder and one guest.";
 					window.open("#moreInfo","_self");
 					break;
 				case 4:
 					txtBoxOne.style.display = 'block';
-					txtBoxOneContent.innerHTML = "Allows passholders with Resident Passports or Adventure Passports to access the themepark after 5PM on black-out dates on which passholder would otherwise not be able to enter the park";
+					txtBoxOneContent.innerHTML = "<h3>Black-Out Date Nights</h3>Allows passholders with Resident Passports or Adventure Passports to access the themepark after 5PM on black-out dates on which passholder would otherwise not be able to enter the park";
+					window.open("#moreInfo","_self");
+					break;
+				case 5:
+					txtBoxOne.style.display = 'block';
+					txtBoxOneContent.innerHTML = "<h3>GC PhotoPass Upgrade</h3>Includes 12-Months of unlimited digital downloads of all your in-park ride photos and any photos taken by our photographers. Passport used to purchase upgrade must be scanned for the photos to link to your account. <p>Learn more about GC PhotoPass <a>here</a></p>";
 					window.open("#moreInfo","_self");
 					break;
 			}
