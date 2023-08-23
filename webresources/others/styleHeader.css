@@ -84,13 +84,13 @@
 
 /* -- MINIMIZED HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width:900px){
-
-
-}
+	@media screen and (max-width:900px){
+	
+	
+	}
 
 	#openHeaderMenuMinimized{position:fixed; top:0; right:0; width:60px; height:60px; font-size:30px; color:white; margin:0; border-radius:0; border:none; z-index:1000;}
-        #minimizedHeaderMenu{position:fixed; top:60px; left:0; width:240px; background:gray; bottom:0; overflow-y:auto; text-align:left; overflow-x:hidden; padding:15px; display:none; z-index:998;}
+        #minimizedHeaderMenu{position:fixed; top:60px; left:0; width:75vw; max-width:400px; min-width:200px; background:gray; bottom:0; overflow-y:auto; text-align:left; overflow-x:hidden; padding:15px; display:none; z-index:998;}
         #minimizedHeaderMenu #headerBarTP{width:100%; margin:auto; float:none;}
         #minimizedHeaderMenu a{font-size:18px; text-decoration:none; color:white; display:block; margin-top:10px; transition:0.3s;}
         #minimizedHeaderMenu .i{display:none; padding-left:20px; animation: FadeIn 0.4s;}
