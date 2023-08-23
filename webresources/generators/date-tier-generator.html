@@ -4,7 +4,6 @@
   	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
 	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
-	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Resort Date Tier Template Creator | Globe-City Resort Highland</title>
@@ -17,7 +16,7 @@
 
 	<script></script>
 
-<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<body> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
 <!-- Header Elements -->
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
@@ -34,12 +33,14 @@
     	<input id='entertainment' type='text' style='width:60px;' placeholder='0-11'>
         
         <label for='events'>Events</label>
-    	<input id='events' type='text' style='width:60px;' placeholder='0-11'>
+    	<input id='events' type='text' style='width:60px;' placeholder='0-11' onkeypress="enterKeyPressed(event)">
         
         <br>
         
         <p>Hit <b>TAB</b> to select next input automatically<p>
         <p>Hit <b>ENTER</b> to input and move to next date</p>
+        
+        <p><a id='repeat-last' style='display:none' onclick='repeatLast()'>Repeat Last</a></p>
     </div>
     
     <div class='spacer'></div>
@@ -97,7 +98,37 @@
 
 <script>
 
-const
+const inputA = document.getElementById("tier");
+const inputB = document.getElementById("entertainment");
+const inputC = document.getElementById("events");
+
+function run(){
+
+	if(document.getElementById("repeat-last").style.display != 'block'){document.getElementById("repeat-last").style.display = 'block';}
+    
+    inputAlast = inputA.value;
+    inputBlast = inputB.value;
+    inputClast = inputC.value;
+    
+    console.log("Input A: "+inputA.value + "; Input B: "+inputB.value+"; Input C: "+inputC.value);
+    inputA.select();
+    
+}
+
+function repeatLast(){
+
+	console.log("Input A: "+inputAlast + "; Input B: "+inputBlast+"; Input C: "+inputClast);
+    
+}
+
+function enterKeyPressed(event){
+  if (event.keyCode == 13 || event.keyCode == 9) {
+           run();
+        } else {
+           return false;
+        }
+}
+
 
 </script>
 
