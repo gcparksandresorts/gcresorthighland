@@ -66,7 +66,7 @@
 			              </div> <br>";
 		
 		footBar.innerHTML += "<div style='text-align:center'> <p class='disclaimer'>©2023 Globe-City Parks and Resorts LLC.<br></p> \
-    				      <a>Privacy Policy</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/information/legal.html'>Legal Information</a> | <a>MCBPO</a> | <a>Careers</a> \
+    				      <a href='https://gcparksandresorts.github.io/gcresorthighland/information/legal'>Privacy Policy</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/information/legal'>Legal Information</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/webresources/generators/date-tier-generator.html'>MCBPO</a> | <a>Careers</a> \
     				      <br><br>    </div>";
 		
 	}
