@@ -86,8 +86,9 @@
     
     <div class='container'>
     	<div id='finalOutput' style='text-align:left; background:azure; width:500px; margin:auto; border:1px solid black; padding:10px;'>
-        	Text
+        	No Input to Display
         </div>
+	<a onclick='copyAll()'>Copy to Cliboard</a>
     </div>
 	
 <!-- Footer Elements --><div id="footer"><div class='spacer'></div><div class='container'>FOR OFFICIAL USE ONLY</div></div>
@@ -98,36 +99,42 @@
 
 <script>
 
-const inputA = document.getElementById("tier");
-const inputB = document.getElementById("entertainment");
-const inputC = document.getElementById("events");
+	const inputA = document.getElementById("tier");
+	const inputB = document.getElementById("entertainment");
+	const inputC = document.getElementById("events");
 
-function run(){
+	const outputBox = document.getElementById("finalOutput");
+	
+	function run(){
+	
+		if(document.getElementById("repeat-last").style.display != 'block'){document.getElementById("repeat-last").style.display = 'block';}
+	    
+	    inputAlast = inputA.value;
+	    inputBlast = inputB.value;
+	    inputClast = inputC.value;
+	    
+	    console.log("Input A: "+inputA.value + "; Input B: "+inputB.value+"; Input C: "+inputC.value);
+	    inputA.select();
+	    
+	}
+	
+	function repeatLast(){
+	
+		console.log("Input A: "+inputAlast + "; Input B: "+inputBlast+"; Input C: "+inputClast);
+	    
+	}
+	
+	function enterKeyPressed(event){
+	  if (event.keyCode == 13 || event.keyCode == 9) {
+	           run();
+	        } else {
+	           return false;
+	        }
+	}
 
-	if(document.getElementById("repeat-last").style.display != 'block'){document.getElementById("repeat-last").style.display = 'block';}
-    
-    inputAlast = inputA.value;
-    inputBlast = inputB.value;
-    inputClast = inputC.value;
-    
-    console.log("Input A: "+inputA.value + "; Input B: "+inputB.value+"; Input C: "+inputC.value);
-    inputA.select();
-    
-}
-
-function repeatLast(){
-
-	console.log("Input A: "+inputAlast + "; Input B: "+inputBlast+"; Input C: "+inputClast);
-    
-}
-
-function enterKeyPressed(event){
-  if (event.keyCode == 13 || event.keyCode == 9) {
-           run();
-        } else {
-           return false;
-        }
-}
+	function copyAll(){
+		navigator.clipboard.writeText(outputBox.innerHTML);
+	}
 
 
 </script>
