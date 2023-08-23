@@ -16,6 +16,11 @@
                 .liveCountContainer div {width:25%; margin:5px; margin-top:0; margin-bottom:0;}
                 .liveCountContainer .minA{border-right:1px solid black;border-left:1px solid black;} .liveCountContainer .minB{width:50%;}
                 @media screen and (max-width:790px){.liveCountContainer{flex-flow:column;} .liveCountContainer div{width:100%;} .liveCountContainer .minA{border:none;} .liveCountContainer .minB{width:100%;padding:10px;}}
+
+		#tikInfo, #apInfo{width:45%; text-align:center; margin:0; padding:15px; display:inline-block; align-self:stretch;}
+		#tikInfo {border-right:1px solid black;}
+
+		@media screen and (max-width:700px){#tikInfo, #apInfo {width:100%; border:none;}}
     </style>
 
 </head>
@@ -64,19 +69,22 @@
         
     </div>
     
-    
-    <div class='fullContainer' style='background:#efefef;  box-shadow: 0px 0px 10px #888888;'>
-    	<h2>Live Guest Count</h2>
-        <div class='liveCountContainer'>
-        	<div><br><b>Adventure Park</b><p id='apCount'>No Information</p></div>
-            <div class='minA'><br><b>City-Shop<sup>TM</sup></b><p id='csCount'>No Information</p></div>
-            <div class = 'minB'><br><b>Resort Parking</b><p id='parkCount'>Adventure Parking ($25): No Information<br><br>City-Shop Parking (Hourly): No Information</p><p><a>Parking and Directions</a></p></div>
-        </div>
-        <p class='disclaimer'>Powered by <em>Live-Tracker</em><sup>TM</sup></p>
-        
-    </div>
+    <!--
+	    <div class='fullContainer' style='background:#efefef;  box-shadow: 0px 0px 10px #888888;'>
+	    	<h2>Live Guest Count</h2>
+	        <div class='liveCountContainer'>
+	        	<div><br><b>Adventure Park</b><p id='apCount'>No Information</p></div>
+	            <div class='minA'><br><b>City-Shop<sup>TM</sup></b><p id='csCount'>No Information</p></div>
+	            <div class = 'minB'><br><b>Resort Parking</b><p id='parkCount'>Adventure Parking ($25): No Information<br><br>City-Shop Parking (Hourly): No Information</p><p><a>Parking and Directions</a></p></div>
+	        </div>
+	        <p class='disclaimer'>Powered by <em>Live-Tracker</em><sup>TM</sup></p>
+	    </div>
+	-->
+
+	<div class='spacer'></div>
 
 	<div class='container'>
+		
     	<h3>Events and Specials</h3>
 
 		 <div class='entertainmentContainer'>
@@ -97,8 +105,27 @@
     
     <div class='spacer'></div>
     
-    <div class='container' style='text-align:center'>
+    <div class='container' style='text-align:center;'>
     	<h3>Ticketing and Admission Information</h3>
+        <div style='display:flex; flex-wrap:wrap; margin:auto; align-items:center; justify-content:center;'>
+	    <div id='tikInfo'>
+		    <h3 style='font-weight:normal'>Current Ticket Prices</h3>
+		    <ul id='tikInfoDisp' style='text-align:left;'>
+			    <li>Ticketing Tier: <b>N/A</b></li>
+			    <li>General Admission: <b>$75+</b>*</li>
+			    <li>VIP Admission: <b>$109+</b>*</li>
+		    </ul>
+	    </div>
+	    <div id='apInfo'>
+		    <h3 style='font-weight:normal'>Annual Passport Information</h3>
+		    <ul id='apInfoDisp' style='text-align:left;'>
+			    <li>Resident Passport: <span style='color:green'>Good to go!</span></li>
+			    <li>Adventure Passport: <span style='color:green'>Good to go!</span></li>
+			    <li>Platinum VIP Passport: <span style='color:green'>Good to go!</span></li>
+		    </ul>
+	    </div>
+        </div>
+	    <p class='disclaimer'>* Prices shown are for Oras Nou Resident Admission and VIP Silver admission. Pricing subject to change. VIP ticket prices for tickets purchased same-day may fluctuate throughout the operating day.</p>
     </div>
     
     <div class='spacer'></div>
