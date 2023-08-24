@@ -139,7 +139,7 @@
     <div class='spacer'></div>
     
     <div class='container' style='text-align:center'>
-    	<button style='width:90%; max-width:400px;'>View Tickets and Passports</button>
+    	<button style='width:90%; max-width:400px;' onclick='window.open("../tickets","_self")'>View Tickets and Passports</button>
         <br><br><br>
         <p class='disclaimer'>Operating schedules, crowd metrics, and closures are determined from a preset calendar. Actual hours, waittimes, and other opertating information may differ from the information displayed. Download the GC RESORT mobile app for the most accurate and up-to-date information.</p>
     </div>
@@ -155,9 +155,60 @@
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
 
-	<!-- Get today's date and print ---->
-	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/information/scripts/resort-schedule.js'></script>
-	<script>recordDate();</script>
+	<!-- OFFICIAL INFORMATION COLLECTION SCRIPT ---->
+	<script>
+		const finalDateDisplay = document.getElementById("dateDisplayText");
+
+		const monthsNamed = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		const daysNamed = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+		var tdate = new Date();
+		var tmonth = monthsNamed[tdate.getMonth()];
+		var tday = tdate.getDate();
+		var tdayw = daysNamed[tdate.getDay()];
+		var tyear = tdate.getFullYear();
+
+		function runResortInfoCollection(){
+			console.log("Running Resort Info Collection...");
+
+			// Set up the search for date tier
+			let searchDate = tmonth + " " + tday;
+			let searchQuery = "N/A";
+			let it = 0;
+
+			// Find the date tier for the date selected
+			console.log("Searching for " + searchDate);
+			while(searchQuery != searchDate){
+
+				let temp = dateTierList[it];
+				tempRead = temp.split(" - ");
+
+				searchQuery = tempRead[0];
+				console.log("Iteration: " + it + "SearchQuery = " + seachQuery);
+
+				if(it > 366){
+					alert("There has been an error in fetching today's information");
+					return;
+				}
+			}
+			
+			console.log("FOUND DATE!");
+
+			
+			
+			
+			finalDateDisplay.innerHTML = tdayw + " - " + searchDate + ", " + tyear;
+		}
+        
+		function recordDate(){   
+		    	//finalDateDisplay.innerHTML = tdayw + " - " + tmonth + " " + tday + ", " + tdate.getFullYear();
+			runResortInfoCollection();
+		}
+		
+	</script>
+	<script>
+		recordDate();
+	</script>
 
 
 </html>
