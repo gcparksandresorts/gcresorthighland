@@ -1,14 +1,14 @@
 // ------------------------------------------------------------------------------ PARK HOURS  ---------------------------------------------------------------------------------------------------
 parkHoursList = []; // Adventure Park : CityShop : Special Event
 
-parkHoursList[0] = "Error in Retrieval : Error in Retrieval";
-parkHoursList[1] = "10AM - 8PM : 11AM - 10PM";
-parkHoursList[2] = "10AM - 9PM : 11AM - 11PM";
-parkHoursList[3] = "10AM - 10PM : 11AM - 11PM";
-parkHoursList[4] = "9AM - 11PM : 11AM - 12AM";
-parkHoursList[5] = "9AM - 11PM : 11AM - 12AM";
-parkHoursList[6] = "10AM - 8PM : 11AM - 10PM : 6PM - 11PM"; // Special Event
-parkHoursList[7] = "10AM - 8PM : 11AM - 10PM : 7PM - 1AM"; // Special Event
+parkHoursList[0] = "Error in Retrieval | Error in Retrieval";
+parkHoursList[1] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM";
+parkHoursList[2] = "10:00 AM - 9:00 PM | 11:00 AM - 11:00 PM";
+parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
+parkHoursList[4] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
+parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
+parkHoursList[6] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 11:00 PM"; // Special Event
+parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM"; // Special Event
 
 
 // ------------------------------------------------------------------------------ ENTERTAINMENT -------------------------------------------------------------------------------------------------
