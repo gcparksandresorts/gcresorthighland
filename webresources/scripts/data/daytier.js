@@ -1,7 +1,7 @@
 // ------------------------------------------------------------------------------ PARK HOURS  ---------------------------------------------------------------------------------------------------
 parkHoursList = []; // Adventure Park : CityShop : Special Event
 
-parkHoursList[0] = "Error : Error";
+parkHoursList[0] = "Error in Retrieval : Error in Retrieval";
 parkHoursList[1] = "10AM - 8PM : 11AM - 10PM";
 parkHoursList[2] = "10AM - 9PM : 11AM - 11PM";
 parkHoursList[3] = "10AM - 10PM : 11AM - 11PM";
