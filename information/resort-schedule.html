@@ -153,7 +153,7 @@
 
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
-	<script>runHeaderSetup();</script>
+	<script>runHeaderSetup(); console.clear();</script>
 
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/data/daytier.js'></script>
 
@@ -174,19 +174,19 @@
 			console.log("Running Resort Info Collection...");
 
 			// Set up the search for date tier
-			let searchDate = tmonth + " " + tday;
-			let searchQuery = "N/A";
-			let it = 0;
+			var searchDate = tmonth + " " + tday;
+			var searchQuery = "N/A";
+			var it = 0;
 
 			// Find the date tier for the date selected
 			console.log("Searching for " + searchDate);
 			while(searchQuery != searchDate){
 
-				let temp = dateTierList[it];
+				var temp = dateTierList[it];
 				tempRead = temp.split(" - ");
 
-				let searchQuery = tempRead[0];
-				console.log("Iteration: " + it + "SearchQuery = " + searchQuery);
+				var searchQuery = tempRead[0];
+				console.log("Iteration: " + it + ". SearchQuery = " + searchQuery);
 
 				if(it > 366){
 					alert("There has been an error in fetching today's information");
@@ -197,16 +197,22 @@
 				
 			}// end of while statement
 
-			let tdTeir = tempRead[1];
-			let tdEntertainment = tempRead[2];
-			let tdEvents = tempRead[3];
-			console.log("FOUND DATE! - Tier: " + tdTier + " | Entertainment: " + tdEntertainment + " | Events: " + tdEvents);
+			console.log("Temp Read: " + tempRead);
+			var tdDayWeek = tempRead[1];
+			var tdTier = tempRead[2];
+			var tdEntertainment = tempRead[3];
+			var tdEvents = tempRead[4];
+			console.log("FOUND DATE! - Day of Week: " + tdDayWeek + " | Tier: " + tdTier + " | Entertainment: " + tdEntertainment + " | Events: " + tdEvents);
 
+			// Start Displaying the Information Gathered
+
+				// Display the Park Hours and City-Shop Hours
+				
 			
 			
+			finalDateDisplay.innerHTML = tdDayWeek + " - " + searchDate + ", " + tyear;
 			
-			finalDateDisplay.innerHTML = tdayw + " - " + searchDate + ", " + tyear;
-		}
+		} // end of function
         
 		function recordDate(){   
 		    	//finalDateDisplay.innerHTML = tdayw + " - " + tmonth + " " + tday + ", " + tdate.getFullYear();
