@@ -41,9 +41,12 @@
         <div class='parkHours' id='adventureParkHoursDisplay'>
         	<b>Adventure Park</b><br>Error in Retrieval
         </div>
-        <div class='parkHours' id='cityShopDisplay'>
+        <div class='parkHours' id='cityShopHoursDisplay'>
         	<b>City-Shop</b><br>Error in Retrieval
         </div>
+	<div class='parkHours' id='specialeventHoursDisplay' style='display:none'>
+        	<b>Special Event Hours</b><br>Error in Retrieval
+        </div>	
 		
         <br><br><a>Look Ahead</a>
 	<p class='disclaimer'>Note: Individual venue operating hours may differ from general theme-park or shopping center operating hours</p>
@@ -223,6 +226,13 @@
 			// Start Displaying the Information Gathered
 
 				// Display the Park Hours and City-Shop Hours
+				let $tempHour = parkHoursList[tdTier].split(" : ");
+				document.getElementById("adventureParkHoursDisplay").innerHTML = "<b>Adventure Park</b><br>" + $tempHour[0] + "";
+				document.getElementById("cityShopHoursDisplay").innerHTML = "<b>City-Shop</b><br>" + $tempHour[1] + "";
+				if(tdTier > 5){
+					document.getElementById("specialeventHoursDisplay").style.display = 'inline-block';
+					document.getElementById("specialeventHoursDisplay").innerHTML = "<b>Special Event Hours</b><br>" + $tempHour[2] + "";
+				}
 				
 			
 			
