@@ -21,6 +21,8 @@
 		#tikInfo li, #apInfo li{margin-bottom:10px;}
 
 		@media screen and (max-width:700px){#tikInfo, #apInfo {width:100%; border:none;}}
+
+		.grn {color:green;} .red{color:red;}
     </style>
 
 </head>
@@ -226,12 +228,50 @@
 			// Start Displaying the Information Gathered
 
 				// Display the Park Hours and City-Shop Hours
-				let $tempHour = parkHoursList[tdTier].split(" : ");
+				let $tempHour = parkHoursList[tdTier].split(" | ");
 				document.getElementById("adventureParkHoursDisplay").innerHTML = "<b>Adventure Park</b><br>" + $tempHour[0] + "";
 				document.getElementById("cityShopHoursDisplay").innerHTML = "<b>City-Shop</b><br>" + $tempHour[1] + "";
 				if(tdTier > 5){
 					document.getElementById("specialeventHoursDisplay").style.display = 'inline-block';
 					document.getElementById("specialeventHoursDisplay").innerHTML = "<b>Special Event Hours</b><br>" + $tempHour[2] + "";
+				}
+				const adminInfoDisp = document.getElementById("tikInfoDisp");
+				const apInfoDisp = document.getElementById("apInfoDisp");
+				var adminInfoVal = [];
+				switch(tdTier){
+					case 1:
+						adminInfoVal = ["1", "$67+", "$109+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						break;
+					case 2:
+						adminInfoVal = ["2", "$75+", "$135+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						break;
+					case 3:
+						adminInfoVal = ["3", "$80+", "$160+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						break;
+					case 4:
+						adminInfoVal = ["4", "$90+", "$209+", "<span class='red'>Blocked Out</span>", "<span class='grn'>Good to Go</span>"];
+						break;
+					case 5:
+						adminInfoVal = ["5", "$109+", "$250+", "<span class='red'>Blocked Out</span>", "<span class='red'>Blocked Out</span>"];
+						break;
+					default:
+						adminInfoVal = ["1", "$65+", "$105+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						break;
+				}
+				adminInfoDisp.innerHTML = "<li>Ticketing Tier: <b>" + adminInfoVal[0] + "</b></li> <li>General Admission: <b>" + adminInfoVal[1] + "</b>*</li> <li>GV VIP Admission: <b>" + adminInfoVal[2] + "</b>*</li>";
+				apInfoDisp.innerHTML = "<li>Resident Passport: " + adminInfoVal[3] + "</li> <li>Adventure Passport: " + adminInfoVal[4] + "</li> <li>Platinum Passport: <span class='grn'>Good to Go</span></li>";
+
+				// Display the Entertainment Schedule
+				// let $tempEntertainment = entertainmentList[tdTier].split(" || ");
+				let $tempEntertainment = entertainmentList[2].split(" || ");
+				for(let it = 0; it < $tempEntertainment.length; it++){
+					
+					var $$tempEntertainment = $tempEntertainment[it].split(" | ");
+					
+					for(let bt = 0; bt < $$tempEntertainment.length; bt++){
+					console.log("Entertainment [" + it + "]: [" + bt + "]. Schedule: " + $$tempEntertainment[bt]);
+					}
+					
 				}
 				
 			
