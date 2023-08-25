@@ -16,7 +16,7 @@ entertainmentList = []; // Name | Hours | Image_Link | Click_Link ||  Name | Hou
 
 entertainmentList[0] = "No Shows Today";
 entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:00PM, 2:00PM, 3:00PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
-entertainmentList[2] = "";
+entertainmentList[2] = "one | two | three || four | five | six";
 entertainmentList[3] = "";
 entertainmentList[4] = "";
 
