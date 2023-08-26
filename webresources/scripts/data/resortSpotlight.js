@@ -79,8 +79,8 @@ const june = [];
       june[2] = "";
 
       june[3] = "https://thepointsguy.global.ssl.fastly.net/us/originals/2023/06/20230619_Disney-Pride-Night_KMartinez_50.jpg";
-      june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This month experience pridefull new sweets and treats at participating resturaunts in the resort as well as in-park decorations and new merchandise!";
-      june[5] = "";
+      june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This year, we're happy to announce the first ever <b>Adventurous Night of Pride</b> special event! Click to learn more";
+      june[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
       june[6] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
       june[7] = "<h3>&#127905; Ride Spotlight: Touch the Sky</h3>Soar into summer at 60mph aboard this thrilling beach-side rollercoaster full of inversions, twists, turns, and a whole 'lotta fun!";
