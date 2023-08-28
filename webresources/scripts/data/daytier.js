@@ -25,9 +25,10 @@ entertainmentList[4] = "";
 eventList = []; // Name | Hours (or 'special event') | Image_Link | Click_Link ||  Name | Hours (or 'special event') | Image_Link | Click_Link || ...
 
 eventList[0] = "No Events Today";
-eventList[1] = "No Events Today";
+eventList[1] = "RMember Admission Discounts | Promotion | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg | www.google.com";
 eventList[2] = "No Events Today";
 eventList[3] = "No Events Today";
+eventList[4] = "No Events Today";
 
 
 dateTierList = [];
@@ -38,7 +39,7 @@ dateTierList[2] = "January 3 - Wednesday - 1 - 1 - 1"; // Wednesday, January 3st
 dateTierList[3] = "January 4 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[4] = "August 24 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[5] = "August 25 - Friday - 1 - 1 - 1"; // Thursday, January 4st
-dateTierList[5] = "August 28 - Monday - 0 - 2 - 4"; // Thursday, January 4st
+dateTierList[5] = "August 28 - Monday - 0 - 2 - 1"; // Thursday, January 4st
 dateTierList[5] = "August 29 - Tuesday - 0 - 1 - 1"; // Thursday, January 4st
 dateTierList[5] = "August 30 - Wednesday - 0 - 3 - 2"; // Thursday, January 4st
 
