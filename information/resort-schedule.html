@@ -60,7 +60,7 @@
     <div class='container' style='text-align:center'>
     	<h3>Today's Entertainment Schedule</h3>
         
-        <div class='entertainmentContainer'>
+        <div class='entertainmentContainer' id='tdEntertainmentDisplay'>
         
         	<div><img src='https://www.laughingplace.com/w/wp-content/uploads/2021/03/seaworld-san-diego-brings-back-seaworld-fireworks-show-starting-march-26.png'>
             	<p><b>Summer's to Remember Forever Spectacular</b><br>9:00 PM</div>
@@ -276,13 +276,16 @@
 
 				// Display the Entertainment Schedule
 				// let $tempEntertainment = entertainmentList[tdTier].split(" || ");
+				const tdED = document.getElementById("tdEntertainmentDisplay");
+				tdED.innerHTML = "";
 				let $tempEntertainment = entertainmentList[2].split(" || ");
 				for(let it = 0; it < $tempEntertainment.length; it++){
 					
 					var $$tempEntertainment = $tempEntertainment[it].split(" | ");
 					
 					for(let bt = 0; bt < $$tempEntertainment.length; bt++){
-					console.log("Entertainment [" + it + "]: [" + bt + "]. Schedule: " + $$tempEntertainment[bt]);
+						console.log("Entertainment [" + it + "]: [" + bt + "]. Schedule: " + $$tempEntertainment[bt]);
+						tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img scr='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
 					}
 					
 				}
