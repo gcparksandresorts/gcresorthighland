@@ -15,7 +15,8 @@ parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM
 entertainmentList = []; // Name | Hours | Image_Link | Click_Link ||  Name | Hours | Image_Link | Click_Link || ...
 
 entertainmentList[0] = "No Shows Today";
-entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:00PM, 2:00PM, 3:00PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
+entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:00PM, 2:00PM, 3:00PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band \
+                        || Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[2] = "one | two | three || four | five | six";
 entertainmentList[3] = "";
 entertainmentList[4] = "";
