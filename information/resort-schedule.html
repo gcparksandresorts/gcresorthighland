@@ -209,8 +209,7 @@
 			var tdEvents = tempRead[4];
 
 				// For Tier 0, 6, 7 Days:
-				switch(tdTier){
-					case 0:
+				if(tdTier == '0'){
 						if(tdDayWeek == "Friday" || tdDayWeek == "Saturday" || tdDayWeek == "Sunday"){
 							var tdTier = 2;
 							console.log("Tier Changed to 2");
@@ -218,22 +217,6 @@
 							var tdTier = 1;
 							console.log("Tier Changed to 1");
 						}
-						break;
-					case 6:
-						console.log("Special Event A");
-						break;
-					case 7:
-						console.log("Special Event B");
-						break;
-					default:
-						if(tdDayWeek == "Friday" || tdDayWeek == "Saturday" || tdDayWeek == "Sunday"){
-							var tdTier = 2;
-							console.log("Tier Changed to 2");
-						}else{
-							var tdTier = 1;
-							console.log("Tier Changed to 1");
-						}
-						break;		
 				}// end of switch
 			
 			console.log("FOUND DATE! - Day of Week: " + tdDayWeek + " | Tier: " + tdTier + " | Entertainment: " + tdEntertainment + " | Events: " + tdEvents);
@@ -278,15 +261,11 @@
 				// let $tempEntertainment = entertainmentList[tdTier].split(" || ");
 				const tdED = document.getElementById("tdEntertainmentDisplay");
 				tdED.innerHTML = "";
-				let $tempEntertainment = entertainmentList[2].split(" || ");
+				let $tempEntertainment = entertainmentList[tdTier].split(" || ");
 				for(let it = 0; it < $tempEntertainment.length; it++){
 					
 					var $$tempEntertainment = $tempEntertainment[it].split(" | ");
-					
-					for(let bt = 0; bt < $$tempEntertainment.length; bt++){
-						console.log("Entertainment [" + it + "]: [" + bt + "]. Schedule: " + $$tempEntertainment[bt]);
-						tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img scr='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
-					}
+					tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img scr='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
 					
 				}
 				
