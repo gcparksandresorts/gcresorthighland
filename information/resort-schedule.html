@@ -93,7 +93,7 @@
 		
     	<h3>Events and Specials</h3>
 
-		 <div class='entertainmentContainer'>
+		 <div class='entertainmentContainer' id='tdSpecialEventDisplay'>
         
 	        	<div><img src='https://thiscrazyadventurecalledlife.com/wp-content/uploads/2023/03/Disneyland-in-Summer-6-709x750.jpg'>
 	            	<p><b>Globe-City's Summer Fest<sup>TM</sup></b><br>Special Event</div>
@@ -235,19 +235,19 @@
 				const apInfoDisp = document.getElementById("apInfoDisp");
 				var adminInfoVal = [];
 				switch(tdTier){
-					case 1:
+					case '1':
 						adminInfoVal = ["1", "$67+", "$109+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
 						break;
-					case 2:
+					case '2':
 						adminInfoVal = ["2", "$75+", "$135+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
 						break;
-					case 3:
+					case '3':
 						adminInfoVal = ["3", "$80+", "$160+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
 						break;
-					case 4:
+					case '4':
 						adminInfoVal = ["4", "$90+", "$209+", "<span class='red'>Blocked Out</span>", "<span class='grn'>Good to Go</span>"];
 						break;
-					case 5:
+					case '5':
 						adminInfoVal = ["5", "$109+", "$250+", "<span class='red'>Blocked Out</span>", "<span class='red'>Blocked Out</span>"];
 						break;
 					default:
@@ -268,6 +268,17 @@
 					tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img src='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
 					
 				}
+
+				// Display the Events Schedule
+				const seED = document.getElementById("tdSpecialEventDisplay");
+				seED.innerHTML = '';
+				let $tempEvents = eventList[tdEvents].split(" || ");
+				for(let it = 0; it < $tempEvents.length; it++){
+
+					var $$tempEvents = $tempEvents[it].split(" | ");
+					seED.innerHTML += "<div onclick='window.open("+'"'+$$tempEvents[3]+'"'+")'><img src='"+$$tempEvents[2]+"'><p><b>"+$$tempEvents[0]+"</b><br>"+$$tempEvents[1]+"</div>";
+					
+				}//end of for loop
 				
 			
 			
