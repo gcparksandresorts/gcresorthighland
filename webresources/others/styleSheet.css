@@ -85,9 +85,10 @@ body{
 
 
 	.selectionContainer{width:100%; max-width:1200px; margin:auto; margin-bottom:30px; margin-top:30px; padding:15px; display:flex; flex-flow:row;}
-        .selectionContainer:hover{transition:0.25s; scale:1.002; cursor:pointer;} .selectionContainer:hover h1, .selectionContainer:hover h2, .selectionContainer:hover h3{color:blue;}
+        .selectionContainer:hover{scale:1.002; cursor:pointer;} .selectionContainer:hover h1, .selectionContainer:hover h2, .selectionContainer:hover h3{transition:0.25s; color:#336666;}
         .selectionContainer h1, .selectionContainer h2, .selectionContainer h3 {margin-top:0;}
-        .selectionContainer img{width:35%; margin:0; align-self:stretch; max-height:200px; object-fit:cover; border-radius:10px;}
+        .selectionContainer img{width:35%; margin:0; align-self:stretch; max-height:200px; object-fit:cover; border-radius:10px; transition:0.25s;}
+	.selectionContainer:hover img{scale:1.05;}
         .selectionContainer div{width:65%; margin:0; align-self:flex-start; margin-left:20px;}
         
         @media screen and (max-width:900px){
