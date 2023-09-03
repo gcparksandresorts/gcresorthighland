@@ -27,8 +27,9 @@ eventList = []; // Name | Hours (or 'special event') | Image_Link | Click_Link |
 
 eventList[0] = "No Events Today";
 eventList[1] = "RMember Admission Discounts | Promotion | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg | www.google.com";
-eventList[2] = "No Events Today";
-eventList[3] = "No Events Today";
+eventList[2] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort ||\
+                Passholder Preview Day | Special Event | https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/uor-universal-annual-passholder-friends-shopping-a.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort";
+eventList[3] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort";
 eventList[4] = "No Events Today";
 
 
@@ -43,6 +44,9 @@ dateTierList[5] = "August 25 - Friday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[6] = "August 28 - Monday - 7 - 1 - 1"; // Thursday, January 4st
 dateTierList[7] = "August 29 - Tuesday - 0 - 1 - 1"; // Thursday, January 4st
 dateTierList[8] = "August 30 - Wednesday - 0 - 3 - 2"; // Thursday, January 4st
+dateTierList[9] = "September 3 - Sunday - 6 - 0 - 2"; // Thursday, January 4st
+dateTierList[9] = "September 4 - Monday - 4 - 1 - 2"; // Thursday, January 4st
+dateTierList[9] = "September 5 - Tuesday - 0 - 0 - 2"; // Thursday, January 4st
 
 
 
