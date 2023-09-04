@@ -10,14 +10,8 @@
   	<title>Attractions and Entertainment | Globe-City Resort Highland</title>
   
   	<style>
-
-		.attractionContainer {display:flex; flex-flow:row; flex-wrap:wrap; padding:15px; margin:auto; max-width:1200px; align-content:flex-start;}
-		.attractionContainer .tile {width:29%; min-width:300px; text-align:left; padding:0; margin:2%; align-self:stretch; 
-					    cursor:pointer;  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); border-radius:11px;}
-		.attractionContainer .tile img {width:100%; height:200px; object-fit:cover; border-radius:10px 10px 0 0;}
-		.attractionContainer .tile div {width:100%; position:relative; margin:0; padding:10px; padding-bottom:30px; background:azure;} 
-		.attractionContainer .tile div h3{font-weight:normal; color:#073763; margin-bottom:0;} .attractionContainer .tile div .sponsor{margin-top:0;font-size:12px; font-weight:bold;} .attractionContainer .tile div .warnings{display:block; position:absolute; bottom:10px; font-style:italic;}
-		
+		.tileContainer div h3 {font-size:18px;}
+		.tileContainer div .sponsor{margin-top:0;}
 	</style>
 
 </head>
@@ -59,9 +53,58 @@
 			<h3  style='display:inline-block; font-weight:normal;'> | 6 Things to do</h3>
 		</div>
 		
-		<div class='attractionContainer'>
+		<div class='tileContainer'>
 			
+			<div onclick='window.open("attractions/adventure-park/touch-the-sky","_self")'>
+				<img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'>
+				<h3>Touch the Sky</h3>
+				<p class='sponsor'>Sponsored by FORD Motors</p>
+				<em>Minimum Height: 50" / 105cm</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/ride-the-beat","_self")'>
+				<img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'>
+				<h3>Ride the Beat: Waveriders</h3>
+				<p class='sponsor'>Sponsored by <em>ENERGIZER</em></p>
+				<em>Minimum Height: 48" / 105cm</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/","_self")'>
+				<img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'>
+				<h3>Mission 12</h3>
+				<p class='sponsor'><br></p>
+				<em>Minimum Height: 45" / 105cm</em>
+			</div>
 			
+		</div>
+
+		<div class='leftContainer' style='margin-top:0; margin-bottom:0;'>
+			<h2  style='display:inline-block;'>Immersive Dark Rides</h2>
+			<h3  style='display:inline-block; font-weight:normal;'> | 8 Things to do</h3>
+		</div>
+		
+		<div class='tileContainer'>
+			
+			<div onclick='window.open("attractions/adventure-park/sallys-manor","_self")'>
+				<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWEzOTEwN2d2ZjI4aHhwcW90b25hMWVlZ2dtbTJtYWxlemo4Zm5iMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pHoXs2uHHMenUq8AQA/giphy.gif'>
+				<h3>Sally's Manor</h3>
+				<p class='sponsor'><br></p>
+				<em>For all ages</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/ride-the-beat","_self")'>
+				<img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'>
+				<h3>The Ghostbusters<sup>TM</sup> Experience</h3>
+				<p class='sponsor'><br></p>
+				<em>For all ages</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/","_self")'>
+				<img src='https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill'>
+				<h3>The Magic Bakery Ride</h3>
+				<p class='sponsor'><br></p>
+				<em>For all ages</em>
+			</div>
 			
 		</div>
 		
