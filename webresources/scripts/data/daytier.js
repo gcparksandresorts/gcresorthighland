@@ -45,8 +45,10 @@ dateTierList[6] = "August 28 - Monday - 7 - 1 - 1"; // Thursday, January 4st
 dateTierList[7] = "August 29 - Tuesday - 0 - 1 - 1"; // Thursday, January 4st
 dateTierList[8] = "August 30 - Wednesday - 0 - 3 - 2"; // Thursday, January 4st
 dateTierList[9] = "September 3 - Sunday - 6 - 0 - 2"; // Thursday, January 4st
-dateTierList[10] = "September 4 - Monday - 4 - 1 - 2"; // Thursday, January 4st
-dateTierList[11] = "September 5 - Tuesday - 0 - 0 - 2"; // Thursday, January 4st
+dateTierList[10] = "September 4 - Monday - 4 - 1 - 3"; // Thursday, January 4st
+dateTierList[11] = "September 5 - Tuesday - 0 - 0 - 3"; // Thursday, January 4st
+dateTierList[12] = "September 6 - Wednesday - 0 - 0 - 3"; // Thursday, January 4st
+dateTierList[13] = "September 7 - Thursday - 0 - 0 - 3"; // Thursday, January 4st
 
 
 
