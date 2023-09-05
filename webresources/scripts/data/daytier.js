@@ -34,6 +34,9 @@ eventList[4] = "No Events Today";
 
 
 dateTierList = [];
+//Month # - DAY - TIER - Entertainment - Events
+//                        Entertainment: 1, 2, 3 etc. Each num adds a different show to the list
+//                        Events: 1, 2, 3, etc. Each num adds a different event to the list
 // ------------------------------------------------------------------------------ PASTE BELOW THIS LINE -----------------------------------------------------------------------------------------
 dateTierList[0] = "January 1 - Monday - 1 - 1 - 1"; // Monday, January 1st
 dateTierList[1] = "January 2 - Tuesday - 1 - 1 - 1"; // Tuesday, January 2st
