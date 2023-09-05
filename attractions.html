@@ -11,8 +11,14 @@
   
   	<style>
 		.tileContainer{justify-content:left;}
-		.tileContainer div h3 {font-size:18px; margin-bottom:0;}
+        	.tileContainer div {width:30%; border:1px solid black; border-radius:10px; margin:10px; transition:0.4s; margin-bottom:20px;}
+        	.tileContainer div:hover{background:#efefef;}
+		.tileContainer div h3 {font-size:18px; margin-bottom:0; text-transform: uppercase;}
 		.tileContainer div .sponsor{margin-top:0;}
+        
+	        @media screen and (max-width:900px){
+	        	.tileContainer div {width:90%; margin:auto; max-width:400px; margin-bottom:20px;}
+	        }
 	</style>
 
 </head>
@@ -23,8 +29,9 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
+	<!--
 	<div class='banner'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner2.jpg'></div>
-  	
+  	-->
 	<div class='subtitleBar'><br><h1>Attractions and Entertainment</h1></div>
 	<!-- End of Banner Image and Title Bar Elements -->
 	
@@ -201,6 +208,29 @@
 		<div class='leftContainer' style='margin-bottom:0;'>
 			<h1 style='display:inline-block; margin-bottom:0;'>City-Shop</h1>
 		</div>
+
+		<div class='tileContainer'>
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://i.pinimg.com/564x/2a/a9/b1/2aa9b1d99a87ba0a861c35f85d2070e4.jpg'>
+				<h3>The UltraViolet<sup>TM</sup></h3>
+				<p class='sponsor'>Indoor Themed Laser-Tag</p>
+				<em>Additional Purchase Required</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://assets.simpleviewinc.com/simpleview/image/upload/crm/austin/Credit-iFLY-Indoor-Skydiving.-Exp-7-1-25-1-_8929B8AE-0839-1E0F-ED2A22821D432C84-8929ab95c71aaff_8929c06a-cd45-6434-742f498615b6de5d.png'>
+				<h3>I-Fly<sup>TM</sup></h3>
+				<p class='sponsor'>Indoor Skydiving Experience</p>
+				<em>Additional Purchase Required</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://farm7.static.flickr.com/6014/5930428745_2868857c8a.jpg'>
+				<h3>City-Shop Plaza</h3>
+				<p class='sponsor'>Concert Venue</p>
+				<em>Open to the public</em>
+			</div>
+		</div>
 		
 	</section>
 
@@ -208,8 +238,25 @@
 		<div class='spacer'></div>
 
 		<div class='leftContainer' style='margin-bottom:0;'>
-			<h1 style='display:inline-block; margin-bottom:0;'>Resort Hotels</h1>
+			<h1 style='display:inline-block; margin-bottom:0;'>The Aztech Resort</h1>
 			<p>Resort Hotel Attractions and Entertainment are available to guests staying in resort hotels only</p>
+		</div>
+
+		<div class='tileContainer'>
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://www.kalahariresorts.com/media/txfj5ckm/block_0012_editeddsc_8077.png?width=824&height=550&rnd=132832054371900000&format=jpg&quality=60'>
+				<h3>The TechnoBar<sup>TM</sup> Game Room</h3>
+				<p class='sponsor'>Multi-Story Arcade</p>
+				<em>For Aztech Resort Guests Only</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://www.chelseyexplores.com/wp-content/uploads/2021/05/Harrahs-pool.jpeg'>
+				<h3>Aqua-Zone</h3>
+				<p class='sponsor'>Thrilling waterslides and pool deck</p>
+				<em>For Aztech Resort Guests Only</em>
+			</div>
+
 		</div>
 		
 	</section>
