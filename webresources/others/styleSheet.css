@@ -64,8 +64,15 @@ body{
       	.entertainmentContainer div img{width:100%; height:80px; display:block;} .entertainmentContainer div p{display:block; width:100%;}}
 
 
-	.attractionContainer {display:flex; justify-content:center; align-items:center; flex-flow:row; flex-wrap:wrap; max-width:1200px; margin:auto; width:100%;}
-	.attractionContainer div{width:30%; margin:1%; height:auto; }
+	.attractionDiv .tileContainer{justify-content:left;}
+        .attractionDiv .tileContainer div {width:30%; border:1px solid black; border-radius:10px; margin:10px; transition:0.4s; margin-bottom:20px;}
+        .attractionDiv .tileContainer div:hover{background:#efefef;}
+	.attractionDiv .tileContainer div h3 {font-size:18px; margin-bottom:0; text-transform: uppercase;}
+	.attractionDiv .tileContainer div .sponsor{margin-top:0;}
+        
+	@media screen and (max-width:900px){
+	       	.attractionDiv .tileContainer div {width:90%; margin:auto; max-width:400px; margin-bottom:20px;}
+	}
 
 
 	.columnContainer {display:flex; flex-flow:row; flex-wrap:nowrap; max-width:1200px; margin:auto; margin-bottom:20px; padding:0;}
