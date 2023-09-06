@@ -262,13 +262,16 @@
 				const tdED = document.getElementById("tdEntertainmentDisplay");
 				tdED.innerHTML = "";
 				let $tempEntertainment = entertainmentList[tdEntertainment].split(" || ");
-				for(let it = 0; it < $tempEntertainment.length; it++){
-					
-					var $$tempEntertainment = $tempEntertainment[it].split(" | ");
-					tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img src='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
-					
+				if($tempEntertainment == "No Shows Today"){
+					tdED.innerHTML = "No Shows Scheduled Today";
+				}else{
+					for(let it = 0; it < $tempEntertainment.length; it++){
+						
+						var $$tempEntertainment = $tempEntertainment[it].split(" | ");
+						tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img src='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
+						
+					}
 				}
-
 				// Display the Events Schedule
 				const seED = document.getElementById("tdSpecialEventDisplay");
 				seED.innerHTML = '';
