@@ -115,7 +115,7 @@ const august = [];
 const september = [];
       september[0] = "https://disneydose.com/wp-content/uploads/halloween-time-scott-brinegardisneyland.jpg";
       september[1] = "<h3>👻 Halloween Has Entered the Station 👻</h3>As the fog rolls in, we're shaking with excitement and getting our treat bags ready for the Halloween Season!";
-      september[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
+      september[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-9-23-halloween-at-the-globe-city-resort.html";
 
       september[3] = "https://s7d2.scene7.com/is/image/TWCNews/1025_n13_disney_springs_halloween_cookie_waffle_taco";
       september[4] = "<h3>New Spooky Treats Coming to Town &#127871</h3>Step into a world of frightful delights as we unleash the magic of Halloween into our menus throughout the resort!";
@@ -132,7 +132,7 @@ const october = [];
 
       october[3] = "https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp";
       october[4] = "<h3>Frightful Fun for the Family!</h3>Gather your friends and family and spend this Halloween screaming with delight at the Globe-City Resort Highland! Try our advanced <a>Itinerary Creator</a> to craft your perfect Spooky Adventure";
-      october[5] = "";
+      october[5] = "blog/events/halloween/9-9-23-halloween-at-the-globe-city-resort.html";
 
       october[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
       october[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings. Now through October";
