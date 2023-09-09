@@ -173,5 +173,8 @@ body{
         .blog .titleBar #authorName{color:black; display:inline-block;}
         .blog .titleBar #datePosted{color:black; float:right; display:inline-block;}
 
+	.blog .container img {width:100%; height:auto; max-width:500px; border-radius:10px;}
+	.blog .container{margin-top:15px; margin-bottom:15px;}
+
 
   
