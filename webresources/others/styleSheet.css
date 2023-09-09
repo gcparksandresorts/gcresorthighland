@@ -161,4 +161,17 @@ body{
 	@media screen and (max-width:500px) {#photoPassAd{width:100%;} }
 
 
+/*-- BLOG PAGES ----------------------------------------------------------------------------------------------------------------------------------------- */
+	#blogPage{background:linear-gradient(azure, azure, white); width:100%; margin:0;}
+    	.blog{max-width:1000px; margin:auto; background:white;}
+    	.blog .banner{position:relative; width:full; background:#efefef; padding:15px; height:auto;}
+        .blog .banner img{width:100%; margin:auto; border-radius:10px; height:auto; max-height:70vh;}
+        .blog .titleBar{width:100%; padding:15px; background:#efefef; text-align:left; margin-top:0; height:auto; max-width:1000px; border-bottom:1px solid black;}
+        .blog .titleBar h3,.blog .titleBar h2 {color:#073763; margin-top:0;}
+        .blog .titleBar h4{margin:0; font-weight:normal; color:dimgray;}
+        .blog .titleBar .spacer {background:dimgray; width:100%; height:1px;}
+        .blog .titleBar #authorName{color:black; display:inline-block;}
+        .blog .titleBar #datePosted{color:black; float:right; display:inline-block;}
+
+
   
