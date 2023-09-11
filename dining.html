@@ -1,1 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>Resturaunts and Dining | Globe-City Resort Highland</title>
+  
+  	<style>
+	</style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+	<!--
+	<div class='banner'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner2.jpg'></div>
+  	-->
+	<div class='subtitleBar'><br><h1>Resturaunts and Dining</h1></div>
+	<!-- End of Banner Image and Title Bar Elements -->
+	
+	
+	<div class='container'>
+		<label for="sectionSelect">Location</label>
+		<select name="sectionSelect" id="sectionSelect" onchange="selectSection();">
+			<option value='view-all'>View All</option>
+			<option value='apSection'>Adventure Park</option>
+			<option value='csSection'>City-Shop</option>
+			<option value='rhSection'>Resort Hotels</option>
+			<!--<option value='prvSection'>Coming Soon (Preview)</option>-->
+			
+			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+		</select>
+
+    <label for="sectionSelect">Eatery Type</label>
+		<select name="sectionSelect" id="sectionSelect" onchange="selectSection();">
+			<option value='view-all'>View All</option>
+			<option value='f-s'>Full-Service</option>
+			<option value='c-s'>Counter Service</option>
+			<option value='s-s'>Coffee and Desserts</option>
+      <option value='g-g'>Specialty Beverages</option>
+			<!--<option value='prvSection'>Coming Soon (Preview)</option>-->
+			
+			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+		</select>
+	</div>
+
+	<div class='spacer'></div>
+
+	<section class='sectionContainer attractionDiv' id='apSection'>
+		<div class='leftContainer' style='margin-bottom:0;'>
+			<h1 style='display:inline-block; margin-bottom:0;'>Adventure Park </h1>
+		</div>
+		
+		<div class='leftContainer' style='margin-top:0; margin-bottom:0;'>
+			<h2  style='display:inline-block;'>Full-Service Resturaunts</h2>
+    </div>
+		<div class='tileContainer'>
+			
+			<div onclick='window.open("attractions/adventure-park/touch-the-sky","_self")' class='f-s'>
+				<img src='https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/things-to-do/dining/disneyland/carnation-cafe/sourdough-patty-melt-16x9.jpg?1673558579002'>
+				<h3>The Boulevard Diner</h3>
+				<em>Adventure Boulevard</em>
+        		<br><br>Minecraftian Style eatery serving artisan burgers, salads and more
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/touch-the-sky","_self")' class='f-s'>
+				<img src='https://a.cdn-hotels.com/gdcs/production100/d1860/32aca960-3f46-4259-b11a-6c93a69747d6.jpg'>
+				<h3>Finona's Resturaunt</h3>
+				<em>Hindsborg Village</em>
+        		<br><br>Themed full-service resturaunt featuring rustic dining and gourmet meals
+			</div>
+			
+		</div>
+
+		<div class='spacer'></div>
+
+		<div class='leftContainer' style='margin-top:0; margin-bottom:0;'>
+			<h2  style='display:inline-block;'>Counter-Service</h2>
+		</div>
+		
+		<div class='tileContainer'>
+			
+		</div>
+
+		<div class='spacer'></div>
+
+		<div class='leftContainer' style='margin-top:0; margin-bottom:0;'>
+			<h2  style='display:inline-block;'>Coffee and Desserts</h2>
+		</div>
+
+		<div class='tileContainer'>
+			
+		</div>
+	</section>
+
+	<section class='sectionContainer attractionDiv' id='csSection'>
+		<div class='spacer'></div>
+
+		<div class='leftContainer' style='margin-bottom:0;'>
+			<h1 style='display:inline-block; margin-bottom:0;'>City-Shop</h1>
+		</div>
+
+		
+	</section>
+
+	<section class='sectionContainer attractionDiv' id='rhSection'>
+		<div class='spacer'></div>
+
+		<div class='leftContainer' style='margin-bottom:0;'>
+			<h1 style='display:inline-block; margin-bottom:0;'>The Aztech Resort</h1>
+			<p>Resort Hotel Attractions and Entertainment are available to guests staying in resort hotels only</p>
+		</div>
+
+		<div class='tileContainer'>
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://www.kalahariresorts.com/media/txfj5ckm/block_0012_editeddsc_8077.png?width=824&height=550&rnd=132832054371900000&format=jpg&quality=60'>
+				<h3>The TechnoBar<sup>TM</sup> Game Room</h3>
+				<p class='sponsor'>Multi-Story Arcade</p>
+				<em>For Aztech Resort Guests Only</em>
+			</div>
+
+			<div onclick='window.open("attractions/adventure-park/entertainment/character-greetings","_self")'>
+				<img src='https://www.chelseyexplores.com/wp-content/uploads/2021/05/Harrahs-pool.jpeg'>
+				<h3>Aqua-Zone</h3>
+				<p class='sponsor'>Thrilling waterslides and pool deck</p>
+				<em>For Aztech Resort Guests Only</em>
+			</div>
+
+		</div>
+		
+	</section>
+    
+    
+
+	
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectSection();</script>
+	
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
