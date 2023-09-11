@@ -261,13 +261,14 @@
 				// let $tempEntertainment = entertainmentList[tdTier].split(" || ");
 				const tdED = document.getElementById("tdEntertainmentDisplay");
 				tdED.innerHTML = "";
-				let $tempEntertainment = entertainmentList[tdEntertainment].split(" || ");
-				if($tempEntertainment == "No Shows Today"){
+				if($tempEntertainment == "0"){
 					tdED.innerHTML = "No Shows Scheduled Today";
 				}else{
+					let $tempEntertainment = tdEntertainment.split(",");
+				
 					for(let it = 0; it < $tempEntertainment.length; it++){
 						
-						var $$tempEntertainment = $tempEntertainment[it].split(" | ");
+						var $$tempEntertainment = entertainmentList[$tempEntertainment[it]];
 						tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img src='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
 						
 					}
