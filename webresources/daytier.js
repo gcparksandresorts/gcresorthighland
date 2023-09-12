@@ -59,11 +59,11 @@ eventList[6] = "SummerFest Celebration | Special Event | https://cpfoodblog.com/
 eventList[7] = "Fourth of July Celebration | Special Event | image_link | click_link";
 
 
-eventList[6] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort";
-eventList[7] = "Sally's Halloween Party | 7:00 PM to 12:00 AM | https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
+eventList[8] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort";
+eventList[9] = "Sally's Halloween Party | 7:00 PM to 12:00 AM | https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
 
-eventList[8] = "name | hours | image_link | click_link";
-eventList[9] = "name | hours | image_link | click_link";
+eventList[10] = "name | hours | image_link | click_link";
+eventList[11] = "name | hours | image_link | click_link";
 
 
 dateTierList = [];
@@ -87,7 +87,7 @@ dateTierList[12] = "September 6 - Wednesday - 0 - 0 - 3"; // Thursday, January 4
 dateTierList[13] = "September 7 - Thursday - 0 - 0 - 3"; // Thursday, January 4st
 dateTierList[14] = "September 9 - Saturday - 3 - 1 - 3"; // Thursday, January 4st
 dateTierList[15] = "September 10 - Sunday - 2 - 1 - 3"; // Thursday, January 4st
-dateTierList[16] = "September 11 - Monday - 0 - 0 - 3"; // Thursday, January 4st
+dateTierList[16] = "September 11 - Monday - 0 - 1,2,3 - 3"; // Thursday, January 4st
 
 
 
