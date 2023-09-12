@@ -87,7 +87,7 @@ dateTierList[12] = "September 6 - Wednesday - 0 - 0 - 3"; // Thursday, January 4
 dateTierList[13] = "September 7 - Thursday - 0 - 0 - 3"; // Thursday, January 4st
 dateTierList[14] = "September 9 - Saturday - 3 - 1 - 3"; // Thursday, January 4st
 dateTierList[15] = "September 10 - Sunday - 2 - 1 - 3"; // Thursday, January 4st
-dateTierList[16] = "September 11 - Monday - 0 - 1,2,3 - 3"; // Thursday, January 4st
+dateTierList[16] = "September 11 - Monday - 0 - 1,2,3 - 1,8"; // Thursday, January 4st
 
 
 
