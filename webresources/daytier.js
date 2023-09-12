@@ -32,7 +32,7 @@ entertainmentList[7] = "SummerFest Boulevard Blast | 8:30PM | https://ca-times.b
 // Halloween Entertainment
 entertainmentList[8] = "Villanous Dance Party | 8:30PM, 11:00PM | Image_link | click_link";
 entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:00PM | Image_link | click_link";
-entertainmentList[10] = "Name | Hours | Image_link | click_link";
+entertainmentList[10] = "Drummers of Darkness | 7:00PM, 8:00PM, 9:00PM | Image_link | click_link";
 
 // Holiday Entertainment
 entertainmentList[11] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
@@ -87,7 +87,16 @@ dateTierList[12] = "September 6 - Wednesday - 0 - 0 - 3"; // Thursday, January 4
 dateTierList[13] = "September 7 - Thursday - 0 - 0 - 3"; // Thursday, January 4st
 dateTierList[14] = "September 9 - Saturday - 3 - 1 - 3"; // Thursday, January 4st
 dateTierList[15] = "September 10 - Sunday - 2 - 1 - 3"; // Thursday, January 4st
-dateTierList[16] = "September 11 - Monday - 5 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[16] = "September 11 - Monday - 0 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[17] = "September 12 - Tuesday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[18] = "September 13 - Wednesday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[19] = "September 14 - Thursday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[20] = "September 15 - Friday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[21] = "September 16 - Saturday - 4 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 17 - Sunday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
+
+
+
 
 
 
