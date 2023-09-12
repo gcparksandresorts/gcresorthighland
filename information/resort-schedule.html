@@ -280,10 +280,10 @@
 				if(tdEvents == "0"){
 					seED.innerHTML = "No Events Today";
 				}else{
-					let $tempEvents = eventList[tdEvents].split(",");
+					let $tempEvents = tdEvents.split(",");
 					for(let it = 0; it < $tempEvents.length; it++){
 	
-						var $$tempEvents = $tempEvents[it].split(" | ");
+						var $$tempEvents = eventList[$tempEvents[it]].split(" | ");
 						seED.innerHTML += "<div onclick='window.open("+'"'+$$tempEvents[3]+'"'+")'><img src='"+$$tempEvents[2]+"'><p><b>"+$$tempEvents[0]+"</b><br>"+$$tempEvents[1]+"</div>";
 						
 					}//end of for loop
