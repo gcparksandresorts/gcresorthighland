@@ -160,7 +160,7 @@
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup(); console.clear();</script>
 
-	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/data/daytier.js'></script>
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/daytier.js'></script>
 
 	<!-- OFFICIAL INFORMATION COLLECTION SCRIPT ---->
 	<script>
@@ -261,14 +261,15 @@
 				// let $tempEntertainment = entertainmentList[tdTier].split(" || ");
 				const tdED = document.getElementById("tdEntertainmentDisplay");
 				tdED.innerHTML = "";
-				if($tempEntertainment == "0"){
+				if(tdEntertainment == "0"){
 					tdED.innerHTML = "No Shows Scheduled Today";
 				}else{
 					let $tempEntertainment = tdEntertainment.split(",");
 				
 					for(let it = 0; it < $tempEntertainment.length; it++){
 						
-						var $$tempEntertainment = entertainmentList[$tempEntertainment[it]];
+						var $$tempEntertainment = entertainmentList[$tempEntertainment[it]].split(" | ");
+						
 						tdED.innerHTML += "<div onclick='window.open("+'"'+$$tempEntertainment[3]+'"'+")'><img src='"+$$tempEntertainment[2]+"'><p><b>"+$$tempEntertainment[0]+"</b><br>"+$$tempEntertainment[1]+"</div>";
 						
 					}
@@ -276,15 +277,17 @@
 				// Display the Events Schedule
 				const seED = document.getElementById("tdSpecialEventDisplay");
 				seED.innerHTML = '';
-				let $tempEvents = eventList[tdEvents].split(" || ");
-				for(let it = 0; it < $tempEvents.length; it++){
-
-					var $$tempEvents = $tempEvents[it].split(" | ");
-					seED.innerHTML += "<div onclick='window.open("+'"'+$$tempEvents[3]+'"'+")'><img src='"+$$tempEvents[2]+"'><p><b>"+$$tempEvents[0]+"</b><br>"+$$tempEvents[1]+"</div>";
-					
-				}//end of for loop
-				
-			
+				if(tdEvents == "0"){
+					seED.innerHTML = "No Events Today";
+				}else{
+					let $tempEvents = eventList[tdEvents].split(",");
+					for(let it = 0; it < $tempEvents.length; it++){
+	
+						var $$tempEvents = $tempEvents[it].split(" | ");
+						seED.innerHTML += "<div onclick='window.open("+'"'+$$tempEvents[3]+'"'+")'><img src='"+$$tempEvents[2]+"'><p><b>"+$$tempEvents[0]+"</b><br>"+$$tempEvents[1]+"</div>";
+						
+					}//end of for loop
+				}
 			
 			finalDateDisplay.innerHTML = tdDayWeek + " - " + searchDate + ", " + tyear;
 			
