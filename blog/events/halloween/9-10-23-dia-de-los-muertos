@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
+
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>Dia De Los Muertos at the Globe-City Resort | Events | Resort Updates | Globe-City Resort Highland</title>
+	<style>
+		#blogPage{background:linear-gradient(purple,white);}
+	</style>
+</head>
+
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	
+	<!-- BANNER IMAGE AND TITLE BAR --> <!------------------------------------------------------------------------------------------------------------------------------------- HEADER INFO -->
+    <div id='blogPage'>
+    <div class='blog'>
+    
+    <div class='banner'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png'></div>
+    <div class='titleBar'>
+	      	<h4>Resort Blog | Events</h4>
+	        <h2>Dia de Los Muertos at Adventure Park</h2>
+    <div class='spacer'></div>
+	        <h4 id='authorName'>Marketing Team</h4>
+	        <h4 id='datePosted'>September 10</h4>
+    </div>
+
+		<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------- BLOG CONTENT -->
+		
+    <div class='leftContainer'>
+		
+	</div>
+          	
+		<!------------------------------------------------------------------------------------------------------------------------------------------------------------------ END OF CONTENT -->
+    </div></div> <!-- End of Blog -->
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
