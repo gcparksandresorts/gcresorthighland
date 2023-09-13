@@ -30,9 +30,9 @@ entertainmentList[6] = "La Musicas De Mariachi | 12:00PM, 1:00PM, 2:00PM, 5:00PM
 entertainmentList[7] = "SummerFest Boulevard Blast | 8:30PM | https://ca-times.brightspotcdn.com/dims4/default/45c1555/2147483647/strip/true/crop/1943x2473+0+0/resize/1200x1527!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F04%2Fb4%2Ffb9962a343e08aedcb38689444f4%2Fmsep-encantofloat.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
 
 // Halloween Entertainment
-entertainmentList[8] = "Villanous Dance Party | 8:30PM, 11:00PM | Image_link | click_link";
-entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:00PM | Image_link | click_link";
-entertainmentList[10] = "Drummers of Darkness | 7:00PM, 8:00PM, 9:00PM | Image_link | click_link";
+entertainmentList[8] = "Villanous Dance Party | 8:30PM, 11:00PM | https://i.ytimg.com/vi/R5i5_-hpaws/maxresdefault.jpg | click_link";
+entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:00PM | https://i.ytimg.com/vi/uhGhwinM78o/maxresdefault.jpg | click_link";
+entertainmentList[10] = "Drummers of Darkness | 7:00PM, 8:00PM, 9:00PM | https://www.ocregister.com/wp-content/uploads/2021/09/OCR-L-OOGIE-BOOGIE-BASH-0910-JG-05.jpg?w=541 | click_link";
 
 // Holiday Entertainment
 entertainmentList[11] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
