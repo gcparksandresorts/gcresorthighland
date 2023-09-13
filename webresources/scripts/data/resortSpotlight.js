@@ -123,7 +123,7 @@ const september = [];
 
       september[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
       september[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings. Now through October";
-      september[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
+      september[8] = "https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-10-23-dia-de-los-muertos";
 
 const october = [];
       october[0] = "https://www.wdw-magazine.com/wp-content/uploads/2021/10/2021-oogie-boogie-bash_treat-trails_white-1.jpg";
@@ -136,7 +136,7 @@ const october = [];
 
       october[6] = "https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp";
       october[7] = "<h3>Day of the Dead at Plaza Del Mexico</h3>Celebrate la Dia De Los Muertos at <a>Plaza Del Mexico</a> in Adventure Park with authentic latin-inspired live entertainment, characters, and food offerings. Now through October";
-      october[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/lands/plaza-del-mexico";
+      october[8] = "https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-10-23-dia-de-los-muertos";
 
 const november = [];
       november[0] = "https://eikhu9b6e94.exactdn.com/wp-content/uploads/2022/11/Disneyland-holiday-minnie-mickey-goofy-donald-daisy-new-costumes-2022.jpeg?strip=all&lossy=0&quality=80&webp=80&avif=80&ssl=1";
