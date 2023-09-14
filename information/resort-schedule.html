@@ -23,6 +23,9 @@
 		@media screen and (max-width:700px){#tikInfo, #apInfo {width:100%; border:none;}}
 
 		.grn {color:green;} .red{color:red;}
+
+		#lookAheadContainer{position:fixed; top:0; bottom:0; left:0; right:0; background-color:rgba(0,0,0,0.5); display:none; animation:FadeIn 0.4s; z-index:899;}
+       		#lookAhead{position:static; background:#efefef; border:1px solid black;width:90%; height:90%; margin:auto;}
     </style>
 
 </head>
@@ -50,7 +53,7 @@
         	<b>Special Event Hours</b><br>Error in Retrieval
         </div>	
 		
-        <br><br><a>Look Ahead</a>
+        <br><br><a onclick='checkDate()'>Look Ahead</a>
 	<p class='disclaimer'>Note: Individual venue operating hours may differ from general theme-park or shopping center operating hours</p>
         
     </div>
@@ -148,6 +151,12 @@
         <br><br><br>
         <p class='disclaimer'>Operating schedules, crowd metrics, and closures are determined from a preset calendar. Actual hours, waittimes, and other opertating information may differ from the information displayed. Download the GC RESORT mobile app for the most accurate and up-to-date information.</p>
     </div>
+
+	<div id='lookAheadContainer' onclick='document.getElementById("lookAheadContainer").style.display="none";'>
+		<div id='lookAhead'>
+			Hello
+		</div>
+	</div>
     
     
 <!-- Footer Elements --><div id="footer"></div>
@@ -296,6 +305,12 @@
 		function recordDate(){   
 		    	//finalDateDisplay.innerHTML = tdayw + " - " + tmonth + " " + tday + ", " + tdate.getFullYear();
 			runResortInfoCollection();
+		}
+
+		function checkDate(){
+			const lookAhead = document.getElementById("lookAheadContainer");
+			lookAhead.style.display = 'block';
+			console.log("Open Look Ahead Display");
 		}
 		
 	</script>
