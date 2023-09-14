@@ -13,7 +13,7 @@
     </script>
 
     <style>
-		#lessRecentNews a{font-size:20px; margin: 15px; display:block;}
+		#lessRecentNews a, #mostRecentNews a{font-size:20px; margin: 15px; display:block;}
 	    	#searchBtn{display:none;}
 	</style>
 
@@ -42,17 +42,18 @@
         		<label for='filterInput'>Filter by Category: </label>
 		            <select id='filterInput' name='filterinput' onchange='document.getElementById("searchBtn").style.display = "inline-block";'>
 		            	<option value='default' style='font-style:italic;'>select a category</option>
-		                <option value='c1'>Attractions</option>
-		                <option value='c2'>Entertainment</option>
-		                <option value='c3'>Dining</option>
-		                <option value='c4'>Merchandise</option>
-		                <option value='c5'>Events</option>
-		                <option value='c6'>Operations</option>
-		                <option value='c7'>Admissions</option>
-		                <option value='c8'>Other</option>
+		                <option value='Attractions'>Attractions</option>
+		                <option value='Entertainment'>Entertainment</option>
+		                <option value='Dining'>Dining</option>
+		                <option value='Merchandise'>Merchandise</option>
+		                <option value='Events'>Events</option>
+		                <option value='Operations'>Operations</option>
+		                <option value='Admissions'>Admissions</option>
+				<option value='Community'>Community</option>
+		                <option value='Other'>Other</option>
 		            </select>
 
-			<a onclick='' id='searchBtn'>Search</a>
+			<a onclick='changeCategory();' id='searchBtn'>Search</a>
        		</div>
         
         	<div class='spacer'></div>
@@ -83,6 +84,58 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/blog/table-of-contents.js'></script>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------ TABLE OF CONTENTS -->
+	<script>
+		var category = "default";
+		const linkContainer = document.getElementById("lessRecentNews");
+		const newLinkContainer = document.getElementById("mostRecentNews");
+		const categoryChoice = document.getElementById("filterInput");
+		
+		function runTable(){
+			linkContainer.innerHTML = '';
+			newLinkContainer.innerHTML = '';
+
+			if(category=='default'){
+				i = toc.length - 1;
+				while(i != -1){
+					var $temp = toc[i].split(" | ");
+					var $category = $temp[0]; var $name = $temp[1]; var $date = $temp[2]; var $link = $temp[3];
+					if(i > toc.length - 4){
+						newLinkContainer.innerHTML += "<a href='" + $link + "'>" + $date + " | " + $category + " | " + $name + "</a>";
+					}else{
+						linkContainer.innerHTML += "<a href='" + $link + "'>" + $date + " | " + $category + " | " + $name + "</a>";	
+					}
+					i = i-1;
+				}//end of for loop
+			}else{
+				i = toc.length - 1;
+				while(i != -1){
+					var $temp = toc[i].split(" | ");
+					var $category = $temp[0]; var $name = $temp[1]; var $date = $temp[2]; var $link = $temp[3];
+					if($category == category){
+						linkContainer.innerHTML += "<a href='" + $link + "'>" + $date + " | " + $category + " | " + $name + "</a>";	
+					}else{console.log("Skipped Blog Post: "+$name);}
+					i = i-1;
+				}//end of for loop
+			}
+
+			if(linkContainer.innerHTML == ''){
+				linkContainer.innerHTML = "Currently no blog posts match these search terms (0 posts available)";
+			}
+			
+		} // End of function 'runTable'
+
+		function changeCategory(){
+			category = categoryChoice.value;
+			document.getElementById("searchBtn").style.display = 'none';
+			runTable();
+		} // End of function 'changeCategory'
+	</script>
+
+	<script>runTable();</script>
 
 
 </html>
