@@ -7,7 +7,7 @@ parkHoursList[2] = "10:00 AM - 9:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[4] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
-parkHoursList[6] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 11:00 PM"; // Special Event
+parkHoursList[6] = "10:00 AM - 6:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 11:00 PM"; // Special Event
 parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 12:00 AM"; // Special Event
 
 
@@ -94,10 +94,13 @@ dateTierList[19] = "September 14 - Thursday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursd
 dateTierList[20] = "September 15 - Friday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
 dateTierList[21] = "September 16 - Saturday - 4 - 1,2,3 - 1,8"; // Thursday, January 4st
 dateTierList[22] = "September 17 - Sunday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
-
-
-
-
-
-
+dateTierList[22] = "September 18 - Monday - 1 - 2 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 19 - Tuesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[22] = "September 20 - Wednesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[22] = "September 21 - Thursday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[22] = "September 22 - Friday - 2 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 23 - Saturday - 4 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 24 - Sunday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 25 - Monday - 1 - 2 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 26 - Tuesday - 1 - 2 - 1,8"; // Thursday, January 4st
 
