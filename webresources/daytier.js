@@ -33,15 +33,16 @@ entertainmentList[7] = "SummerFest Boulevard Blast | 8:30PM | https://ca-times.b
 entertainmentList[8] = "Villanous Dance Party | 8:30PM, 11:00PM | https://i.ytimg.com/vi/R5i5_-hpaws/maxresdefault.jpg | click_link";
 entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:00PM | https://i.ytimg.com/vi/uhGhwinM78o/maxresdefault.jpg | click_link";
 entertainmentList[10] = "Drummers of Darkness | 7:00PM, 8:00PM, 9:00PM | https://www.ocregister.com/wp-content/uploads/2021/09/OCR-L-OOGIE-BOOGIE-BASH-0910-JG-05.jpg?w=541 | click_link";
+entertainment[11] = "Dia De Los Muertos Entertainment | Every 30min from 11:00AM | https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-10-23-dia-de-los-muertos";
 
 // Holiday Entertainment
-entertainmentList[11] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
-entertainmentList[12] = "Dance of the Winter Fairies | 12:00PM, 1:00PM, 2:00PM, 4:00PM, 5:00PM | Image_link | click_link";
-entertainmentList[13] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | Image_link | click_link";
+entertainmentList[13] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
+entertainmentList[14] = "Dance of the Winter Fairies | 12:00PM, 1:00PM, 2:00PM, 4:00PM, 5:00PM | Image_link | click_link";
+entertainmentList[15] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | Image_link | click_link";
 
 // Special Entertainiment
-entertainmentList[14] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
-entertainmentList[15] = "Founder's Day Fireworks | 8:30 PM | Image_link | click_link";
+entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
+entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | Image_link | click_link";
 
 
 
@@ -91,10 +92,10 @@ dateTierList[16] = "September 11 - Monday - 0 - 1,2,3 - 1,8"; // Thursday, Janua
 dateTierList[17] = "September 12 - Tuesday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
 dateTierList[18] = "September 13 - Wednesday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
 dateTierList[19] = "September 14 - Thursday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursday, January 4st
-dateTierList[20] = "September 15 - Friday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[21] = "September 16 - Saturday - 4 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 17 - Sunday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 18 - Monday - 1 - 2 - 1,8"; // Thursday, January 4st
+dateTierList[20] = "September 15 - Friday - 3 - 1,3,11 - 1,8"; // Thursday, January 4st
+dateTierList[21] = "September 16 - Saturday - 4 - 1,11,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 17 - Sunday - 3 - 1,11,3 - 1,8"; // Thursday, January 4st
+dateTierList[22] = "September 18 - Monday - 1 - 2,11 - 1,8"; // Thursday, January 4st
 dateTierList[22] = "September 19 - Tuesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
 dateTierList[22] = "September 20 - Wednesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
 dateTierList[22] = "September 21 - Thursday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
