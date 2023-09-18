@@ -68,7 +68,7 @@ eventList[11] = "name | hours | image_link | click_link";
 
 
 dateTierList = [];
-//Month # - DAY - TIER - Entertainment - Events
+//Month_# - DAY - TIER - Entertainment - Events
 //                        Entertainment: 1, 2, 3 etc. Each num adds a different show to the list
 //                        Events: 1, 2, 3, etc. Each num adds a different event to the list
 // ------------------------------------------------------------------------------ PASTE BELOW THIS LINE -----------------------------------------------------------------------------------------
@@ -95,13 +95,16 @@ dateTierList[19] = "September 14 - Thursday - 6 - 1,2,8,9,10 - 1,8,9"; // Thursd
 dateTierList[20] = "September 15 - Friday - 3 - 1,3,11 - 1,8"; // Thursday, January 4st
 dateTierList[21] = "September 16 - Saturday - 4 - 1,11,3 - 1,8"; // Thursday, January 4st
 dateTierList[22] = "September 17 - Sunday - 3 - 1,11,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 18 - Monday - 1 - 2,11 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 19 - Tuesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
-dateTierList[22] = "September 20 - Wednesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
-dateTierList[22] = "September 21 - Thursday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
-dateTierList[22] = "September 22 - Friday - 2 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 23 - Saturday - 4 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 24 - Sunday - 3 - 1,2,3 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 25 - Monday - 1 - 2 - 1,8"; // Thursday, January 4st
-dateTierList[22] = "September 26 - Tuesday - 1 - 2 - 1,8"; // Thursday, January 4st
-
+dateTierList[23] = "September 18 - Monday - 1 - 2,11 - 1,8"; // Thursday, January 4st
+dateTierList[24] = "September 19 - Tuesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[25] = "September 20 - Wednesday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[26] = "September 21 - Thursday - 6 - 8,9,10 - 1,8,9"; // Thursday, January 4st
+dateTierList[27] = "September 22 - Friday - 2 - 1,2,11,3 - 1,8"; // Thursday, January 4st
+dateTierList[28] = "September 23 - Saturday - 4 - 1,2,11,3 - 1,8"; // Thursday, January 4st
+dateTierList[29] = "September 24 - Sunday - 3 - 1,2,11,3 - 1,8"; // Thursday, January 4st
+dateTierList[30] = "September 25 - Monday - 1 - 2,11 - 1,8"; // Thursday, January 4st
+dateTierList[31] = "September 26 - Tuesday - 1 - 2,11 - 1,8"; // Thursday, January 4st
+dateTierList[32] = 'September 27 - Wednesday - 6 - 8,9,10 - 1,8,9';
+dateTierList[33] = 'September 28 - Thursday - 6 - 8,9,10 - 1,8,9';
+dateTierList[34] = 'September 29 - Friday - 6 - 8,9,10 - 1,8,9';
+dateTierList[35] = 'September 30 - Saturday - 2 - 11,1,2 - 1,8';
