@@ -176,5 +176,7 @@ body{
 	.blog .container img {width:100%; height:auto; max-width:500px; border-radius:10px;}
 	.blog .container{margin-top:15px; margin-bottom:15px;}
 
+	#landContainer .banner{height:70vh;}
+
 
   
