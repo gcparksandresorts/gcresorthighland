@@ -62,13 +62,13 @@
 		<p>Travel to new worlds and find what lurks beyond our reality</p>
 		<br>
 		<div class='porthole'>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Boulevard</h3>	</div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cosmicCenter01.png'> <h3>Cosmic Center</h3>		</div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner3.jpg'> <h3>Metropolis</h3>		</div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg'> <h3>Hindsborg Village</h3>	</div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg'> <h3>Boardwalk</h3>		</div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner6.jpg'> <h3>Old Yander's Boom Town</h3></div>
-			<div>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Plains</h3>	</div>
+			<div onclick='goToLand(1)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Boulevard</h3>	</div>
+			<div onclick='goToLand(2)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cosmicCenter01.png'> <h3>Cosmic Center</h3>		</div>
+			<div onclick='goToLand(3)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner3.jpg'> <h3>Metropolis</h3>		</div>
+			<div onclick='goToLand(4)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg'> <h3>Hindsborg Village</h3>	</div>
+			<div onclick='goToLand(5)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg'> <h3>Boardwalk</h3>		</div>
+			<div onclick='goToLand(6)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner6.jpg'> <h3>Old Yander's Boom Town</h3></div>
+			<div onclick='goToLand(7)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Plains</h3>	</div>
 		</div>
 			
 	</div>
@@ -155,6 +155,34 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+	<script>
+		function goToLand(num){
+			switch(num){
+				case 1:
+					window.open("adventure-park/lands/the-boulevard","_self");
+					break;
+				case 2:
+					window.open("adventure-park/lands/cosmic_center","_self");
+					break;
+				case 3:
+					window.open("adventure-park/lands/metropolis","_self");
+					break;
+				case 4:
+					window.open("adventure-park/lands/hindsborg-village","_self");
+					break;
+				case 5:
+					window.open("adventure-park/lands/boardwalk","_self");
+					break;
+				case 6:
+					window.open("adventure-park/lands/old-yanders","_self");
+					break;
+				case 7:
+					window.open("adventure-park/lands/adventure-plains","_self");
+					break;
+			}// end of switch
+		}
+	</script>
 
 
 </html>
