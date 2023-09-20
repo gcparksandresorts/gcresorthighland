@@ -37,7 +37,7 @@
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
  	<div class='titleBar'><h2>Resort Hours and Information</h2></div>
-	<div class='subtitleBar'><p id='dateDisplayText'>Todays Date Will be Printed Here :)</p></div>
+	<div class='subtitleBar'><p id='dateDisplayText' style='font-size:16px;'>An Error Has Occurred. Please Reload the Page</p></div>
 	<!-- End of Banner Image and Title Bar Elements -->
 	
 	
@@ -109,7 +109,7 @@
             
         	</div>
 		
-        <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events'>View Special Events</a> | <a>View Promotions</a>
+        <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events'>View Special Events</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/information/promotions'>View Promotions</a>
     </div>
     
     <div class='fullContainer' style='background:#efefef'>
@@ -135,6 +135,11 @@
 		    </div>
 	        </div>
 		    <p class='disclaimer'>* Prices shown are for Oras Nou Resident Admission and VIP Silver admission. Pricing subject to change. VIP ticket prices for tickets purchased same-day may fluctuate throughout the operating day.</p>
+		<div class='container' style='border: 1px solid black; width:90%;'>
+			<h3 style='font-weight:normal'>Resort Parking Rates</h3>
+			<b>Adventure Parking Lot / Cosmic Parking:</b> <span id='rParkAP'>$25 per day</span>
+			<p><b>City-Shop Parking:</b> <span id='rParkCS'>1 Hr - Free | 2 Hr - $15 | 3+ Hr - $25</span></p>
+		</div>
 	    </div>
 	    
     </div>
@@ -242,25 +247,39 @@
 				}
 				const adminInfoDisp = document.getElementById("tikInfoDisp");
 				const apInfoDisp = document.getElementById("apInfoDisp");
+				const parkingAP = document.getElementById("rParkAP");
+				const parkingCS = document.getElementById("rParkCS");
 				var adminInfoVal = [];
 				switch(tdTier){
 					case '1':
 						adminInfoVal = ["1", "$67+", "$109+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						rParkAP.innerHTML = "$18 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $10 | 3+ Hr - $20";
 						break;
 					case '2':
 						adminInfoVal = ["2", "$75+", "$135+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						rParkAP.innerHTML = "$18 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $10 | 3+ Hr - $20";
 						break;
 					case '3':
 						adminInfoVal = ["3", "$80+", "$160+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						rParkAP.innerHTML = "$20 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $18 | 3+ Hr - $25";
 						break;
 					case '4':
 						adminInfoVal = ["4", "$90+", "$209+", "<span class='red'>Blocked Out</span>", "<span class='grn'>Good to Go</span>"];
+						rParkAP.innerHTML = "$25 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $20 | 3+ Hr - $30";
 						break;
 					case '5':
 						adminInfoVal = ["5", "$109+", "$250+", "<span class='red'>Blocked Out</span>", "<span class='red'>Blocked Out</span>"];
+						rParkAP.innerHTML = "$30 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $25 | 3+ Hr - $30";
 						break;
 					default:
-						adminInfoVal = ["1", "$65+", "$105+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						adminInfoVal = ["1.", "$65+", "$105+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
+						rParkAP.innerHTML = "$18 per day";
+						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $10 | 3+ Hr - $20";
 						break;
 				}
 				adminInfoDisp.innerHTML = "<li>Ticketing Tier: <b>" + adminInfoVal[0] + "</b></li> <li>General Admission: <b>" + adminInfoVal[1] + "</b>*</li> <li>GC VIP Admission: <b>" + adminInfoVal[2] + "</b>*</li>";
