@@ -23,10 +23,10 @@
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
 	<div class='banner'>
-		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png' class='mySlides'>
-		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cosmicCenter01.png' class='mySlides'>
 		<img src='https://upload.wikimedia.org/wikipedia/commons/e/e6/Pixarpiersunset2019_%28cropped%29.jpg' class='mySlides'>
+		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cosmicCenter01.png' class='mySlides'>
 		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner2.jpg' class='mySlides'>
+		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png' class='mySlides'>
 		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg' class='mySlides'>
 		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner6.jpg' class='mySlides'>
 		<img src='https://blooloop.com/wp-content/uploads/2016/11/Ghostbusters-triotech.jpg' class='mySlides'>
@@ -38,7 +38,7 @@
 	<br>
 	<div class='tileContainer'>
 		<div>
-			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/tts3.jpg'>
 			<h3>Repeatable Thrills</h3>
 			So fun you'll want to ride again and again!
 		</div>
@@ -48,7 +48,7 @@
 			Explore unique new places
 		</div>
 		<div>
-			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg'>
+			<img src='https://www.militarydisneytips.com/wp-content/uploads/2019/12/Flame-Tree-Barbeque-Salad.jpg'>
 			<h3>World-Class Dining</h3>
 			Dozens of delicious options
 		</div>
@@ -57,18 +57,18 @@
 	
 	<div class='spacer'></div>
 	
-	<div class='container'>
+	<div class='fullContainer'>
 		<h2>7 Unique Lands to Explore</h2>
 		<p>Travel to new worlds and find what lurks beyond our reality</p>
 		<br>
 		<div class='porthole'>
-			<div onclick='goToLand(1)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Boulevard</h3>	</div>
-			<div onclick='goToLand(2)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cosmicCenter01.png'> <h3>Cosmic Center</h3>		</div>
-			<div onclick='goToLand(3)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner3.jpg'> <h3>Metropolis</h3>		</div>
-			<div onclick='goToLand(4)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg'> <h3>Hindsborg Village</h3>	</div>
-			<div onclick='goToLand(5)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg'> <h3>Boardwalk</h3>		</div>
-			<div onclick='goToLand(6)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner6.jpg'> <h3>Old Yander's Boom Town</h3></div>
-			<div onclick='goToLand(7)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner1.jpg'> <h3>Adventure Plains</h3>	</div>
+			<div onclick='goToLand(1)'>	<img src='https://www.unomaha.edu/college-of-communication-fine-arts-and-media/news/2022/07/img/porter_disneyaacb.jpg'> <h3>Adventure Boulevard</h3>	</div>
+			<div onclick='goToLand(2)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cc3.jpg'> <h3>Cosmic Center</h3>		</div>
+			<div onclick='goToLand(3)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/MTP4.jpg'> <h3>Metropolis</h3>		</div>
+			<div onclick='goToLand(4)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/fotd1.jpg'> <h3>Hindsborg Village</h3>	</div>
+			<div onclick='goToLand(5)'>	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/vipBanner1.jpg'> <h3>Boardwalk</h3>		</div>
+			<div onclick='goToLand(6)'>	<img src='https://i0.wp.com/farm4.static.flickr.com/3652/3407009100_e8a310d6c1.jpg?resize=490%2C372'> <h3>Old Yander's Boom Town</h3></div>
+			<div onclick='goToLand(7)'>	<img src='https://www.themeparktourist.com/files/resize/images/Revenge_of_the_Mummy_Universal_Studios_Singapore.preview-480x639.jpg'> <h3>Adventure Plains</h3>	</div>
 		</div>
 			
 	</div>
@@ -157,28 +157,29 @@
 	<script>runHeaderSetup();</script>
 
 	<script>
+		const link='https://gcparksandresorts.github.io/gcresorthighland/destinations/';
 		function goToLand(num){
 			switch(num){
 				case 1:
-					window.open("adventure-park/lands/the-boulevard","_self");
+					window.open(link+"adventure-park/lands/the-boulevard","_self");
 					break;
 				case 2:
-					window.open("adventure-park/lands/cosmic_center","_self");
+					window.open(link+"adventure-park/lands/cosmic_center","_self");
 					break;
 				case 3:
-					window.open("adventure-park/lands/metropolis","_self");
+					window.open(link+"adventure-park/lands/metropolis","_self");
 					break;
 				case 4:
-					window.open("adventure-park/lands/hindsborg-village","_self");
+					window.open(link+"adventure-park/lands/hindsborg-village","_self");
 					break;
 				case 5:
-					window.open("adventure-park/lands/boardwalk","_self");
+					window.open(link+"adventure-park/lands/boardwalk","_self");
 					break;
 				case 6:
-					window.open("adventure-park/lands/old-yanders","_self");
+					window.open(link+"adventure-park/lands/old-yanders","_self");
 					break;
 				case 7:
-					window.open("adventure-park/lands/adventure-plains","_self");
+					window.open(link+"adventure-park/lands/adventure-plains","_self");
 					break;
 			}// end of switch
 		}
