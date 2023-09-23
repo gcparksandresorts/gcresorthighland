@@ -7,8 +7,8 @@ parkHoursList[2] = "10:00 AM - 9:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[4] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
-parkHoursList[6] = "10:00 AM - 6:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 11:00 PM"; // Special Event
-parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 12:00 AM"; // Special Event
+parkHoursList[6] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 12:00 AM"; // Special Event
+parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM"; // Special Event
 
 
 
@@ -30,9 +30,9 @@ entertainmentList[6] = "La Musicas De Mariachi | 12:00PM, 1:00PM, 2:00PM, 5:00PM
 entertainmentList[7] = "SummerFest Boulevard Blast | 8:30PM | https://ca-times.brightspotcdn.com/dims4/default/45c1555/2147483647/strip/true/crop/1943x2473+0+0/resize/1200x1527!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F04%2Fb4%2Ffb9962a343e08aedcb38689444f4%2Fmsep-encantofloat.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
 
 // Halloween Entertainment
-entertainmentList[8] = "Villanous Dance Party | 8:30PM, 11:00PM | https://i.ytimg.com/vi/R5i5_-hpaws/maxresdefault.jpg | click_link";
-entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:00PM | https://i.ytimg.com/vi/uhGhwinM78o/maxresdefault.jpg | click_link";
-entertainmentList[10] = "Drummers of Darkness | 7:00PM, 8:00PM, 9:00PM | https://www.ocregister.com/wp-content/uploads/2021/09/OCR-L-OOGIE-BOOGIE-BASH-0910-JG-05.jpg?w=541 | click_link";
+entertainmentList[8] = "Villanous Dance Party | 8:15PM, 11:45PM | https://i.ytimg.com/vi/R5i5_-hpaws/maxresdefault.jpg | click_link";
+entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:30PM | https://i.ytimg.com/vi/uhGhwinM78o/maxresdefault.jpg | click_link";
+entertainmentList[10] = "Witchy Beats and Halloween Treats | 7:45PM 8:45PM 9:45PM 11:15PM | https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/halloween/entertainment/0816ZS_1291CMG-1_R-_mm-16x9.jpg?2022-04-21T17:44:42+00:00 | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/witch-sisters-musical.html";
 entertainmentList[11] = "Dia De Los Muertos Entertainment | Every 30min from 11:00AM | https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-10-23-dia-de-los-muertos";
 
 // Holiday Entertainment
