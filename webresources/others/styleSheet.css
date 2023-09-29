@@ -119,7 +119,7 @@ body{
 		.menuItems div{width:50%; margin:0; padding:10px; align-self:stretch; text-align:left;}
 
 		@media screen and (max-width:700px){
-			.menuItems div{width:100%; padding:12px;}
+			.menuItems div{width:100%; padding:12px; text-align:center;}
 		}
 
 	.porthole{display:flex; margin:auto; border:none; padding:0; text-align:center; align-items:center; flex-flow:row; flex-wrap:wrap; justify-content:center;}
