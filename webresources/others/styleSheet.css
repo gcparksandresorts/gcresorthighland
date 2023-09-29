@@ -109,10 +109,6 @@ body{
 	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px; margin:auto;}
 	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
         
-	        .menuSection{max-width:900px; width:100%; padding:15px; margin:auto;}
-	        .menuSection .spacer{width:100%;} .menuSection h1{text-align:center; margin-top:0;}
-	        .menuSection h3{margin-bottom:0;}
-        
         	#diningBanner{text-align:left; background:#efefef;margin-top:0;}
 		@media screen and (min-width:900px){
 		      #diningBanner .columnContainer img{width:50%;}
