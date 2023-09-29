@@ -7,9 +7,22 @@
 	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
-  	<title>RESTURAUNT_NAME | Dining | Globe-City Resort Highland</title>
+  	<title>PAGE_TITLE | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		#diningBanner{text-align:left; background:#efefef;margin-top:0;}
+		@media screen and (min-width:900px){
+		      #diningBanner .columnContainer img{width:50%;}
+		      #diningBanner .columnContainer div{width:50%;}
+		}
+
+		.menuItems{display:flex; flex-flow:row; flex-wrap:wrap; align-items:flex-start; max-width:900px; margin:auto;}
+		.menuItems div{width:50%; margin:0; padding:10px; align-self:stretch; text-align:left;}
+
+		@media screen and (max-width:700px){
+			.menuItems div{width:100%; padding:12px;}
+		}
+    	</style>
 
 </head>
 
@@ -19,118 +32,54 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-	<!------------------------------------------------------------------------------------------------------------------------------------------ ABOUT RESTURAUNT -->
-    	<div class='diningBanner'>
-			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im1' style='display:block;' onclick='showImage("im2", "block", "im1")'>
-            		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im2' onclick='showImage("im3", "block", "im2")'>
-			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/placeholder.jpg' id='im3' onclick='showImage("im1", "block", "im3")'>
-			<div>
-				<h1>RESTURAUNT_NAME</h1>
-				<a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Dining</a> located in <em>LAND_NAME</em> in Adventure Park
-				<p>
-					Restaurant_Description
-				</p>
-			</div>
-		</div>
-  
-	<!-- End of Banner Image and Title Bar Elements -->
-	
-	<!---------------------------------------------------------------------------------------------------------------------------------------------- MENU SELECT -->
-	<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
+	<div class='fullContainer' id='diningBanner'>
+    	<div class='columnContainer'>
+        	<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/gcStore.jpg'>
+            	<div>
+	            	<h1>Resturaunt Name</h1>
+	                Resturaunt Description
+           	</div>
+       	</div>
+    	</div>
+    
+<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
 	<div class='container'>
 		<label for="menuSelect">Meal Period:</label>
 		<select name="menuSelect" id="menuSelect" onchange="selectMenu();">
 			<option value='breakfastMenu'>Breakfast (opening - 12PM)</option>
-			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+			<option value='lunchMenu'>Lunch and Dinner (12PM)</option>
 		</select>
 	</div>
 
-	<div class='spacer'></div>
+<div class='spacer'></div>
 
-	
-	
-	<!------------------------------------------------------------------------------------------------------------------------------------------------ BREAKFAST -->
-
-		<section id='breakfastMenu' class='menuSection'>
-
-			<h1>Breakfast Menu</h1>
-			
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Section_One</h3> 
-			Section One Description Text
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Section_Two</h3> 
-			Section Two Description Text
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Beverages</h3> 
-			<!-- Standard Selection of Beverages -->
-			
-				<div class='menuContent'>
-					<div>
-						<p><b>Hot Coffee - $3.75</b><br>Cafe Cafe Home Brew<sup>TM</sup> | regular or decaf</p>
-						<p><b>Juice Cup - $4.00</b><br>Boxed apple juice or orange juice</p>
-						<p><b>'LAND_NAME' Souvenir Cup - $18.00</b><br>Collectable souvenir cup only available in the park. Includes free-refills on day of purchase only.</p>
-					</div>
-					<div>
-						<p><b>Premium Bottled Water - $5.00</b></p>
-						<p><b>Bottled Milk - $4.25</b></p>
-						<p><b>Fountain Drinks - $4.60</b><br>Provided by <em>Coke Freestyle</em> - choose from 100 different flavors and mixes!</p>
-					</div>
-				</div>
-			
-		</section>
-
-
-		<div class='spacer'></div>
-
-		<div class='container' style='text-align:left; max-width:900px;'>
-			<h2>Allergen Information</h2>
-			<p><span class='vegan'>v</span> - vegan</p>
-			<p>All food prepared at this restaurant holds the possibility of coming into contact with meat, dairy, and nuts.</p>
-			<p>Please inform your server if you have a severe food allergy.  </p>
-			<br>
-			<p><em>All prices are subject to change without notice</em></p>
-		</div>
+	<section class='menuSection' id='breakfastMenu'>
 
 		<div class='container'>
-			<button onclick='history.back();'> Back to previous </button>
+			<h1>Breakfast Menu</h1>
+			<div class='menuItems'>
+				<div>
+					<p><b>Menu Item 1</b><br>Item Description</p>
+					<p><b>Menu Item 1</b><br>Item Description</p>
+				</div>
+				<div>
+					<p><b>Menu Item 1</b><br>Item Description</p>
+					<p><b>Menu Item 1</b><br>Item Description</p>
+					<p><b>Menu Item 1</b><br>Item Description</p>
+				</div>
+			</div>
 		</div>
+		
+	</section>
 
+	<section class='menuSection' id='lunchMenu'>
 
-
-
+		<div class='container'>
+			<h1>Lunch Menu</h1>
+		</div>
+		
+	</section>
 	
-
 <!-- Footer Elements --><div id="footer"></div>
 </body>
 	
@@ -140,8 +89,8 @@
 	<!-- SHOW OR HIDE MENUS -->
 	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
 	<script>selectMenu();</script>
-	
-	<!-- CREATE THE HEADER AND FOOTER -->
+    
+    <!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
 
