@@ -2,8 +2,8 @@
 parkHoursList = []; // Adventure Park : CityShop : Special Event
 
 parkHoursList[0] = "Error in Retrieval | Error in Retrieval";
-parkHoursList[1] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM";
-parkHoursList[2] = "10:00 AM - 9:00 PM | 11:00 AM - 11:00 PM";
+parkHoursList[1] = "10:00 AM - 6:00 PM | 11:00 AM - 10:00 PM";
+parkHoursList[2] = "10:00 AM - 8:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[4] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
@@ -43,6 +43,7 @@ entertainmentList[15] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | Image_link 
 // Special Entertainiment
 entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
 entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | Image_link | click_link";
+entertainmentList[20] = "Friday the 13th Entertainment | All Day | https://itsastampede615821596.files.wordpress.com/2019/07/friday-13th-3d.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
 
 
 
@@ -62,8 +63,9 @@ eventList[7] = "Fourth of July Celebration | Special Event | image_link | click_
 
 eventList[8] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-9-23-halloween-at-the-globe-city-resort.html";
 eventList[9] = "Sally's Halloween Party | 7:00 PM to 12:00 AM | https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
+eventList[10] = "Friday the 13th | Special Event | https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/Friday-the-13th-feature.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
 
-eventList[10] = "name | hours | image_link | click_link";
+//eventList[10] = "name | hours | image_link | click_link";
 eventList[11] = "name | hours | image_link | click_link";
 
 
@@ -108,3 +110,17 @@ dateTierList[32] = 'September 27 - Wednesday - 6 - 8,9,10 - 1,8,9';
 dateTierList[33] = 'September 28 - Thursday - 6 - 8,9,10 - 1,8,9';
 dateTierList[34] = 'September 29 - Friday - 6 - 8,9,10 - 1,8,9';
 dateTierList[35] = 'September 30 - Saturday - 2 - 11,1,2 - 1,8';
+dateTierList[36] = 'October 2 - Monday - 0 - 11,2 - 1,8';
+dateTierList[37] = 'October 3 - Tuesday - 0 - 11,2 - 1,8';
+dateTierList[38] = 'October 4 - Wednesday - 6 - 11,8,9,10 - 1,8,9';
+dateTierList[39] = 'October 5 - Thursday - 6 - 11,8,9,10 - 1,8,9';
+dateTierList[40] = 'October 6 - Friday - 6 - 11,8,9,10 - 1,8,9';
+dateTierList[41] = 'October 7 - Saturday - 2 - 11,2,1 - 1,8';
+dateTierList[42] = 'October 8 - Sunday - 2 - 11,2,1 - 1,8';
+dateTierList[43] = 'October 9 - Monday - 0 - 11,2 - 1,8';
+dateTierList[44] = 'October 10 - Tuesday - 0 - 11,2 - 1,8';
+dateTierList[45] = 'October 11 - Wednesday - 6 - 11,8,9,10 - 1,8,9';
+dateTierList[46] = 'October 12 - Thursday - 6 - 11,8,9,10 - 1,8,9';
+dateTierList[47] = 'October 13 - Friday - 2 - 11,2,20 - 1,8,9,10';
+dateTierList[48] = 'October 14 - Saturday - 2 - 11,2,1 - 1,8';
+dateTierList[49] = 'October 15 - Sunday - 2 - 11,2,1 - 1,8';
