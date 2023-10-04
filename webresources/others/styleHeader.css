@@ -8,11 +8,13 @@
     	height:200px;
     	background:#073763;
 	z-index:999;
+	text-align:center;
 }
 #headerBarLogo{
     width:auto;
     height:85px;
     margin:auto;
+    margin-top:15px;
     cursor:pointer;
 }
 .headerBarButton{
