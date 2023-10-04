@@ -5,15 +5,14 @@
     	position:fixed;
     	top:0;right:0;left:0;
     	width:100vw;
-    	height:60px;
+    	height:200px;
     	background:#073763;
 	z-index:999;
 }
 #headerBarLogo{
     width:auto;
-    height:40px;
-    margin-left:15px;
-    margin-top:10px;
+    height:85px;
+    margin:auto;
     cursor:pointer;
 }
 .headerBarButton{
