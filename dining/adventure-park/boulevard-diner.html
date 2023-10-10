@@ -7,9 +7,10 @@
 	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
-  	<title>The Boulevard Diner | Dining | Globe-City Resort Highland</title>
+  	<title>The Boulevard Diner | Restaurants and Dining | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+    	</style>
 
 </head>
 
@@ -19,310 +20,64 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-	<!------------------------------------------------------------------------------------------------------------------------------------------ ABOUT RESTURAUNT -->
-    	<div class='diningBanner'>
-			<img src='https://www.disneyfoodblog.com/wp-content/uploads/2015/08/Carnation-Cafe-Sourdough-Bacon-Cheese-Melt-Cross-Section-15-009-700x430.jpg' id='im1' style='display:block;' onclick='showImage("im2", "block", "im1")'>
-            		<img src='https://live.staticflickr.com/65535/50012186097_8f3c485c40_b.jpg' id='im2' onclick='showImage("im3", "block", "im2")'>
-			<img src='https://www.disneyfoodblog.com/wp-content/uploads/2013/08/Pancakes-Carnation-Cafe.jpg' id='im3' onclick='showImage("im1", "block", "im3")'>
-			<div>
-				<h1>The Boulevard Diner</h1>
-				<a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Dining</a> located in <em>Adventure Boulevard</em> in Adventure Park
-				<p>
-					Relax under a candy-striped umbrella and watch the world pass by—or unwind inside the Classic Era style dining room as waiters in vintage dress bustle past. The Boulevard Diner takes you on a trip to the turn-of-the-century with a nostalgic menu of delicious delights for breakfast, lunch and dinner.
-				</p>
-			</div>
-		</div>
-  
-	<!-- End of Banner Image and Title Bar Elements -->
-	
-	<!---------------------------------------------------------------------------------------------------------------------------------------------- MENU SELECT -->
-	<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
+	<div class='fullContainer' id='diningBanner'>
+    	<div class='columnContainer'>
+        	<img src='https://live.staticflickr.com/65535/50012186097_8f3c485c40_b.jpg'>
+            	<div>
+	            	<h1>The Boulevard Diner</h1>
+			<p><a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Dining</a> located in <em>The Boulevard</em> in <a href=''>Adventure Park</a></p>
+	                Relax under a candy-striped umbrella and watch the world pass by—or unwind inside the Classic Era style dining room as waiters in vintage dress bustle past. The Boulevard Diner takes you on a trip to the turn-of-the-century with a nostalgic menu of delicious delights for breakfast, lunch and dinner.
+           	</div>
+       	</div>
+    	</div>
+    
+<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
 	<div class='container'>
 		<label for="menuSelect">Meal Period:</label>
 		<select name="menuSelect" id="menuSelect" onchange="selectMenu();">
 			<option value='breakfastMenu'>Breakfast (opening - 12PM)</option>
 			<option value='lunchMenu'>Lunch and Dinner (12PM)</option>
-			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
 		</select>
 	</div>
 
-	<div class='spacer'></div>
+<div class='spacer'></div>
 
-	
-	
-	<!------------------------------------------------------------------------------------------------------------------------------------------------ BREAKFAST -->
-
-		<section id='breakfastMenu' class='menuSection'>
-
-			<h1>Breakfast Menu</h1>
-			<div style='text-align:center; margin:auto;'>Breakfast is served from park opening to 12PM on select days</div>
-			
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Breakfast Favorites</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Biscuits and Gravy Combo - $15.99</b><br>Fluffy buttermilk biscuits topped with creamy mushroom gravy served with house potatoes, eggs your way, and choice of bacon or sausage</p>
-                       				<p><b>Breakfast Sandwhich - $14.00</b><br>3-Cheese Egg, Applewood-smoked Bacon and Cheddar on Brioche, served with Breakfast Potatoes</p>
-						<!--<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>-->
-					</div>
-					<div>
-						<p><b>Minecraftian Hash - $13.75</b><br>House potatoes topped with cheese, fried eggs, bell peppers, mushrooms, pico de gilo, and choice of meat</p>
-						<p><b>The Adventurer's Breakfast - $15.00</b><br>2 large fluffy pancakes topped with granola and maple syrup served with 2 eggs your way and choice of bacon or sausage</p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Pancakes and Waffles</h3> 
-			Toppings: Banana, Strawberry, Mixed Berry Compote, Granola - $1.25 each
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Buttermilk Pancakes - $9.99</b><br>Two fluffy pancakes topped with whipped buttercream</p>
-						<p><b>Pancake Sundae - $13.75</b><br>1 large pancake topped with vanilla icecream, granola, and diced strawberry. <em>Substitute waffle for pancake $2.15</em></p>
-						<p><b>Rebecca's Breakfast - $15.00</b><br>Two fluffy choco-chip pancakes topped with syrup and butter, served with cheesy scrambled eggs, roasted potatoes and two bacon strips</p>
-					</div>
-					<div>
-						<p><b>Just a Waffle - $9.99</b><br>Large crispy waffle topped with whipped buttercream</p>
-						<p><b>Finona's Chicken and Waffles - $15.00</b><br>Large waffle topped with crispy chicken tenders and a drizzle of maple syrup. Served with house potatoes</p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Breakfast Basics</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Avocado Toast - $9.00<span class='vegan'>v</span></b><br>Sourdough toast with thick avocado spread, sliced tomato, feta cheese, pepitas, and drizzled garlic aioli<br><em>Add fried egg - $2</em></p>
-						<p><b>Cheesy Scrambled Eggs - $6.00</b><br>Fluffy scrambled eggs topped with sharp cheddar and scalions. Choice of bacon, sausage, or house potatoes on the side</p>
-						<p><b>Classic Oatmeal - $7.00 <span class='vegan'>v</span></b><br>Steel cut oatmeal cooked with brown sugar and honey. Topped with granola, green apple, and banana</p>
-						
-					</div>
-					<div>
-						<p><b>Bowl of Fruit - $4.50 <span class='vegan'>v</span></b><br>Apples, Bananas, Blueberries, Strawberries, Pineapple, Watermelon</p>
-						<p><b>Side of Eggs - $4.00</b><br>2 eggs done your way</p>
-						<p><b>House Potatoes - $3.50</b></p>
-						<p><b>Side of Sausage or Bacon - $4.00</b></p>
-						<p><b>Side of Toast - $2.50</b><br>Sourdough, Whole Grain, Rye</p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>For the Kids</h3> 
-			Served with fruit and choice of milk or orange juice
-
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Silver Dollar Pancakes - $9.00</b><br>3 mini pancakes served with scrambled eggs and bacon or sausage</p>
-						<p><b>Kids Butter and Honey Toast - $4.50 <span class='vegan'>v</span></b><br>Sourdough toast with salted butter and honey drizzle <em>Add scrambled eggs - $2.00</em></p>
-					</div>
-					<div>
-						<p><b>Mini-Hash - $9.00</b><br>House potatoes topped with cheddar cheese and scrambled eggs served with bacon or sausage</p>
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Dessert</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Mini Sundae - $5.00</b><br>2 Scoops of vanilla or chocolate ice-cream topped with chocolate or strawberry drizzle and sprinkles</p>
-					</div>
-					<div>
-						<p><b>Chocolate Chunk Cookie - $3.25</b><br>Large soft-baked chocolate chip cookie</p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Hot Beverages</h3> 
-			Served with optional creamer and sugar
-
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Fresh Brewed Coffee - $3.75</b><br>Cafe Cafe Home Brew<sup>TM</sup> | Regular or Decaf</p>
-					</div>
-					<div>
-						<p><b>Classic Tea - $2.99</b><br>Served with honey and lemon</p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Beverages</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Iced Tea - $4.50</b><br>Choose from all-natural Strawberry or Raspberry flavors</p>
-						<p><b>Juice Cup - $4.00</b><br>Choose from boxed apple juice or orange juice</p>
-						<p><b>Housemade Lemonade - $4.50</b><br>Freshly squeezed and naturally sweetened</p>
-					</div>
-					<div>
-						<p><b>Premium Bottled Water - $5.00</b></p>
-						<p><b>Bottled Milk - $4.00</b></p>
-						<p><b>Fountain Drinks - $5.00</b><br>Coke, Sprite, Coke Zero, Dr. Pepper, Hi-C, Root beer<br><em>Free Refills for length of visit</em></p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-			
-		</section>
-	
-
-		<section id='lunchMenu' class='menuSection'>
-
-			<h1>Lunch and Dinner Menu</h1>
-			
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Classic Sandwiches</h3> 
-			Served with choice of fries, house-made potato chips, or fresh fruit
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-                       				<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Soups and Salads</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-			
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Gourmet Burgers</h3> 
-			Served with choice of fruit or seasoned fries
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>For the Kids</h3> 
-			Served with choice of fruit, side salad, or seasoned fries and juice or milk
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Dessert</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Item_Number_One</b><br>Description_Of_Item_One</p>
-						<p><b>Item_Number_Two</b><br>Description_Of_Item_Two</p>
-						<p><b>Item_Number_Three</b><br>Description_Of_Item_Three</p>
-					</div>
-					<div>
-						<p><b>Item_Number_Four</b><br>Description_Of_Item_Four</p>
-						<p><b>Item_Number_Five</b><br>Description_Of_Item_Five</p>
-						<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>
-					</div>
-				</div>
-
-
-			<div class='spacer'></div> <!------------------------------------------------------------------------------------->
-			<h3>Beverages</h3> 
-			
-
-				<div class='menuContent'>
-					<div>
-						<p><b>Iced Tea - $4.50</b><br>Choose from all-natural Strawberry or Raspberry flavors</p>
-						<p><b>Juice Cup - $4.00</b><br>Choose from boxed apple juice or orange juice</p>
-						<p><b>Housemade Lemonade - $4.50</b><br>Freshly squeezed and naturally sweetened</p>
-					</div>
-					<div>
-						<p><b>Brewed Coffee - $3.75</b><br>Cafe Cafe Home Brew<sup>TM</sup> | regular or decaf</p>
-						<p><b>Premium Bottled Water - $5.00</b></p>
-						<p><b>Bottled Milk - $4.00</b></p>
-						<p><b>Fountain Drinks - $5.00</b><br>Coke, Sprite, Coke Zero, Dr. Pepper, Hi-C, Root beer<br><em>Free Refills for length of visit</em></p>
-						<!--<p><b>Item_Number_Six</b><br>Description_Of_Item_Six</p>-->
-					</div>
-				</div>
-			
-		</section>
-
-
-		<div class='spacer'></div>
-
-		<div class='container' style='text-align:left; max-width:900px;'>
-			<h2>Allergen Information</h2>
-			<p><span class='vegan'>v</span> - vegan</p>
-			<p>All food prepared at this restaurant holds the possibility of coming into contact with meat, dairy, and nuts.</p>
-			<p>Please inform your server if you have a severe food allergy.  </p>
-			<br>
-			<p><em>All prices are subject to change without notice</em></p>
-		</div>
+	<section class='menuSection diningSection' id='breakfastMenu'>
 
 		<div class='container'>
-			<button onclick='history.back();'> Back to previous </button>
+			<h1>Breakfast Menu</h1>
+			<h3>Breakfast Favorites</h3>
+			<div class='menuItems'>
+				<div>
+					<p><b>Country Fried Steak and Eggs - $19.00</b><br>Golden-battered beef steak smothered in hearty gravy. Served with 2 eggs your way, country potatoes, and a buttermilk biscuit.</p>
+					<p><b>Alex's Breakfast Sandwich - $14.00</b><br>3-Cheese Egg, Applewood-smoked Bacon and Cheddar on Brioche, served with choice of Breakfast Potatoes or fruit</p>
+				</div>
+				<div>
+					<p><b>Classic Minecraftian Hash - $13.75 <span class='gF'>GF</span></b><br>House potatoes topped with cheese, fried eggs, bell peppers, mushrooms, pico de gilo, and choice of meat</p>
+					<p><b>The Adventurer's Breakfast - $13.55 <span class='gF'>GF</span></b><br>2 large fluffy pancakes topped with granola and maple syrup served with 2 eggs your way and choice of bacon or sausage</p>
+					<p><b>Menu_Item_1</b><br>Item_Description</p>
+				</div>
+			</div>
 		</div>
+		
+	</section>
 
+	<section class='menuSection' id='lunchMenu'>
 
+		<div class='container'>
+			<h1>Lunch Menu</h1>
+		</div>
+		
+	</section>
 
-
-
-
-
+	<div class='spacer'></div>
 	
-
+	<div class='container'>
+		<p><span class='vegan'>V</span> - Vegan option available</p>
+		<p><span class='gF'>GF</span> - Gluten Free option available</p>
+		<p class='disclaimer'>Prices subject to change. All restaurants and dining at the Globe-City Resort Highland are subject to closure at any time.</p>
+	</div>
+	
 <!-- Footer Elements --><div id="footer"></div>
 </body>
 	
@@ -332,8 +87,8 @@
 	<!-- SHOW OR HIDE MENUS -->
 	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
 	<script>selectMenu();</script>
-	
-	<!-- CREATE THE HEADER AND FOOTER -->
+    
+    <!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
 
