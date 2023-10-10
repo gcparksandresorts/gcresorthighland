@@ -148,6 +148,9 @@ body{
 	}
 
 	.menuSection {animation: FadeIn 0.40s;}
+	.diningSection .container{max-width:900px;}
+	.diningSection .container h3{text-align:left;}
+
 	.sectionContainer {animation: FadeIn 0.40s;}
 	.mySlides{display:none; animation: FadeIn 0.4s;}
 
