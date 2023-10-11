@@ -150,6 +150,8 @@ body{
 	.menuSection {animation: FadeIn 0.40s;}
 	.diningSection .container{max-width:900px;}
 	.diningSection .container h3{text-align:left;}
+	.diningSection .foodImageContainer{display:flex; align-items:center; justify-content:center; flex-flow:row; flex-wrap:wrap;}
+	.diningSection .foodImageContainer img{width:31%; margin:auto; align-self:stretch; border-radius:10px; object-fit:cover;}
 
 	.sectionContainer {animation: FadeIn 0.40s;}
 	.mySlides{display:none; animation: FadeIn 0.4s;}
