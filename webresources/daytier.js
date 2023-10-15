@@ -64,9 +64,11 @@ eventList[7] = "Fourth of July Celebration | Special Event | image_link | click_
 eventList[8] = "Halloween at the Globe-City Resort Highland | Seasonal Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png | https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-9-23-halloween-at-the-globe-city-resort.html";
 eventList[9] = "Sally's Halloween Party | 7:00 PM to 12:00 AM | https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
 eventList[10] = "Friday the 13th | Special Event | https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/Friday-the-13th-feature.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
+eventList[11] = "Halfway to Halloween Celebration | Special Event | https://spirit.scene7.com/is/image/Spirit/Halfway%20to%20Halloween?$fullsize1200$ | blog/events/halloween/10-15-23-halfway-to-halloween.html";
+
 
 //eventList[10] = "name | hours | image_link | click_link";
-eventList[11] = "name | hours | image_link | click_link";
+eventList[99] = "name | hours | image_link | click_link";
 
 
 dateTierList = [];
@@ -123,4 +125,4 @@ dateTierList[45] = 'October 11 - Wednesday - 6 - 11,8,9,10 - 1,8,9';
 dateTierList[46] = 'October 12 - Thursday - 6 - 11,8,9,10 - 1,8,9';
 dateTierList[47] = 'October 13 - Friday - 2 - 11,2,20 - 1,8,9,10';
 dateTierList[48] = 'October 14 - Saturday - 2 - 11,2,1 - 1,8';
-dateTierList[49] = 'October 15 - Sunday - 2 - 11,2,1 - 1,8';
+dateTierList[49] = 'October 15 - Sunday - 4 - 11,2,1 - 1,8,11';
