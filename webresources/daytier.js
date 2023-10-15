@@ -34,6 +34,7 @@ entertainmentList[8] = "Villanous Dance Party | 8:15PM, 11:45PM | https://i.ytim
 entertainmentList[9] = "Sally's Spooktacular Fireworks | 10:30PM | https://i.ytimg.com/vi/uhGhwinM78o/maxresdefault.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/sallys-spooktacular-fireworks";
 entertainmentList[10] = "Witchy Beats and Halloween Treats | 7:45PM 8:45PM 9:45PM 11:15PM | https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/halloween/entertainment/0816ZS_1291CMG-1_R-_mm-16x9.jpg?2022-04-21T17:44:42+00:00 | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/witch-sisters-musical";
 entertainmentList[11] = "Dia De Los Muertos Entertainment | Every 30min from 11:00AM | https://www.usatoday.com/gcdn/presto/2022/10/27/USAT/9e7570ea-899d-4532-9611-aa2bdb139a2b-AFP_AFP_32LZ87R.jpg?crop=5567,3132,x0,y0&width=3200&height=1801&format=pjpg&auto=webp | https://gcparksandresorts.github.io/gcresorthighland/blog/events/halloween/9-10-23-dia-de-los-muertos";
+entertainmentList[12] = "Halfway to Halloween, Featuring the Witch Sisters | 7:00PM 9:00PM | https://d23.com/app/uploads/2015/09/1180-x-600-092415_hocus-pocus-comes-to-wdw_v2-780x440.jpg | attractions/adventure-park/seasonal/entertainment/halfway-to-halloween.html
 
 // Holiday Entertainment
 entertainmentList[13] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
@@ -125,4 +126,4 @@ dateTierList[45] = 'October 11 - Wednesday - 6 - 11,8,9,10 - 1,8,9';
 dateTierList[46] = 'October 12 - Thursday - 6 - 11,8,9,10 - 1,8,9';
 dateTierList[47] = 'October 13 - Friday - 2 - 11,2,20 - 1,8,9,10';
 dateTierList[48] = 'October 14 - Saturday - 2 - 11,2,1 - 1,8';
-dateTierList[49] = 'October 15 - Sunday - 4 - 11,2,1 - 1,8,11';
+dateTierList[49] = 'October 15 - Sunday - 4 - 11,2,1,12 - 1,8,11';
