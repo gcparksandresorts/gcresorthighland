@@ -67,7 +67,7 @@ eventList[9] = "Sally's Halloween Party | 7:00 PM to 12:00 AM | https://www.azce
 eventList[10] = "Friday the 13th | Special Event | https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/Friday-the-13th-feature.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
 eventList[11] = "Halfway to Halloween Celebration | Special Event | https://spirit.scene7.com/is/image/Spirit/Halfway%20to%20Halloween?$fullsize1200$ | blog/events/halloween/10-15-23-halfway-to-halloween.html";
 
-eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | https://orangecoast.com/.image/t_share/MTk3NjY1NTgxNDc0MjYwMjY5/mickey-mouse-and-his-pals-don-their-holiday-finest-at-disneyland-park.jpg | blog/events/season-of-light/11-01-23-season-of-light-begins";
+eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | https://orangecoast.com/.image/t_share/MTk3NjY1NTgxNDc0MjYwMjY5/mickey-mouse-and-his-pals-don-their-holiday-finest-at-disneyland-park.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -134,23 +134,23 @@ dateTierList[52] = 'October 20 - Friday - 6 - 11,8,9,10 - 1,8,9';
 dateTierList[53] = 'October 21 - Saturday - 2 - 11,2,1 - 1,8';
 dateTierList[54] = 'October 22 - Sunday - 2 - 11,2,1 - 1,8';
 
-dateTierList[55] = 'November 3 - Friday - 3 - 0 - 12';
+dateTierList[55] = 'November 3 - Friday - 3 - 0 - 1';
 dateTierList[56] = 'November 4 - Saturday - 4 - 1,2,3 - 1';
-dateTierList[57] = 'November 5 - Sunday - 3 - 11,2,1 - 1';
+dateTierList[57] = 'November 5 - Sunday - 3 - 1,2,3 - 1';
 dateTierList[58] = 'November 6 - Monday - 0 - 0 - 1';
 dateTierList[59] = 'November 7 - Tuesday - 0 - 0 - 1';
 dateTierList[60] = 'November 8 - Wednesday - 0 - 0 - 1';
 dateTierList[61] = 'November 9 - Thursday - 0 - 0 - 1';
-dateTierList[62] = 'November 10 - Friday - 0 - 1,2,3 - 12'; 
+dateTierList[62] = 'November 10 - Friday - 0 - 1,2,3 - 1'; 
 dateTierList[63] = 'November 11 - Saturday - 2 - 1,2,3 - 1';
 dateTierList[64] = 'November 12 - Sunday - 2 - 1,2,3 - 1'; 
-dateTierList[65] = 'November 13 - Monday - 0 - 1,2,3 - 1'; 
-dateTierList[66] = 'November 10 - Tuesday - 0 - 1,2,3 - 1'; 
-dateTierList[67] = 'November 11 - Wednesday - 0 - 1,2,3 - 1'; 
-dateTierList[68] = 'November 12 - Thursday - 0 - 1,2,3 - 1'; 
-dateTierList[69] = 'November 13 - Friday - 3 - 13,14,15 - 12'; // Season of Light Begins
-dateTierList[70] = 'November 14 - Saturday - 4 - 13,14,15 - 12';
-dateTierList[71] = 'November 15 - Sunday - 3 - 13,14,15 - 12';
+dateTierList[65] = 'November 13 - Monday - 0 - 0 - 1'; 
+dateTierList[66] = 'November 14 - Tuesday - 0 - 0 - 1'; 
+dateTierList[67] = 'November 15 - Wednesday - 0 - 1,2,3 - 1'; 
+dateTierList[68] = 'November 16 - Thursday - 0 - 1,2,3 - 1'; 
+dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15 - 12'; // Season of Light Begins
+dateTierList[70] = 'November 18 - Saturday - 4 - 13,14,15 - 12';
+dateTierList[71] = 'November 19 - Sunday - 3 - 13,14,15 - 12';
 
 
 
