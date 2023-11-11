@@ -328,8 +328,19 @@
 
 		function checkDate(){
 			const lookAhead = document.getElementById("lookAheadContainer");
-			lookAhead.style.display = 'block';
+			//lookAhead.style.display = 'block';
 			console.log("Open Look Ahead Display");
+			let $newDate = prompt("Please enter a date to check in format MM/DD/YY.");
+			
+			tdate = new Date($newDate);
+
+			tmonth = monthsNamed[tdate.getMonth()];
+			tday = tdate.getDate();
+			tdayw = daysNamed[tdate.getDay()];
+			tyear = tdate.getFullYear();
+
+			runResortInfoCollection();
+			
 		}
 		
 	</script>
