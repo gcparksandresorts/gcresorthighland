@@ -71,6 +71,7 @@ eventList[11] = "Halfway to Halloween Celebration | Special Event | https://spir
 eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | https://orangecoast.com/.image/t_share/MTk3NjY1NTgxNDc0MjYwMjY5/mickey-mouse-and-his-pals-don-their-holiday-finest-at-disneyland-park.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
 eventList[13] = "Thanksgiving at the Resort | Seasonal Event | https://thehappiestblogonearth.com/wp-content/uploads/2019/09/Mickey-and-Minnie-Thanksgiving.jpg | blog";
 eventList[14] = "The Aztech Resort Thanksgiving Feast | Dinner Event | https://i0.wp.com/www.freshbakeddisney.com/wp-content/uploads/2014/11/dlh310231LARGE.jpg?fit=900%2C457&ssl=1 | click_link";
+eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00PM | https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg | click_link";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -152,7 +153,7 @@ dateTierList[66] = 'November 14 - Tuesday - 0 - 0 - 1';
 dateTierList[67] = 'November 15 - Wednesday - 0 - 1,2,3 - 1'; 
 dateTierList[68] = 'November 16 - Thursday - 0 - 1,2,3 - 1'; 
 
-dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15,16 - 12'; // Season of Light Begins
+dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15,16 - 12,15'; // Season of Light Begins
 dateTierList[70] = 'November 18 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[71] = 'November 19 - Sunday - 5 - 13,14,15,16 - 12';
 
@@ -162,13 +163,13 @@ dateTierList[74] = 'November 22 - Wednesday - 4 - 13,14,15,16 - 12,13';
 dateTierList[75] = 'November 23 - Thursday - 3 - 13,14,15,16 - 12,13,14';
 dateTierList[76] = 'November 24 - Friday - 4 - 13,14,15,16 - 12,13';
 dateTierList[77] = 'November 25 - Saturday - 5 - 13,14,15,16 - 12,13';
-dateTierList[78] = 'November 26 - Sunday - 3 - 13,14,15,16 - 12,13';
+dateTierList[78] = 'November 26 - Sunday - 4 - 13,14,15,16 - 12,13';
 
 dateTierList[79] = 'November 27 - Monday - 0 - 14,16 - 12';
 dateTierList[80] = 'November 28 - Tuesday - 0 - 14,16 - 12';
 dateTierList[81] = 'November 29 - Wednesday - 0 - 14,16 - 12';
 dateTierList[82] = 'November 30 - Thursday - 0 - 14,16 - 12';
-dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12';
+dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12,15';
 dateTierList[84] = 'December 2 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[85] = 'December 3 - Sunday - 3 - 13,14,15,16 - 12';
 
