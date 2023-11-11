@@ -37,8 +37,8 @@ entertainmentList[11] = "Dia De Los Muertos Entertainment | Every 30min from 11:
 entertainmentList[12] = "Halfway to Halloween, Featuring the Witch Sisters | 7:00PM 9:00PM | https://d23.com/app/uploads/2015/09/1180-x-600-092415_hocus-pocus-comes-to-wdw_v2-780x440.jpg | attractions/adventure-park/seasonal/entertainment/halfway-to-halloween.html";
 
 // Holiday Entertainment
-entertainmentList[13] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
-entertainmentList[14] = "Dance of the Winter Fairies | 12:00PM, 1:00PM, 2:00PM, 4:00PM, 5:00PM | Image_link | click_link";
+entertainmentList[13] = "Spirit of the Holidays Spectacular | 9:30PM | https://live.staticflickr.com/3745/12000287585_b5d37d5e81_b.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/spirit-of-the-holidays";
+entertainmentList[14] = "Dance of the Winter Fairies | 12:00PM, 1:00PM, 2:00PM, 4:00PM, 5:00PM | https://www.universalbeijingresort.com/sites/default/files/2021-09/Triwizard%20Spirit%20Rally2.jpg | click_link";
 entertainmentList[15] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | https://decider.com/wp-content/uploads/2022/12/disney-christmas-day-parade-1.jpg?quality=75&strip=all | click_link";
 entertainmentList[16] = "Yander's Boom-Town Boogie | 3:00PM, 5:00PM, 7:00PM | https://pbs.twimg.com/media/FZf7mP_XEAYeX90?format=jpg&name=4096x4096 | ../attractions/adventure-park/seasonal/entertainment/holiday-boom-town-boogie ";
 
@@ -71,7 +71,7 @@ eventList[11] = "Halfway to Halloween Celebration | Special Event | https://spir
 eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | https://orangecoast.com/.image/t_share/MTk3NjY1NTgxNDc0MjYwMjY5/mickey-mouse-and-his-pals-don-their-holiday-finest-at-disneyland-park.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
 eventList[13] = "Thanksgiving at the Resort | Seasonal Event | https://thehappiestblogonearth.com/wp-content/uploads/2019/09/Mickey-and-Minnie-Thanksgiving.jpg | blog";
 eventList[14] = "The Aztech Resort Thanksgiving Feast | Dinner Event | https://i0.wp.com/www.freshbakeddisney.com/wp-content/uploads/2014/11/dlh310231LARGE.jpg?fit=900%2C457&ssl=1 | click_link";
-eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00PM | https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg | click_link";
+eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00PM | https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
