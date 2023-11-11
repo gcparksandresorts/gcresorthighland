@@ -7,6 +7,9 @@
 //  toc[365] = "category | blog_title | date_of_posting | blog/link_to_blog";
 
 toc = [];
+
+  toc[7] = "Events | Painter Family Tree Lighting | November 10, 2023 | blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
+
   toc[6] = "Other | Spotify Brings the Adventure to Your Phone! | October 1, 2023 | blog/other/10-1-23-spotify-adventure-playlist";
   toc[5] = "Other | Preview: The Highland Adventure Project | September 25, 2023 | blog/other/9-25-23-highland-adventure-project";
   toc[4] = "Dining | Preview: The New and Improved Le Boutique Bistro | September 18, 2023 | blog/dining/9-18-23-le-boutique-bistro";
