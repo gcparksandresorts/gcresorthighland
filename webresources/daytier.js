@@ -5,7 +5,7 @@ parkHoursList[0] = "Error in Retrieval | Error in Retrieval";
 parkHoursList[1] = "10:00 AM - 6:00 PM | 11:00 AM - 10:00 PM";
 parkHoursList[2] = "10:00 AM - 8:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
-parkHoursList[4] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
+parkHoursList[4] = "10:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[6] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 12:00 AM"; // Special Event
 parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM"; // Special Event
@@ -39,7 +39,8 @@ entertainmentList[12] = "Halfway to Halloween, Featuring the Witch Sisters | 7:0
 // Holiday Entertainment
 entertainmentList[13] = "Spirit of the Holidays Spectacular | 9:30PM | Image_link | click_link";
 entertainmentList[14] = "Dance of the Winter Fairies | 12:00PM, 1:00PM, 2:00PM, 4:00PM, 5:00PM | Image_link | click_link";
-entertainmentList[15] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | Image_link | click_link";
+entertainmentList[15] = "Season of Snow Cavalcade | 6:00PM, 8:00PM | https://decider.com/wp-content/uploads/2022/12/disney-christmas-day-parade-1.jpg?quality=75&strip=all | click_link";
+entertainmentList[16] = "Yander's Boom-Town Boogie | 3:00PM, 5:00PM, 7:00PM | https://pbs.twimg.com/media/FZf7mP_XEAYeX90?format=jpg&name=4096x4096 | ../attractions/adventure-park/seasonal/entertainment/holiday-boom-town-boogie ";
 
 // Special Entertainiment
 entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
@@ -68,6 +69,8 @@ eventList[10] = "Friday the 13th | Special Event | https://static1.colliderimage
 eventList[11] = "Halfway to Halloween Celebration | Special Event | https://spirit.scene7.com/is/image/Spirit/Halfway%20to%20Halloween?$fullsize1200$ | blog/events/halloween/10-15-23-halfway-to-halloween.html";
 
 eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | https://orangecoast.com/.image/t_share/MTk3NjY1NTgxNDc0MjYwMjY5/mickey-mouse-and-his-pals-don-their-holiday-finest-at-disneyland-park.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
+eventList[13] = "Thanksgiving at the Resort | Seasonal Event | https://thehappiestblogonearth.com/wp-content/uploads/2019/09/Mickey-and-Minnie-Thanksgiving.jpg | blog";
+eventList[14] = "The Aztech Resort Thanksgiving Feast | Dinner Event | https://i0.wp.com/www.freshbakeddisney.com/wp-content/uploads/2014/11/dlh310231LARGE.jpg?fit=900%2C457&ssl=1 | click_link";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -148,9 +151,27 @@ dateTierList[65] = 'November 13 - Monday - 0 - 0 - 1';
 dateTierList[66] = 'November 14 - Tuesday - 0 - 0 - 1'; 
 dateTierList[67] = 'November 15 - Wednesday - 0 - 1,2,3 - 1'; 
 dateTierList[68] = 'November 16 - Thursday - 0 - 1,2,3 - 1'; 
-dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15 - 12'; // Season of Light Begins
-dateTierList[70] = 'November 18 - Saturday - 4 - 13,14,15 - 12';
-dateTierList[71] = 'November 19 - Sunday - 3 - 13,14,15 - 12';
+
+dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15,16 - 12'; // Season of Light Begins
+dateTierList[70] = 'November 18 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[71] = 'November 19 - Sunday - 5 - 13,14,15,16 - 12';
+
+dateTierList[72] = 'November 20 - Monday - 3 - 13,14,15,16 - 12,13'; //ThanksGiving Break!
+dateTierList[73] = 'November 21 - Tuesday - 4 - 13,14,15,16 - 12,13';
+dateTierList[74] = 'November 22 - Wednesday - 4 - 13,14,15,16 - 12,13';
+dateTierList[75] = 'November 23 - Thursday - 3 - 13,14,15,16 - 12,13,14';
+dateTierList[76] = 'November 24 - Friday - 4 - 13,14,15,16 - 12,13';
+dateTierList[77] = 'November 25 - Saturday - 5 - 13,14,15,16 - 12,13';
+dateTierList[78] = 'November 26 - Sunday - 3 - 13,14,15,16 - 12,13';
+
+dateTierList[79] = 'November 27 - Monday - 0 - 14,16 - 12';
+dateTierList[80] = 'November 28 - Tuesday - 0 - 14,16 - 12';
+dateTierList[81] = 'November 29 - Wednesday - 0 - 14,16 - 12';
+dateTierList[82] = 'November 30 - Thursday - 0 - 14,16 - 12';
+dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12';
+dateTierList[84] = 'December 2 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[85] = 'December 3 - Sunday - 3 - 13,14,15,16 - 12';
+
 
 
 
