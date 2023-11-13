@@ -9,6 +9,7 @@ parkHoursList[4] = "10:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[6] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 12:00 AM"; // Special Event
 parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM"; // Special Event
+parkHoursList[8] = "10:00AM - 1:00AM | 10:00AM - 1:00AM | 7:00PM - 1:00AM"; // Adventure Eve Hours
 
 
 
@@ -162,9 +163,9 @@ dateTierList[72] = 'November 20 - Monday - 3 - 13,14,15,16 - 12,13'; //ThanksGiv
 dateTierList[73] = 'November 21 - Tuesday - 4 - 13,14,15,16 - 12,13';
 dateTierList[74] = 'November 22 - Wednesday - 4 - 13,14,15,16 - 12,13';
 dateTierList[75] = 'November 23 - Thursday - 3 - 13,14,15,16 - 12,13,14';
-dateTierList[76] = 'November 24 - Friday - 4 - 13,14,15,16 - 12,13';
+dateTierList[76] = 'November 24 - Friday - 5 - 13,14,15,16 - 12,13';
 dateTierList[77] = 'November 25 - Saturday - 5 - 13,14,15,16 - 12,13';
-dateTierList[78] = 'November 26 - Sunday - 4 - 13,14,15,16 - 12,13';
+dateTierList[78] = 'November 26 - Sunday - 3 - 13,14,15,16 - 12,13';
 
 dateTierList[79] = 'November 27 - Monday - 0 - 14,16 - 12';
 dateTierList[80] = 'November 28 - Tuesday - 0 - 14,16 - 12';
@@ -173,28 +174,36 @@ dateTierList[82] = 'November 30 - Thursday - 0 - 14,16 - 12';
 dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12';
 dateTierList[84] = 'December 2 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[85] = 'December 3 - Sunday - 3 - 13,14,15,16 - 12';
-dateTierList[86] = 'December 4 - Monday - 0 - 14,16 - 12';
-dateTierList[87] = 'December 5 - Tuesday - 0 - 14,16 - 12';
-dateTierList[88] = 'December 6 - Wednesday - 0 - 14,16 - 12';
-dateTierList[89] = 'December 7 - Thursday - 0 - 14,16 - 12';
+dateTierList[86] = 'December 4 - Monday - 2 - 14,16 - 12';
+dateTierList[87] = 'December 5 - Tuesday - 2 - 14,16 - 12';
+dateTierList[88] = 'December 6 - Wednesday - 2 - 14,16 - 12';
+dateTierList[89] = 'December 7 - Thursday - 2 - 14,16 - 12';
 dateTierList[90] = 'December 8 - Friday - 3 - 14,15,16,13 - 12';
 dateTierList[91] = 'December 9 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[92] = 'December 10 - Sunday - 3 - 13,14,15,16 - 12';
-dateTierList[93] = 'December 11 - Monday - 0 - 14,16 - 12';
-dateTierList[94] = 'December 12 - Tuesday - 0 - 14,16 - 12';
-dateTierList[95] = 'December 13 - Wednesday - 0 - 14,16 - 12';
-dateTierList[96] = 'December 14 - Thursday - 0 - 14,16 - 12';
+dateTierList[93] = 'December 11 - Monday - 2 - 14,16 - 12';
+dateTierList[94] = 'December 12 - Tuesday - 2 - 14,16 - 12';
+dateTierList[95] = 'December 13 - Wednesday - 2 - 14,16 - 12';
+dateTierList[96] = 'December 14 - Thursday - 2 - 14,16 - 12';
 dateTierList[97] = 'December 15 - Friday - 3 - 14,15,16,13 - 12';
 dateTierList[98] = 'December 16 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[99] = 'December 17 - Sunday - 5 - 13,14,15,16 - 12';
-dateTierList[100] = 'December 18 - Monday - 3 - 13,14,15,16 - 12'; //Beggining of Oras Nou School Holiday
+
+dateTierList[100] = 'December 18 - Monday - 4 - 13,14,15,16 - 12'; //Beggining of Oras Nou School Holiday
 dateTierList[101] = 'December 19 - Tuesday - 3 - 13,14,15,16 - 12';
-dateTierList[102] = 'December 20 - Wednesday - 3 - 13,14,15,16 - 12';
+dateTierList[102] = 'December 20 - Wednesday - 5 - 13,14,15,16 - 12';
 dateTierList[103] = 'December 21 - Thursday - 4 - 13,14,15,16 - 12';
-dateTierList[104] = 'December 22 - Friday - 4 - 14,15,16,13 - 12';
+dateTierList[104] = 'December 22 - Friday - 5 - 14,15,16,13 - 12';
 dateTierList[105] = 'December 23 - Saturday - 5 - 13,14,15,16 - 12';
 dateTierList[106] = 'December 24 - Sunday - 5 - 13,14,15,16 - 12,15'; //Christmas Eve
-
+dateTierList[107] = 'December 25 - Monday - 4 - 13,14,15,16 - 12'; // Christmas Day
+dateTierList[108] = 'December 26 - Tuesday - 5 - 13,14,15,16 - 12';
+dateTierList[109] = 'December 27 - Wednesday - 5 - 13,14,15,16 - 12';
+dateTierList[110] = 'December 28 - Thursday - 4 - 13,14,15,16 - 12';
+dateTierList[111] = 'December 29 - Friday - 4 - 14,15,16,13 - 12';
+dateTierList[112] = 'December 30 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[113] = 'December 31 - Sunday - 8 - 13,14,15,16 - 12,16'; // New Years Eve
+dateTierList[114] = 'January 1 - Monday - 3 - 13,15,16 - 12';
 
 
 
