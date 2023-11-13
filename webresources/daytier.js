@@ -47,6 +47,8 @@ entertainmentList[16] = "Yander's Boom-Town Boogie | 3:00PM, 5:00PM, 7:00PM | ht
 entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
 entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | Image_link | click_link";
 entertainmentList[20] = "Friday the 13th Entertainment | All Day | https://itsastampede615821596.files.wordpress.com/2019/07/friday-13th-3d.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
+entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM | https://metro.co.uk/wp-content/uploads/2021/12/GettyImages-1155981852.jpg?quality=90&strip=all | click_link";
+entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | click_link";
 
 
 
@@ -202,7 +204,7 @@ dateTierList[109] = 'December 27 - Wednesday - 5 - 13,14,15,16 - 12';
 dateTierList[110] = 'December 28 - Thursday - 4 - 13,14,15,16 - 12';
 dateTierList[111] = 'December 29 - Friday - 4 - 14,15,16,13 - 12';
 dateTierList[112] = 'December 30 - Saturday - 4 - 13,14,15,16 - 12';
-dateTierList[113] = 'December 31 - Sunday - 8 - 13,14,15,16 - 12,16'; // New Years Eve
+dateTierList[113] = 'December 31 - Sunday - 8 - 14,16,21,22 - 12,16'; // New Years Eve
 dateTierList[114] = 'January 1 - Monday - 3 - 13,15,16 - 12';
 
 
