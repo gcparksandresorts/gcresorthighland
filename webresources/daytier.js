@@ -72,6 +72,7 @@ eventList[12] = "Globe-City's Season of Light Celebration | Seasonal Event | htt
 eventList[13] = "Thanksgiving at the Resort | Seasonal Event | https://thehappiestblogonearth.com/wp-content/uploads/2019/09/Mickey-and-Minnie-Thanksgiving.jpg | blog";
 eventList[14] = "The Aztech Resort Thanksgiving Feast | Dinner Event | https://i0.wp.com/www.freshbakeddisney.com/wp-content/uploads/2014/11/dlh310231LARGE.jpg?fit=900%2C457&ssl=1 | click_link";
 eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00PM | https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
+eventList[16] = "Adventure Eve | 7PM to 1AM | https://www.ocregister.com/wp-content/uploads/2022/11/LDN-L-UNIVERSAL-NYE-1201.jpg?w=1024 | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -169,9 +170,31 @@ dateTierList[79] = 'November 27 - Monday - 0 - 14,16 - 12';
 dateTierList[80] = 'November 28 - Tuesday - 0 - 14,16 - 12';
 dateTierList[81] = 'November 29 - Wednesday - 0 - 14,16 - 12';
 dateTierList[82] = 'November 30 - Thursday - 0 - 14,16 - 12';
-dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12,15';
+dateTierList[83] = 'December 1 - Friday - 3 - 14,15,16,13 - 12';
 dateTierList[84] = 'December 2 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[85] = 'December 3 - Sunday - 3 - 13,14,15,16 - 12';
+dateTierList[86] = 'December 4 - Monday - 0 - 14,16 - 12';
+dateTierList[87] = 'December 5 - Tuesday - 0 - 14,16 - 12';
+dateTierList[88] = 'December 6 - Wednesday - 0 - 14,16 - 12';
+dateTierList[89] = 'December 7 - Thursday - 0 - 14,16 - 12';
+dateTierList[90] = 'December 8 - Friday - 3 - 14,15,16,13 - 12';
+dateTierList[91] = 'December 9 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[92] = 'December 10 - Sunday - 3 - 13,14,15,16 - 12';
+dateTierList[93] = 'December 11 - Monday - 0 - 14,16 - 12';
+dateTierList[94] = 'December 12 - Tuesday - 0 - 14,16 - 12';
+dateTierList[95] = 'December 13 - Wednesday - 0 - 14,16 - 12';
+dateTierList[96] = 'December 14 - Thursday - 0 - 14,16 - 12';
+dateTierList[97] = 'December 15 - Friday - 3 - 14,15,16,13 - 12';
+dateTierList[98] = 'December 16 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[99] = 'December 17 - Sunday - 5 - 13,14,15,16 - 12';
+dateTierList[100] = 'December 18 - Monday - 3 - 13,14,15,16 - 12'; //Beggining of Oras Nou School Holiday
+dateTierList[101] = 'December 19 - Tuesday - 3 - 13,14,15,16 - 12';
+dateTierList[102] = 'December 20 - Wednesday - 3 - 13,14,15,16 - 12';
+dateTierList[103] = 'December 21 - Thursday - 4 - 13,14,15,16 - 12';
+dateTierList[104] = 'December 22 - Friday - 4 - 14,15,16,13 - 12';
+dateTierList[105] = 'December 23 - Saturday - 5 - 13,14,15,16 - 12';
+dateTierList[106] = 'December 24 - Sunday - 5 - 13,14,15,16 - 12,15'; //Christmas Eve
+
 
 
 
