@@ -45,7 +45,7 @@ entertainmentList[16] = "Yander's Boom-Town Boogie | 3:00PM, 5:00PM, 7:00PM | ht
 
 // Special Entertainiment
 entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
-entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | Image_link | click_link";
+entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2022/06/764/432/GettyImages-1402978807.jpg?ve=1&tl=1 | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day#fireworks";
 entertainmentList[20] = "Friday the 13th Entertainment | All Day | https://itsastampede615821596.files.wordpress.com/2019/07/friday-13th-3d.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
 entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM | https://metro.co.uk/wp-content/uploads/2021/12/GettyImages-1155981852.jpg?quality=90&strip=all | click_link";
 entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | click_link";
@@ -77,6 +77,11 @@ eventList[14] = "The Aztech Resort Thanksgiving Feast | Dinner Event | https://i
 eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00PM | https://disneylandparis-news.com/app/uploads/2022/06/N015878-scaled.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
 eventList[16] = "Adventure Eve | 7PM to 1AM | https://www.ocregister.com/wp-content/uploads/2022/11/LDN-L-UNIVERSAL-NYE-1201.jpg?w=1024 | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve";
 
+eventList[17] = "";
+eventList[18] = "";
+eventList[19] = "";
+eventList[20] = "Founder's Day | Special Event | https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day";
+
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
 
@@ -86,7 +91,7 @@ dateTierList = [];
 //                        Entertainment: 1, 2, 3 etc. Each num adds a different show to the list
 //                        Events: 1, 2, 3, etc. Each num adds a different event to the list
 // ------------------------------------------------------------------------------ PASTE BELOW THIS LINE -----------------------------------------------------------------------------------------
-dateTierList[0] = "January 1 - Monday - 1 - 1 - 1"; // Monday, January 1st
+dateTierList[0] = "May 30 - Thursday - 3 - 1,2,3,19 - 1"; // Thursday, May 30th
 dateTierList[1] = "January 2 - Tuesday - 1 - 1 - 1"; // Tuesday, January 2st
 dateTierList[2] = "January 3 - Wednesday - 1 - 1 - 1"; // Wednesday, January 3st
 dateTierList[3] = "January 4 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
