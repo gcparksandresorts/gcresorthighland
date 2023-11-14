@@ -8,11 +8,12 @@
 
 toc = [];
 
-  toc[7] = "Events | Painter Family Tree Lighting | November 10, 2023 | blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
+  toc[8] = "Events | Painter Family Tree Lighting | November 10, 2023 | blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
 
-  toc[6] = "Other | Spotify Brings the Adventure to Your Phone! | October 1, 2023 | blog/other/10-1-23-spotify-adventure-playlist";
-  toc[5] = "Other | Preview: The Highland Adventure Project | September 25, 2023 | blog/other/9-25-23-highland-adventure-project";
-  toc[4] = "Dining | Preview: The New and Improved Le Boutique Bistro | September 18, 2023 | blog/dining/9-18-23-le-boutique-bistro";
+  toc[7] = "Other | Spotify Brings the Adventure to Your Phone! | October 1, 2023 | blog/other/10-1-23-spotify-adventure-playlist";
+  toc[6] = "Other | Preview: The Highland Adventure Project | September 25, 2023 | blog/other/9-25-23-highland-adventure-project";
+  toc[5] = "Dining | Preview: The New and Improved Le Boutique Bistro | September 18, 2023 | blog/dining/9-18-23-le-boutique-bistro";
+  toc[4] = "Events | Globe-City's Founder's Day Celebration | May 30th, 2024 | blog/events/05-30-Founders-Day";
   toc[3] = "Community | Preview: Helping the Highland Community | September 14, 2024 | blog/community/9-14-24-helping-highland";
   toc[2] = "Events | Dia de Los Muertos at Plaza del Mexico | September 12, 2023 | blog/events/halloween/9-10-23-dia-de-los-muertos";
   toc[1] = "Events | Halloween At the Globe-City Resort | September 9, 2023 | blog/events/halloween/9-9-23-halloween-at-the-globe-city-resort";
