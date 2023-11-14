@@ -91,7 +91,7 @@ dateTierList = [];
 //                        Entertainment: 1, 2, 3 etc. Each num adds a different show to the list
 //                        Events: 1, 2, 3, etc. Each num adds a different event to the list
 // ------------------------------------------------------------------------------ PASTE BELOW THIS LINE -----------------------------------------------------------------------------------------
-dateTierList[0] = "May 30 - Thursday - 3 - 1,2,3,19 - 1"; // Thursday, May 30th
+dateTierList[0] = "May 30 - Thursday - 3 - 1,2,3,19 - 20"; // Thursday, May 30th
 dateTierList[1] = "January 2 - Tuesday - 1 - 1 - 1"; // Tuesday, January 2st
 dateTierList[2] = "January 3 - Wednesday - 1 - 1 - 1"; // Wednesday, January 3st
 dateTierList[3] = "January 4 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
