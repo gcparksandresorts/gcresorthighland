@@ -47,8 +47,8 @@ entertainmentList[16] = "Yander's Boom-Town Boogie | 3:00PM, 5:00PM, 7:00PM | ht
 entertainmentList[18] = "Fourth of July Fireworks | 9:30 PM | Image_link | click_link";
 entertainmentList[19] = "Founder's Day Fireworks | 8:30 PM | https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2022/06/764/432/GettyImages-1402978807.jpg?ve=1&tl=1 | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day#fireworks";
 entertainmentList[20] = "Friday the 13th Entertainment | All Day | https://itsastampede615821596.files.wordpress.com/2019/07/friday-13th-3d.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/10-13-2023-Friday-the-13";
-entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM | https://metro.co.uk/wp-content/uploads/2021/12/GettyImages-1155981852.jpg?quality=90&strip=all | click_link";
-entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | click_link";
+entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM | https://metro.co.uk/wp-content/uploads/2021/12/GettyImages-1155981852.jpg?quality=90&strip=all | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve.html";
+entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve.html";
 
 
 
@@ -59,6 +59,8 @@ eventList = []; // Name | Hours (or 'special event') | Image_Link | Click_Link |
 eventList[0] = "No Events Today";
 eventList[1] = "RMember Admission Discounts | Promotion | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner4.jpg | www.google.com";
 eventList[3] = "Passholder Preview Day | Special Event | https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/uor-universal-annual-passholder-friends-shopping-a.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/halloween-at-the-resort";
+
+// JUNE PRIDE EVENTS
 eventList[4] = "Globe-City Celebrates Pride | Special Event | https://insidethemagic.net/wp-content/uploads/2023/04/Pride-Nite-1.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/pride";
 eventList[5] = "Adventurous Nights of Pride | Special Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/nop.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
