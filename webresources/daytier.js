@@ -161,12 +161,12 @@ dateTierList[63] = 'November 11 - Saturday - 2 - 1,2,3 - 1';
 dateTierList[64] = 'November 12 - Sunday - 2 - 1,2,3 - 1'; 
 dateTierList[65] = 'November 13 - Monday - 0 - 0 - 1'; 
 dateTierList[66] = 'November 14 - Tuesday - 0 - 0 - 1'; 
-dateTierList[67] = 'November 15 - Wednesday - 0 - 1,2,3 - 1'; 
-dateTierList[68] = 'November 16 - Thursday - 0 - 1,2,3 - 1'; 
+dateTierList[67] = 'November 15 - Wednesday - 0 - 0 - 1'; 
+dateTierList[68] = 'November 16 - Thursday - 0 - 1,2 - 1'; 
 
 dateTierList[69] = 'November 17 - Friday - 3 - 13,14,15,16 - 12,15'; // Season of Light Begins
 dateTierList[70] = 'November 18 - Saturday - 4 - 13,14,15,16 - 12';
-dateTierList[71] = 'November 19 - Sunday - 5 - 13,14,15,16 - 12';
+dateTierList[71] = 'November 19 - Sunday - 5 - 13,14,15,16 - 12,13';
 
 dateTierList[72] = 'November 20 - Monday - 3 - 13,14,15,16 - 12,13'; //ThanksGiving Break!
 dateTierList[73] = 'November 21 - Tuesday - 4 - 13,14,15,16 - 12,13';
