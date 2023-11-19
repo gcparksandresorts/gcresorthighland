@@ -8,6 +8,7 @@
 
 toc = [];
 
+  toc[10]= "Entertainment | SOTH Recieves 2023 TEA Award | December 1, 2023 | blog/entertainment/12-1-23-soth-recieves-tea-award";
   toc[9] = "Attractions | LAB Cinema 4D Coming to City-Shop | November 20, 2023 | blog/attractions/11-20-23-lab-cinema-4d";
   toc[8] = "Events | Painter Family Tree Lighting | November 10, 2023 | blog/events/season-of-light/11-17-23-painter-family-tree-lighting";
 
