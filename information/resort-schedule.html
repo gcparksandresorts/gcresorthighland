@@ -39,7 +39,12 @@
  	<div class='titleBar'><h2>Resort Hours and Information</h2></div>
 	<div class='subtitleBar'><p id='dateDisplayText' style='font-size:16px;'>An Error Has Occurred. Please Reload the Page</p></div>
 	<!-- End of Banner Image and Title Bar Elements -->
-	
+
+	<div class='fullContainer' style='margin-top:0; display:none' id='adBannerSpace'>
+		<div class='container' id='adBannerContent'>
+			<!-- AD SPACE FOR DATE-RELATED EVENTS -->
+		</div>
+	</div>
 	
 	<div class='container' style='text-align:center'>
     	<h3>Today's Operating Hours</h3>
@@ -323,6 +328,19 @@
 				}
 			
 			finalDateDisplay.innerHTML = tdDayWeek + " - " + searchDate + ", " + tyear;
+
+			// DECORATE PAGE BASED ON SPECIFIC DATE
+			const adDiv = document.getElementById("adBannerSpace");
+			const adCont = document.getElementById("adBannerContent");
+			switch(searchDate){
+				case "December 31":
+					adDiv.style.backgroundImage = "url(https://img.freepik.com/premium-photo/abstract-golden-glitter-bokeh-light-background-with-fireworks_63313-2215.jpg)";
+					adDiv.style.display = "block";
+					adCont.innerHTML = "<h1 style='color:white'>Happy New Year's Eve!</h1>Here's to a year full of Adventure, Wonder, and More!";
+					break;
+				default:
+					break;
+			}// End of decorate page switch
 			
 		} // end of function
         
