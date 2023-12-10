@@ -11,15 +11,15 @@
 const january = [];
       january[0] = "https://www.parksavers.com/wp-content/uploads/2019/11/i-DzrQLXh-X3.jpg";
       january[1] = "<h3>Season of Light Continues</h3>Globe-City's Season of Light<sup>TM</sup> celebration isn't over yet, Visit before time runs out!";
-      january[2] = "";
+      january[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
 
       january[3] = "https://www.splishsplash.com/content/dam/sny/images/blog/Season%20Pass%20Blog%20image.png";
       january[4] = "<h3>Season Passes on Sale</h3>As the holiday season wraps up, now is a good time to buy an annual pass and extend your adventure";
-      january[5] = "";
+      january[5] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports";
 
       january[6] = "https://esllibrary.s3.amazonaws.com/uploads/ckeditor/pictures/2905/content_Happy-New-Year_Ellii.jpg";
       january[7] = "<h3>Happy New Year!</h3>From all of us here at the resort, may this year be full of fun and new adventures <3";
-      january[8] = "";
+      january[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park";
 
 const february = [];
       february[0] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
@@ -152,9 +152,9 @@ const november = [];
       november[8] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/promotions";
 
 const december = [];
-      december[0] = "https://www.app.com/gcdn/presto/2022/06/09/PAPP/c1070e25-cd9c-4331-9b97-2c64af04cc8b-game060922c.jpg";
-      december[1] = "<h3>Santa Needs Your Help!</h3>Test your skills at this exclusive Season of Light overlay of the <a>Boardwalk Midway</a>! How many presents can you successfuly deliver to the restless children of SnowVille?";
-      december[2] = "";
+      december[0] = "https://media.istockphoto.com/id/1166630631/photo/grandfather-and-grandson-amusement-park-fun.jpg?s=612x612&w=0&k=20&c=XDES5Q-NBO0QcpomzQw3oZXLarChJh4XNXRMQ5lHNHg=";
+      december[1] = "<h3>Give the Gift of Together</h3>Make your holiday one to remember forever! Endulge your family in a deluxe vacation package for a wonderful winter vacation at an unbeatable price";
+      december[2] = "https://gcparksandresorts.github.io/gcresorthighland/hotels#vacationPackages";
 
       december[3] = "https://i.ytimg.com/vi/6Fhr_dqNEB8/maxresdefault.jpg";
       december[4] = "<h3>A Holiday Foodie's Favorites</h3>Our Creative Culinary head chef, Ashley Franco, takes us on a tour of the wonderful holiday food and beverage options at Adventure Park";
