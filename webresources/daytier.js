@@ -1,3 +1,14 @@
+// ---------------------------------------------------------------------------- TICKET PRICING  -------------------------------------------------------------------------------------------------
+ticketPrice[0] = "Oras Nou Resident Admission | 75,75,85,95,109";
+ticketPrice[1] = "General Admission | 85,85,95,109,110";
+ticketPrice[2] = "GC VIP Bronze Admission | 130,150,165,175,199";
+ticketPrice[3] = "GC VIP Silver Admission | 150,180,199,210, 299";
+ticketPrice[4] = "GC VIP Gold Admission | 189,199,265,275,399";
+ticketPrice[5] = "GC VIP Deluxe Admission | 215,265,299,350,399";
+ticketPrice[6] = "Sally's Halloween Party Admission | 59, 69";
+ticketPrice[7] = "Adventurous Nights of Pride Admission | 55";
+ticketPrice[8] = "Adventure EVE Nighttime Admission | 45";
+  
 // ------------------------------------------------------------------------------ PARK HOURS  ---------------------------------------------------------------------------------------------------
 parkHoursList = []; // Adventure Park : CityShop : Special Event
 
