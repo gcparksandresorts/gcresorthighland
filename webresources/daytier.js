@@ -1,4 +1,6 @@
 // ---------------------------------------------------------------------------- TICKET PRICING  -------------------------------------------------------------------------------------------------
+ticketPrice = [];
+
 ticketPrice[0] = "Oras Nou Resident Admission | 75,75,85,95,109";
 ticketPrice[1] = "General Admission | 85,85,95,109,110";
 ticketPrice[2] = "GC VIP Bronze Admission | 130,150,165,175,199";
