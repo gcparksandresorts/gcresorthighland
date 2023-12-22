@@ -12,6 +12,29 @@
   	<style>
       .titleBar{background:url("https://media.istockphoto.com/id/1323916906/photo/dark-blue-de-focused-blurred-motion-abstract-background.jpg?s=612x612&w=0&k=20&c=s4POw5lesCBVo-2eNijVhd3wOk0kCZelEedpHwmpwM8=");
                  background-size:cover; background-repeat:no-repeat; background-position:center;}
+
+	.quadDisp{
+    		margin-top:20px;
+    		width:100%;
+		display:flex;
+		flex-flow:row;
+		align-items:flex-start; justify-content:center;
+	}
+	.quadDisp div{width:100%; padding:10px; text-align:left; transition:0.5s; align-self:stretch;}
+	.quadDisp img{width:100%; height:auto;}
+
+	.quadDisp div:hover{background:#efefef;}
+
+	.quadDisp div h4{margin-top:5px; margin-bottom:0; font-weight:normal; font-size:18px; color:#073763;}
+    	.quadDisp div h5{margin-top:4px; font-weight:normal; font-size:15px;}
+	.quadDisp div ul{margin-left:0; padding:0; list-style-type: none;}
+		
+	@media screen and (max-width:1000px){
+	    	.quadDisp{flex-wrap:wrap;}
+	        .quadDisp div{width:50%; min-width:300px; margin-bottom:10px;}
+	}
+		
+	.collapsible{cursor:pointer;}	.collapsible:hover{color:black;}	.content {display:none; animation: FadeIn 0.4s;}
     </style>
 
 </head>
@@ -48,12 +71,136 @@
       </div>
 	</div>
 
-  <div class='spacer'></div>
+	
+	<div class='titleBar'><h2>VIP Admission Tiers</h2></div>
+	  	<div class='container'>
+		  GC VIP Admission is offered in 4 Tiers for flexible pricing based on your needs
+		<div class='quadDisp'>
+			<div>
+				<img src='https://aztechadmit.github.io/client-ticketingservice/globecityresorthighland/clientImages/ticketing3.jpg'>
+				<h4>Priority Bronze</h4>
+				<h5>Starting at $125</h5>
+				<ul>
+					<li>✔️ One-time-use access to priority queues at applicable attractions</li>
+				</ul>
+			</div>
+			<div>
+				<img src='https://aztechadmit.github.io/client-ticketingservice/globecityresorthighland/clientImages/ticketing4.jpg'>
+				<h4>Priority Gold</h4>
+				<h5>Starting at $150</h5>
+				<ul>
+					<li>✔️ Unlimited access to priority queues at applicable attractions*</li>
+				</ul>
+				<p class='disclaimer'>*After first use, Priority Queue re-access begins at 3PM, 15 minute cool down period between uses</p>
+			</div>
+			<div>
+				<img src='https://aztechadmit.github.io/client-ticketingservice/globecityresorthighland/clientImages/ticketing5.jpg'>
+				<h4>GC VIP Gold</h4>
+				<h5>Starting at $189</h5>
+				<ul>
+					<li>✔️ Priority Queue Access for two uses per ride</li>
+					<li>✔️ Access to VIP Lounge Spaces</li>
+					<li>✔️ Acess to Entertainment VIP Priority Seating</li>
+					<li>✔️ Complimentary <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/addons/gc-photo-pass'>GC PhotoPass</a></li>
+				</ul>
+			</div>
+			<div>
+				<img src='https://aztechadmit.github.io/client-ticketingservice/globecityresorthighland/clientImages/ticketing6.jpg'>
+				<h4>GC VIP Deluxe</h4>
+				<h5>Starting at $215</h5>
+				<ul>
+					<li>✔️ Unlimited Priority Queue Access</li>
+					<li>✔️ Access to VIP Lounge Spaces</li>
+					<li>✔️ Acess to Entertainment VIP Priority Seating</li>
+					<li>✔️ Complimentary <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/addons/gc-photo-pass'>GC PhotoPass</a></li>
+					<li>✔️ 20% Discount on merchandise sold in-park</li>
+					<li>✔️ 10% Discount on food and drink sold in-park</li>
+				</ul>
+			</div>
+		</div>
 
-  <div class='container'>
-    <h1>VIP Tiers</h1>
-    VIP Admission is seperated into four tiers for maximum flexibility
+	  <div class='container'>
+		  <button onclick='window.open("../tickets","_self")'>View Tickets and Passes</button>
+		  <p>Before purchasing admission, review our <a href='../information/legal#gcvip'>GC VIP Terms and Conditions</a></p>
+	  </div>
   </div>
+
+	<div class='titleBar' style='margin-top:0'><h2>More Information</h2></div>
+	<div class='leftContainer' style='margin-top:10px'>
+		<h3 class='collapsible'>Perks and Benefits</h3>
+		<div class='content'>
+			<p>
+				<h4>Priority Queue Access</h4>
+				Priority Queues can greatly shorten your attraction waittimes with exclusive access to GC VIP ticketholders. Restrictions apply including limited uses per-attraction, 'cool-down' time periods between uses, and time-of-day restrictions. For more information on restrictions and limitations of priority queue access, view our <a href='../information/legal'>GC VIP Terms and Conditions</a>
+			</p>
+			<p>
+				<h4>Entertainment Priority Seating</h4>
+				For our live entertainment and nighttime spectaculars, GC-VIP guests with Gold and Deluxe tickets can enter our priority seating areas for a better view of the show without the hassle of reserving a seat. Priority seating areas open 1-hour before showtime. Priority Seating areas are subject to capacity limitations.
+			</p>
+			<p>
+				<h4>VIP Lounges</h4>
+				Our exclusive VIP lounges feature comfortable indoor seating away from theme park crowds. Vending machines, water refill stations, and complimentary WIFI are also available. GC-VIP guests with Gold and Deluxe tickets can access our VIP lounges by scanning their tickets at the entrance. Lounge space is first-come first-serve and some lounges may be closed or unavailable during your visit. To find VIP lounges, use a park guide map or the GC RESORT mobile app.
+			</p>
+			<p>
+				<h4>Preffered Parking</h4>
+				GC VIP Admission does not include parking, however, guests visiting with pre-purchased GC VIP Admission can show their tickets at the parking booth for a 10% Discount on Preffered Parking in the Adventure Parking Lot only.
+			</p>
+			<p>
+				<h4>Complimentary GC Photo Pass</h4>
+				GC VIP Gold and Deluxe admission includes <a href='addons/gc-photo-pass'>GC PhotoPass</a> free-of-charge. To activate, download the GC RESORT mobile app and set up GC PhotoPass using your GC VIP ticket ID.
+			</p>
+
+			<br><br>
+		</div>
+
+		<h3 class='collapsible'>Frequently Asked Questions</h3>
+		<div class='content'>
+
+			<br><br>
+		</div>
+
+		<h3 class='collapsible'>GC VIP Upgrades</h3>
+		<div class='content'>
+			Guests visiting with General Admission may upgrade their tickets to Priority Queuing tickets at Guest Services or any GC VIP Kiosk within Adventure Park.
+			<p>Guests with GC VIP Admission may upgrade their tickets to a higher Tier at Guest Services or any GC VIP Kiosk within Adventure Park</p>
+			
+			<br><br>
+		</div>
+	</div>
+	
+	<div class='titleBar'><h2>Special Offers</h2></div>
+	<div class='fullContainer' style='background:#efefef; margin-top:0;'>
+		<div class='columnContainer'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/purplePass.png' style='max-height:300px;'>
+			<div style='text-align:left'>
+				<h2>Platinum Annual Passport</h2>
+				✔️Unlimited admission to Adventure Park (365 days after purchase of pass)
+				<p></p>
+				✔️Priority Queue Access to all applicable attractions¹
+				<p></p>	
+				✔️Includes GC PHOTO PASS for the whole year
+				<p></p>		
+				✔️Access to VIP Lounge spaces
+				<p></p>
+				✔️Access to VIP priority seating
+				<p></p>
+				✔️Free General Parking in Adventure Parking Lot
+				<p></p>
+				✔️15% off in-park merchandise, 11% off in-park food and drink
+
+				<p><b>$615 for 12 Months</b> - <a href='annual-passports'>Learn More</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class='titleBar'><h2>Executive Guest Experience</h2></div>
+	<div class='leftContainer'>
+		If you would like to book an exclusive Special Guest experience with a tour guide and GC VIP privileges, please contact our Booking Agent at <a>viptours.gcrh@gcpr.net</a>
+		<p></p>
+		Our special guest tours include a personal tour guide who will accompany you throughout the day, unlimited food and drink which can be provided to you as you exit attractions, and unlimited access to our priority queues and tour exclusive express lines. 
+	</div>	
+
+	<br><br>
 	
 <!-- Footer Elements --><div id="footer"></div>
 </body>
@@ -64,6 +211,24 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}	
+
+	</script>
 
 
 </html>
