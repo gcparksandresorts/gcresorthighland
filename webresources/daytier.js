@@ -94,7 +94,7 @@ eventList[16] = "Adventure Eve | 7PM to 1AM | https://www.ocregister.com/wp-cont
 
 eventList[17] = "";
 eventList[18] = "";
-eventList[19] = "";
+eventList[19] = "Season of Light Closing Celebration | Special Event | https://www.micechat.com/wp-content/uploads/2021/12/Disneyland-Christmas-Castle-Fireworks-micechat.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/events/season-of-light/01-07-sol-closing-celebration";
 eventList[20] = "Founder's Day | Special Event | https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day";
 
 //eventList[10] = "name | hours | image_link | click_link";
@@ -107,9 +107,9 @@ dateTierList = [];
 //                        Events: 1, 2, 3, etc. Each num adds a different event to the list
 // ------------------------------------------------------------------------------ PASTE BELOW THIS LINE -----------------------------------------------------------------------------------------
 dateTierList[0] = "May 30 - Thursday - 3 - 1,2,3,19 - 20"; // Thursday, May 30th
-dateTierList[1] = "January 2 - Tuesday - 1 - 1 - 1"; // Tuesday, January 2st
-dateTierList[2] = "January 3 - Wednesday - 1 - 1 - 1"; // Wednesday, January 3st
-dateTierList[3] = "January 4 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
+dateTierList[1] = "January 98 - Tuesday - 1 - 1 - 1"; // Tuesday, January 2st
+dateTierList[2] = "January 99 - Wednesday - 1 - 1 - 1"; // Wednesday, January 3st
+dateTierList[3] = "January 96 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[4] = "August 24 - Thursday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[5] = "August 25 - Friday - 1 - 1 - 1"; // Thursday, January 4st
 dateTierList[6] = "August 28 - Monday - 7 - 1 - 1"; // Thursday, January 4st
@@ -225,7 +225,23 @@ dateTierList[110] = 'December 28 - Thursday - 4 - 13,14,15,16 - 12';
 dateTierList[111] = 'December 29 - Friday - 4 - 14,15,16,13 - 12';
 dateTierList[112] = 'December 30 - Saturday - 4 - 13,14,15,16 - 12';
 dateTierList[113] = 'December 31 - Sunday - 8 - 14,16,21,22 - 12,16'; // New Years Eve
-dateTierList[114] = 'January 1 - Monday - 3 - 13,15,16 - 12';
+dateTierList[114] = 'January 1 - Monday - 2 - 13,15,16 - 12';
+dateTierList[115] = 'January 2 - Tuesday - 3 - 13,14,15,16 - 12';
+dateTierList[116] = 'January 3 - Wednesday - 3 - 13,14,15,16 - 12';
+dateTierList[117] = 'January 4 - Thursday - 3 - 13,14,15,16 - 12';
+dateTierList[118] = 'January 5 - Friday - 5 - 13,14,15,16 - 12';
+dateTierList[119] = 'January 6 - Saturday - 4 - 13,14,15,16 - 12';
+dateTierList[120] = 'January 7 - Sunday - 4 - 13,14,15,16 - 12,19'; // Last Day of Season of Light
+dateTierList[121] = 'January 8 - Monday - 1 - 0 - 0';
+dateTierList[122] = 'January 9 - Tuesday - 1 - 0 - 0';
+dateTierList[123] = 'January 10 - Wednesday - 1 - 0 - 0';
+dateTierList[124] = 'January 11 - Thursday - 1 - 0 - 0';
+dateTierList[125] = 'January 12 - Friday - 1 - 0 - 0';
+dateTierList[126] = 'January 13 - Saturday - 2 - 0 - 0';
+dateTierList[127] = 'January 14 - Sunday - 2 - 0 - 0';
+
+
+
 
 
 
