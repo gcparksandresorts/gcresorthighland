@@ -75,7 +75,7 @@
     
     <div class='container'>
 	<p><h2>Date Tier Output</h2></p>
-    	<div id='finalOutput' style='text-align:left; background:azure; width:500px; margin:auto; border:1px solid black; padding:10px;'>
+    	<div id='finalOutput' style='text-align:left; background:azure; width:700px; margin:auto; border:1px solid black; padding:10px;'>
         	No Input to Display
         </div>
 	<a onclick='copyAll()'>Copy to Cliboard</a>
@@ -131,13 +131,13 @@
 		var curDate = months[curMonth] + " " + curDayOfMonth;
 		consoleDisp.innerHTML += "<p>Code Starting Value: "+ curDate +"</p>";
 
-		outputBox.innerHTML = 'Loading...';
+		outputBox.innerHTML = '';
 
 		// Begin Looping Process
 		// Output Format: 'dateTierList[6] =  "November 3 - Friday - 0 - 0 - 0" '
 		while(curDate != dateEnd){
 
-			outputBox.innerHTML = "dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - 0 - 0 - 0"';
+			outputBox.innerHTML += "<p>dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + " " + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - 0 - 0 - 0";</p>';
 			
 			curIndex++; // Increase Index by 1
 			
@@ -154,9 +154,15 @@
 				curMonth++;
 				if(curMonth > 11){curMonth = 0}; //Reset to January if past december
 			}
+
+			// Update Current Date
 			
+			curDate = months[curMonth] + " " + curDayOfMonth;
 			
 		}//End of For Loop
+
+		// Write final date
+		outputBox.innerHTML += "dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + " " + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - 0 - 0 - 0"';
 	    
 	}// End of Function Run
 	
