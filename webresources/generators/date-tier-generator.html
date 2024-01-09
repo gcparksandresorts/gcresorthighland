@@ -24,73 +24,57 @@
     
     <div class='container'>
     	
-        <h3 id='curdateDisplay'>Current Date</h3>
+        <h3 id='curdateDisplay'>Configure</h3>
     
-    	<label for='tier'>Date Tier</label>
-    	<input id='tier' type='text' style='width:60px;' placeholder='0-5' on>
+    	<label for='yearStart'>Year Start</label>
+    	<input id='yearStart' type='text' style='width:60px;' placeholder='2024' on>
         
-        <label for='entertainment'>Entertainment</label>
-    	<input id='entertainment' type='text' style='width:60px;' placeholder='0-11'>
+        <label for='dateStart'>Date Start</label>
+    	<input id='dateStart' type='text' style='width:100px;' placeholder='Jan 1'>
+
+	<label for='dayStart'>Day Start</label>
+    	<select id='dayStart'>
+		<option value='0'>Sunday</option>
+		<option value='1'>Monday</option>
+		<option value='2'>Tuesday</option>
+		<option value='3'>Wednesday</option>
+		<option value='4'>Thursday</option>
+		<option value='5'>Friday</option>
+		<option value='6'>Saturday</option>
+	</select>
+
+	<p></p>
+
+	<label for='indexStart'>Date Tier List Index Starting Value</label>
+    	<input id='indexStart' type='text' style='width:60px;' placeholder='0-366'>
+
+	<p></p>
+        <label for='dateEnd'>Date End</label>
+    	<input id='dateEnd' type='text' style='width:100px;' placeholder='Dec 31'>
+
+	<p>
+
+	<label for="isLeapYear">Leap Year (When February Comes Up)</label> 
+	<input type="checkbox" id="isLeapYear" value="true">
+
+	</p>
         
-        <label for='events'>Events</label>
-    	<input id='events' type='text' style='width:60px;' placeholder='0-11' onkeypress="enterKeyPressed(event)">
+        <br><br>
         
-        <br>
-        
-        <p>Hit <b>TAB</b> to select next input automatically<p>
-        <p>Hit <b>ENTER</b> to input and move to next date</p>
-        
-        <p><a id='repeat-last' style='display:none' onclick='repeatLast()'>Repeat Last</a></p>
+        <button onclick='run()'>Generate Tier List</button>
     </div>
     
     <div class='spacer'></div>
-    
-    <div style='text-align:center'>
 
-	    <p style=''><b>Date Tiers: </b>0 (auto 1 or 2) | 1 (low) | 2 (weekend) | 3 (mid) | 4 (busy) | 5 (very busy) <p><b>Special Event Tiers:</b> 6 (after-hours event 6PM) Low | 7 (after-hours event 6PM) Weekend </p></p>
-
-		<div class='spacer'></div>
-	    
-    <div class='container' style='width:400px; display:inline-block'>
-    	<h3>Entertainment:</h3>
-        <ul style='text-align:left'>
-        	<li><b>0</b> - None</li>
-			<li><b>1</b> - Standard Weekday Entertainment</li>
-			<li><b>2</b> - Standard Weekend Entertainment</li>
-            <li><b>3</b> - Season of Light Weekday</li>
-            <li><b>4</b> - Season of Light Weekend</li>
-            <li><b>5</b> - SummerFest Weekday</li>
-            <li><b>6</b> - SummerFest Weekend</li>
-            <li><b>7</b> - Halloween Weekday</li>
-            <li><b>8</b> - Halloween: Weekend</li>
-            <li><b>9</b> - Halloween: SHAP EVENT</li>
-            <li><b>10</b> - Fourth of July</li>
-            <li><b>11</b> - Founder's Day</li>
-        </ul>
-        
-     </div>
-     <div class='container' style='width:400px; display:inline-block'>
-        
-        <h3>Specials and Events:</h3>
-        <ul style='text-align:left'>
-        	<li><b>0</b> - None</li>
-            <li><b>3</b> - Season of Light</li>
-            <li><b>4</b> - Thanksgiving Feast</li>
-            <li><b>5</b> - SummerFest Weekend</li>
-            <li><b>6</b> - SummerFest Weekday</li>
-            <li><b>7</b> - Halloween Weekend</li>
-            <li><b>8</b> - Halloween: SHAP Entertainment</li>
-            <li><b>9</b> - Halloween: Weekday</li>
-            <li><b>10</b> - Fourth of July</li>
-            <li><b>11</b> - Founder's Day</li>
-        </ul>
-    </div>
-    
-    </div>
+	<div class='container'>
+		<h3>Console</h3>
+		<p id='consoleOutput'>Waiting for Code Start</p>
+	</div>
     
     <div class='spacer'></div>
     
     <div class='container'>
+	<p><h2>Date Tier Output</h2></p>
     	<div id='finalOutput' style='text-align:left; background:azure; width:500px; margin:auto; border:1px solid black; padding:10px;'>
         	No Input to Display
         </div>
@@ -105,41 +89,81 @@
 
 <script>
 
-	const inputA = document.getElementById("tier");
-	const inputB = document.getElementById("entertainment");
-	const inputC = document.getElementById("events");
+	const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+	const monthsDays = ['31','28','31','30','31','30','31','31','30','31','30','31'];
+
+	const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+	const fullMonths = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+	
+	const leapYear = document.getElementById("isLeapYear");
+	const consoleDisp = document.getElementById("consoleOutput");
 
 	const outputBox = document.getElementById("finalOutput");
 	
 	function run(){
-	
-		if(document.getElementById("repeat-last").style.display != 'block'){document.getElementById("repeat-last").style.display = 'block';}
+
+		dateStart = document.getElementById("dateStart").value;
+		dayStart = document.getElementById("dayStart").value;
+		dateEnd = document.getElementById("dateEnd").value;
+		yearStart = document.getElementById("yearStart").value;
+		indStart = document.getElementById("indexStart").value;
+
+		if(leapYear.checked == true){
+			consoleDisp.innerHTML = yearStart + " is a Leap Year (User Determined)";
+			monthsDays[1] = '29';
+		}else{
+			consoleDisp.innerHTML = yearStart + " is NOT a Leap Year (User Determined)";
+		}
+
+		consoleDisp.innerHTML += "<p>Date of Starting: " + daysOfWeek[dayStart] + " " + dateStart + ", " + yearStart + "</p>";
+		
+		// Run Actual Date Tier Generation
+
+		// Set up Initial Values
+		let tempDateStart = dateStart.split(' ');
+
+		var curMonth = months.indexOf(tempDateStart[0]); // Returns 0-11
+		var curDayOfMonth = tempDateStart[1]; // Returns 1-31
+		var curDayOfWeek = dayStart; // Returns 0-6
+		var curIndex = indStart;
+
+		var curDate = months[curMonth] + " " + curDayOfMonth;
+		consoleDisp.innerHTML += "<p>Code Starting Value: "+ curDate +"</p>";
+
+		outputBox.innerHTML = 'Loading...';
+
+		// Begin Looping Process
+		// Output Format: 'dateTierList[6] =  "November 3 - Friday - 0 - 0 - 0" '
+		while(curDate != dateEnd){
+
+			outputBox.innerHTML = "dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - 0 - 0 - 0"';
+			
+			curIndex++; // Increase Index by 1
+			
+			if(curDayOfWeek < 6){ //Change the Day of the Week (sun - sat)
+				curDayOfWeek++;
+			}else{
+				curDayOfWeek = 0;
+			}
+
+			if(curDayOfMonth < monthsDays[curMonth]){ // Adjust day of month or move to new month
+				curDayOfMonth++;
+			}else{ // move to next month OR move back to January
+				curDayOfMonth = 1;
+				curMonth++;
+				if(curMonth > 11){curMonth = 0}; //Reset to January if past december
+			}
+			
+			
+		}//End of For Loop
 	    
-	    inputAlast = inputA.value;
-	    inputBlast = inputB.value;
-	    inputClast = inputC.value;
-	    
-	    console.log("Input A: "+inputA.value + "; Input B: "+inputB.value+"; Input C: "+inputC.value);
-	    inputA.select();
-	    
-	}
+	}// End of Function Run
 	
-	function repeatLast(){
-	
-		console.log("Input A: "+inputAlast + "; Input B: "+inputBlast+"; Input C: "+inputClast);
-	    
-	}
-	
-	function enterKeyPressed(event){
-	  if (event.keyCode == 13 || event.keyCode == 9) {
-	           run();
-	        } else {
-	           return false;
-	        }
-	}
 
 	function copyAll(){
 		navigator.clipboard.writeText(outputBox.innerHTML);
+		alert("Date Tier Output Copied");
 	}
 
 
