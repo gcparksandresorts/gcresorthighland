@@ -9,9 +9,9 @@
 
 // ------------------------------------------------------------------------------------------------------------------------------- SPOTLIGHT CONTENT
 const january = [];
-      january[0] = "https://www.parksavers.com/wp-content/uploads/2019/11/i-DzrQLXh-X3.jpg";
-      january[1] = "<h3>Season of Light Continues</h3>Globe-City's Season of Light<sup>TM</sup> celebration isn't over yet, Visit before time runs out!";
-      january[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/season-of-light";
+      january[0] = "https://aztechadmit.github.io/gcresorthighland/main/images/banner6.jpg";
+      january[1] = "<h3>Return of Admission Discounts and Promotions</h3>Start the new year off with an Adventure! Oras Nou Resident, RMember, and Retail Multi-Day admission discounts have all returned so you can experience all the magic for less!";
+      january[2] = "https://gcparksandresorts.github.io/gcresorthighland/information/promotions";
 
       january[3] = "https://www.splishsplash.com/content/dam/sny/images/blog/Season%20Pass%20Blog%20image.png";
       january[4] = "<h3>Season Passes on Sale</h3>As the holiday season wraps up, now is a good time to buy an annual pass and extend your adventure";
