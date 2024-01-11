@@ -230,10 +230,10 @@
 				// For Tier 0, 6, 7 Days:
 				if(tdTier == 0){
 						if(tdDayWeek == "Friday" || tdDayWeek == "Saturday" || tdDayWeek == "Sunday"){
-							var tdTier = 2;
+							var tdTier = '2';
 							console.log("Tier Changed to 2");
 						}else{
-							var tdTier = 1;
+							var tdTier = '1';
 							console.log("Tier Changed to 1");
 						}
 				}// end of switch
@@ -258,12 +258,12 @@
 				switch(tdTier){
 					case '1':
 						adminInfoVal = ["1", "$67+", "$109+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
-						rParkAP.innerHTML = "$24 per day";
+						rParkAP.innerHTML = "$26 per day";
 						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $18 | 3+ Hr - $30";
 						break;
 					case '2':
 						adminInfoVal = ["2", "$75+", "$135+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
-						rParkAP.innerHTML = "$24 per day";
+						rParkAP.innerHTML = "$26 per day";
 						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $18 | 3+ Hr - $30";
 						break;
 					case '3':
@@ -288,7 +288,7 @@
 						break;
 					default:
 						adminInfoVal = ["1<span class='disclaimer'>*</span>", "$65+", "$105+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
-						rParkAP.innerHTML = "$24 per day";
+						rParkAP.innerHTML = "$26 per day";
 						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $20 | 3+ Hr - $30";
 						break;
 				}
