@@ -34,9 +34,9 @@ entertainmentList = []; // Name | Hours | Image_Link | Click_Link ||  Name | Hou
 entertainmentList[0] = "No Shows Today";
 
 // Standard Entertainment
-entertainmentList[1] = "Globe-City Marching Band | 12:00PM, 2:00PM, 3:00PM, 4:00PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
+entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:15PM, 4:15PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
-entertainmentList[3] = "Drummers of the Mandahari | 12:30PM, 1:30PM, 3:30PM, 5:00PM, 6:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
+entertainmentList[3] = "Drummers of the Mandahari | 12:30PM, 1:30PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[4] = "";
 
 // SummerFest Entertainment
@@ -153,7 +153,7 @@ dateTierList[39] = "February 9 - Friday - 0 - 0 - 1";
 dateTierList[40] = "February 10 - Saturday - 0 - 0 - 1";
 dateTierList[41] = "February 11 - Sunday - 0 - 0 - 1";
 dateTierList[42] = "February 12 - Monday - 0 - 0 - 1";
-dateTierList[43] = "February 13 - Tuesday - 2 - 2,24 - 22"; // Mardi Gras !!
+dateTierList[43] = "February 13 - Tuesday - 2 - 2,1,24 - 22"; // Mardi Gras !!
 dateTierList[44] = "February 14 - Wednesday - 2 - 1,2,23 - 1,21"; //Valentines Day
 dateTierList[45] = "February 15 - Thursday - 0 - 0 - 0";
 dateTierList[46] = "February 16 - Friday - 0 - 0 - 0";
