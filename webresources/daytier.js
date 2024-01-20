@@ -64,7 +64,7 @@ entertainmentList[20] = "Friday the 13th Entertainment | All Day | https://itsas
 entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM | https://metro.co.uk/wp-content/uploads/2021/12/GettyImages-1155981852.jpg?quality=90&strip=all | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve.html";
 entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve.html";
 entertainmentList[23] = "Forever in Love Fireworks | 8:00PM | https://static.wixstatic.com/media/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg/v1/fill/w_640,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg | click-link";
-
+entertainmentList[24] = "Mardi Gras Cast Parade | 3:15 PM | https://media.wdwnt.com/2023/02/02_Universals-Mardi-Gras-Parade.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/2024-mardi-gras";
 
 
 // ------------------------------------------------------------------------------ SPECIAL EVENTS ------------------------------------------------------------------------------------------------
@@ -99,6 +99,7 @@ eventList[18] = "";
 eventList[19] = "Season of Light Closing Celebration | Special Event | https://www.micechat.com/wp-content/uploads/2021/12/Disneyland-Christmas-Castle-Fireworks-micechat.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/season-of-light/01-07-sol-closing-celebration";
 eventList[20] = "Founder's Day | Special Event | https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day";
 eventList[21] = "Valentines Day | Special Event | https://www.micechat.com/wp-content/uploads/2022/01/Disneyland-Valentines-Day-Baby-Yoda.jpg | click-link";
+eventList[22] = "Mardi Gras at Adventure Park | Special Event | https://cdn.tripster.com/travelguide/wp-content/uploads/los-angeles-california-usa-Disneyland-New-Orleans-Square-Decorations-Mardi-Gras.jpeg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/2024-mardi-gras";
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -127,32 +128,32 @@ dateTierList[14] = "January 15 - Monday - 0 - 0 - 1";
 dateTierList[15] = "January 16 - Tuesday - 0 - 0 - 1";
 dateTierList[16] = "January 17 - Wednesday - 0 - 0 - 1";
 dateTierList[17] = "January 18 - Thursday - 0 - 1,2 - 1";
-dateTierList[18] = "January 19 - Friday - 2 - 1,2,3 - 1";
-dateTierList[19] = "January 20 - Saturday - 2 - 1,2,3 - 0";
-dateTierList[20] = "January 21 - Sunday - 2 - 1,2,3 - 0";
-dateTierList[21] = "January 22 - Monday - 0 - 0 - 0";
-dateTierList[22] = "January 23 - Tuesday - 0 - 0 - 0";
-dateTierList[23] = "January 24 - Wednesday - 0 - 0 - 0";
-dateTierList[24] = "January 25 - Thursday - 0 - 0 - 0";
-dateTierList[25] = "January 26 - Friday - 0 - 0 - 0";
-dateTierList[26] = "January 27 - Saturday - 0 - 0 - 0";
-dateTierList[27] = "January 28 - Sunday - 0 - 0 - 0";
-dateTierList[28] = "January 29 - Monday - 0 - 0 - 0";
-dateTierList[29] = "January 30 - Tuesday - 0 - 0 - 0";
-dateTierList[30] = "January 31 - Wednesday - 0 - 0 - 0";
-dateTierList[31] = "February 1 - Thursday - 0 - 0 - 0";
-dateTierList[32] = "February 2 - Friday - 0 - 0 - 0";
-dateTierList[33] = "February 3 - Saturday - 0 - 0 - 0";
-dateTierList[34] = "February 4 - Sunday - 0 - 0 - 0";
-dateTierList[35] = "February 5 - Monday - 0 - 0 - 0";
-dateTierList[36] = "February 6 - Tuesday - 0 - 0 - 0";
-dateTierList[37] = "February 7 - Wednesday - 0 - 0 - 0";
-dateTierList[38] = "February 8 - Thursday - 0 - 0 - 0";
-dateTierList[39] = "February 9 - Friday - 0 - 0 - 0";
-dateTierList[40] = "February 10 - Saturday - 0 - 0 - 0";
-dateTierList[41] = "February 11 - Sunday - 0 - 0 - 0";
-dateTierList[42] = "February 12 - Monday - 0 - 0 - 0";
-dateTierList[43] = "February 13 - Tuesday - 0 - 0 - 0";
+dateTierList[18] = "January 19 - Friday - 2 - 1,2 - 1";
+dateTierList[19] = "January 20 - Saturday - 2 - 1,2 - 1";
+dateTierList[20] = "January 21 - Sunday - 2 - 1,2 - 1";
+dateTierList[21] = "January 22 - Monday - 0 - 0 - 1";
+dateTierList[22] = "January 23 - Tuesday - 0 - 0 - 1";
+dateTierList[23] = "January 24 - Wednesday - 0 - 0 - 1";
+dateTierList[24] = "January 25 - Thursday - 0 - 0 - 1";
+dateTierList[25] = "January 26 - Friday - 0 - 0 - 1";
+dateTierList[26] = "January 27 - Saturday - 0 - 0 - 1";
+dateTierList[27] = "January 28 - Sunday - 0 - 0 - 1";
+dateTierList[28] = "January 29 - Monday - 0 - 0 - 1";
+dateTierList[29] = "January 30 - Tuesday - 0 - 0 - 1";
+dateTierList[30] = "January 31 - Wednesday - 0 - 0 - 1";
+dateTierList[31] = "February 1 - Thursday - 0 - 0 - 1";
+dateTierList[32] = "February 2 - Friday - 0 - 0 - 1";
+dateTierList[33] = "February 3 - Saturday - 0 - 0 - 1";
+dateTierList[34] = "February 4 - Sunday - 0 - 0 - 1";
+dateTierList[35] = "February 5 - Monday - 0 - 0 - 1";
+dateTierList[36] = "February 6 - Tuesday - 0 - 0 - 1";
+dateTierList[37] = "February 7 - Wednesday - 0 - 0 - 1";
+dateTierList[38] = "February 8 - Thursday - 0 - 0 - 1";
+dateTierList[39] = "February 9 - Friday - 0 - 0 - 1";
+dateTierList[40] = "February 10 - Saturday - 0 - 0 - 1";
+dateTierList[41] = "February 11 - Sunday - 0 - 0 - 1";
+dateTierList[42] = "February 12 - Monday - 0 - 0 - 1";
+dateTierList[43] = "February 13 - Tuesday - 2 - 2,24 - 22"; // Mardi Gras !!
 dateTierList[44] = "February 14 - Wednesday - 2 - 1,2,23 - 1,21"; //Valentines Day
 dateTierList[45] = "February 15 - Thursday - 0 - 0 - 0";
 dateTierList[46] = "February 16 - Friday - 0 - 0 - 0";
