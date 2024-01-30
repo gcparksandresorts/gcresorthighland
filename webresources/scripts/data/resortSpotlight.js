@@ -22,9 +22,9 @@ const january = [];
       january[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park";
 
 const february = [];
-      february[0] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
-      february[1] = "<h3>Season of Light Has Ended</h3>Now is a good time to visit with lower entry costs and fewer crowds";
-      february[2] = "";
+      february[0] = "https://www.enjoyflorida.com/wp-content/uploads/2019/05/dance-floor-with-dancers-the-groove-nightclub-universal-citywalk-orlando.jpg";
+      february[1] = "<h3>Introducing Saturday Nightz at City-Shop</h3>This March, live your Highland Night adventure with free-to-access dance parties at Globe-City's City-Shop Fountain Plaza. Featuring different DJs every saturday and a unique theme for all four nights, its the ultimate social Saturday event!";
+      february[2] = "blog/entertainment/03-01-2024-Saturday-Nightz";
 
       february[3] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
       february[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
@@ -32,12 +32,12 @@ const february = [];
 
       february[6] = "https://sustainival.com/wp-content/uploads/2017/03/bumper-car.jpg";
       february[7] = "<h3>&#127905; Ride Spotlight: Boardwalk Bumpers</h3>Get behind the wheel of a timeless classic and bump around for some delightful new fun!";
-      february[8] = "";
+      february[8] = "https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/boardwalk-bumpers";
 
 const march = [];
-      march[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      march[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
-      march[2] = "";
+      march[0] = "https://www.enjoyflorida.com/wp-content/uploads/2019/05/dance-floor-with-dancers-the-groove-nightclub-universal-citywalk-orlando.jpg";
+      march[1] = "<h3>Saturday Nightz at City-Shop is on!</h3>For the entire month of March, live your Highland Night adventure with free-to-access dance parties at Globe-City's City-Shop Fountain Plaza. Featuring different DJs every saturday and a unique theme for all four nights, its the ultimate social Saturday event!";
+      march[2] = "blog/entertainment/03-01-2024-Saturday-Nightz";
 
       march[3] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
       march[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
