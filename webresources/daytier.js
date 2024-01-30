@@ -100,6 +100,8 @@ eventList[19] = "Season of Light Closing Celebration | Special Event | https://w
 eventList[20] = "Founder's Day | Special Event | https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day";
 eventList[21] = "Valentines Day | Special Event | https://www.micechat.com/wp-content/uploads/2022/01/Disneyland-Valentines-Day-Baby-Yoda.jpg | click-link";
 eventList[22] = "Mardi Gras at Adventure Park | Special Event | https://cdn.tripster.com/travelguide/wp-content/uploads/los-angeles-california-usa-Disneyland-New-Orleans-Square-Decorations-Mardi-Gras.jpeg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/2024-mardi-gras";
+eventList[23] = "Saturday Nightz at City-Shop | 9:00 PM to 12:00 AM | https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/entertainment/03-01-2024-Saturday-Nightz";
+
 
 //eventList[10] = "name | hours | image_link | click_link";
 eventList[99] = "name | hours | image_link | click_link";
@@ -170,6 +172,37 @@ dateTierList[56] = "February 26 - Monday - 0 - 0 - 0";
 dateTierList[57] = "February 27 - Tuesday - 0 - 0 - 0";
 dateTierList[58] = "February 28 - Wednesday - 0 - 0 - 0";
 dateTierList[59] = "February 29 - Thursday - 0 - 0 - 0";
+dateTierList[60] = "March 1 - Friday - 0 - 0 - 0";
+dateTierList[61] = "March 2 - Saturday - 0 - 0 - 0";
+dateTierList[62] = "March 3 - Sunday - 0 - 0 - 0";
+dateTierList[63] = "March 4 - Monday - 0 - 0 - 0";
+dateTierList[64] = "March 5 - Tuesday - 0 - 0 - 0";
+dateTierList[65] = "March 6 - Wednesday - 0 - 0 - 0";
+dateTierList[66] = "March 7 - Thursday - 0 - 0 - 0";
+dateTierList[67] = "March 8 - Friday - 0 - 0 - 0";
+dateTierList[68] = "March 9 - Saturday - 3 - 0 - 1,23";// First Saturday Nightz
+dateTierList[69] = "March 10 - Sunday - 0 - 0 - 0";
+dateTierList[70] = "March 11 - Monday - 0 - 0 - 0";
+dateTierList[71] = "March 12 - Tuesday - 0 - 0 - 0";
+dateTierList[72] = "March 13 - Wednesday - 0 - 0 - 0";
+dateTierList[73] = "March 14 - Thursday - 0 - 0 - 0";
+dateTierList[74] = "March 15 - Friday - 0 - 0 - 0";
+dateTierList[75] = "March 16 - Saturday - 5 - 0 - 1,23"; //SN
+dateTierList[76] = "March 17 - Sunday - 0 - 0 - 0";
+dateTierList[77] = "March 18 - Monday - 0 - 0 - 0";
+dateTierList[78] = "March 19 - Tuesday - 0 - 0 - 0";
+dateTierList[79] = "March 20 - Wednesday - 0 - 0 - 0";
+dateTierList[80] = "March 21 - Thursday - 0 - 0 - 0";
+dateTierList[81] = "March 22 - Friday - 0 - 0 - 0";
+dateTierList[82] = "March 23 - Saturday - 5 - 0 - 1,23"; //SN
+dateTierList[83] = "March 24 - Sunday - 0 - 0 - 0";
+dateTierList[84] = "March 25 - Monday - 0 - 0 - 0";
+dateTierList[85] = "March 26 - Tuesday - 0 - 0 - 0";
+dateTierList[86] = "March 27 - Wednesday - 0 - 0 - 0";
+dateTierList[87] = "March 28 - Thursday - 0 - 0 - 0";
+dateTierList[88] = "March 29 - Friday - 0 - 0 - 0";
+dateTierList[89] = "March 30 - Saturday - 3 - 0 - 1,23";// Last Saturday Nightz
+dateTierList[90] = "March 31 - Sunday - 0 - 0 - 0";
 
 
 
