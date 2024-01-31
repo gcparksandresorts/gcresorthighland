@@ -95,7 +95,7 @@ eventList[15] = "Painter Family Holiday Tree Lighting Ceramony | Begins at 7:00P
 eventList[16] = "Adventure Eve | 7PM to 1AM | https://www.ocregister.com/wp-content/uploads/2022/11/LDN-L-UNIVERSAL-NYE-1201.jpg?w=1024 | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve";
 
 eventList[17] = "";
-eventList[18] = "";
+eventList[18] = "Spring Break Fever! | Special Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/vipBanner1.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/03-01-spring-break-fever";
 eventList[19] = "Season of Light Closing Celebration | Special Event | https://www.micechat.com/wp-content/uploads/2021/12/Disneyland-Christmas-Castle-Fireworks-micechat.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/season-of-light/01-07-sol-closing-celebration";
 eventList[20] = "Founder's Day | Special Event | https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj | https://gcparksandresorts.github.io/gcresorthighland/blog/events/05-30-Founders-Day";
 eventList[21] = "Valentines Day | Special Event | https://www.micechat.com/wp-content/uploads/2022/01/Disneyland-Valentines-Day-Baby-Yoda.jpg | click-link";
@@ -187,22 +187,22 @@ dateTierList[71] = "March 12 - Tuesday - 0 - 0 - 0";
 dateTierList[72] = "March 13 - Wednesday - 0 - 0 - 0";
 dateTierList[73] = "March 14 - Thursday - 0 - 0 - 0";
 dateTierList[74] = "March 15 - Friday - 0 - 0 - 0";
-dateTierList[75] = "March 16 - Saturday - 5 - 0 - 1,23"; //SN
-dateTierList[76] = "March 17 - Sunday - 0 - 0 - 0";
-dateTierList[77] = "March 18 - Monday - 0 - 0 - 0";
-dateTierList[78] = "March 19 - Tuesday - 0 - 0 - 0";
-dateTierList[79] = "March 20 - Wednesday - 0 - 0 - 0";
-dateTierList[80] = "March 21 - Thursday - 0 - 0 - 0";
-dateTierList[81] = "March 22 - Friday - 0 - 0 - 0";
-dateTierList[82] = "March 23 - Saturday - 5 - 0 - 1,23"; //SN
-dateTierList[83] = "March 24 - Sunday - 0 - 0 - 0";
-dateTierList[84] = "March 25 - Monday - 0 - 0 - 0";
-dateTierList[85] = "March 26 - Tuesday - 0 - 0 - 0";
-dateTierList[86] = "March 27 - Wednesday - 0 - 0 - 0";
-dateTierList[87] = "March 28 - Thursday - 0 - 0 - 0";
-dateTierList[88] = "March 29 - Friday - 0 - 0 - 0";
-dateTierList[89] = "March 30 - Saturday - 3 - 0 - 1,23";// Last Saturday Nightz
-dateTierList[90] = "March 31 - Sunday - 0 - 0 - 0";
+dateTierList[75] = "March 16 - Saturday - 5 - 0 - 1,18,23"; //SN //COMMUNITY COLLEGE SPRING BREAK START
+dateTierList[76] = "March 17 - Sunday - 2 - 1,2,3 - 1,18";
+dateTierList[77] = "March 18 - Monday - 2 - 1,2,3 - 1,18";
+dateTierList[78] = "March 19 - Tuesday - 2 - 1,2,3 - 1,18";
+dateTierList[79] = "March 20 - Wednesday - 2 - 1,2,3 - 1,18";
+dateTierList[80] = "March 21 - Thursday - 2 - 1,2,3 - 1,18";
+dateTierList[81] = "March 22 - Friday - 3 - 1,2,3 - 1,18";
+dateTierList[82] = "March 23 - Saturday - 5 - 1,2,3,6 - 1,18,23"; //SN ONUSD SPRING BREAK START
+dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,6 - 1,18"; 
+dateTierList[84] = "March 25 - Monday - 3 - 1,2,3 - 1,18";
+dateTierList[85] = "March 26 - Tuesday - 4 - 1,2,3,6 - 1,18";
+dateTierList[86] = "March 27 - Wednesday - 3 - 1,2,3,6 - 1,18";
+dateTierList[87] = "March 28 - Thursday - 4 - 1,2,3,6 - 1,18";
+dateTierList[88] = "March 29 - Friday - 5 - 1,2,3,6 - 1,18";
+dateTierList[89] = "March 30 - Saturday - 5 - 1,2,3,6 - 1,18,23";// Last Saturday Nightz
+dateTierList[90] = "March 31 - Sunday - 4 - 1,2,3 - 1,18"; //ONUSD SPRING BREAK END
 
 
 
