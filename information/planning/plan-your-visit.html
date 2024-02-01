@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
 
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>Plan Your Visit | Itinerary Creator | Globe-City Resort Highland</title>
+  
+  	<style></style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+	<div class='banner'><img src='https://blooloop.com/wp-content/uploads/2016/11/Ghostbusters-triotech.jpg'></div>
+  	<div class='titleBar'><h2>Itinerary Creator<sup>TM</sup></h2></div>
+	<div class='subtitleBar'><p>Craft the perfect Adventure for you and your family using this brief questionnaire</p></div>
+	
+
+	<div class='container fadeIn' id='groupType'>
+		<h3>What's the occasion for your visit? </h3>
+
+		<div class='porthole'>
+			<div onclick='groupSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-friends-icon.png'><h3>Hanging with friends</h3></div>
+			<div onclick='groupSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-family-icon.png'><h3>Visiting with family</h3></div>
+			<div onclick='groupSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-party-icon.png'><h3>Fun with my kids</h3></div>
+			<div onclick='groupSelected(0)'><img src="https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-vacationplanning-icon.png"><h3>Planning a vacation</h3></div>
+			<div onclick='groupSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-bus-icon.png'><h3>Adventuring with a big group</h3></div>
+		</div>
+		
+	</div>
+
+	<div class='container fadeIn' id='experience' style=''>
+
+		<div class='spacer'></div>
+		
+		<h3>How would you describe your ideal experience?</h3>
+
+		<div class='porthole'>
+			<div onclick='experienceSelected(0)'><img src=https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-friends-icon.png''><h3>Only thrills!</h3></div>
+			<div onclick='experienceSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-family-icon.png'><h3>Mostly rides</h3></div>
+			<div onclick='experienceSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-party-icon.png'><h3>Relaxing and Fun</h3></div>
+			<div onclick='experienceSelected(0)'><img src="https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-vacationplanning-icon.png"><h3>A Foodie's Adventure</h3></div>
+			<div onclick='experienceSelected(0)'><img src='https://cdn-cloudfront.cfauthx.com/binaries/content/gallery/kb-en-us/icons/itinerary/kbf-bus-icon.png'><h3>Simple fun for the kids</h3></div>
+		</div>
+		
+	</div>
+
+	<div class='container fadeIn' id='activities' style=''>
+
+		<div class='spacer'></div>
+		
+		<h3>What activities are you interested in?</h3>
+		<p>Select as many as you would like!</p>
+
+		
+		<button onclick='activitySelected()'>Continue</button>
+	</div>
+
+
+
+
+
+	
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<script>
+
+		const group = document.getElementById("groupType");
+		const experience = document.getElementById("experience");
+		const activities = document.getElementById("activities");
+		
+		function groupSelected(num){
+			activities.style.display='none';
+			experience.style.display='none';
+			
+			experience.style.display='block';
+		}
+		
+		function experienceSelected(num){
+			activities.style.display='none';
+			
+			activities.style.display='block';
+		}
+		
+		function activitySelected(){
+			group.style.display='block';
+			activities.style.display='none';
+			experience.style.display='none';
+		}
+		
+		function startForm(){
+			activities.style.display='none';
+			experience.style.display='none';
+		}
+		
+	</script>
+	<script>startForm();</script>
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
