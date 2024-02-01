@@ -58,9 +58,9 @@
 	        .halfBannerContainer .element #left{float:right;}
 	        .halfBannerContainer .element #right{float:left;}
 	        
-	        .halfBannerContainer .element .content h2{color:white; text-shadow: 1px 1px 8px black;}
-		.halfBannerContainer .element .content p{color:white; text-shadow: 1px 1px 8px black; position:relative;}
-		.halfBannerContainer .element .content button{color:white; border-color:white; text-shadow: 1px 1px 8px black; box-shadow: 1px 1px 8px black; width:90%; position:absolute; bottom:0;}
+	        .halfBannerContainer .element .content h2{color:white; text-shadow: 2px 2px 8px black;}
+		.halfBannerContainer .element .content p{color:white; text-shadow: 2px 2px 8px black; position:relative;}
+		.halfBannerContainer .element .content button{color:white; border-color:white; text-shadow: 2px 2px 8px black; box-shadow: 2px 2px 8px black; width:90%; position:absolute; bottom:0; font-size:18px;}
 		.halfBannerContainer .element .content #img-cont{display:flex; width:90%; height:100px; margin-bottom:auto; padding:0; align-items:center;}
 		.halfBannerContainer .element .content #img-cont img{width:100%; height:auto; margin:0;}
 		
@@ -135,7 +135,7 @@
 
 			<br>
     
-    			<div class='halfBannerContainer'>
+    			<div class='halfBannerContainer' id='avenues'>
         
 	        		<div class='element' id='left' style='background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/fotd1.jpg");background-size:cover;'>
 	            			<div class='content' id='left'>
@@ -145,7 +145,13 @@
 	                    			<p>An immersive theme park featuring thrilling rides and unique attractions for all ages
 							<br><br>
 						</p>
-							<br><br>
+
+						<p>
+							<a style='color:white;font-weight:bold;display:inline-block;margin:10px;' href='tickets'>Buy Tickets</a>
+							<a style='color:white;font-weight:bold;display:inline-block;margin:10px;' href='attractions'>View Attractions</a>
+							<br><br><br>
+						</p>
+						
 						<button onclick='window.open("destinations/adventure-park","_self")'>Explore Adventure Park</button>
 	                		</div>
 				</div>
@@ -158,12 +164,20 @@
 			                    	<p>A deluxe shopping and dining metroplex featuring upbeat music and an electric atmosphere
 							<br><br>
 						</p>
-							<br><br>
+						<p>
+							<a style='color:white;font-weight:bold;display:inline-block;margin:10px;' href='dining'>View Dining</a>
+							<a style='color:white;font-weight:bold;display:inline-block;margin:10px;' href='destinations/city-shop/directory'>View Shopping</a>
+							<br><br><br>
+						</p>
 						<button onclick='window.open("destinations/adventure-park","_self")'>Explore City-Shop</button>
 			                </div>
 		        	</div>
 	        
 	        	</div>
+
+			<div class='container' id='avenuesAlt' style='display:none; margin-top:0px;'>
+	   		 <button id='apIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park","_self")'>Explore Adventure Park</button> <button id='csIcon' onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop","_self")'>Explore City-Shop</button>
+	  		</div>
     
     </div>
 		
@@ -250,6 +264,30 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+	<script>
+		const avenues = document.getElementById("avenues");
+		const alternate = document.getElementById("avenuesAlt");
+
+		
+
+		function runInitialAvenue(){
+			w = window.innerWidth;
+			if(w > 600){
+				console.log("looks good");
+				alternate.style.display = 'none';
+				avenues.style.display = 'block';
+			}else{
+				alternate.style.display = 'block';
+				avenues.style.display = 'none';
+			}
+		}
+
+		window.onresize = runInitialAvenue;
+		
+	</script>
+
+	<script>runInitialAvenue();</script>
 
 
 </html>
