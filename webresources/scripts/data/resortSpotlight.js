@@ -24,14 +24,14 @@ const january = [];
 const february = [];
       february[0] = "https://www.enjoyflorida.com/wp-content/uploads/2019/05/dance-floor-with-dancers-the-groove-nightclub-universal-citywalk-orlando.jpg";
       february[1] = "<h3>Introducing Saturday Nightz at City-Shop</h3>This March, live your Highland Night adventure with free-to-access dance parties at Globe-City's City-Shop Fountain Plaza. Featuring different DJs every saturday and a unique theme for all four nights, its the ultimate social Saturday event!";
-      february[2] = "blog/entertainment/03-01-2024-Saturday-Nightz";
+      february[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/entertainment/03-01-2024-Saturday-Nightz";
 
-      february[3] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
-      february[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
-      february[5] = "";
+      february[3] = "https://cache.undercovertourist.com/blog/2019/02/120-romantic-things-disneyland-kissing-castle.jpg";
+      february[4] = "<h3>Romance is in the Air!</h3>In honor of the month of love, view our February blog post for an in-depth list of some of the most romantic spots at the resort.";
+      february[5] = "https://gcparksandresorts.github.io/gcresorthighland/blog/other/02-01-2024-romance-around-the-resort.html";
 
-      february[6] = "https://sustainival.com/wp-content/uploads/2017/03/bumper-car.jpg";
-      february[7] = "<h3>&#127905; Ride Spotlight: Boardwalk Bumpers</h3>Get behind the wheel of a timeless classic and bump around for some delightful new fun!";
+      february[6] = "https://www.mtishows.com/sites/default/files/styles/hero_image/public/bhm_disney_interview_fnh.jpg?itok=o_-3fVIt";
+      february[7] = "<h3>BMU Celebrates Black History Month</h3>Explore unique displays of culture and humanity in honor of Black History Month, put on by the Black Minecraftians United organization.";
       february[8] = "https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/boardwalk-bumpers";
 
 const march = [];
@@ -43,9 +43,9 @@ const march = [];
       march[4] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
       march[5] = "";
 
-      march[6] = "https://www.roadtovr.com/wp-content/uploads/2021/06/arcade-legend.jpg";
-      march[7] = "<h3>&#127918; Attraction Spotlight: The Starfield Arcade</h3>The coolest arcade in the universe! Here at Cosmic Center, test your skills in thrilling futuristic arcade games";
-      march[8] = "";
+      march[6] = "https://sustainival.com/wp-content/uploads/2017/03/bumper-car.jpg";
+      march[7] = "<h3>&#127905; Ride Spotlight: Boardwalk Bumpers</h3>Get behind the wheel of a timeless classic and bump around for some delightful new fun!";
+      march[8] = "https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/boardwalk-bumpers";
 
 const april = [];
       april[3] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
