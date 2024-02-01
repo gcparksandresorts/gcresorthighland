@@ -169,7 +169,7 @@
 		ttdManu.innerHTML = "<button class='ttdParkIcon' id='ttdAP' onclick='window.open(" + aplnk + ")'>Adventure Park</button>";
 		ttdManu.innerHTML += "<button class='ttdParkIcon' id='ttdCS' onclick='window.open(" + cslnk + ")'>City-Shop</button>";
 		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + aelnk + ")'>Attractions and Entertainment</button>";
-		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + dilnk + ")'>Resturaunts and Dining</button>";
+		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + dilnk + ")'>Restaurants and Dining</button>";
 		ttdManu.innerHTML += "<button class='ttdButton' onclick='window.open(" + shlnk + ")'>Shopping</button>";
 		
 		document.getElementById("ttdHide").style.display='block';
