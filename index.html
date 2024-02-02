@@ -169,7 +169,7 @@
 							<a style='color:white;font-weight:bold;display:inline-block;margin:10px;' href='destinations/city-shop/directory'>View Shopping</a>
 							<br><br><br>
 						</p>
-						<button onclick='window.open("destinations/adventure-park","_self")'>Explore City-Shop</button>
+						<button onclick='window.open("destinations/city-shop","_self")'>Explore City-Shop</button>
 			                </div>
 		        	</div>
 	        
@@ -193,7 +193,7 @@
 
 			<br>
     
-    			<div class='halfBannerContainer' id='avenues'>
+    			<div class='halfBannerContainer' id='hotelNorm'>
         
 	        		<div class='element left' style='background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg");background-size:cover;'>
 	            			<div class='content left'>
@@ -206,7 +206,7 @@
 
 							<br><br>
 						
-						<button onclick='window.open("destinations/adventure-park","_self")'>View Hotel</button>
+						<button onclick='window.open("destinations/globe-citys-lakeside-hotel","_self")'>View Hotel</button>
 	                		</div>
 				</div>
 	            
@@ -226,7 +226,20 @@
 	        
 	        	</div>
 
+			<div class='tileContainer' id='hotelAlt'>
+				<div onclick='window.open("destinations/the-aztech-resort","_self")'>
+					<img src='https://static.wixstatic.com/media/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg/v1/fill/w_1175,h_729,al_c/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg'>
+					<h3>The Aztech Resort</h3>
+					A luxurious and sophisticated resort hotel and spa
+				</div>
+				<div onclick='window.open("destinations/globe-citys-lakeside-hotel","_self")'>
+					<img src='https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg'>
+					<h3>The Lakeside Hotel</h3>
+					A family-oriented hotel with theme-park views
+				</div>
+			</div>
 
+	</div>
 
 		<br><br><br>
 	
@@ -323,6 +336,9 @@
 	<script>
 		const avenues = document.getElementById("avenues");
 		const alternate = document.getElementById("avenuesAlt");
+		const hotel = document.getElementById("hotelNorm");
+		const hotelAlt = document.getElementById("hotelAlt");
+
 
 		
 
@@ -331,10 +347,14 @@
 			if(w > 600){
 				console.log("looks good");
 				alternate.style.display = 'none';
+				hotelAlt.style.display = 'none';
+				hotelNorm.style.display = 'flex';
 				avenues.style.display = 'flex';
 			}else{
 				alternate.style.display = 'block';
 				avenues.style.display = 'none';
+				hotelNorm.style.display = 'none';
+				hotelAlt.style.display = 'block';
 			}
 		}
 
