@@ -197,9 +197,9 @@ body{
 		margin-left:10px;
 	        flex-grow:1;
 	        text-align:right;
-	        background:pink;
 	        }
 	#bookingBar div button{margin:0;color:white;border-color:white;margin-left:10px;}
+	#bookingBar div button:hover {background:rgba(7,55,99,1);}
 
 
   
