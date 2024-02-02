@@ -182,5 +182,24 @@ body{
 
 	#landContainer .banner{height:70vh;}
 
+/*-- FOR HOTELS ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+	#bookingBar{
+        	position:fixed; bottom:0; left:0; right:0; min-height:60px;
+	        background:rgba(7,55,99,0.9);
+	        text-align:left; display:flex; flex-flow:row; padding:10px;
+	        z-index:998;
+	        }
+	#bookingBar img{
+		height:40px; width:auto;
+	        }
+	#bookingBar div{
+		margin-left:10px;
+	        flex-grow:1;
+	        text-align:right;
+	        background:pink;
+	        }
+	#bookingBar div button{margin:0;color:white;border-color:white;margin-left:10px;}
+
 
   
