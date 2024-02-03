@@ -15,7 +15,7 @@ ticketPrice[8] = "Adventure EVE Nighttime Admission | 45";
 // ------------------------------------------------------------------------------ PARK HOURS  ---------------------------------------------------------------------------------------------------
 parkHoursList = []; // Adventure Park : CityShop : Special Event
 
-parkHoursList[0] = "Error in Retrieval | Error in Retrieval";
+parkHoursList[0] = "Park Closed | 11:00AM - 9:00PM";
 parkHoursList[1] = "10:00 AM - 6:00 PM | 11:00 AM - 10:00 PM";
 parkHoursList[2] = "10:00 AM - 8:00 PM | 11:00 AM - 11:00 PM";
 parkHoursList[3] = "10:00 AM - 10:00 PM | 11:00 AM - 11:00 PM";
@@ -24,6 +24,9 @@ parkHoursList[5] = "9:00 AM - 11:00 PM | 11:00 AM - 12:00 AM";
 parkHoursList[6] = "10:00 AM - 7:00 PM | 11:00 AM - 10:00 PM | 6:00 PM - 12:00 AM"; // Special Event
 parkHoursList[7] = "10:00 AM - 8:00 PM | 11:00 AM - 10:00 PM | 7:00 PM - 1:00 AM"; // Special Event
 parkHoursList[8] = "10:00AM - 1:00AM | 10:00AM - 1:00AM | 7:00PM - 1:00AM"; // Adventure Eve Hours
+
+parkHoursList[12] = "Park Closed | Closed"; // Really bad weather
+
 
 
 
@@ -145,11 +148,11 @@ dateTierList[29] = "January 30 - Tuesday - 0 - 0 - 1";
 dateTierList[30] = "January 31 - Wednesday - 0 - 0 - 1";
 dateTierList[31] = "February 1 - Thursday - 0 - 0 - 1";
 dateTierList[32] = "February 2 - Friday - 0 - 0 - 1";
-dateTierList[33] = "February 3 - Saturday - 0 - 0 - 1";
-dateTierList[34] = "February 4 - Sunday - 0 - 0 - 1";
-dateTierList[35] = "February 5 - Monday - 0 - 0 - 1";
-dateTierList[36] = "February 6 - Tuesday - 0 - 0 - 1";
-dateTierList[37] = "February 7 - Wednesday - 0 - 0 - 1";
+dateTierList[33] = "February 3 - Saturday - 2 - 1,2,3 - 1";
+dateTierList[34] = "February 4 - Sunday - 2 - 1,2,3 - 1";
+dateTierList[35] = "February 5 - Monday - 12 - 0 - 1"; //Beggining of severe storm
+dateTierList[36] = "February 6 - Tuesday - 12 - 0 - 1";
+dateTierList[37] = "February 7 - Wednesday - 12 - 0 - 1"; //End of severe storm
 dateTierList[38] = "February 8 - Thursday - 0 - 0 - 1";
 dateTierList[39] = "February 9 - Friday - 0 - 0 - 1";
 dateTierList[40] = "February 10 - Saturday - 0 - 0 - 1";
