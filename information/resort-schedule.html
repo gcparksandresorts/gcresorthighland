@@ -246,7 +246,7 @@
 				let $tempHour = parkHoursList[tdTier].split(" | ");
 				document.getElementById("adventureParkHoursDisplay").innerHTML = "<b>Adventure Park</b><br>" + $tempHour[0] + "";
 				document.getElementById("cityShopHoursDisplay").innerHTML = "<b>City-Shop</b><br>" + $tempHour[1] + "";
-				if(tdTier > 5){
+				if(tdTier > 5 && tdTier != 12){
 					document.getElementById("specialeventHoursDisplay").style.display = 'inline-block';
 					document.getElementById("specialeventHoursDisplay").innerHTML = "<b>Special Event Hours</b><br>" + $tempHour[2] + "";
 				}
@@ -285,6 +285,11 @@
 						adminInfoVal = ["5", "$109+", "$250+", "<span class='red'>Blocked Out</span>", "<span class='red'>Blocked Out</span>"];
 						rParkAP.innerHTML = "$35 per day";
 						rParkCS.innerHTML = "1 Hr - Free | 2 Hr - $28 | 3+ Hr - $40";
+						break;
+					case '12': //PARKS CLOSED DUE TO SEVERE WEATHER
+						adminInfoVal = ["N/A", "-", "-", "<span class='red'>Blocked Out</span>", "<span class='red'>Blocked Out</span>"];
+						rParkAP.innerHTML = "Parking Unavailable";
+						rParkCS.innerHTML = "Parking Unavailable";
 						break;
 					default:
 						adminInfoVal = ["1<span class='disclaimer'>*</span>", "$65+", "$105+", "<span class='grn'>Good to Go</span>", "<span class='grn'>Good to Go</span>"];
@@ -332,6 +337,17 @@
 			// DECORATE PAGE BASED ON SPECIFIC DATE
 			const adDiv = document.getElementById("adBannerSpace");
 			const adCont = document.getElementById("adBannerContent");
+
+
+			// SET UP WARNING IF PARK IS CLOSED
+				if(tdTier == 12){
+					adDiv.style.backgroundImage = "url(https://media.istockphoto.com/id/1049365996/photo/rain-fall-on-the-ground.jpg?s=612x612&w=0&k=20&c=lH73ofHt2WKtJhatw8H53DN4EfgV4ZKDEGPqO4xOPho=)";
+					adDiv.style.display = "block";
+					adCont.innerHTML = "<h1 style='color:red;font-weight:bold;'>Weather Warning - Park Closed</h1>Due to inclement weather, Globe-City's Adventure Park and City-Shop will be closed for the duration of today";
+					adCont.style.color = "white";
+				}
+			
+			
 			switch(searchDate){
 				case "December 31":
 					adDiv.style.backgroundImage = "url(https://img.freepik.com/premium-photo/abstract-golden-glitter-bokeh-light-background-with-fireworks_63313-2215.jpg)";
