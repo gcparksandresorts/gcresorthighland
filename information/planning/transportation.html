@@ -9,7 +9,15 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Transportation and Parking Information | Trip Planning | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		.iconImage {display:block; width:200px; height:100px; margin:auto; image-size:cover; border-radius:15px; margin-top:20px;}
+		.imgList h2{margin-top:5px;}
+
+		@media screen and (min-width:900px){
+			.columnContainer div {text-align:left; width:80%;}
+			.columnContainer img {text-align:left; width:20%; max-height:200px;}
+		}
+	</style>
 
 </head>
 
@@ -23,11 +31,49 @@
 	<div class='subtitleBar'><p>Page_Summary_Goes_Here</p></div>
 	
 	<section id='public-transport'>
-		<div class='container'>
-			MTS Bus
-			MTS Express Busslines
-			MTS Train
-			Oras Nou O-Loop
+		<div class='container imgList'>
+			<h1>Public Transport</h1>
+			<p>Oras Nou features many useful and budget-friendly public transit options for guests visiting the resort without a vehicle.</p>		
+
+			<div class='columnContainer'>
+				<img src='https://www.sdmts.com/sites/default/files/styles/mts_express/public/bus-mts.jpg?itok=mNIyBU7v'>
+				<div>
+					<h2>Public Bus Routes</h2>
+					<p><b>Estimated Cost: $2.50</b></p>
+					Depending on where you are in Oras Nou, there are multiple ways to get to the Globe-City Resort Highland by standard bus route. The main bus terminal near the resort is the <u>Convention Center Terminal</u>. If entering here, head north towards Adventure Prkwy to enter City-Shop. Then follow signs.
+					<ul>
+						<li>Station: #80012 - Convention Center Terminal</li>
+						<li>Standard Routes: 108, 63, 40, 77, 188</li>
+						<li>Rapid Routes: OCEAN 4, 208, 288</li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<div class='columnContainer'>
+				<img src='https://i.ytimg.com/vi/xzCm9vAlb3o/maxresdefault.jpg'>
+				<div>
+				<h2>Public Trams</h2>
+				<p><b>Estimated Cost: $2.50</b></p>
+				There are two tram routes servicing the station closest to the resort. Upon entering, cross the bridge from the station to Adventure Parkway and head north. 
+				<h3>From Oras Nou International Airport</h3>
+				<ul>
+					<li>Station: #T807</li>
+					<li>Suggested Route: <span style='color:blue'>BLUE LINE S</span></li>
+				</ul>
+				<h3>From Union Station (Downtown Oras Nou)</h3>
+				<ul>
+					<li>Station: #T807</li>
+					<li>Suggested Route: <span style='color:blue'>BLUE LINE N</span></li>
+				</ul>
+				<h3>From Highland / Oceanside Transit Center</h3>
+				<ul>
+					<li>Station: #T807</li>
+					<li>Suggested Route: <span style='color:purple'>PURPLE LOOP</span></li>
+				</ul>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
