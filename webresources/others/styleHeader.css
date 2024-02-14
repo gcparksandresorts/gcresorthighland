@@ -116,7 +116,7 @@
 
 
 /* -- FOOTER STYLE MAIN ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-	#footer #footerLinks a{text-decoration:none; color:dimgray;}
+	#footer #footerLinks a{text-decoration:none; color:dimgray; display:block; margin:0; margin-bottom:5px;}
 	#footer #footerLinks a:hover{color:#07039D; text-decoration:underline;}
 
 	#footer #footerLinks {display:flex; flex-flow:row;}
