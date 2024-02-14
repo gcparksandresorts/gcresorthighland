@@ -56,6 +56,12 @@
 	function createFooter(){
 		footBar.innerHTML = "<div class='spacer'></div>";
 
+		footBar.innerHTML += "<div id='footerLinks'> \
+			<div><h4>Tickets and Passes</h4> <a>Buy Tickets</a> <a>Annual Passports</a> <a>GC VIP Admission</a> <a>Group Sales</a> <a>Promotions</a> </div> \
+			<div><h4>Things to Do</h4> <a>Rides and Attractions</a> <a>Restaurants</a> <a>Shopping</a> </div> \
+			<div><h4>Resort Facilities</h4> <a>Places to Stay</a> <a>Meetings and Events</a> <a>Accessibility</a> <a>Information</a></div> \
+			</div>";
+
 		footBar.innerHTML += "<div class='spacer'></div> \
 				     <div class='container' style='text-align:center;line-height:2;'> \
 				     <b>Get in Touch</b> <br> (312) 988 1000 <br> <a href='mailto: globecityparksandresorts@gmail.com'>guestservices.gcrh@gcpr.net</a> </div>";
