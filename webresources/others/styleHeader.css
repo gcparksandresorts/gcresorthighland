@@ -113,3 +113,16 @@
         	0% { transform: rotate(0deg); }
   			100% { transform: rotate(360deg); }
         }
+
+
+/* -- FOOTER STYLE MAIN ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+	#footer #footerLinks a{text-decoration:none; color:dimgray;}
+	#footer #footerLinks a:hover{color:#07039D; text-decoration:underline;}
+
+	#footer #footerLinks {display:flex; flex-flow:row;}
+	#footer #footerLinks div{width:100%;padding:0;margin:10px; align-self:stretch; text-align:left;}
+
+	@media screen and (max-width:600px){
+		#footer #footerLinks div {text-align:center; min-width:200px;}
+		#footer #footerLinks {display:flex; flex-wrap:wrap;}
+	}
