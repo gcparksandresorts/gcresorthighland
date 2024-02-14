@@ -57,9 +57,10 @@
 		footBar.innerHTML = "<div class='spacer'></div>";
 
 		footBar.innerHTML += "<div id='footerLinks'> \
-			<div><h4>Tickets and Passes</h4> <a>Buy Tickets</a> <a>Annual Passports</a> <a>GC VIP Admission</a> <a>Group Sales</a> <a>Promotions</a> </div> \
-			<div><h4>Things to Do</h4> <a>Rides and Attractions</a> <a>Restaurants</a> <a>Shopping</a> </div> \
-			<div><h4>Resort Facilities</h4> <a>Places to Stay</a> <a>Meetings and Events</a> <a>Accessibility</a> <a>Information</a></div> \
+			<div><h4>Tickets and Passes</h4> <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets'>Buy Tickets</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports'>Annual Passports</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip'>GC VIP Admission</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/group-admission'>Group Sales</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/promotions'>Promotions</a> </div> \
+			<div><h4>Things to Do</h4> <a href='https://gcparksandresorts.github.io/gcresorthighland/attractions'>Rides and Attractions</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Restaurants</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/shopping'>Shopping</a> </div> \
+			<div><h4>Resort Facilities</h4> <a href='https://gcparksandresorts.github.io/gcresorthighland/hotels'>Places to Stay</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/meetings-and-events'>Meetings and Events</a> <a>Lockers and Rentals</a> <a>Lost and Found</a></div> \
+			<div><h4>Information</h4> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/faq'>Frequently Asked Questions</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/FAQ/accessibility'>Accessibility</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule'>Operating Hours</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Rules and Guidelines</a> <a href='https://gcparksandresorts.github.io/gcresorthighland/information/corporate-sponsors'>Corporate Partners</a></div> \
 			</div>";
 
 		footBar.innerHTML += "<div class='spacer'></div> \
