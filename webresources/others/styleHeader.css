@@ -119,7 +119,7 @@
 	#footer #footerLinks a{text-decoration:none; color:dimgray; display:block; margin:0; margin-bottom:5px;}
 	#footer #footerLinks a:hover{color:#07039D; text-decoration:underline;}
 
-	#footer #footerLinks {display:flex; flex-flow:row;}
+	#footer #footerLinks {display:flex; flex-flow:row; width:90%; margin:auto; max-width:1080px;}
 	#footer #footerLinks div{width:100%;padding:0;margin:10px; align-self:stretch; text-align:left;}
 
 	@media screen and (max-width:600px){
