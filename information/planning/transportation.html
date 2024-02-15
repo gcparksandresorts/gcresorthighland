@@ -10,16 +10,15 @@
   	<title>Transportation and Parking Information | Trip Planning | Globe-City Resort Highland</title>
   
   	<style>
-		.iconImage {display:block; width:200px; height:100px; margin:auto; image-size:cover; border-radius:15px; margin-top:20px;}
-		.imgList h2{margin-top:5px;}
-
-		@media screen and (min-width:900px){
-			.columnContainer div {text-align:left; width:80%;}
-			.columnContainer img {text-align:left; width:20%; max-height:200px;}
-		}
+			.collapsible{cursor:pointer;}	.collapsible:hover{color:black;}	.content {display:none; animation: FadeIn 0.4s;}
 	</style>
 
 </head>
+
+	<!--
+				<h3 class='collapsible'>collapsible_title</h3>
+				<div class='content'>collapsible_content</div>
+	-->
 
 	<script></script>
 
@@ -27,65 +26,84 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<!-- BANNER IMAGE AND TITLE BAR -->
-  	<div class='titleBar'><h2>Globe-City Resort Highland Transportation Information</h2></div>
-	<div class='subtitleBar'><p>Page_Summary_Goes_Here</p></div>
-	
+  	<div class='titleBar'><h2>Globe-City Resort Highland Transportation Information</h2></div>	
 	<section id='public-transport'>
-		<div class='container imgList'>
-			<h1>Public Transport</h1>
-			<p>Oras Nou features many useful and budget-friendly public transit options for guests visiting the resort without a vehicle.</p>		
-
-			<div class='columnContainer'>
-				<img src='https://www.sdmts.com/sites/default/files/styles/mts_express/public/bus-mts.jpg?itok=mNIyBU7v'>
-				<div>
-					<h2>Public Bus Routes</h2>
-					<p><b>Estimated Cost: $2.50</b></p>
-					Depending on where you are in Oras Nou, there are multiple ways to get to the Globe-City Resort Highland by standard bus route. The main bus terminal near the resort is the <u>Convention Center Terminal</u>. If entering here, head north towards Adventure Prkwy to enter City-Shop. Then follow signs.
-					<ul>
-						<li>Station: #80012 - Convention Center Terminal</li>
-						<li>Standard Routes: 108, 63, 40, 77, 188</li>
-						<li>Rapid Routes: OCEAN 4, 208, 288</li>
-					</ul>
-				</div>
-				
+		<div class='subtitleBar'><h1>Public Transport</h1></div>
+		<div class='leftContainer'>
+			Select a starting point to view transit directions
+			<p></p>
+			
+			<h3 class='collapsible'>&#128746; Oras Nou International Aiport (O-Loop, Airport, Interstate Rail)</h3>
+			<div class='content'>
+				<p>Follow signs for the <u>Airport City Transit Center</u>, then take one of the following train or bus lines:</p>
+				<ul>
+					<li><span style='font-weight:bold;color:blue;'>BLUE LINE S</span> (Trolley) - to <u>Convention Center Terminal</u></li>
+					<li><span style='font-weight:bold;color:red;'>708 (Union Station)</span> (Rapid Bus) - to <u>Convention Center Terminal</u></li>
+				</ul>
+				<p>Then follow signs for Globe-City Resort Highland</p>
+				<p>Estimated Cost: $2.50 one-way</p>
 			</div>
 
-			<div class='columnContainer'>
-				<img src='https://i.ytimg.com/vi/xzCm9vAlb3o/maxresdefault.jpg'>
-				<div>
-				<h2>Public Trams</h2>
-				<p><b>Estimated Cost: $2.50</b></p>
-				There are two tram routes servicing the station closest to the resort. Upon entering, cross the bridge from the station to Adventure Parkway and head north. 
-				<h3>From Oras Nou International Airport</h3>
+			<h3 class='collapsible'>&#128644; Downtown Union Station (O-Loop, Interstate Busses, Trolley)</h3>
+			<div class='content'>
+				<p>Follow signs for the Oras Nou Trolley BLUE Line or 708 / 180 busses</p>
 				<ul>
-					<li>Station: #T807</li>
-					<li>Suggested Route: <span style='color:blue'>BLUE LINE S</span></li>
+					<li><span style='font-weight:bold;color:red;'>708 (Airport City)</span> (Rapid Bus) - to <u>Convention Center Terminal</u></li></li>
+					<li><span style='font-weight:bold;color:purple;'>180 (Oceanside)</span> (Bus) - to <u>Convention Center Terminal</u></li></li>
+					<li><span style='font-weight:bold;color:blue;'>BLUE LINE N</span> (Trolley) - to <u>Convention Center Terminal</u></li>
 				</ul>
-				<h3>From Union Station (Downtown Oras Nou)</h3>
-				<ul>
-					<li>Station: #T807</li>
-					<li>Suggested Route: <span style='color:blue'>BLUE LINE N</span></li>
-				</ul>
-				<h3>From Highland / Oceanside Transit Center</h3>
-				<ul>
-					<li>Station: #T807</li>
-					<li>Suggested Route: <span style='color:purple'>PURPLE LOOP</span></li>
-				</ul>
-				</div>
+				<p>Then follow signs for Globe-City Resort Highland</p>
+				<p>Estimated Cost: $2.50 one-way</p>
 			</div>
 
+			<h3 class='collapsible'>&#129426; Oras Nou Zoo (Newtown)</h3>
+			<div class='content'>
+				<p>Navigate to the <u>Oras Nou Zoo Transit Center</u></p>
+				<ol>
+					<li>Step 1: <span style='font-weight:bold;color:red;'>YELLOW LINE E</span> (Trolley) - to <u>Downtown Union Station</u></li>
+					<li>Step 2: <span style='font-weight:bold;color:blue;'>BLUE LINE N</span> (Trolley) OR <span style='font-weight:bold;color:red;'>708 (Airport City)</span> / <span style='font-weight:bold;color:purple;'>180 (Oceanside)</span> (Bus) - to <u>Convention Center Terminal</u></li>
+				</ol>
+				<p>Then follow signs for Globe-City Resort Highland</p>
+				<p>Estimated cost: $5.00 one-way</p>
+			</div>
+
+			<h3 class='collapsible'>&#128674; Port of Oras Nou Terminal (Ferries, Cruiselines, Interstate Rail and Bus)</h3>
+			<div class='content'>
+				<ul>
+					<li><span style='font-weight:bold;color:blue;'>BLUE LINE N</span> (Trolley) - to <u>Convention Center Terminal</u></li>
+				</ul>
+				<p>Estimated cost: $2.50</p>
+				<p>Alternate Route (Via Oceanside Transit Center)</p>
+				<ol>
+					<li>Step 1: <span style='font-weight:bold;color:cyan;'>SEA LINE N</span> (Trolley) - to <u>Oceanside Transit Center</u></li>
+					<li>Step 2: <span style='font-weight:bold;color:purple;'>PURPLE LOOP (Clockwise)</span> (Trolley) - to <u>Convention Center Terminal</u></li>
+				</ol>
+				<p>Estimated cost: $2.50</p>
+			</div>
 		</div>
 	</section>
 
 	<section id='guest-parking'>
-		<div class='spacer'></div>
-		<div class='container'>
-			For those visiting with a personal or rented vehicle, parking is available for both hotels, adventure park, and city shop
+		<div class='subtitleBar'><h1>Personal Vehicles</h1></div>
+		<div class='leftContainer'>
+			For those visiting with a personal or rented vehicle, parking is available for both hotels, Adventure Park, and City-Shop
+			<h3 class='collapsible'>Adventure Park (Themepark) Parking</h3>
+			<div class='content'>collapsible_content</div>
+			
+			<h3 class='collapsible'>City-Shop Parking</h3>
+			<div class='content'>collapsible_content</div>
+			
+			<h3 class='collapsible'>Lakeside Hotel Parking</h3>
+			<div class='content'>collapsible_content</div>
+
+			<h3 class='collapsible'>The Aztech Resort Parking</h3>
+			<div class='content'>collapsible_content</div>
+			
 		</div>
 	</section>
 	<section id='shuttle-service'>
-		<div class='spacer'></div>
-		<div class='container'>
+		<div class='subtitleBar'><h1>Shuttle Services</h1></div>
+		<div class='leftContainer'>
 			Airport Shuttle
 			Union Station Shuttle
 			Globe-City Oceanside Resort Shuttle		
@@ -93,7 +111,7 @@
 		
 	</section>
 	<section id='ride-share'>
-		<div class='spacer'></div>
+		<div class='subtitleBar'><h1>Rideshare and Taxi</h1></div>
 		<div class='container'>
 			For Taxis and Rideshare		
 		</div>
@@ -108,6 +126,24 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}	
+
+	</script>
 
 
 </html>
