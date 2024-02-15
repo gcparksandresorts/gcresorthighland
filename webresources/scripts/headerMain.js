@@ -69,7 +69,7 @@
 		
 		footBar.innerHTML += "<div class='spacer'></div> \
 			              <div style='text-align:center'> <br> \
-			              <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcprGrayLogo.png' style='width:300px;height:auto;margin:auto;cursor:pointer' onclick='window.open("+ '"https://sites.google.com/view/gcparksandresorts/home", "_self"' + ")'> \
+			              <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcprGrayLogo.png' style='width:300px;height:auto;margin:auto;cursor:pointer' onclick='window.open("+ '"https://gcparksandresorts.github.io/main", "_self"' + ")'> \
 			              </div> <br>";
 		
 		footBar.innerHTML += "<div style='text-align:center'> <p class='disclaimer'>©2023 Globe-City Parks and Resorts LLC.<br></p> \
