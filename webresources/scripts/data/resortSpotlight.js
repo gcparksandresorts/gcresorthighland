@@ -56,14 +56,14 @@ const april = [];
       april[1] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
       april[2] = "";
 
-      april[6] = "https://www.laughingplace.com/w/wp-content/uploads/2019/04/A-753.jpg";
-      april[7] = "<h3>&#127905; Ride Spotlight: Old Yander's Mine Train</h3>Take a wild ride through the untamed frontier, where the untold treasures of the rustic gold mine await and chaos lurks around every turn.";
-      april[8] = "";
+      april[6] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      april[7] = "<h3>Start Your Cast-Venture</h3>Live your very own <em>CastVenture</em> this summer with a job at the place where Adventure lives! We're hiring for all positions, so start your career today!";
+      april[8] = "https://gcparksandresorts.github.io/main/careers/home";
 
 const may = [];
       may[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      may[1] = "<h3>Adventure The Whole Year 'Round</h3>Before SummerFest<sup>TM</sup> officially begins, take your oppurtunity to purchase a resort Annual Passport and visit on over 230 days of the year, or all summer long!";
-      may[2] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/annualpassports";
+      may[1] = "<h3>Start Your Cast-Venture</h3>Live your very own <em>CastVenture</em> this summer with a job at the place where Adventure lives! We're hiring for all positions, so start your career today!";
+      may[2] = "https://gcparksandresorts.github.io/main/careers/home";
 
       may[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
       may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
