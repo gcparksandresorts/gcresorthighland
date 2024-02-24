@@ -37,10 +37,10 @@ entertainmentList = []; // Name | Hours | Image_Link | Click_Link ||  Name | Hou
 entertainmentList[0] = "No Shows Today";
 
 // Standard Entertainment
-entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:15PM, 4:15PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
+entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:30PM, 4:30PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:30PM, 1:30PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
-entertainmentList[4] = "Renee and Company @ The Plaza | 11:45AM, 1:00PM, 3:45PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
+entertainmentList[4] = "Renee and Company @ The Plaza | 1:00PM, 2:00PM, 3:00PM, 5:00PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
 
 // SummerFest Entertainment
 entertainmentList[5] = "Summers to Remember Forever | 9:30PM | https://www.tripsavvy.com/thmb/QUGooCRqxcg7uCB_oIVdZpaMumU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12_2018_DL.2342-a4227ae6881c4341a1f1528aafa3360c.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
