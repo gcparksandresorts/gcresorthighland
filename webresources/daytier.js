@@ -40,7 +40,7 @@ entertainmentList[0] = "No Shows Today";
 entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:15PM, 4:15PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:30PM, 1:30PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
-entertainmentList[4] = "";
+entertainmentList[4] = "Renee and Company @ The Plaza | 11:45AM, 1:00PM, 3:45PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
 
 // SummerFest Entertainment
 entertainmentList[5] = "Summers to Remember Forever | 9:30PM | https://www.tripsavvy.com/thmb/QUGooCRqxcg7uCB_oIVdZpaMumU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12_2018_DL.2342-a4227ae6881c4341a1f1528aafa3360c.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
@@ -68,6 +68,7 @@ entertainmentList[21] = "New Year's Celebration Entertainment | Starts at 8:00PM
 entertainmentList[22] = "Adventure EVE New Year's Review and Countdown | 11:30PM | https://attractionsmagazine.com/wp-content/uploads/2022/12/EVE-at-Universal-Studios-Hollywood-Fireworks-Image-courtesy-fo-Universal-Studios-Hollywood.jpeg | https://gcparksandresorts.github.io/gcresorthighland/events/adventure-eve.html";
 entertainmentList[23] = "Forever in Love Fireworks | 8:00PM | https://static.wixstatic.com/media/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg/v1/fill/w_640,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg | click-link";
 entertainmentList[24] = "Mardi Gras Cast Parade | 3:15 PM | https://media.wdwnt.com/2023/02/02_Universals-Mardi-Gras-Parade.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/2024-mardi-gras";
+
 
 
 // ------------------------------------------------------------------------------ SPECIAL EVENTS ------------------------------------------------------------------------------------------------
@@ -175,37 +176,37 @@ dateTierList[56] = "February 26 - Monday - 0 - 0 - 0";
 dateTierList[57] = "February 27 - Tuesday - 0 - 0 - 0";
 dateTierList[58] = "February 28 - Wednesday - 0 - 0 - 0";
 dateTierList[59] = "February 29 - Thursday - 0 - 0 - 0";
-dateTierList[60] = "March 1 - Friday - 0 - 1,2 - 0";
-dateTierList[61] = "March 2 - Saturday - 3 - 1,2,3 - 1,23"; // First Saturday Nightz Event
-dateTierList[62] = "March 3 - Sunday - 0 - 1,2,3 - 0";
+dateTierList[60] = "March 1 - Friday - 0 - 1,2,4 - 0";
+dateTierList[61] = "March 2 - Saturday - 3 - 1,2,3,4 - 1,23"; // First Saturday Nightz Event
+dateTierList[62] = "March 3 - Sunday - 0 - 1,2,3,4 - 0";
 dateTierList[63] = "March 4 - Monday - 0 - 0 - 0";
 dateTierList[64] = "March 5 - Tuesday - 0 - 0 - 0";
 dateTierList[65] = "March 6 - Wednesday - 0 - 0 - 0";
 dateTierList[66] = "March 7 - Thursday - 0 - 0 - 0";
-dateTierList[67] = "March 8 - Friday - 0 - 1,2 - 1,18";
-dateTierList[68] = "March 9 - Saturday - 3 - 1,2,3 - 1,18,23";// SN //Minor University Breaks
-dateTierList[69] = "March 10 - Sunday - 4 - 1,2,3 - 1,18";
+dateTierList[67] = "March 8 - Friday - 0 - 1,2,4 - 1,18";
+dateTierList[68] = "March 9 - Saturday - 3 - 1,2,3,4 - 1,18,23";// SN //Minor University Breaks
+dateTierList[69] = "March 10 - Sunday - 4 - 1,2,3,4 - 1,18";
 dateTierList[70] = "March 11 - Monday - 2 - 1,2,3 - 1,18";
 dateTierList[71] = "March 12 - Tuesday - 2 - 1,2,3 - 1,18";
 dateTierList[72] = "March 13 - Wednesday - 1 - 1,2,3 - 1,18";
 dateTierList[73] = "March 14 - Thursday - 1 - 1,2,3 - 1,18";
-dateTierList[74] = "March 15 - Friday - 3 - 1,2,3 - 1,18";
-dateTierList[75] = "March 16 - Saturday - 5 - 0 - 1,18,23"; //SN //COMMUNITY COLLEGE SPRING BREAK START
-dateTierList[76] = "March 17 - Sunday - 2 - 1,2,3 - 1,18";
-dateTierList[77] = "March 18 - Monday - 2 - 1,2,3 - 1,18";
+dateTierList[74] = "March 15 - Friday - 3 - 1,2,3,4 - 1,18";
+dateTierList[75] = "March 16 - Saturday - 5 - 1,2,3,4 - 1,18,23"; //SN //COMMUNITY COLLEGE SPRING BREAK START
+dateTierList[76] = "March 17 - Sunday - 2 - 1,2,3,4 - 1,18";
+dateTierList[77] = "March 18 - Monday - 2 - 1,2,3,4 - 1,18";
 dateTierList[78] = "March 19 - Tuesday - 2 - 1,2,3 - 1,18";
 dateTierList[79] = "March 20 - Wednesday - 2 - 1,2,3 - 1,18";
 dateTierList[80] = "March 21 - Thursday - 2 - 1,2,3 - 1,18";
-dateTierList[81] = "March 22 - Friday - 3 - 1,2,3 - 1,18";
-dateTierList[82] = "March 23 - Saturday - 5 - 1,2,3,6 - 1,18,23"; //SN ONUSD SPRING BREAK START
-dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,6 - 1,18"; 
+dateTierList[81] = "March 22 - Friday - 3 - 1,2,3,4 - 1,18";
+dateTierList[82] = "March 23 - Saturday - 5 - 1,2,3,4,6 - 1,18,23"; //SN ONUSD SPRING BREAK START
+dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,4,6 - 1,18"; 
 dateTierList[84] = "March 25 - Monday - 3 - 1,2,3 - 1,18";
 dateTierList[85] = "March 26 - Tuesday - 4 - 1,2,3,6 - 1,18";
 dateTierList[86] = "March 27 - Wednesday - 3 - 1,2,3,6 - 1,18";
-dateTierList[87] = "March 28 - Thursday - 4 - 1,2,3,6 - 1,18";
-dateTierList[88] = "March 29 - Friday - 5 - 1,2,3,6 - 1,18";
-dateTierList[89] = "March 30 - Saturday - 5 - 1,2,3,6 - 1,18,23";// Last Saturday Nightz
-dateTierList[90] = "March 31 - Sunday - 4 - 1,2,3 - 1,18"; //ONUSD SPRING BREAK END
+dateTierList[87] = "March 28 - Thursday - 4 - 1,2,3,4,6 - 1,18";
+dateTierList[88] = "March 29 - Friday - 5 - 1,2,3,4,6 - 1,18";
+dateTierList[89] = "March 30 - Saturday - 5 - 1,2,3,4,6 - 1,18,23";// Last Saturday Nightz
+dateTierList[90] = "March 31 - Sunday - 4 - 1,2,3,4 - 1,18"; //ONUSD SPRING BREAK END
 
 
 
