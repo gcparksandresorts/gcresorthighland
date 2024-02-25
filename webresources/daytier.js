@@ -40,7 +40,7 @@ entertainmentList[0] = "No Shows Today";
 entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:30PM, 4:30PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:30PM, 1:30PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
-entertainmentList[4] = "Renee and Company @ The Plaza | 1:00PM, 2:00PM, 3:00PM, 5:00PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
+entertainmentList[4] = "Renee and Company @ The Plaza | 3:10PM, 4:30PM, 6:10PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
 
 // SummerFest Entertainment
 entertainmentList[5] = "Summers to Remember Forever | 9:30PM | https://www.tripsavvy.com/thmb/QUGooCRqxcg7uCB_oIVdZpaMumU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12_2018_DL.2342-a4227ae6881c4341a1f1528aafa3360c.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
@@ -171,6 +171,7 @@ dateTierList[51] = "February 21 - Wednesday - 0 - 0 - 0";
 dateTierList[52] = "February 22 - Thursday - 0 - 0 - 0";
 dateTierList[53] = "February 23 - Friday - 0 - 0 - 0";
 dateTierList[54] = "February 24 - Saturday - 0 - 0 - 0";
+
 dateTierList[55] = "February 25 - Sunday - 0 - 0 - 0";
 dateTierList[56] = "February 26 - Monday - 0 - 0 - 0";
 dateTierList[57] = "February 27 - Tuesday - 0 - 0 - 0";
@@ -188,7 +189,7 @@ dateTierList[68] = "March 9 - Saturday - 3 - 1,2,3,4 - 1,18,23";// SN //Minor Un
 dateTierList[69] = "March 10 - Sunday - 4 - 1,2,3,4 - 1,18";
 dateTierList[70] = "March 11 - Monday - 2 - 1,2,3 - 1,18";
 dateTierList[71] = "March 12 - Tuesday - 2 - 1,2,3 - 1,18";
-dateTierList[72] = "March 13 - Wednesday - 1 - 1,2,3 - 1,18";
+dateTierList[72] = "March 13 - Wednesday - 1 - 1,2,4 - 1,18";
 dateTierList[73] = "March 14 - Thursday - 1 - 1,2,3 - 1,18";
 dateTierList[74] = "March 15 - Friday - 3 - 1,2,3,4 - 1,18";
 dateTierList[75] = "March 16 - Saturday - 5 - 1,2,3,4 - 1,18,23"; //SN //COMMUNITY COLLEGE SPRING BREAK START
@@ -196,7 +197,7 @@ dateTierList[76] = "March 17 - Sunday - 2 - 1,2,3,4 - 1,18";
 dateTierList[77] = "March 18 - Monday - 2 - 1,2,3,4 - 1,18";
 dateTierList[78] = "March 19 - Tuesday - 2 - 1,2,3 - 1,18";
 dateTierList[79] = "March 20 - Wednesday - 2 - 1,2,3 - 1,18";
-dateTierList[80] = "March 21 - Thursday - 2 - 1,2,3 - 1,18";
+dateTierList[80] = "March 21 - Thursday - 2 - 1,2,4 - 1,18";
 dateTierList[81] = "March 22 - Friday - 3 - 1,2,3,4 - 1,18";
 dateTierList[82] = "March 23 - Saturday - 5 - 1,2,3,4,6 - 1,18,23"; //SN ONUSD SPRING BREAK START
 dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,4,6 - 1,18"; 
