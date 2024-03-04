@@ -58,6 +58,16 @@
 	<input type="checkbox" id="isLeapYear" value="true">
 
 	</p>
+
+	<p>
+		<h4>Default Values</h4>
+		<em>Tier, Entertainment, Events</em>
+		<p>
+			<input id='defaultTier' type='text' style='width:100px;' placeholder='0'>
+			<input id='defaultEntertainment' type='text' style='width:100px;' placeholder='0'>
+			<input id='defaultEvents' type='text' style='width:100px;' placeholder='0'>
+		</p>
+	</p>
         
         <br><br>
         
@@ -131,13 +141,17 @@
 		var curDate = months[curMonth] + " " + curDayOfMonth;
 		consoleDisp.innerHTML += "<p>Code Starting Value: "+ curDate +"</p>";
 
+		var defaultTier = document.getElementById("defaultTier").value;
+		var defaultEntertainment = document.getElementById("defaultEntertainment").value;
+		var defaultEvents = document.getElementById("defaultEvents").value;
+
 		outputBox.innerHTML = '';
 
 		// Begin Looping Process
 		// Output Format: 'dateTierList[6] =  "November 3 - Friday - 0 - 0 - 0" '
 		while(curDate != dateEnd){
 
-			outputBox.innerHTML += "<p>dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + " " + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - 0 - 0 - 0";</p>';
+			outputBox.innerHTML += "dateTierList[" + curIndex + '] = "' + fullMonths[curMonth] + " " + curDayOfMonth + " - " + daysOfWeek[curDayOfWeek] + ' - ' + defaultTier' - ' + defaultEntertainment + ' - ' + defaultEvents +  '";<br>';
 			
 			curIndex++; // Increase Index by 1
 			
