@@ -24,8 +24,8 @@
 
 		.grn {color:green;} .red{color:red;}
 
-		#lookAheadContainer{position:fixed; top:0; bottom:0; left:0; right:0; background-color:rgba(0,0,0,0.5); display:none; animation:FadeIn 0.4s; z-index:899;}
-       		#lookAhead{position:static; background:#efefef; border:1px solid black;width:90%; height:90%; margin:auto;}
+		#lookAhead{text-align:center; display:none;}
+       		#lookAhead input{width:90%; margin:auto; max-width:200px; height:40px; border-radius:5px; cursor:pointer;}
     </style>
 
 </head>
@@ -47,7 +47,7 @@
 	</div>
 	
 	<div class='container' style='text-align:center'>
-    	<h3>Today's Operating Hours</h3>
+    	<h3 id='titleText'>Today's Operating Hours</h3>
         <div class='parkHours' id='adventureParkHoursDisplay'>
         	<b>Adventure Park</b><br>Error in Retrieval
         </div>
@@ -58,7 +58,15 @@
         	<b>Special Event Hours</b><br>Error in Retrieval
         </div>	
 		
-        <br><br><a onclick='checkDate()'>Look Ahead</a>
+        <br><br><a onclick='document.getElementById("lookAhead").style.display="block"'>Look Ahead</a>
+
+		<div id='lookAhead' class='fadeIn'>
+    			<p>Select a date to view Operating Hours and Schedule</p>
+    			<p style='text-align:center'><input type="date" id="dateInput" name="dateInput" onfocus="this.showPicker()"> <button onclick='checkDate()'>View Schedule</button>
+        		<p id='errorCode' style='color:red'></p> <!-- Error: No Date Selected -->
+			<a onclick='document.getElementById("lookAhead").style.display="none"'>Close Date Select</a>
+    		</div>
+		
 	<p class='disclaimer'>Note: Individual venue operating hours may differ from general theme-park or shopping center operating hours</p>
         
     </div>
@@ -367,19 +375,38 @@
 		}
 
 		function checkDate(){
-			const lookAhead = document.getElementById("lookAheadContainer");
+			const lookAhead = document.getElementById("lookAhead");
+			const aheadInput = document.getElementById("dateInput");
+			const errorText = document.getElementById("errorCode");
+			const titleText = document.getElementById("titleText");
 			//lookAhead.style.display = 'block';
 			console.log("Open Look Ahead Display");
-			let $newDate = prompt("Please enter a date to check in format MM/DD/YY.");
+
+			if(aheadInput.value == ''){errorText.innerHTML = "Error: Please select a date to view schedule";}
+			else{
+				errorText.innerHTML = "";
+				
+				let $newDate = aheadInput.value
+				let $todayDate = new Date();
 			
-			tdate = new Date($newDate);
+				tdate = new Date($newDate);
 
-			tmonth = monthsNamed[tdate.getMonth()];
-			tday = tdate.getDate();
-			tdayw = daysNamed[tdate.getDay()];
-			tyear = tdate.getFullYear();
-
-			runResortInfoCollection();
+				if(tdate <= $todayDate){errorText.innerHTML = "Error: Please select a date that is in the future";}
+				else{
+	
+					tmonth = monthsNamed[tdate.getMonth()];
+					tday = tdate.getDate() + 1;
+					tdayw = daysNamed[tdate.getDay()];
+					tyear = tdate.getFullYear();
+		
+					runResortInfoCollection();
+		
+					lookAhead.style.display = 'none';
+					titleText.innerHTML = "Showing Operating Schedule for " +  document.getElementById("dateDisplayText").innerHTML;
+				}
+			}
+			
+			
 			
 		}
 		
