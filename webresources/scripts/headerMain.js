@@ -155,7 +155,8 @@
   	function funcGoToHome(){window.open("https://gcparksandresorts.github.io/gcresorthighland","_self");}
   
   	function endLoadingInit(){
-  		document.getElementById('loader').style.display = 'none';
+		document.getElementById('loader').style.opacity = 0;
+		setTimeout(function(){document.getElementById('loader').style.display = 'none';},6000);
   	}
 
 	function showTTD(){
