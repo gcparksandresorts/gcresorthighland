@@ -156,7 +156,7 @@
   
   	function endLoadingInit(){
 		document.getElementById('loader').style.opacity = 0;
-		setTimeout(function(){document.getElementById('loader').style.display = 'none';},6000);
+		setTimeout(function(){document.getElementById('loader').style.display = 'none';},600);
   	}
 
 	function showTTD(){
