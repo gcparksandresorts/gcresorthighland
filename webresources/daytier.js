@@ -41,7 +41,7 @@ entertainmentList[1] = "Globe-City Marching Band | 12:15PM, 2:15PM, 3:30PM, 4:30
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:45PM, 1:45PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[4] = "Renee and Company @ The Plaza | 3:10PM, 4:30PM, 6:10PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
-entertainmentList[5] = "";
+entertainmentList[5] = "El Compadre Mariachi | 12:30PM, 1:30PM, 2:30PM, 3:45PM, 4:30PM, 5:15PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | click_link";
 entertainmentList[6] = "";
 entertainmentList[7] = "";
 
@@ -206,18 +206,18 @@ dateTierList[75] = "March 16 - Saturday - 4 - 1,2,3,4 - 1,18,23"; //SN //COMMUNI
 dateTierList[76] = "March 17 - Sunday - 2 - 1,2,3,4 - 1,18";
 dateTierList[77] = "March 18 - Monday - 2 - 1,2,3,4 - 1,18";
 dateTierList[78] = "March 19 - Tuesday - 2 - 1,2,3 - 1,18";
-dateTierList[79] = "March 20 - Wednesday - 2 - 1,2,3 - 1,18";
-dateTierList[80] = "March 21 - Thursday - 2 - 1,2,4 - 1,18";
-dateTierList[81] = "March 22 - Friday - 3 - 1,2,3,4 - 1,18";
-dateTierList[82] = "March 23 - Saturday - 4 - 1,2,3,4,6 - 1,18,23"; //SN ONUSD SPRING BREAK START
-dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,4,6 - 1,18"; 
+dateTierList[79] = "March 20 - Wednesday - 2 - 1,2,3,5 - 1,18";
+dateTierList[80] = "March 21 - Thursday - 2 - 1,2,4,5 - 1,18";
+dateTierList[81] = "March 22 - Friday - 3 - 1,2,3,4,5 - 1,18";
+dateTierList[82] = "March 23 - Saturday - 4 - 1,2,3,4,5 - 1,18,23"; //SN ONUSD SPRING BREAK START
+dateTierList[83] = "March 24 - Sunday - 4 - 1,2,3,4,5 - 1,18"; 
 dateTierList[84] = "March 25 - Monday - 3 - 1,2,3 - 1,18";
-dateTierList[85] = "March 26 - Tuesday - 4 - 1,2,3,6 - 1,18";
-dateTierList[86] = "March 27 - Wednesday - 3 - 1,2,3,6 - 1,18";
-dateTierList[87] = "March 28 - Thursday - 3 - 1,2,3,4,6 - 1,18";
-dateTierList[88] = "March 29 - Friday - 4 - 1,2,3,4,6 - 1,18";
-dateTierList[89] = "March 30 - Saturday - 4 - 1,2,3,4,6 - 1,18,23";// Last Saturday Nightz
-dateTierList[90] = "March 31 - Sunday - 4 - 1,2,3,4 - 1,18"; //ONUSD SPRING BREAK END
+dateTierList[85] = "March 26 - Tuesday - 4 - 1,2,3,5 - 1,18";
+dateTierList[86] = "March 27 - Wednesday - 3 - 1,2,3,5 - 1,18";
+dateTierList[87] = "March 28 - Thursday - 3 - 1,2,3,4 - 1,18";
+dateTierList[88] = "March 29 - Friday - 4 - 1,2,3,4,5 - 1,18";
+dateTierList[89] = "March 30 - Saturday - 4 - 1,2,3,4,5 - 1,18,23";// Last Saturday Nightz
+dateTierList[90] = "March 31 - Sunday - 4 - 1,2,3,4,5 - 1,18"; //ONUSD SPRING BREAK END
 
 
 
