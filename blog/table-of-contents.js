@@ -5,8 +5,11 @@
 
 // Formatting: category | blog_title | Date of Posting | link_to_blog -> 
 //  toc[365] = "category | blog_title | date_of_posting | blog/link_to_blog";
+
+
 toc = [];
 
+  toc[15] = "Attractions | New Update Announced for Ride the Beat: Waveriders | April 1, 2024 | blog/attractions/04-01-2024-ride-the-beat-update";
   toc[14] = "Travel Advice | Top 10 Romantic Spots at the Resort | February 1, 2024 | blog/other/02-01-2024-romance-around-the-resort"
   toc[13] = "Entertainment | Nyghtz Tavern at City-Shop Presents Saturday Nightz | March 3, 2024 | blog/entertainment/03-01-2024-Saturday-Nightz";  
   toc[12] = "Events | Mardi Gras at the Globe-City Resort | February 23, 2024 | blog/events/2024-mardi-gras";
