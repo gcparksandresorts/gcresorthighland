@@ -50,20 +50,20 @@ const march = [];
 const april = [];
       april[3] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
       april[4] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
-      april[5] = "";
+      april[5] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop";
 
-      april[0] = "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg";
-      april[1] = "<h3>New FlexEat<sup>TM</sup> Menu offerings</h3>Healthy-Eatz and GCPR have curated even more delicious diet-friendly dining options. Try them out now at our resort restaurants.";
-      april[2] = "";
+      april[0] = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/RTB%201.jpg";
+      april[1] = "<h3>Ride the Beat: Waveriders Recieves Makeover</h3>Ride the Beat: Waveriders will be closed April thru May as the attraction recieves an exciting new update! Learn more about it below.";
+      april[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/attractions/04-01-2024-ride-the-beat-update";
 
-      april[6] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
+      april[6] = "https://www.disneydining.com/wp-content/uploads/2021/10/Disney-Grad-Night.jpeg";
       april[7] = "<h3>Start Your Cast-Venture</h3>Live your very own <em>CastVenture</em> this summer with a job at the place where Adventure lives! We're hiring for all positions, so start your career today!";
       april[8] = "https://gcparksandresorts.github.io/main/careers/home";
 
 const may = [];
-      may[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      may[1] = "<h3>Start Your Cast-Venture</h3>Live your very own <em>CastVenture</em> this summer with a job at the place where Adventure lives! We're hiring for all positions, so start your career today!";
-      may[2] = "https://gcparksandresorts.github.io/main/careers/home";
+      may[0] = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/RTB%201.jpg";
+      may[1] = "<h3>Ride the Beat: Waveriders Recieves Makeover</h3>Ride the Beat: Waveriders will be closed April thru May as the attraction recieves an exciting new update! Learn more about it below.";
+      may[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/attractions/04-01-2024-ride-the-beat-update";
 
       may[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
       may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
