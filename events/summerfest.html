@@ -9,7 +9,19 @@
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
   	<title>Globe-City's SummerFest<sup>TM</sup> Celebration | Events | Globe-City Resort Highland</title>
   
-  	<style></style>
+  	<style>
+		.titleBar{background:#00BFAF;}
+		.banner{position:relative; height:90vh;}
+		.fadeBarDown, .fadeBarUp{position:absolute; margin:0; height:80px; width:100%; z-index:500;}
+		.fadeBarUp{background:linear-gradient(rgba(0,191,175,0),rgba(0,191,175,1)); bottom:0;}
+		.fadeBarDown{background:linear-gradient(rgba(0,191,175,1),rgba(0,191,175,0)); top:0;}
+
+		@media screen and (min-width:800px){
+			#mainTitle img{max-width:400px; height:auto;}
+		}
+
+		h1,h2{color:#00BFAF;}
+	</style>
 
 </head>
 
@@ -18,40 +30,83 @@
 <body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
+	<div class='titleBar' id='mainTitle' style='margin:0;'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcSummerFest.png'></div>
+	
+
 	<!-- BANNER IMAGE AND TITLE BAR -->
 	<div class='banner' style='height:75vh;'>
+		<div class='fadeBarDown'></div>
 		<img class='mySlides' src='https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disneyland/destinations/disney-california-adventure/pixar-pier/incredicoaster-guests-16x9.jpg?1676429891890'>
 		<img class='mySlides' src='https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2021/06/lsjdgkdfgdffi-1024x576.jpg'>
 		<img class='mySlides' src='https://cache.undercovertourist.com/blog/2021/08/0821-universal-citywalk-hollywood-fountains-restuarants.jpg'>
 		<img class='mySlides' src='https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg'>
+		<div class='fadeBarUp' style='background:linear-gradient(rgba(253,138,94,0),rgba(253,138,94,1));'></div>
 	</div>
-  	<div class='titleBar'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcSummerFest.png'></div>
-	<div class='subtitleBar'><h1>Summers to Remember Forever</h1><p>This summer, embark on exciting new Adventures and create memories to last a lifetime! Explore the Globe-City Resort Highland to find thrilling rides, exciting new entertainment, tasty food and so much more!</p></div>
+  	
+	<div class='subtitleBar' style='background:rgb(253,138,94); color:white;'><h1 style='color:white'>Endless Fun in the Sun</h1><p>
+		Get ready to embark on the ultimate summer adventure at the Globe-City Resort Highland! Join us for a sizzling season packed with BRAND NEW entertainment, thrilling rides, and endless excitement for the whole family!
+	</p></div>
 	
 	<div class='container'>
-		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")'>View Tickets and Passes</button>
-	</div>
-
-	<div class='container'>
-		<h2>Endless Fun in the Sun</h2>
-		From thrilling rides to summertime activities with family and friends!
-		<br>
 		<div class='porthole'>
-			<div> <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico'> <h3>New Adventures</h3> </div>
-			<div> <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico'> <h3>Delightful Summer Treats</h3> </div>
-			<div> <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico'> <h3>New Entertainment</h3> </div>
-			<div> <img src='https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg'> <h3>Fun Activities</h3> </div>
-			<div> <img src='https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg'> <h3>Memory Makers</h3> </div>
+			<div><img src='https://mickeyvisit.com/wp-content/uploads/2018/09/maxresdefault.jpg'><h3>Entertainment</h3></div>
+			<div><img src='https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg'><h3>Activities</h3></div>
+			<div><img src='https://southernbite.com/wp-content/uploads/2017/05/Ocean-Water-2.jpg'><h3>Tastful Delights</h3></div>
+			<div><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/tts3.jpg'><h3>Thrilling Rides</h3></div>
+			<div><img src='https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/dlr/places-to-stay/grand-californian/recreation/grand-californian-pool-family-16x9.jpg?1706116994236'><h3>Fun for Everone</h3></div>
 		</div>
 	</div>
 
 	<div class='spacer'></div>
 
 	<div class='container'>
-		<h2>Entertainment to Excite Everyone</h2>
-		Brand new entertainment while the sun is out and after the moon is up!
-		
+		Immerse yourself in the spirit of summer with themed events, festive decorations, and special surprises around every corner! Whether you're lounging by the pool, soaking up the sun, or dancing the night away at our summer parties, every moment is a celebration 
+		<p>		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")'>View Tickets and Passes</button></p>
 	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<h2>Adventures West of the Frontier</h2>
+		Experience a ghost town come to life with exciting new stories to explore!
+		<div class='tileContainer'>
+			<div onclick='window.open("../attractions/adventure-park/activities/pan-for-gold","_self")'><img src='https://www.celebritycruises.com/blog/content/uploads/2022/12/gold-panning-in-alaska-gold-dredge-8-fairbanks-1024x683.jpg'><h3>Pan for Gold</h3>Try your hand at uncovering nature's bounty</div>
+			<div onclick='window.open("../attractions/adventure-park/activities/adventures-through-the-west","_self")'><img src='https://www.laughingplace.com/w/wp-content/uploads/2021/08/ghost-town-alive-immersive-wild-west-experience-returning-to-knotts-berry-farm-for-summer-2022.jpeg'><h3>Save an Old Man's Prize</h3>Help find Old Yander's Stolen Gold</div>
+			<div onclick='window.open("../attractions/adventure-park/entertainment/two-step-tango","_self")'><img src='https://i0.wp.com/dancein.org/wp-content/uploads/2016/12/Country-Dancing-01-urbancowboy_danc1-1.jpg?resize=640%2C428&ssl=1'><h3>Two-Step Tango</h3>Dance along with cheery western folk music</div>
+		</div>
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<h2>Entertainment and Summer Spectaculars</h2>
+		An exciting new assortment of SummerFest Exclusive entertainment!
+		<div class='tileContainer'>
+			<div onclick='window.open("../attractions/adventure-park/entertainment/renee-and-company","_self")'><img src='https://www.theaudiodb.com/images/media/artist/widethumb/rpssxq1528113669.jpg'><h3>Renee and Company @ The Plaza</h3>Renee Olstead performs hit songs from her album Skylark backdropped by the Atlantis Castle</div>
+			<div onclick='window.open("../attractions/adventure-park/entertainment/seaside-serenaders","_self")'><img src='https://media.wdwnt.com/2021/08/Disneyland-dapper-dans-9471751-1200x675.jpeg'><h3>The Seaside Serenaders</h3>Join the Seaside Serenaders as they perform classic barbershop singles at the Boardwalk!</div>
+			<div onclick='window.open("../attractions/adventure-park/","_self")'><img src='https://www.ocregister.com/wp-content/uploads/2023/10/Lion-King-16x10-1.jpg?w=901'><h3>Tales of Adventure With Amelia Earhart</h3>Join the famous pilot as she returns from her adventures and tells magnificent tales!</div>
+		</div>
+		<p><a href='../attractions'>View SummerFest Entertainment</a></p>
+	</div>
+
+	<div class='fullContainer' style='background:rgb(255,89,143); color:white;'>
+		<div class='columnContainer'>
+			<img src='https://mickeyvisit.com/wp-content/uploads/2018/09/maxresdefault.jpg'>
+			<div style='text-align:left'>
+				<h2 style='color:white'>Summers to Remember Forever <em>Spectacular!</em></h2>
+				Every evening, as the sun sets and the stars twinkle above, join us for a dazzling display of light, color, and wonder that will leave you speechless. We believe that memories know no age limit. Whether you're young or young at heart, come and be enchanted by a spectacle that will stay with you long after the last firework fades. Because here, in the warmth of summer's embrace, every moment is a chance to create cherished memories that will last a lifetime.
+				<p><a style='color:inherit'>Learn More</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")'>View Tickets and Passes</button>
+	</div>
+
+	<!-- <div onclick='window.open("../attractions/adventure-park/","_self")'><img src=''><h3></h3></div> -->
 	
 <!-- Footer Elements --><div id="footer"></div>
 </body>
