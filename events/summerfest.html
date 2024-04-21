@@ -21,6 +21,22 @@
 		}
 
 		h1,h2{color:#00BFAF;}
+
+		.halfBannerContainer{margin:0; padding:0; width:full; display:flex; flex-flow:row;}
+	        .halfBannerContainer .element{width:50%; margin:0; padding:30px; background:purple; color:white; background:rgba(0,0,0,0.5);}
+	        .halfBannerContainer .left{border-radius:0 20px 20px 0; margin-right:20px;}
+	        .halfBannerContainer .right{border-radius:20px 0 0 20px; margin-left:20px;}
+	        
+	        .halfBannerContainer .element .content{width:90%; max-width:400px; text-align:center; min-height:300px; display:flex; flex-flow:column; position:relative; height:auto; align-items:center;}
+	        .halfBannerContainer .element .left{float:right;}
+	        .halfBannerContainer .element .right{float:left;}
+	        
+	        .halfBannerContainer .element .content h2{color:white; text-shadow: 2px 2px 8px black;}
+		.halfBannerContainer .element .content p{color:white; text-shadow: 2px 2px 8px black; position:relative;}
+		.halfBannerContainer .element .content button{color:white; border-color:white; text-shadow: 2px 2px 8px black; box-shadow: 2px 2px 8px black; width:90%; position:absolute; bottom:0; font-size:18px; background:rgba(0,0,0,0.3);}
+		.halfBannerContainer .element .content .img-cont{display:flex; width:90%; height:100px; margin-bottom:auto; padding:0; align-items:center;}
+		.halfBannerContainer .element .content .img-cont img{width:100%; height:auto; margin:0;}
+		.halfBannerContainer .element .content button:hover {background:white; color:black; border-color:white;}
 	</style>
 
 </head>
@@ -70,11 +86,13 @@
 		<h2>Adventures West of the Frontier</h2>
 		Experience a ghost town come to life with exciting new stories to explore!
 		<div class='tileContainer'>
-			<div onclick='window.open("../attractions/adventure-park/activities/pan-for-gold","_self")'><img src='https://www.celebritycruises.com/blog/content/uploads/2022/12/gold-panning-in-alaska-gold-dredge-8-fairbanks-1024x683.jpg'><h3>Pan for Gold</h3>Try your hand at uncovering nature's bounty</div>
+			<div onclick='window.open("../attractions/adventure-park/activities/pan-for-gold","_self")'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/summerfest/postcard-old_yanders-globe-city-resort-highland-id00001.jpg'><h3>Pan for Gold</h3>Try your hand at uncovering nature's bounty</div>
 			<div onclick='window.open("../attractions/adventure-park/activities/adventures-through-the-west","_self")'><img src='https://www.laughingplace.com/w/wp-content/uploads/2021/08/ghost-town-alive-immersive-wild-west-experience-returning-to-knotts-berry-farm-for-summer-2022.jpeg'><h3>Save an Old Man's Prize</h3>Help find Old Yander's Stolen Gold</div>
 			<div onclick='window.open("../attractions/adventure-park/entertainment/two-step-tango","_self")'><img src='https://i0.wp.com/dancein.org/wp-content/uploads/2016/12/Country-Dancing-01-urbancowboy_danc1-1.jpg?resize=640%2C428&ssl=1'><h3>Two-Step Tango</h3>Dance along with cheery western folk music</div>
 		</div>
 	</div>
+
+	<!-- https://www.celebritycruises.com/blog/content/uploads/2022/12/gold-panning-in-alaska-gold-dredge-8-fairbanks-1024x683.jpg -->
 
 	<div class='spacer'></div>
 
@@ -122,10 +140,82 @@
 		</div>
 	</div>
 
+	<div class='container'>
+		<h2>Everything You Need to Know</h2>
+		<em>Globe-City's Summer Fest</em> Celebration is a seasonal event which takes place between <b>Late May through August</b>. Admission to this event is included with general admission to Globe-City's Adventure Park. 
+		 Dive into the vibrant spirit of summer as Adventure Park transforms into a haven of excitement and joy. From thrilling new activities to captivating entertainment offerings, delectable food and drink options, and so much more, there's something for everyone to enjoy!
+		<p>Embrace the warmth of the season with your family and friends as you create cherished memories that will last a lifetime. Every corner of Adventure Park is brimming with the magic of summer, waiting to be explored and enjoyed by all.</p>
+		<p>Come be a part of the ultimate summer celebration at Globe-City's Summer Fest! 🎉 Don't miss out on the fun – mark your calendars and make this summer one to remember forever!</p>
+	</div>
+
+	<div class='fullContainer' style='background:#E0E300;'>
+		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")' style='border-color:black; color:black'>View Tickets and Passes</button>
+	</div>
+
+	<br>
+
+	<div class='fullContainer' style='padding:0;'>
+    
+    			<h2 style='margin-bottom:5px;'>Expand Your Adventure</h2>
+			with a stay in one of our deluxe resort hotels
+
+			<br><br>
+    
+    			<div class='halfBannerContainer' id='hotelNorm'>
+        
+	        		<div class='element left' style='background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg");background-size:cover;'>
+	            			<div class='content left'>
+						<div class='img-cont'>
+	                				<img class='logo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/lakesideHotelLogo.png'  style='scale:0.9'>
+						</div>
+	                    			<p>Enjoy pleasant rooms themed after the adventurous worlds of Globe-City's Adventure Park. Each room has a unique theme and guests on the north-side have stellar views of the park!
+							<br><br>
+						</p>
+
+							<br><br>
+						
+						<button onclick='window.open("destinations/globe-citys-lakeside-hotel","_self")'>View Hotel</button>
+	                		</div>
+				</div>
+	            
+		        	<div class='element right' style='background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://cdn.getawaytoday.com/api/content/image/H3AVTDPP4FXE82S2/disneys-grand-californian-hotel-spa-exterior-r.jpg");background-size:cover;'>
+			            	<div class='content right'>
+						<div class='img-cont'>
+			                		<img class='logo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/aztechResortLogo.png'>
+						</div>
+			                    	<p>
+							In a class of its own, the Aztech Resort is a sophisticated and luxurious hotel featuring themed amenities, a gorgeous pool deck, and more. It's luxury fun for everyone in the family!
+							<br><br>
+						</p>
+							<br><br>
+						<button onclick='window.open("destinations/the-aztech-resort","_self")'>View Hotel</button>
+			                </div>
+		        	</div>
+	        
+	        	</div>
+
+			<div class='tileContainer' id='hotelAlt'>
+				<div onclick='window.open("destinations/the-aztech-resort","_self")'>
+					<img src='https://static.wixstatic.com/media/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg/v1/fill/w_1175,h_729,al_c/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg'>
+					<h3>The Aztech Resort</h3>
+					A luxurious and sophisticated resort hotel and spa
+				</div>
+				<div onclick='window.open("destinations/globe-citys-lakeside-hotel","_self")'>
+					<img src='https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg'>
+					<h3>The Lakeside Hotel</h3>
+					A family-oriented hotel with theme-park views
+				</div>
+			</div>
+
+	</div>
+
+	<br>
+
 	<div class='spacer'></div>
 
-	<div class='container'>
-		<button onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/tickets", "_self")'>View Tickets and Passes</button>
+	<div class='leftContainer'>
+		<b>Important Considerations:</b> Some Summer Fest activities, entertainment offerings, attractions, or other items listed on this page may be unavailable or closed during your visit. Please visit the <a>Resort Information</a> page for a daily schedule of entertainment and operating hours. For a more in-depth display of information, download the GC RESORT mobile app on your cellular device.
+		<p>As always, please review our <a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Safety Guidelines</a> prior to visiting the resort.</p>
 	</div>
 
 	<!-- <div onclick='window.open("../attractions/adventure-park/","_self")'><img src=''><h3></h3></div> -->
@@ -141,6 +231,32 @@
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
 	<script>runHeaderSetup();</script>
+
+		<script>
+		const hotel = document.getElementById("hotelNorm");
+		const hotelAlt = document.getElementById("hotelAlt");
+
+
+		
+
+		function runInitialAvenue(){
+			w = window.innerWidth;
+			if(w > 600){
+				console.log("looks good");
+				hotelAlt.style.display = 'none';
+				hotelNorm.style.display = 'flex';
+			}else{
+				hotelNorm.style.display = 'none';
+				hotelAlt.style.display = 'block';
+			}
+		}
+
+		window.onresize = runInitialAvenue;
+		
+	</script>
+
+	<script>runInitialAvenue();</script>
+
 
 
 </html>
