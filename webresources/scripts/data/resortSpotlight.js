@@ -65,52 +65,52 @@ const may = [];
       may[1] = "<h3>Ride the Beat: Waveriders Recieves Makeover</h3>Ride the Beat: Waveriders will be closed April thru May as the attraction recieves an exciting new update! Learn more about it below.";
       may[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/attractions/04-01-2024-ride-the-beat-update";
 
-      may[3] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      may[3] = "https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg";
       may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
-      may[5] = "";
+      may[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
       may[6] = "https://mickeyvisit.com/wp-content/uploads/2022/04/mothersdaydisneyland.jpeg";
       may[7] = "<h3>Celebrating Mothers Everywhere</h3>This mother's day, treat your mom to some delectible treats and thrilling new eats made just for her with a trip to our Mother's day celebration at the resort!";
       may[8] = "";
 
 const june = [];
-      june[0] = "https://marinmagazine.com/wp-content/uploads/2021/07/08_2019__-DL.5727-scaled-1-770x514.jpg";
+      june[0] = "https://mickeyvisit.com/wp-content/uploads/2018/09/maxresdefault.jpg";
       june[1] = "<h3>Welcome to the SummerFest<sup>TM</sup> Celebration!</h3>Brand new entertainment, food offerings, merchandise and more have filled every corner of Adventure Park for a sunny summer you won't forget!";
-      june[2] = "";
+      june[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
       june[3] = "https://thepointsguy.global.ssl.fastly.net/us/originals/2023/06/20230619_Disney-Pride-Night_KMartinez_50.jpg";
-      june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This year, we're happy to announce the first ever <b>Adventurous Night of Pride</b> special event! Click to learn more";
+      june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This year, we're happy to announce the return of the <b>Adventurous Night of Pride</b> special event! Click to learn more";
       june[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
-      june[6] = "https://media.cnn.com/api/v1/images/stellar/prod/190705153928-millennium-force-rollercoaster-004.jpg?q=w_1600,h_900,x_0,y_0,c_fill";
-      june[7] = "<h3>&#127905; Ride Spotlight: Touch the Sky</h3>Soar into summer at 60mph aboard this thrilling beach-side rollercoaster full of inversions, twists, turns, and a whole 'lotta fun!";
-      june[8] = "";
+      june[6] = "https://www.enjoyflorida.com/wp-content/uploads/2019/05/dance-floor-with-dancers-the-groove-nightclub-universal-citywalk-orlando.jpg";
+      june[7] = "<h3>Saturday Nightz at City-Shop is back!</h3>For the entire season of SummerFest, live your Highland Night adventure with free-to-access dance parties at Globe-City's City-Shop Fountain Plaza. Featuring different DJs and a new theme <b>every saturday</b>, its the ultimate social Saturday event!";
+      june[8] = "blog/entertainment/03-01-2024-Saturday-Nightz";
 
 const july = [];
-      july[0] = "https://static.wixstatic.com/media/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg/v1/fill/w_600,h_264,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8006c1_a8db5520415c4e5b873999954f9da136~mv2.jpg";
-      july[1] = "<h3>The Party's On at City-Shop</h3>Dazzling lights, high class shopping, and more! City-Shop is the hip destination everyone's talking about";
-      july[2] = "";
+      july[0] = "https://www.enjoyflorida.com/wp-content/uploads/2019/05/dance-floor-with-dancers-the-groove-nightclub-universal-citywalk-orlando.jpg";
+      july[1] = "<h3>Saturday Nightz at City-Shop is back!</h3>For the entire season of SummerFest, live your Highland Night adventure with free-to-access dance parties at Globe-City's City-Shop Fountain Plaza. Featuring different DJs and a new theme <b>every saturday</b>, its the ultimate social Saturday event!";
+      july[2] = "blog/entertainment/03-01-2024-Saturday-Nightz";
 
       july[3] = "https://static.wixstatic.com/media/f7111f_4c766d7c897d4ba3a4a444d7792bc42c~mv2.jpg/v1/fill/w_640,h_360,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/f7111f_4c766d7c897d4ba3a4a444d7792bc42c~mv2.jpg";
       july[4] = "<h3>Celebrate the 4th In Style</h3>For the whole month of July, Adventure Park will feature special decorations and food offerings. On July 4th, expect a celebratory fireworks spectacular!";
       july[5] = "";
 
-      july[6] = "https://i.ytimg.com/vi/W3Iip4Wxe2g/hqdefault.jpg";
-      july[7] = "<h3>&#127905; Ride Spotlight: Journey to Atlantis</h3>As the summer heat stands strong, take a trip below the refreshing waves and visit the mystical lost city of Atlantis";
-      july[8] = "https://gcparksandresorts.github.io/gcresorthighland/destinations/adventurepark/attractions/journey-to-atlantis";
+      july[6] = "https://media.wdwnt.com/2021/08/Disneyland-dapper-dans-9471751-1200x675.jpeg";
+      july[7] = "<h3>Exciting Summer Entertainment</h3>This SummerFest season, there's plenty of entertainment to explore. From jazzy singers to beautiful fireworks displays, see what's in-store during your visit! Visit the Resort Information page for daily schedules.";
+      july[8] = "https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule";
 
 const august = [];
-      august[0] = "https://noguiltdisney.com/wp-content/uploads/2022/09/sanderson-sisters-hocus-pocus-Disneyland-oogie-boogie-bash.jpg.webp";
-      august[1] = "<h3>Gear Up for Halloween 2023</h3>The 2022 Halloween season is getting close! Get ready for dazzling in-park decorations and special Halloween themed events and specials at the resort!";
+      august[0] = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png";
+      august[1] = "<h3>Howl for Halloween!</h3>Our spookiest season is getting close. Tickets for Highland's favorite Halloween Party are officially on sale! Click to learn more.";
       august[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/sallys-halloween-party";
 
-      august[3] = "https://preview.redd.it/w3qdq88z09e21.jpg?auto=webp&s=849ee48b06f5ee0dc08b320f1a4f4237e8425126";
-      august[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>The sun is beggining to set on GC's SummerFest Celebration! Visit the park now for some family friendly fun in the sun and stock up on memories until next season";
+      august[3] = "https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg";
+      august[4] = "<h3>Last Call for SummerFest<sup>TM</sup>!</h3>As our SummerFest season comes to a close, we express extreme thanks to you and all our amazing guests who partied with us this summer!";
       august[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
       august[6] = "https://premier-rides.com/wp-content/uploads/2016/06/Revenge_of_the_Mummy_compressed.jpg";
-      august[7] = "<h3>&#127905; Ride Spotlight: Tomb of the Emperor's Curse</h3>Explore an abandonded tomb and find what treasures (and curses) lie within its stone walls";
-      august[8] = "";
+      august[7] = "<h3>Renee's Final Performance</h3>With SummerFest ending, now is your final chance to catch Renee Olstead performing infront of the Atlantis Castle. While you're here, make sure to catch all our other summer entertainment as well!";
+      august[8] = "https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
 
 const september = [];
       september[0] = "https://disneydose.com/wp-content/uploads/halloween-time-scott-brinegardisneyland.jpg";
@@ -149,7 +149,7 @@ const november = [];
 
       november[6] = "https://content.api.news/v3/images/bin/e22c63f4a09424eb87386003dd43a90f";
       november[7] = "<h3>Give the Gift of Adventure</h3>This season, give the gift of an unforgettable Adventure with new affordable vacation packages at the Globe-City Resort!";
-      november[8] = "https://gcparksandresorts.github.io/gcresorthighland/tickets/promotions";
+      november[8] = "https://gcparksandresorts.github.io/gcresorthighland/information/promotions";
 
 const december = [];
       december[0] = "https://media.istockphoto.com/id/1166630631/photo/grandfather-and-grandson-amusement-park-fun.jpg?s=612x612&w=0&k=20&c=XDES5Q-NBO0QcpomzQw3oZXLarChJh4XNXRMQ5lHNHg=";
