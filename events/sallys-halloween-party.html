@@ -11,9 +11,12 @@
   
   	<style>
       		#headerBar, .titleBar{background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg"); background-size: cover;}
-		body {background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cobweb01.png"); background-repeat:repeat; background-size: 90px 90px;}
-		.spacer{background:#2D0A5F;}
+		body {background:ivory;}
+		.spacer{background:#DEB887;}
 		.mySlides{display:none;}
+
+		.banner{height:80vh;}
+		.transitionContainer{display:block; position:relative; width:100%; margin:0;}
     	</style>
 
 </head>
@@ -30,11 +33,21 @@
 		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween03.png'>
 		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween04.png'>
 	</div>
-  	<div class='titleBar'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/SHAP2.png'></div>
-	<div class='subtitleBar'><p>
-	    	 Are you ready for a Halloween extravaganza that's perfect for the whole family?
-	    	 Join the infamous Sally Spookson in her biggest party yet! Adventure Park is overrun with frightful fun as ghosts and ghouls takeover the park in spooktacular celebration featuring more treats than tricks!
-  	</p></div>
+	<div class='transitionContainer' style='background:#4B0082;'>
+		<div class='transitionBar' style='position:absolute; top:-150px; left:0; right:0; height:150px; background:linear-gradient(rgba(0,0,0,0),#4B0082)'></div>
+		<div class='container' style='margin-top:0;'>
+			<style>#mainImgLogo{transition:0.5s; cursor:url('https://images.vexels.com/media/users/3/265178/isolated/lists/e51a925f23ac41cb796f4f3af56f515e-big-autumn-pumpkin.png'),auto;} #mainImgLogo:hover{scale:1.25;}</style>
+			<img id='mainImgLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/SHAP2.png' style='width:90%; height:auto; margin:auto; max-width:500px;'>
+		</div>
+		<div class='spacer' style='background:#191970'></div>
+		<div class='container' style='color:white'>
+			Are you ready for a Halloween extravaganza that's perfect for the whole family?
+			<p>Join the infamous Sally Spookson for her biggest party yet! Adventure Park is overrun with frightful fun as ghosts and ghouls takeover the park in spooktacular celebration featuring more some tricks and many treats!</p>
+		</div>
+		<div class='transitionBar' style='position:absolute; bottom:-150px; left:0; right:0; height:150px; background:linear-gradient(#4B0082,rgba(0,0,0,0))'></div>
+	</div>
+
+	<br><br><br><br>
 	
 	<br><div style='text-align:center; margin:auto;'><h2>Event Highlights</h2></div>
    
