@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/gcresorthighland/webresources/others/styleHeader.css">
+
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>Sally's Spooktacular Halloween After-Party | Special Events | Globe-City Resort Highland</title>
+  
+  	<style>
+      		#headerBar, .titleBar{background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg"); background-size: cover;}
+		body {background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/cobweb01.png"); background-repeat:repeat; background-size: 90px 90px;}
+		.spacer{background:#2D0A5F;}
+		.mySlides{display:none;}
+    	</style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+	<div class='banner'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween01.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween03.png'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween04.png'>
+	</div>
+  	<div class='titleBar'><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/SHAP2.png'></div>
+	<div class='subtitleBar'><p>
+	    	 Are you ready for a Halloween extravaganza that's perfect for the whole family?
+	    	 Join the infamous Sally Spookson in her biggest party yet! Adventure Park is overrun with frightful fun as ghosts and ghouls takeover the park in spooktacular celebration featuring more treats than tricks!
+  	</p></div>
+	
+	<br><div style='text-align:center; margin:auto;'><h2>Event Highlights</h2></div>
+   
+   	<div class='tileContainer'>
+    		<div onclick='window.open("","_self")'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween02.png'>
+			<h3>Halloween Frights and Sights</h3>
+			<p>Explore our park transformed into a hauntingly delightful wonderland with mesmerizing decorations</p>
+		</div>
+	  	<div onclick='window.open("","_self")'>
+			<img src='https://www.disneyfoodblog.com/wp-content/uploads/2021/09/Disneyland-Halloween-Food-Treats-2021-06-700x467.jpg'>
+			<h3>More Treats Than Tricks!</h3>
+			<p>Indulge in event exclusive "trick-or-treating" oppurtunities equipped with a complimentary tote bag</p>
+		</div>
+	   	<div onclick='window.open("#entertainment","_self")'>
+			<img src='https://cache.undercovertourist.com/blog/2021/08/0921-best-places-view-disneyland-fireworks-halloween-screams.jpg'>
+			<h3>Frightfully Fun Undead Entertainment</h3>
+			<p>Watch the night sky come to life as ghosts and ghouls of all kinds come out to play</p>
+		</div>
+   	</div>
+
+	<br><div style='text-align:center; margin:auto;'><h2>Things to Do</h2></div>
+
+	<div class='tileContainer'>
+    		<div onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/mission-overtaken","_self")'>
+			<img src='https://i.ytimg.com/vi/cM5EvEs4Dc4/maxresdefault.jpg'>
+			<h3>Experience a Mission Gone Wrong</h3>
+			<p>Take a ride aboard <a>Mission Overtaken</a>, an event exclusive overlay of Mission 12</p>
+		</div>
+	  	<div onclick='window.open("","_self")'>
+			<img src='https://ziggyknowsdisney.com/wp-content/uploads/2019/12/disney-villains-after-hours-ursula.jpg'>
+			<h3>Meet Villanous New Characters</h3>
+			<p>All sorts of monsters and villains have come to Adventure Park to partake in the festivities</p>
+		</div>
+	   	<div onclick='window.open("","_self")'>
+			<img src='https://i0.wp.com/accidentaltravelwriter.com/wp-content/uploads/2020/10/HKDL_Halloween_Art-Craft_02.jpg?ssl=1'>
+			<h3>Bring the Spooks Home</h3>
+			<p>Create your own keepsakes at various arts & crafts stations throughout the park</p>
+		</div>
+		<a id='entertainment'></a>
+   	</div>
+
+	<br>
+
+	<div class='fullContainer' style='background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/spookyGradient.jpg"); background-size:cover; background-repeat:no-repeat; background-position:center; color:white;'>
+		<div class='columnContainer'>
+			<img src='https://d23.com/app/uploads/2019/08/1180w-600hIris-081519_news-briefs-780x440.jpg'>
+			<div>
+				<h2 style='color:white; margin-top:0;'>A Spooktacular Worth Watching</h2>
+				<p>At 10:15PM witness the Atlantis Castle explode in color music and light as Sally Spookson and her ghostly friends come out to party in this event-exclusive nighttime fireworks spectacular!</p>
+				<p>Featuring illuminated dancing fountains, advanced lighting and effects, and world-class pyrotechnics, <em>Sally's Spooktacular Fireworks</em> is a show packed full of awesomness that's sure to get you dancing along</p>
+				<a href='https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/sallys-spooktacular-fireworks' style='color:white'>Learn More</a>
+			</div>
+		</div>
+	</div>
+
+	<br><div style='text-align:center; margin:auto;'><h2>Frightfully Fun Entertainment</h2></div>
+
+	<div class='tileContainer'>
+		<div onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/witch-sisters-musical","_self")'>
+			<img src='https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/halloween/entertainment/0816ZS_1291CMG-1_R-_mm-16x9.jpg?2022-04-21T17:44:42+00:00'>
+			<h3>Witchy Beats and Halloween Treats</h3>
+			A thril'ing musical adventure
+		</div>
+		<div onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/","_self")'>
+			<img src='https://www.positivelyosceola.com/wp-content/uploads/2023/08/disneyhalloween-1.jpg'>
+			<h3>Villanous Dance Party</h3>
+			Dance along with some not-frightening friends
+		</div>
+		<div onclick='window.open("https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/seasonal/entertainment/sallys-manor-lightshow","_self")'>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/halloween04.png'>
+			<h3>Sally's Manor Facade Light Show</h3>
+			A spooky laser and light show
+		</div>
+	</div>
+
+	<br>
+	<div class='spacer'></div>
+
+	<div class='fullContainer'>
+		<h2>At a Glance</h2>
+		<div class='porthole' style='overflow-x:auto; flex-wrap:nowrap'>
+			<div> <img src='https://www.disneyfoodblog.com/wp-content/uploads/2022/09/2022-DLR-DCA-california-adventure-park-oogie-boogie-bash-treat-trail-oogie-boogie-4.jpg'> <h3>Character Greetings</h3> </div>
+			<div> <img src='https://www.turismol.com/wp-content/uploads/2020/07/oogie-boogie-bash-halloween-party-disney-california-adventure-disneyland-155.jpg'> <h3>Fireworks</h3> </div>
+			<div> <img src='https://www.parksavers.com/wp-content/uploads/2021/10/IMG_2377-scaled.jpeg'> <h3>Trick-Or-Treating</h3> </div>
+			<div> <img src='https://images.ctfassets.net/iyiurthvosft/img-of-media-slide-248730/e8ee5ed533fd93016a3446cf6beec6a9/img-of-media-slide-248730.png?fm=jpg&fl=progressive&q=50&w=1200'> <h3>Arts & Crafts</h3> </div>
+			<div> <img src='https://www.disneyfoodblog.com/wp-content/uploads/2021/09/Disneyland-Halloween-Food-Treats-2021-06-700x467.jpg'> <h3>Food and Drinks</h3> </div>
+			<div> <img src='https://media.timeout.com/images/105520554/image.jpg'> <h3>Immersive Decorating</h3> </div>
+		</div>
+	</div>
+
+	<br>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<div class='columnContainer'>
+			<img src='https://www.azcentral.com/gcdn/presto/2019/04/17/PPHX/2d57cc62-07ed-4659-8bc6-7f18cebc7a1b-Oogie_Boogie_Bash_Hero_Image.jpg?crop=2699,1518,x1,y207&width=1600&height=800&format=pjpg&auto=webp' style='position:relative;'>
+			<div>
+				<span style='font-size:18px;'><b>NEW! </b>Annual Passholder Exclusive:</span><h2 style='margin-top:5px'>🎃<b>The Halloween <em>Party-Pass</em></b>🎃</h2>
+				<p style='text-align:justify; text-justfiy:inter-word'>
+					This season, don't let the Frightful Fun end! With the brand new <a>Halloween Party-Pass</a>, annual passholders can purchase a one-time upgrade for their passports that allows access to Sally's Halloween Party on all event nights!<sup>1</sup>
+					<p style='text-align:justify; text-justfiy:inter-word'>Visit the resort <a>Passholder Portal</a> to purchase the upgrade and reserve your tickets today!</p>
+					<p class='disclaimer' style='text-align:justify; text-justfiy:inter-word'>Rules and Restrictions apply.<br><sup>1</sup>Admission to event must be reserved in advance. Admission is not guaranteed and may unavailable on busier nights</p>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<h2>Purchase Tickets</h2>
+		<div id='buttonHolder'>
+			<p>No tickets available at this time</p>
+		</div>
+		<p class='disclaimer'>Powered by <em>Aztech Admit</em></p>
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<h1>Highland's Happiest Halloween Celebration</h1>
+
+		<p style='text-align: justify; text-justify: inter-word;'>
+			Sally's Spooktacular Halloween After-Party is an annual nighttime event for the whole family located at Adventure Park. This event runs annually from September to the end of October and will begin at 7PM on select dates. Sally's Halloween After-Party is a separate ticket event meaning Adventure Park will be closed off to day guests during event hours. Expect fewer crowds and shorter attraction wait times! Sally's Halloween Party also features tons of exclusive entertainment and offerings for a night of tricks, treats, and spookctacular fun!
+		</p>
+
+		<h3>Entertainment and Attractions</h3>
+		<p style='text-align: justify; text-justify: inter-word;'>
+			During event hours, various themed entertainment opportunities will be setup throughout Adventure Park including a villainous dance party, a caroling ghost choir and an event specific nighttime fireworks spooktacular. In addition to live entertainment, there's lots more to do including trick-or-treating throughout Adventure Park, a ride aboard <a>Mission: Overtaken</a>, exclusive Halloween character greetings, and family-friendly arts & crafts stations throughout the park.
+		</p>
+
+		<h3>Exclusive Food and Drink Offerings</h3>
+		<p style='text-align: justify; text-justify: inter-word;'>
+			This Halloween, Adventure Park has more treats than tricks! Visit some of your favorite restaurants in Adventure Park for some spooky sweets and savory Halloween offerings or try something new at event exclusive food and drink carts. For the adults, event exclusive alcoholic beverages will be available throughout Adventure Park and for the family, explore our pop-up treat stops for some Halloween fun for your tastebuds!
+		</p>
+
+		<h3>Merchandise and More</h3>
+		<p style='text-align: justify; text-justify: inter-word;'>
+			Before the party begins, get ready to celebrate with some event exclusive accessories including light-up necklaces, head bands, and more! Then, take the party home with Sally's Halloween After-Party exclusive merchandise including frighteningly fashionable apparel, keepsakes, and more! Available during event hours only at any of our in-park gift-shops.
+		</p>
+
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<p><b>Limited Availability of Tickets</b> - Tickets for Sally's Halloween After-Party are sold on a first-come first-serve basis and may sell out for certain nights</p>
+		<p>All logos, branding, names, and text on this page © 2024 Globe-City Parks and Resorts LLC.</p>
+	</div>
+
+	<br>
+
+		
+
+	
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<script>
+
+		const linkToPurchasing = '"https://gcparksandresorts.github.io/gcresorthighland"';
+		const dateMIN = 6;
+		const dateMAX = 9;
+		
+		function purchaseIndicator(){
+			let isToday = new Date();
+			const buttonSpace = document.getElementById("buttonHolder");
+			if(isToday.getMonth() >= dateMIN && isToday.getMonth() <= dateMAX){
+				buttonSpace.innerHTML = "<button class='btnFull' onclick='window.open(" + linkToPurchasing +  ")'>Go to Ticketing Portal</button>";
+			}
+		}
+		
+	</script>
+
+	<script type="text/javascript" src="https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/slideshow.js"></script>
+	
+	<script>purchaseIndicator();</script>
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
