@@ -9,6 +9,7 @@
 
 toc = [];
 
+  toc[16] = "Events | Introducing CITY OF TERROR, a brand new Halloween event | August 15, 2024 | blog/events/halloween/8-10-24-city-of-terror";
   toc[15] = "Attractions | New Update Announced for Ride the Beat: Waveriders | April 1, 2024 | blog/attractions/04-01-2024-ride-the-beat-update";
   toc[14] = "Travel Advice | Top 10 Romantic Spots at the Resort | February 1, 2024 | blog/other/02-01-2024-romance-around-the-resort"
   toc[13] = "Entertainment | Nyghtz Tavern at City-Shop Presents Saturday Nightz | March 3, 2024 | blog/entertainment/03-01-2024-Saturday-Nightz";  
