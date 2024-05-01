@@ -11,7 +11,7 @@ const bannerTxtDisp = [];
   bannerTxtDisp[0] = "<h2>It's time to embark on a new Adventure</h2>Travel new roads and explore mystical worlds here at the Globe-City Resort Highland!<br><a href='#ttdSection'>Learn More</a>";
 
   // SummerFest
-  bannerTxtDisp[1] = "<img src='webresources/images/logos/gcSummerFest.png' style='display:block; margin:15px; width:400px; height:auto;'>Globe-City's Summer Fest<sup>TM</sup> is Here! Gather your family and friends and set forth on an adventure of a lifetime! \
+  bannerTxtDisp[1] = "<img src='webresources/images/logos/gcSummerFest.png' style='display:block; margin:auto; margin-bottom:15px; width:400px; height:auto;'>Globe-City's Summer Fest<sup>TM</sup> is Here! Gather your family and friends and set forth on an adventure of a lifetime! \
                       Partake in the summer festivities and let your spirits soar as you create memories to cherish forever!  \
                       <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/summerfest'>View Special Event</a>";
   
