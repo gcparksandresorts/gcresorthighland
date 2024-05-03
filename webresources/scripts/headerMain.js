@@ -148,6 +148,9 @@
 
 			console.log("Header Set For Halloween");
  		}
+		else if(curDate > 3 && curDate < 8){
+			headBar.style.background = "linear-gradient(45deg, darkviolet, red)";
+		}
 	}
 
 
