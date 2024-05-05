@@ -65,9 +65,9 @@ const may = [];
       may[1] = "<h3>Ride the Beat: Waveriders Recieves Makeover</h3>Ride the Beat: Waveriders will be closed April thru May as the attraction recieves an exciting new update! Learn more about it below.";
       may[2] = "https://gcparksandresorts.github.io/gcresorthighland/blog/attractions/04-01-2024-ride-the-beat-update";
 
-      may[3] = "https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg";
-      may[4] = "<h3>The Start of SummerFest<sup>TM</sup></h3>The sun is rising on this year's SummerFest Celebration! There's lots of fun to be had here at the Globe-City Resort Highland this summer.";
-      may[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
+      may[3] = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/nop.jpg";
+      may[4] = "<h3>Tickets to Pride On Sale</h3>It's nearly time for the return of <em>Adventurous Nights of Pride</em> at the Globe-City Resort! Tickets are on sale now, act quick before they sell out.";
+      may[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
       may[6] = "https://mickeyvisit.com/wp-content/uploads/2022/04/mothersdaydisneyland.jpeg";
       may[7] = "<h3>Celebrating Mothers Everywhere</h3>This mother's day, treat your mom to some delectible treats and thrilling new eats made just for her with a trip to our Mother's day celebration at the resort!";
@@ -78,7 +78,7 @@ const june = [];
       june[1] = "<h3>Welcome to the SummerFest<sup>TM</sup> Celebration!</h3>Brand new entertainment, food offerings, merchandise and more have filled every corner of Adventure Park for a sunny summer you won't forget!";
       june[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
-      june[3] = "https://thepointsguy.global.ssl.fastly.net/us/originals/2023/06/20230619_Disney-Pride-Night_KMartinez_50.jpg";
+      june[3] = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/nop.jpg";
       june[4] = "<h3>Globe-City Celebrates Pride!</h3>From all of us here at the resort: Happy Pride Month to all our LGBTQ+ adventurers! This year, we're happy to announce the return of the <b>Adventurous Night of Pride</b> special event! Click to learn more";
       june[5] = "https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
