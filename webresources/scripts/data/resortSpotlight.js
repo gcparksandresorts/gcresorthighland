@@ -74,7 +74,7 @@ const may = [];
       may[8] = "";
 
 const june = [];
-      june[0] = "https://mickeyvisit.com/wp-content/uploads/2018/09/maxresdefault.jpg";
+      june[0] = "https://i.imgur.com/UG5uOpW.jpeg";
       june[1] = "<h3>Welcome to the SummerFest<sup>TM</sup> Celebration!</h3>Brand new entertainment, food offerings, merchandise and more have filled every corner of Adventure Park for a sunny summer you won't forget!";
       june[2] = "https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 
