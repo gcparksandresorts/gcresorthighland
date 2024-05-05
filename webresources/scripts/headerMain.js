@@ -146,9 +146,10 @@
 			headBar.style.backgroundRepeat = "no-repeat";
 			headBar.style.backgroundPosition = "center";
 
-			console.log("Header Set For Halloween");
+			console.log("Header Set For Season of Light");
  		}
-		else if(curDate > 3 && curDate < 8){
+			// if june thru august - summerfest deoration
+		else if(curDate > 4 && curDate < 8){
 			headBar.style.background = "linear-gradient(45deg, darkviolet, red)";
 		}
 	}
