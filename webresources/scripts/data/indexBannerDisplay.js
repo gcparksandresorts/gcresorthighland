@@ -56,7 +56,7 @@ function setBannerDisplays(){
       videoBanner.innerHTML = "<img id='videoBanner' src='https://i.pinimg.com/originals/da/d6/33/dad6333674d70d671f80fa4a3d2a784f.gif'>";
       break;
     case 4:                               // May
-      vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
+      vidBannerTxtBox.innerHTML =  bannerTxtDisp[0];
       videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
       break;
     case 5:                               // June
