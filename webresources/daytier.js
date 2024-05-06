@@ -79,6 +79,11 @@ entertainmentList[31] = "Adventure EVE New Year's Review and Countdown | 11:30PM
 entertainmentList[32] = "Forever in Love Fireworks | 8:00PM | https://static.wixstatic.com/media/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg/v1/fill/w_640,h_524,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7130b7_7a0803c9de354c01b61b1e7399fe573f~mv2.jpg | click-link";
 entertainmentList[33] = "Mardi Gras Cast Parade | 3:15 PM | https://media.wdwnt.com/2023/02/02_Universals-Mardi-Gras-Parade.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/events/2024-mardi-gras";
 
+// Adventerous Nights of Pride
+entertainmentList[34] = "Loud, Proud, and Prideful Fireworks | 10:30 PM | https://insidethemagic.net/wp-content/uploads/2023/06/disneyland-paris-magical-pride.jpg | click_link";
+entertainmentList[35] = "Boulevard Bash Rainbow Block Party | 8:30 PM | https://s.hdnux.com/photos/01/33/24/76/23941047/4/rawImage.jpg | click_link";
+entertainmentList[36] = "Tales of DragVenture | 7:00 PM, 8:00 PM, 11:00 PM | https://www.fayobserver.com/gcdn/presto/2022/12/06/NTFO/f12f71bf-7ee6-4437-a24d-02909417f6bd-drag_1.jpg | click_link";
+
 
 
 // ------------------------------------------------------------------------------ SPECIAL EVENTS ------------------------------------------------------------------------------------------------
@@ -93,7 +98,7 @@ eventList[3] = "Passholder Preview Day | Special Event | https://www.universalor
 eventList[4] = "Globe-City Celebrates Pride | Special Event | https://insidethemagic.net/wp-content/uploads/2023/04/Pride-Nite-1.jpg | https://gcparksandresorts.github.io/gcresorthighland/blog/posts/seasonal/pride";
 eventList[5] = "Adventurous Nights of Pride | Special Event | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/nop.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/nights-of-pride";
 
-eventList[6] = "SummerFest Celebration | Special Event | https://cpfoodblog.com/wp-content/uploads/2019/06/2019-Knotts-Summer-Nights-Smores.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
+eventList[6] = "Globe-City's SummerFest Celebration | Special Event | https://i.imgur.com/UG5uOpW.jpeg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 eventList[7] = "Fourth of July Celebration | Special Event | image_link | click_link";
 
 
@@ -258,28 +263,59 @@ dateTierList[126] = "May 6 - Monday - 0 - 2 - 1";
 dateTierList[127] = "May 7 - Tuesday - 0 - 2 - 1";
 dateTierList[128] = "May 8 - Wednesday - 0 - 2 - 1";
 dateTierList[129] = "May 9 - Thursday - 0 - 2 - 1";
-dateTierList[130] = "May 10 - Friday - 0 - 2 - 1";
-dateTierList[131] = "May 11 - Saturday - 0 - 2 - 1";
-dateTierList[132] = "May 12 - Sunday - 0 - 2 - 1";
-dateTierList[133] = "May 13 - Monday - 0 - 2 - 1";
+dateTierList[130] = "May 10 - Friday - 0 - 2,1,5 - 1";
+dateTierList[131] = "May 11 - Saturday - 3 - 2,1,5 - 1";
+dateTierList[132] = "May 12 - Sunday - 3 - 2,1,5 - 1";
+dateTierList[133] = "May 13 - Monday - 0 - 1,5 - 1";
 dateTierList[134] = "May 14 - Tuesday - 0 - 2 - 1";
 dateTierList[135] = "May 15 - Wednesday - 0 - 2 - 1";
-dateTierList[136] = "May 16 - Thursday - 0 - 2 - 1";
-dateTierList[137] = "May 17 - Friday - 0 - 2 - 1";
-dateTierList[138] = "May 18 - Saturday - 0 - 2 - 1";
-dateTierList[139] = "May 19 - Sunday - 0 - 2 - 1";
-dateTierList[140] = "May 20 - Monday - 0 - 2 - 1";
+dateTierList[136] = "May 16 - Thursday - 0 - 2,5 - 1";
+dateTierList[137] = "May 17 - Friday - 3 - 2,1,5 - 1";
+dateTierList[138] = "May 18 - Saturday - 4 - 2,1,5 - 1";
+dateTierList[139] = "May 19 - Sunday - 3 - 2,1,5 - 1";
+dateTierList[140] = "May 20 - Monday - 0 - 2,5 - 1";
 dateTierList[141] = "May 21 - Tuesday - 0 - 2 - 1";
-dateTierList[142] = "May 22 - Wednesday - 0 - 2 - 1";
+dateTierList[142] = "May 22 - Wednesday - 0 - 2,5 - 1";
 dateTierList[143] = "May 23 - Thursday - 0 - 2 - 1";
-dateTierList[144] = "May 24 - Friday - 0 - 2 - 1";
-dateTierList[145] = "May 25 - Saturday - 0 - 2 - 1";
-dateTierList[146] = "May 26 - Sunday - 0 - 2 - 1";
+dateTierList[144] = "May 24 - Friday - 2 - 2,1,5 - 1";
+dateTierList[145] = "May 25 - Saturday - 4 - 2,1,5 - 1";
+dateTierList[146] = "May 26 - Sunday - 3 - 2,1,5 - 1";
 dateTierList[147] = "May 27 - Monday - 0 - 2 - 1";
 dateTierList[148] = "May 28 - Tuesday - 0 - 2 - 1";
 dateTierList[149] = "May 29 - Wednesday - 0 - 2 - 1";
 dateTierList[150] = "May 30 - Thursday - 3 - 1,2,5,28 - 1,20"; //Founders Day
-dateTierList[151] = "May 31 - Friday - 3 - 0 - 0";
+dateTierList[151] = "May 31 - Friday - 3 - 2,1,5 - 0"; 
+dateTierList[152] = "June 1 - Saturday - 4 - 1,5,2,10,8 - 6"; // OFFICIAL START OF SUMMERFEST
+dateTierList[153] = "June 2 - Sunday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[154] = "June 3 - Monday - 2 - 1,5,2,10,8 - 6";
+dateTierList[155] = "June 4 - Tuesday - 2 - 1,5,2,10,8 - 6";
+dateTierList[156] = "June 5 - Wednesday - 2 - 1,5,2,10,8 - 6";
+dateTierList[157] = "June 6 - Thursday - 2 - 1,5,2,4,10,8 - 6";
+dateTierList[158] = "June 7 - Friday - 6 - 1,5,2,4,10,8 - 6";
+dateTierList[159] = "June 8 - Saturday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[160] = "June 9 - Sunday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[161] = "June 10 - Monday - 3 - 1,5,2,10,8 - 6";
+dateTierList[162] = "June 11 - Tuesday - 2 - 1,5,2,10,8 - 6";
+dateTierList[163] = "June 12 - Wednesday - 2 - 1,5,2,10,8 - 6";
+dateTierList[164] = "June 13 - Thursday - 2 - 1,5,2,4,10,8 - 6";
+dateTierList[165] = "June 14 - Friday - 6 - 1,5,2,34,35,36 - 6,5"; //NIGHTS OF PRIDE
+dateTierList[166] = "June 15 - Saturday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[167] = "June 16 - Sunday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[168] = "June 17 - Monday - 3 - 1,5,2,4,10,8 - 6";
+dateTierList[169] = "June 18 - Tuesday - 2 - 1,5,2,4,10,8 - 6";
+dateTierList[170] = "June 19 - Wednesday - 2 - 1,5,2,10,8 - 6";
+dateTierList[171] = "June 20 - Thursday - 2 - 1,5,2,4,10,8 - 6";
+dateTierList[172] = "June 21 - Friday - 6 - 1,5,2,34,35,36 - 6,5"; //NIGHTS OF PRIDE
+dateTierList[173] = "June 22 - Saturday - 5 - 1,5,2,4,10,8 - 6";
+dateTierList[174] = "June 23 - Sunday - 5 - 1,5,2,4,10,8 - 6";
+dateTierList[175] = "June 24 - Monday - 3 - 1,5,2,4,10,8 - 6";
+dateTierList[176] = "June 25 - Tuesday - 3 - 1,5,2,10,8 - 6";
+dateTierList[177] = "June 26 - Wednesday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[178] = "June 27 - Thursday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[179] = "June 28 - Friday - 6 - 1,5,2,34,35,36 - 6,5"; //NIGHTS OF PRIDE
+dateTierList[180] = "June 29 - Saturday - 5 - 1,5,2,4,10,8 - 6";
+dateTierList[181] = "June 30 - Sunday - 5 - 1,5,2,4,10,8 - 6";
+
 
 
 
