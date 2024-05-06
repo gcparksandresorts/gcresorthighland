@@ -42,6 +42,14 @@ body{
 	.subtitleBar {width:full; margin-top:-20px; padding:15px; background:#efefef; text-align:center;}
 	.subtitleBar p {max-width:1200px; margin-left:auto; margin-right:auto;}
 
+	.vidBanAnimated{animation:animatedBanner 40s infinite; animation-timing-function: ease-in-out;}
+        
+        @keyframes animatedBanner{
+        	0% {object-position: 0% 100%;}
+            	50% {object-position: 100% 100%;}
+            	100% {object-position: 0% 100%;}
+        }
+
 
 /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
   
