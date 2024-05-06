@@ -25,6 +25,10 @@ const bannerTxtDisp = [];
   // New Years
   bannerTxtDisp[4] = "<h2>Welcome to the New Year</h2>This year, set fourth on new Adventures and create memories to cherish forever, only at the Globe-City Resort Highland!<br><a href='https://gcparksandresorts.github.io/gcresorthighland/tickets'>Buy Tickets</a>";
 
+  bannerTxtDisp[5] = "<img src='webresources/images/logos/gcSummerFest.png' style='display:block; margin:auto; margin-bottom:15px; width:95%; max-width:400px; height:auto;'>\
+                      Globe-City's Summer Fest<sup>TM</sup> is nearly gone! The hottest summer event is going on now until August 31st, so gather your friends and family, and come party with us!\
+                      <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/summerfest'>View Special Event</a>";
+
 
 // ----------------------------------------------------------------------------------------------------------------------------- BANNER DISPLAYS
 
@@ -68,7 +72,7 @@ function setBannerDisplays(){
       videoBanner.innerHTML = "<img id='videoBanner' class='vidBanAnimated' src='https://i.imgur.com/7TY07oG.jpg'>";
       break;
     case 7:                               // August
-      vidBannerTxtBox.innerHTML =  bannerTxtDisp[0];
+      vidBannerTxtBox.innerHTML =  bannerTxtDisp[5];
       videoBanner.innerHTML = "<img id='videoBanner' class='vidBanAnimated' src='https://i.imgur.com/7TY07oG.jpg'>";
       break;
     case 8:                               // September
