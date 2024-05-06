@@ -48,7 +48,7 @@ entertainmentList[7] = "";
 // SummerFest Entertainment
 entertainmentList[8] = "Summers to Remember Forever | 9:30PM | https://www.tripsavvy.com/thmb/QUGooCRqxcg7uCB_oIVdZpaMumU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12_2018_DL.2342-a4227ae6881c4341a1f1528aafa3360c.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 entertainmentList[9] = "La Musicas De Mariachi | 12:20 PM, 1:20 PM, 2:15 PM, 4:20 PM, 5:15 PM, 6:20 PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
-entertainmentList[10] = "SummerFest Boulevard Blast | 8:30PM | https://ca-times.brightspotcdn.com/dims4/default/45c1555/2147483647/strip/true/crop/1943x2473+0+0/resize/1200x1527!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F04%2Fb4%2Ffb9962a343e08aedcb38689444f4%2Fmsep-encantofloat.jpg | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
+entertainmentList[10] = "SummerFest Boulevard Blast | 8:30PM | https://mouseinfo.com/wp-content/uploads/2023/08/magic-key-dance-party-dca-2023-IMG_6079-X3-1280x640.jpg?crop=1 | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
 entertainmentList[11] = "Renee and the Jazzetts | 12:20PM, 2:00PM, 4:20PM, 6:00PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
 entertainmentList[12] = "";
 entertainmentList[13] = "";
