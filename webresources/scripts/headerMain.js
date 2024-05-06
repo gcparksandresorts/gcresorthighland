@@ -126,6 +126,7 @@
 		
 		if(curDate == 5){
 			document.getElementById("headerBarLogo").src = "https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/GCRESORT-PrideLogo.png";
+			headBar.style.background = "linear-gradient(45deg, darkviolet, red)";
 			console.log('HAPPY PRIDE!!'); 
 		}
 		// If september or october set headerto halloween color scheme
@@ -149,7 +150,7 @@
 			console.log("Header Set For Season of Light");
  		}
 			// if june thru august - summerfest deoration
-		else if(curDate > 4 && curDate < 8){
+		else if(curDate > 5 && curDate < 8){
 			headBar.style.background = "linear-gradient(45deg, darkviolet, red)";
 		}
 	}
