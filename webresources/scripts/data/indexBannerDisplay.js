@@ -12,7 +12,7 @@ const bannerTxtDisp = [];
 
   // SummerFest
   bannerTxtDisp[1] = "<img src='webresources/images/logos/gcSummerFest.png' style='display:block; margin:auto; margin-bottom:15px; width:95%; max-width:400px; height:auto;'>Globe-City's Summer Fest<sup>TM</sup> is Here! Gather your family and friends and set forth on an adventure of a lifetime! \
-                      Partake in the summer festivities and let your spirits soar as you create memories to cherish forever!  \
+                      From now until August 31st, Partake in the summer festivities and let your spirits soar as you create memories to cherish forever!  \
                       <br><a href='https://gcparksandresorts.github.io/gcresorthighland/events/summerfest'>View Special Event</a>";
   
   // Season of Light
@@ -61,15 +61,15 @@ function setBannerDisplays(){
       break;
     case 5:                               // June
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
+      videoBanner.innerHTML = "<img id='videoBanner' class='vidBanAnimated' src='https://i.imgur.com/7TY07oG.jpg'>";
       break;
     case 6:                               // July
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[1];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
+      videoBanner.innerHTML = "<img id='videoBanner' class='vidBanAnimated' src='https://i.imgur.com/7TY07oG.jpg'>";
       break;
     case 7:                               // August
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[0];
-      videoBanner.innerHTML = "<video autoplay muted loop id='videoBanner' poster='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1Poster.png'><source src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/video/vidBanner1.1.mp4' type='video/mp4'> </video>";
+      videoBanner.innerHTML = "<img id='videoBanner' class='vidBanAnimated' src='https://i.imgur.com/7TY07oG.jpg'>";
       break;
     case 8:                               // September
       vidBannerTxtBox.innerHTML =  bannerTxtDisp[3];
