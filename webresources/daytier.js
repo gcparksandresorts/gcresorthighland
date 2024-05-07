@@ -37,7 +37,7 @@ entertainmentList = []; // Name | Hours | Image_Link | Click_Link ||  Name | Hou
 entertainmentList[0] = "No Shows Today";
 
 // Standard Entertainment
-entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:15PM, 1:15PM, 2:15PM, 3:15PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park/entertainment/gc-marching-band";
+entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:15PM, 1:15PM, 2:15PM, 3:15PM | https://brettalan.com/wp-content/uploads/2019/01/00004-Grossmont-District-Showcase-2018-D7A_5349.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/globe-city-marching-band.html";
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:45PM, 1:45PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[4] = "Renee and Company @ The Plaza | 3:45PM, 5:15PM, 6:45PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
