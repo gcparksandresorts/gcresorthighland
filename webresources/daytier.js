@@ -50,7 +50,7 @@ entertainmentList[8] = "Summers to Remember Forever | 9:30PM | https://www.trips
 entertainmentList[9] = "La Musicas De Mariachi | 12:20 PM, 1:20 PM, 2:15 PM, 4:20 PM, 5:15 PM, 6:20 PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
 entertainmentList[10] = "SummerFest Boulevard Blast | 8:30PM | https://mouseinfo.com/wp-content/uploads/2023/08/magic-key-dance-party-dca-2023-IMG_6079-X3-1280x640.jpg?crop=1 | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
 entertainmentList[11] = "Renee and the Jazzetts | 12:20PM, 2:00PM, 4:20PM, 6:00PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
-entertainmentList[12] = "";
+entertainmentList[12] = "The Seaside Serenaders | Hourly - 11:15AM to 4:15PM | https://media.wdwnt.com/2021/08/Disneyland-dapper-dans-9471751-1200x675.jpeg | click_link";
 entertainmentList[13] = "";
 
 // Halloween Entertainment
@@ -285,18 +285,18 @@ dateTierList[148] = "May 28 - Tuesday - 0 - 2 - 1";
 dateTierList[149] = "May 29 - Wednesday - 0 - 2 - 1";
 dateTierList[150] = "May 30 - Thursday - 3 - 1,2,5,28 - 1,20"; //Founders Day
 dateTierList[151] = "May 31 - Friday - 3 - 2,1,5 - 0"; 
-dateTierList[152] = "June 1 - Saturday - 4 - 1,5,2,10,8 - 6,23"; // OFFICIAL START OF SUMMERFEST
-dateTierList[153] = "June 2 - Sunday - 4 - 1,5,2,4,10,8 - 6";
-dateTierList[154] = "June 3 - Monday - 2 - 1,5,2,10 - 6";
-dateTierList[155] = "June 4 - Tuesday - 2 - 1,5,2,10 - 6";
-dateTierList[156] = "June 5 - Wednesday - 2 - 1,5,2,10 - 6";
+dateTierList[152] = "June 1 - Saturday - 4 - 1,5,2,12,10,8 - 6,23"; // OFFICIAL START OF SUMMERFEST
+dateTierList[153] = "June 2 - Sunday - 4 - 1,5,2,4,12,10,8 - 6";
+dateTierList[154] = "June 3 - Monday - 2 - 1,5,2,12,10 - 6";
+dateTierList[155] = "June 4 - Tuesday - 2 - 1,5,2,12,10 - 6";
+dateTierList[156] = "June 5 - Wednesday - 2 - 1,5,2,12m10 - 6";
 dateTierList[157] = "June 6 - Thursday - 2 - 1,5,2,10 - 6";
-dateTierList[158] = "June 7 - Friday - 4 - 1,5,2,4,10,8 - 6";
-dateTierList[159] = "June 8 - Saturday - 4 - 1,5,2,4,10,8 - 6,23"; // Saturday Night
-dateTierList[160] = "June 9 - Sunday - 4 - 1,5,2,4,10,8 - 6";
+dateTierList[158] = "June 7 - Friday - 4 - 1,5,2,4,12,10,8 - 6";
+dateTierList[159] = "June 8 - Saturday - 4 - 1,5,2,4,12,10,8 - 6,23"; // Saturday Night
+dateTierList[160] = "June 9 - Sunday - 4 - 1,5,2,4,12,10,8 - 6";
 dateTierList[161] = "June 10 - Monday - 3 - 1,5,2,10 - 6";
 dateTierList[162] = "June 11 - Tuesday - 2 - 1,5,2,10 - 6";
-dateTierList[163] = "June 12 - Wednesday - 2 - 1,5,2,10 - 6";
+dateTierList[163] = "June 12 - Wednesday - 2 - 1,5,2,12,10 - 6";
 dateTierList[164] = "June 13 - Thursday - 2 - 1,5,2,4,10,8 - 6";
 dateTierList[165] = "June 14 - Friday - 6 - 1,5,2,34,35,36 - 6,5"; //NIGHTS OF PRIDE
 dateTierList[166] = "June 15 - Saturday - 4 - 1,5,2,4,10,8 - 6,23"; // Saturday Night
