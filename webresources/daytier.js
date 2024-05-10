@@ -41,16 +41,16 @@ entertainmentList[1] = "Globe-City Marching Band | 11:00AM, 12:15PM, 1:15PM, 2:1
 entertainmentList[2] = "Character Greetings | Daily | https://gcparksandresorts.github.io/gcresorthighland/webresources/images/banners/banner5.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[3] = "Drummers of the Mandahari | 12:45PM, 1:45PM, 3:30PM, 5:00PM | https://drummingreview.com/wp-content/uploads/2023/02/History-of-Taiko-Drumming.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions";
 entertainmentList[4] = "Renee and Company @ The Plaza | 3:45PM, 5:15PM, 6:45PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
-entertainmentList[5] = "El Compadre Mariachi | Hourly 12:00PM to 5:00PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | click_link";
+entertainmentList[5] = "El Compadre Mariachi | Hourly 12:00PM to 5:00PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/atmospheric-entertainment";
 entertainmentList[6] = "";
 entertainmentList[7] = "";
 
 // SummerFest Entertainment
 entertainmentList[8] = "Summers to Remember Forever | 9:30PM | https://www.tripsavvy.com/thmb/QUGooCRqxcg7uCB_oIVdZpaMumU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12_2018_DL.2342-a4227ae6881c4341a1f1528aafa3360c.jpg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/summers-to-remember-forever";
-entertainmentList[9] = "La Musicas De Mariachi | 12:20 PM, 1:20 PM, 2:15 PM, 4:20 PM, 5:15 PM, 6:20 PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest";
+entertainmentList[9] = "La Musicas De Mariachi | 12:20 PM, 1:20 PM, 2:15 PM, 4:20 PM, 5:15 PM, 6:20 PM | https://www.alleytheatre.org/app/uploads/2023/07/Mariachi-Day-1200x834.jpg.webp | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/atmospheric-entertainment";
 entertainmentList[10] = "SummerFest Boulevard Blast | 8:30PM | https://mouseinfo.com/wp-content/uploads/2023/08/magic-key-dance-party-dca-2023-IMG_6079-X3-1280x640.jpg?crop=1 | https://gcparksandresorts.github.io/gcresorthighland/events/summerfest"; 
 entertainmentList[11] = "Renee and the Jazzetts | 12:20PM, 2:00PM, 4:20PM, 6:00PM | https://insidethemagic.net/wp-content/uploads/2021/09/916C6948-5A05-4B5A-8179-A89590AEC71E.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/renee-and-company";
-entertainmentList[12] = "The Seaside Serenaders | Hourly - 11:15AM to 4:15PM | https://media.wdwnt.com/2021/08/Disneyland-dapper-dans-9471751-1200x675.jpeg | click_link";
+entertainmentList[12] = "The Seaside Serenaders | Hourly - 11:15AM to 4:15PM | https://media.wdwnt.com/2021/08/Disneyland-dapper-dans-9471751-1200x675.jpeg | https://gcparksandresorts.github.io/gcresorthighland/attractions/adventure-park/entertainment/atmospheric-entertainment";
 entertainmentList[13] = "Tales of Adventure with Amelia | 11:45AM, 1:35PM, 3:15PM | https://www.ocregister.com/wp-content/uploads/2023/10/Lion-King-16x10-1.jpg?w=901 | click_link";
 
 // Halloween Entertainment
