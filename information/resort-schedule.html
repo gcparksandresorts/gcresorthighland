@@ -363,6 +363,12 @@
 					adCont.innerHTML = "<h1 style='color:white'>Happy New Year's Eve!</h1>Here's to a year full of Adventure, Wonder, and More!";
 					adCont.style.color = "white";
 					break;
+				case "May 30":
+					adDiv.style.backgroundImage = "url(https://img.freepik.com/premium-photo/blue-balloons-with-confetti-blue-background_198067-102164.jpg)";
+					adDiv.style.display = "block";
+					adCont.innerHTML = "<h1 style='color:gold'>Happy Founder's Day!</h1>";
+					adCont.style.color = "white";
+					break;
 				default:
 					break;
 			}// End of decorate page switch
@@ -391,7 +397,7 @@
 			
 				tdate = new Date($newDate);
 
-				if(tdate <= $todayDate){errorText.innerHTML = "Error: Please select a date that is in the future";}
+				if(tdate < $todayDate){errorText.innerHTML = "Error: Please select a date that is in the future";}
 				else{
 	
 					tmonth = monthsNamed[tdate.getMonth()];
