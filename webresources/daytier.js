@@ -81,8 +81,8 @@ entertainmentList[33] = "Mardi Gras Cast Parade | 3:15 PM | https://media.wdwnt.
 
 // Adventerous Nights of Pride
 entertainmentList[34] = "Loud, Proud, and Prideful Fireworks | 10:30 PM | https://insidethemagic.net/wp-content/uploads/2023/06/disneyland-paris-magical-pride.jpg | click_link";
-entertainmentList[35] = "Boulevard Bash Rainbow Block Party | 8:30 PM | https://s.hdnux.com/photos/01/33/24/76/23941047/4/rawImage.jpg | click_link";
-entertainmentList[36] = "Tales of DragVenture | 7:00 PM, 8:00 PM, 11:00 PM | https://www.fayobserver.com/gcdn/presto/2022/12/06/NTFO/f12f71bf-7ee6-4437-a24d-02909417f6bd-drag_1.jpg | click_link";
+entertainmentList[35] = "Boulevard Bash Rainbow Block Party | 9:00 PM | https://s.hdnux.com/photos/01/33/24/76/23941047/4/rawImage.jpg | click_link";
+entertainmentList[36] = "Tales of DragVenture | 7:35 PM, 8:35 PM, 11:15 PM | https://www.fayobserver.com/gcdn/presto/2022/12/06/NTFO/f12f71bf-7ee6-4437-a24d-02909417f6bd-drag_1.jpg | click_link";
 
 
 
@@ -296,15 +296,15 @@ dateTierList[159] = "June 8 - Saturday - 4 - 1,5,4,13,10,8 - 6,23,4"; // Saturda
 dateTierList[160] = "June 9 - Sunday - 4 - 1,5,4,13,10,8 - 6,4";
 dateTierList[161] = "June 10 - Monday - 3 - 1,5,12,13,10 - 6,4";
 dateTierList[162] = "June 11 - Tuesday - 2 - 1,5,12,13,10 - 6,4";
-dateTierList[163] = "June 12 - Wednesday - 2 - 1,5,12,13,10,8 - 6,4";
-dateTierList[164] = "June 13 - Thursday - 2 - 1,5,12,13,10,8 - 6,4";
+dateTierList[163] = "June 12 - Wednesday - 2 - 1,5,12,13,10 - 6,4";
+dateTierList[164] = "June 13 - Thursday - 3 - 1,5,12,13,10,8 - 6,4";
 dateTierList[165] = "June 14 - Friday - 6 - 1,5,12,4,34,35,36 - 6,5,4"; //NIGHTS OF PRIDE
 dateTierList[166] = "June 15 - Saturday - 4 - 1,5,4,13,10,8 - 6,23,4"; // Saturday Night
 dateTierList[167] = "June 16 - Sunday - 4 - 1,5,4,13,10,8 - 6,4";
-dateTierList[168] = "June 17 - Monday - 3 - 1,5,12,13,10,8 - 6,4";
-dateTierList[169] = "June 18 - Tuesday - 2 - 1,5,12,13,10,8 - 6,4";
-dateTierList[170] = "June 19 - Wednesday - 2 - 1,5,12,13,10,8 - 6,4";
-dateTierList[171] = "June 20 - Thursday - 2 - 1,5,4,13,10,8 - 6,4";
+dateTierList[168] = "June 17 - Monday - 4 - 1,5,12,13,10,8 - 6,4";
+dateTierList[169] = "June 18 - Tuesday - 3 - 1,5,12,13,10,8 - 6,4";
+dateTierList[170] = "June 19 - Wednesday - 3 - 1,5,12,13,10,8 - 6,4";
+dateTierList[171] = "June 20 - Thursday - 4 - 1,5,4,13,10,8 - 6,4";
 dateTierList[172] = "June 21 - Friday - 6 - 1,5,12,4,34,35,36 - 6,5,4"; //NIGHTS OF PRIDE
 dateTierList[173] = "June 22 - Saturday - 5 - 1,5,4,13,10,8 - 6,23,4"; // Saturday Night
 dateTierList[174] = "June 23 - Sunday - 5 - 1,5,4,13,10,8 - 6,4";
