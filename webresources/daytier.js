@@ -323,12 +323,12 @@ dateTierList[185] = "August 25 - Sunday - 5 - 8,10,11,9,12,13 - 6";
 dateTierList[186] = "August 26 - Monday - 1 - 9,12,13 - 6";
 dateTierList[187] = "August 27 - Tuesday - 1 - 9,12,13 - 6";
 dateTierList[188] = "August 28 - Wednesday - 2 - 9,12,13 - 6";
-dateTierList[189] = "August 29 - Thursday - 2 - 8,10,9,12,13 - 6";
+dateTierList[189] = "August 29 - Thursday - 3 - 8,10,9,12,13 - 6";
 dateTierList[190] = "August 30 - Friday - 3 - 8,10,11,9,12,13 - 6";
-dateTierList[191] = "August 31 - Saturday - 5 - 8,10,11,9,12,13 - 6";
+dateTierList[191] = "August 31 - Saturday - 5 - 8,10,11,9,12,13 - 6"; // end of SummerFest
 
-dateTierList[192] = "September 1 - Sunday - 3 - 1,2,17 - 8";
-dateTierList[193] = "September 2 - Monday - 0 - 1,2,17 - 8";
+dateTierList[192] = "September 1 - Sunday - 5 - 1,2,12,17 - 8"; // First Day of Halloween
+dateTierList[193] = "September 2 - Monday - 4 - 1,2,12,17 - 8"; // Labor Day
 dateTierList[194] = "September 3 - Tuesday - 0 - 1,2,17 - 8";
 dateTierList[195] = "September 4 - Wednesday - 0 - 1,2,17 - 8";
 dateTierList[196] = "September 5 - Thursday - 0 - 1,2,17 - 8";
