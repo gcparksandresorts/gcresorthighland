@@ -389,7 +389,35 @@ dateTierList[250] = "October 29 - Tuesday - 0 - 0 - 8";
 dateTierList[251] = "October 30 - Wednesday - 0 - 0 - 8";
 dateTierList[252] = "October 31 - Thursday - 6 - 1,17,14,15,16 - 8,9";
 
-
+dateTierList[253] = "December 3 - Tuesday - 2 - 22,23,24 - 12";
+dateTierList[254] = "December 4 - Wednesday - 2 - 22,23,24 - 12";
+dateTierList[255] = "December 5 - Thursday - 2 - 22,23,24,21 - 12";
+dateTierList[256] = "December 6 - Friday - 3 - 22,23,24,21 - 12";
+dateTierList[257] = "December 7 - Saturday - 3 - 22,23,24,21 - 12";
+dateTierList[258] = "December 8 - Sunday - 3 - 22,23,24,21 - 12";
+dateTierList[259] = "December 9 - Monday - 2 - 22,23,24 - 12";
+dateTierList[260] = "December 10 - Tuesday - 0 - 22,23,24 - 12";
+dateTierList[261] = "December 11 - Wednesday - 0 - 22,23,24 - 12";
+dateTierList[262] = "December 12 - Thursday - 0 - 22,23,24,21 - 12";
+dateTierList[263] = "December 13 - Friday - 3 - 22,23,24,21 - 12";
+dateTierList[264] = "December 14 - Saturday - 4 - 23,22,24,21 - 12"; // Start of university break
+dateTierList[265] = "December 15 - Sunday - 4 - 23,22,24,21 - 12";
+dateTierList[266] = "December 16 - Monday - 3 - 23,22,24,21 - 12";
+dateTierList[267] = "December 17 - Tuesday - 3 - 23,22,24,21 - 12";
+dateTierList[268] = "December 18 - Wednesday - 4 - 23,22,24,21 - 12";
+dateTierList[269] = "December 19 - Thursday - 5 - 23,22,24,21 - 12";
+dateTierList[270] = "December 20 - Friday - 4 - 23,22,24,21 - 12";
+dateTierList[271] = "December 21 - Saturday - 5 - 23,22,24,21 - 12";
+dateTierList[272] = "December 22 - Sunday - 5 - 23,22,24,21 - 12";
+dateTierList[273] = "December 23 - Monday - 5 - 23,22,24,21 - 12";
+dateTierList[274] = "December 24 - Tuesday - 4 - 23,24,21 - 12";
+dateTierList[275] = "December 25 - Wednesday - 4 - 23,24,21 - 12";
+dateTierList[276] = "December 26 - Thursday - 3 - 23,24,21 - 12";
+dateTierList[277] = "December 27 - Friday - 4 - 23,22,24,21 - 12";
+dateTierList[278] = "December 28 - Saturday - 5 - 23,22,24,21 - 12";
+dateTierList[279] = "December 29 - Sunday - 5 - 23,22,24,21 - 12";
+dateTierList[280] = "December 30 - Monday - 4 - 23,22,24,21 - 12";
+dateTierList[281] = "December 31 - Tuesday - 4 - 23,22,24,21 - 12,16"; // Adventure Eve
 
 
 
