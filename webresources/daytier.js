@@ -417,7 +417,7 @@ dateTierList[277] = "December 27 - Friday - 4 - 23,22,24,21 - 12";
 dateTierList[278] = "December 28 - Saturday - 5 - 23,22,24,21 - 12";
 dateTierList[279] = "December 29 - Sunday - 5 - 23,22,24,21 - 12";
 dateTierList[280] = "December 30 - Monday - 4 - 23,22,24,21 - 12";
-dateTierList[281] = "December 31 - Tuesday - 4 - 23,22,24,21 - 12,16"; // Adventure Eve
+dateTierList[281] = "December 31 - Tuesday - 4 - 23,22,24,30,31 - 12,16"; // Adventure Eve
 
 
 
